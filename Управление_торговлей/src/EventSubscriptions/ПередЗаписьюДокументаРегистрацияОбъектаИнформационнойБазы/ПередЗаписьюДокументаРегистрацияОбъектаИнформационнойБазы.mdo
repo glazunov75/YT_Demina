@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ec28bd5-c292-436c-85f1-a8198c8e12ea">
+  <name>ПередЗаписьюДокументаРегистрацияОбъектаИнформационнойБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перед записью документа регистрация объекта информационной базы</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>DocumentObject.ЗаказПокупателя</types>
+    <types>DocumentObject.ПеремещениеТоваров</types>
+    <types>DocumentObject.ПлатежноеПоручениеВходящее</types>
+    <types>DocumentObject.ИнкассовоеПоручениеПереданное</types>
+    <types>DocumentObject.ПоступлениеТоваровУслугВНТТ</types>
+    <types>DocumentObject.РеализацияТоваровУслуг</types>
+    <types>DocumentObject.ВозвратТоваровОтПокупателя</types>
+    <types>DocumentObject.ПлатежноеТребованиеВыставленное</types>
+    <types>DocumentObject.ВозвратТоваровПоставщику</types>
+    <types>DocumentObject.АккредитивПереданный</types>
+    <types>DocumentObject.ПриходныйКассовыйОрдер</types>
+    <types>DocumentObject.ПоступлениеТоваровУслуг</types>
+    <types>DocumentObject.ПлатежноеПоручениеИсходящее</types>
+    <types>DocumentObject.ВозвратТоваровПоставщикуИзНТТ</types>
+    <types>DocumentObject.ИнкассовоеПоручениеПолученное</types>
+    <types>DocumentObject.ПлатежныйОрдерСписаниеДенежныхСредств</types>
+    <types>DocumentObject.КомплектацияНоменклатуры</types>
+    <types>DocumentObject.ОприходованиеТоваров</types>
+    <types>DocumentObject.ИнвентаризацияТоваровНаСкладе</types>
+    <types>DocumentObject.ТребованиеНакладная</types>
+    <types>DocumentObject.ОтчетКомитентуОПродажах</types>
+    <types>DocumentObject.СчетФактураВыданный</types>
+    <types>DocumentObject.Доверенность</types>
+    <types>DocumentObject.ОтчетОРозничныхПродажах</types>
+    <types>DocumentObject.АвансовыйОтчет</types>
+    <types>DocumentObject.ОтчетКомиссионераОПродажах</types>
+    <types>DocumentObject.ГТДИмпорт</types>
+    <types>DocumentObject.СчетФактураПолученный</types>
+    <types>DocumentObject.СписаниеТоваров</types>
+    <types>DocumentObject.РасходныйКассовыйОрдер</types>
+    <types>DocumentObject.КорректировкаДолга</types>
+    <types>DocumentObject.АккредитивПолученный</types>
+    <types>DocumentObject.ДокументРасчетовСКонтрагентом</types>
+    <types>DocumentObject.ПлатежныйОрдерПоступлениеДенежныхСредств</types>
+    <types>DocumentObject.ПоступлениеДопРасходов</types>
+    <types>DocumentObject.СчетНаОплатуПокупателю</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ПроцедурыОбменаДанными.ПередЗаписьюДокументаРегистрацияОбъектаИнформационнойБазыПередЗаписью</handler>
+</mdclass:EventSubscription>

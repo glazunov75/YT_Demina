@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fcb90906-741a-440e-8c9a-2e143ad44817">
+  <name>ПередЗаписьюСправочникаДляОбменаУТУПП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перед записью справочника для обмена УТ-УПП</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>CatalogObject.БанковскиеСчета</types>
+    <types>CatalogObject.КассыККМ</types>
+    <types>CatalogObject.Организации</types>
+    <types>CatalogObject.ДоговорыКонтрагентов</types>
+    <types>CatalogObject.Кассы</types>
+    <types>CatalogObject.ХранилищеДополнительнойИнформации</types>
+    <types>CatalogObject.Контрагенты</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ПроцедурыОбменаУТУПП.ПередЗаписьСправочникаДляОбменаУТУПП</handler>
+</mdclass:EventSubscription>

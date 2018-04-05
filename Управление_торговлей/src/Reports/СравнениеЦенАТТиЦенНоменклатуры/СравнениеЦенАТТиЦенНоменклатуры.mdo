@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c220b37d-9d3a-4ebd-b8c5-27bbba78ebfc">
+  <producedTypes>
+    <objectType typeId="d4974b6b-b221-433c-bc9c-bd87d9c41198" valueTypeId="eaed6f1c-d065-424b-a441-aae7edfa19ba"/>
+    <managerType typeId="52b3745f-6a8b-4af6-868e-41a8a112408f" valueTypeId="a04deafc-63dd-42e6-8086-07ca7ef4dbd5"/>
+  </producedTypes>
+  <name>СравнениеЦенАТТиЦенНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сравнение цен АТТ и цен номенклатуры</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.СравнениеЦенАТТиЦенНоменклатуры.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="c6828024-5147-4681-9445-73ff2b7fab4d">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0dff920a-6927-48dd-8e1c-9c916e8438dd">
+    <name>УниверсальныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.УниверсальныйОтчет</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="88de44b8-077a-4226-a677-2128f3cdd49c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9076fbaf-03dc-4c25-8ba7-c1e2e9b61ca2">
+  <producedTypes>
+    <objectType typeId="4c32d776-6385-4db5-ba70-db70b50730b7" valueTypeId="91a226b8-7106-4025-98f4-a4161f6d6c2e"/>
+    <refType typeId="928786ac-907d-4b71-8840-d784867cfb07" valueTypeId="f9528ba6-d7e6-4b9c-b800-b6920b26a3dc"/>
+    <selectionType typeId="d80b8489-b737-45d3-a8b2-ce2df263c602" valueTypeId="fc7e6c23-322c-4c25-a56a-df612331e084"/>
+    <listType typeId="495b77db-eacc-48f1-aeba-598b639534f3" valueTypeId="212750ed-96aa-4128-a922-eb2c8eaa15e4"/>
+    <managerType typeId="fe2f77ac-055c-4e7d-ba69-6d879bfdd576" valueTypeId="2b49a95a-a596-4030-b731-e5bd9dd34103"/>
+  </producedTypes>
+  <name>НастройкиБизнесПроцессов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки бизнес процессов</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>Catalog.НастройкиБизнесПроцессов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НастройкиБизнесПроцессов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НастройкиБизнесПроцессов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.НастройкиБизнесПроцессов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.НастройкиБизнесПроцессов.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="4a724067-89e9-40b6-8f61-655d566379a7">
+    <name>ВидБизнесПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид бизнес процесса</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ВидыБизнесПроцессов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <tabularSections uuid="cf687154-0b47-46fb-9c4e-2e2a4c3b2a6e">
+    <producedTypes>
+      <objectType typeId="4653cc2c-af0b-4233-8b1c-cd2d9d7fa60c" valueTypeId="442406b8-842c-4295-8629-44391ffb8393"/>
+      <rowType typeId="6f326775-1e52-46d4-93e1-47988d05c243" valueTypeId="0e3cd0b6-b3b1-4983-a4c7-758e02d0e521"/>
+    </producedTypes>
+    <name>ПараметрыТочекМаршрута</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры точек маршрута</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="e585be27-2cdc-4016-812b-9987ad6528f5">
+      <name>Выполнять</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выполнять</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2c7fc868-28b3-4273-8d31-19e8b0fe9b3f">
+      <name>Описание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="60a5e43a-1327-41e7-8558-8bbedef00772">
+      <name>ПериодВыполненияДн</name>
+      <synonym>
+        <key>ru</key>
+        <value>Период выполнения дн</value>
+      </synonym>
+      <comment>Период выполнения дней</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0bfd06cc-fea3-4cfe-8ad9-b489dfe1f3cb">
+      <name>ПериодВыполненияЧас</name>
+      <synonym>
+        <key>ru</key>
+        <value>Период выполнения час</value>
+      </synonym>
+      <comment>Период выполнения часов</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="de730d3b-5072-4949-8fa9-7ece9181ab32">
+      <name>ПериодОповещенияДн</name>
+      <synonym>
+        <key>ru</key>
+        <value>Период оповещения дн</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="796cbc19-e7b2-455b-a7ec-229fda88c77b">
+      <name>ПериодОповещенияЧас</name>
+      <synonym>
+        <key>ru</key>
+        <value>Период оповещения час</value>
+      </synonym>
+      <comment>Период оповещения - часов</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cf56c95f-579b-482b-af11-8a6fc6dd4131">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="47d2e8c4-7665-4b59-92d9-552810b35b7f">
+      <name>ТочкаМаршрута</name>
+      <synonym>
+        <key>ru</key>
+        <value>Точка маршрута</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>BusinessProcessRoutePointRef</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="45ecc930-1c65-490b-bed6-7df38953233b">
+      <name>Настройка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Настройка</value>
+      </synonym>
+      <comment>Настройка вложенного бизнес процесса</comment>
+      <type>
+        <types>CatalogRef.НастройкиБизнесПроцессов</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8ac609a8-96c8-4ff9-9a6f-be4efc605f4f">
+      <name>ПериодВыполненияМин</name>
+      <synonym>
+        <key>ru</key>
+        <value>Период выполнения мин</value>
+      </synonym>
+      <comment>Период выполнения часов</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0647867d-2a11-4223-ab52-7d452d46496a">
+      <name>ПериодОповещенияМин</name>
+      <synonym>
+        <key>ru</key>
+        <value>Период оповещения мин</value>
+      </synonym>
+      <comment>Период оповещения - часов</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="e70bf417-8245-4d90-944a-0eefd3ef78b4">
+    <producedTypes>
+      <objectType typeId="5e0e1124-2ef4-4bb6-b225-9654023f2286" valueTypeId="c0618291-75a0-4991-bb1e-fcdda83a9f12"/>
+      <rowType typeId="ba1bb89f-691f-4238-a853-1c3a4c78f017" valueTypeId="1cbe83bb-6f71-4e20-975b-8c6431fe93a0"/>
+    </producedTypes>
+    <name>Исполнители</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнители</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="635bf30f-9611-4c92-8bbb-1f282dfb848d">
+      <name>Исполнитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Исполнитель</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef.ВидыИсполнителейЗадач</types>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f4ef984a-466b-41d2-a6f2-b0e0d8bd5a92">
+      <name>ТочкаМаршрута</name>
+      <synonym>
+        <key>ru</key>
+        <value>Точка маршрута</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>BusinessProcessRoutePointRef</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="6875798c-f604-49db-84b9-e960612104d1">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a1cd08ba-6529-4428-95f0-f2d1b877b64c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8f23507f-e08e-4f6e-bdab-ee4b5cac598e">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

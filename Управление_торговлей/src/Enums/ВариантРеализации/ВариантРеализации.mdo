@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="141ea938-4b29-41ce-847a-86c4d6514fe0">
+  <producedTypes>
+    <refType typeId="8fe615eb-2860-4141-9705-2d8db6f7477c" valueTypeId="79fb6d61-b2af-44f0-bd40-3c9c16867cec"/>
+    <listType typeId="d67d47f5-cf10-4a84-a763-94cd3d1ab16e" valueTypeId="1756c5e9-f3f8-406c-a7fb-ac3ebe34faed"/>
+    <managerType typeId="d4931a37-9182-4eb2-b77e-3c4124bed910" valueTypeId="f1aae02e-d054-4ed9-886b-2e4cd267e163"/>
+  </producedTypes>
+  <name>ВариантРеализации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вариант реализации</value>
+  </synonym>
+  <comment>Вариант реализации (ЕНВД или не ЕНВД)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bb373c8f-17f6-4dfe-af66-d6d6566ce432">
+    <name>НеЕНВД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не ЕНВД</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="20599bf1-45e4-48d1-895a-641e75d3eb07">
+    <name>ЕНВД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЕНВД</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

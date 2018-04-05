@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="920f2c5a-e554-4dd6-9f58-15f1684730ee">
+  <producedTypes>
+    <objectType typeId="fa8a9700-5ed0-4e95-a25d-f40308ec3f88" valueTypeId="0e28abca-d707-4276-90cd-fb284437a1b2"/>
+    <managerType typeId="3f323d6a-097e-4856-a175-0f385358ab9b" valueTypeId="6194bfd9-1c38-4dfd-a76f-f0c69f02b68d"/>
+  </producedTypes>
+  <name>ПоискЭлектронныхПисемПоОбъектам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск электронных писем по объектам</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ПоискЭлектронныхПисемПоОбъектам.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="88d20f69-8622-4c42-b5b9-a4b23439778e">
+    <name>ПостроительОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Построитель отчета</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportBuilder</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="0e6ad5da-0add-498e-b5d8-c105fba476cb">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

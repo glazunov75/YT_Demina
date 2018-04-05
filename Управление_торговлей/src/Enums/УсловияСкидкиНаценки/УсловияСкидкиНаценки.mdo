@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6331801c-12b1-4768-88a7-f491098eb7c6">
+  <producedTypes>
+    <refType typeId="02d9effb-954f-422c-b191-bdc166318a92" valueTypeId="1244f293-1fd9-4db5-9a08-cf5a86cf3898"/>
+    <listType typeId="510d7d80-6ef7-450a-abc1-0dd445d06234" valueTypeId="4d790aca-9196-499f-a440-5fe867e7da14"/>
+    <managerType typeId="86842bd8-395c-49c2-808d-a14f4dd4490f" valueTypeId="5c2eff89-6e2f-4d64-bf98-583b1656d35c"/>
+  </producedTypes>
+  <name>УсловияСкидкиНаценки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Условия скидки наценки</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="67829f3e-f88f-4b36-8ba0-cd17484f57ce">
+    <name>ПоВидуОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>По виду оплаты</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="128d1435-bcce-4f36-86f2-e675684cc5dc">
+    <name>ПоДисконтнойКарте</name>
+    <synonym>
+      <key>ru</key>
+      <value>По дисконтной карте</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f9c66f85-5d02-4ad5-835a-de6549651feb">
+    <name>ПоКоличествуТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество одного товара в документе превысило</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ba5477d4-04a6-4f5a-b8df-e45dfe166e7b">
+    <name>ПоСуммеДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма документа продажи превысила </value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="36800daf-0546-40e3-9996-b0c3bdeeed63">
+    <name>РучнаяСкидка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ручная скидка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="96bad97d-fbc7-43e0-95d5-8180d3ffafd0">
+    <name>БезУсловий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без условий</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="64acff1d-8551-4059-8e31-0c8526b1eec3">
+    <name>СпецПредложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спец. предложение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="735174ed-aa3a-46ec-a6f6-1431ece9ed46">
+    <name>ПоВидуДисконтныхКарт</name>
+    <synonym>
+      <key>ru</key>
+      <value>По виду дисконтных карт</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be9580a5-de64-400c-a7b4-4cac25c623e6">
+  <producedTypes>
+    <refType typeId="1ca8ef05-d7c8-4510-991d-f8fbe0115353" valueTypeId="0037732f-8f55-4546-805e-9fe2d95e032a"/>
+    <listType typeId="db72fb6b-a210-4123-9897-21ec39829854" valueTypeId="e8bf587e-abc2-43e1-993f-1d0ecb07c549"/>
+    <managerType typeId="af2430c7-724c-481f-a838-ada8f83690cf" valueTypeId="6a7a46c5-3fa6-4970-9412-6abfc2e57888"/>
+  </producedTypes>
+  <name>ВидыТабличныхЧастей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды табличных частей</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f3bee0ad-c477-48ac-a2ef-9a00e8d7069c">
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="cc86b774-f04a-479e-8ed2-71396cae3743">
+    <name>Тара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тара</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

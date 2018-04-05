@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e6490fc-3d6a-495f-960c-40739993c0ea">
+  <name>ПоступлениеТоваровУслугВНТТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление товаров и услуг в НТТ</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

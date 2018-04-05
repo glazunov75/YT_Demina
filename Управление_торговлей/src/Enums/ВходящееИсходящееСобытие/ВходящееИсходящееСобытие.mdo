@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebdaede8-52d7-4ff4-a24f-fa6b3ee86e92">
+  <producedTypes>
+    <refType typeId="353dd3d3-2b11-4710-98d0-fbb333304dd3" valueTypeId="9901aecd-8dca-41b0-a57f-52bf55aa5939"/>
+    <listType typeId="ebdaede8-52d7-4ff4-a24f-fa6b3ee86e92" valueTypeId="ebdaede8-52d7-fff4-a24f-fa6b3ee86e92"/>
+    <managerType typeId="62560a24-5cff-4ca9-a607-71feb124bc29" valueTypeId="cb26d520-d0fc-4a24-9576-cb914e0150d6"/>
+  </producedTypes>
+  <name>ВходящееИсходящееСобытие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Входящее исходящее событие</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="11447867-6797-4da2-b461-25e7280123fb">
+    <name>Входящее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящее</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ffe8f1e9-8e30-4a3f-85b7-8b7ead140193">
+    <name>Исходящее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходящее</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

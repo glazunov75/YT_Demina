@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d30d427-9ced-4472-bcf7-87a6c6b6bd88">
+  <producedTypes>
+    <refType typeId="a32f571c-5aa9-4252-984b-d552a8dd7ef8" valueTypeId="605520aa-b170-4cce-a9f0-135be1bc1fc8"/>
+    <listType typeId="49bcd64d-e469-433e-9f53-3356176b04e1" valueTypeId="c23058b4-c118-4c3b-9dce-60291acda936"/>
+    <managerType typeId="fa70b019-6aae-4cc8-8936-e7df990d9e1f" valueTypeId="40b25ccf-ffe5-4d1a-9a6f-30a6722edcee"/>
+  </producedTypes>
+  <name>ВидыДнейПроизводственногоКалендаря</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды дней производственного календаря</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="69e4df1c-a076-4416-be29-1134d754c86b">
+    <name>Рабочий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий</value>
+    </synonym>
+    <comment>(Общ) Рабочий день</comment>
+  </enumValues>
+  <enumValues uuid="52cf4b59-8091-41cf-80e7-b8bb3d713d7b">
+    <name>Суббота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Суббота</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="a85fbda9-b64a-4f99-bf3c-b91cfd4da6b9">
+    <name>Воскресенье</name>
+    <synonym>
+      <key>ru</key>
+      <value>Воскресенье</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="78c63f93-574e-44df-86b7-c9a6c1816635">
+    <name>Предпраздничный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предпраздничный</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="59e37e0e-a2ac-488e-b9aa-f136fda865d3">
+    <name>Праздник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Праздник</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2254cc48-bc61-409d-8bef-a65a7b4a5487">
+  <producedTypes>
+    <managerType typeId="2d88f6d4-9a92-4e01-896a-6db2ea844e51" valueTypeId="fd4fa621-b99c-4613-a01b-8dc09bb1eabb"/>
+    <valueManagerType typeId="ef050b79-7c61-45d5-a34f-8f47918ecf2e" valueTypeId="47045ee3-3510-4977-9648-16911c55a4b5"/>
+  </producedTypes>
+  <name>ЮрФизЛицо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Юр физ лицо</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>EnumRef.ЮрФизЛицо</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5b2a880-28ee-4dfa-8846-7fafe3a2ecec">
+  <producedTypes>
+    <objectType typeId="dc164761-dce5-459a-bdf7-80ddf84e53d0" valueTypeId="b57517dd-85ad-44da-b6fc-fc0dd4cc9c29"/>
+    <managerType typeId="08234982-e429-4e16-bfe0-bef8d8e0d840" valueTypeId="cb7c8985-50a6-47da-a410-74ca58c534a6"/>
+  </producedTypes>
+  <name>БлокировкаСоединенийСИнформационнойБазой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Блокировка установки соединений с информационной базой</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.БлокировкаСоединенийСИнформационнойБазой.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="affd497f-0cf1-4de8-9551-d6f9df351489">
+    <name>УстановитьБлокировкуСоединений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установить блокировку соединений</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f5ba7470-a070-4189-9e4c-bc1ec1a36e06">
+    <name>НачалоБлокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало блокировки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="369a6de1-45a8-4adf-866c-a03e117e542a">
+    <name>ОкончаниеБлокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончание блокировки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2c2fa8c7-6f8d-40f1-a122-1d45640fa84c">
+    <name>Сообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d10a3900-efb6-4961-9816-42f7c30877dc">
+    <name>КодРазрешения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код разрешения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="cc7fbe11-f3c4-4349-bb71-2876e507fc55">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

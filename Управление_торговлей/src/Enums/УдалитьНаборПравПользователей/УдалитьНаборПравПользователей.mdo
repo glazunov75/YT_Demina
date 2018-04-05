@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b49059a3-75e2-4e40-a99b-80a1a6cda9d8">
+  <producedTypes>
+    <refType typeId="e6a7f236-89e7-46df-87ef-7b182c7ac72d" valueTypeId="b6337aa4-cd17-4106-a759-36f89c93728d"/>
+    <listType typeId="b49059a3-75e2-4e40-a99b-80a1a6cda9d8" valueTypeId="b49059a3-75e2-fe40-a99b-80a1a6cda9d8"/>
+    <managerType typeId="4086b9b8-e039-4611-a84f-9ac21e3c2acc" valueTypeId="1748acf5-7e2b-42aa-9694-2d3d6ef4d42d"/>
+  </producedTypes>
+  <name>УдалитьНаборПравПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить набор прав пользователей</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="38fecf92-721b-4bfd-bb81-57a0f2fd32b2">
+    <name>ПолныеПрава</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полные права</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="95263994-9a7e-4c12-b6e8-b9648ae9e0f0">
+    <name>МенеджерПоПродажам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер по продажам</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="b60bd88f-c816-4399-8197-43cb566a3551">
+    <name>МенеджерПоЗакупкам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер по закупкам</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7b7e749d-c7be-40e5-9bbd-c96bb7161a6f">
+    <name>Кладовщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кладовщик</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c0568de4-140f-42cf-850d-9c80997d99f0">
+    <name>ЗаведующийСкладом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заведующий складом</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7ffbc06d-3236-4cbc-9e5f-dc4fe5fb8b57">
+    <name>Кассир</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кассир</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3556de5f-b23a-4a38-81ca-ddd1d652fe90">
+    <name>АдминистраторККМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администратор ККМ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="cb106ad5-b7bd-44d9-96cf-c454a90fdb2f">
+    <name>ОператорККМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оператор ККМ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

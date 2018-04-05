@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95aa5d92-6f78-4103-a58a-9a0de3b6dab4">
+  <producedTypes>
+    <selectionType typeId="15bdd5f5-9bac-4075-9eaf-e14d2595247e" valueTypeId="95578ac4-5684-4c70-a392-5c1a2f1d542f"/>
+    <listType typeId="46859296-3fe5-4595-a592-cb8657122dd7" valueTypeId="a465d423-49da-4f5d-8d58-109a2eb0e4dc"/>
+    <managerType typeId="456c66d6-7ae3-4cb0-b132-7d4cf1701339" valueTypeId="e3e76a39-0a1b-4cb3-8b67-183be4607786"/>
+    <recordSetType typeId="7019c4ae-81f6-4b84-bada-ab0c1947f452" valueTypeId="634a9bc6-db36-4b54-b8e6-a218015bde20"/>
+    <recordKeyType typeId="ff16cace-86a3-48d3-a8e6-01491a0b3ad0" valueTypeId="317d1254-f6d1-4ba2-b1a7-99c0ad512445"/>
+    <recordType typeId="d392b437-3a29-48ed-addf-9eb4a5235529" valueTypeId="ceada18d-f1f5-4cdf-89e8-8f6b3d2fdc4d"/>
+    <recordManagerType typeId="a64ee9ab-d081-42f8-8a75-283e10a52f2d" valueTypeId="86d2f42c-88a3-4d12-9843-d8ff11c36ed0"/>
+  </producedTypes>
+  <name>ОтветственныеЛицаОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответственные лица организации</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <defaultListForm>InformationRegister.ОтветственныеЛицаОрганизации.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <resources uuid="d272f620-83de-42f3-ac2b-dafb903e3070">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="132fb490-fdca-4b75-94c8-8ce21a69b073">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <comment>(Регл)</comment>
+    <type>
+      <types>CatalogRef.ДолжностиОрганизаций</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b310f78f-d105-4e7c-9b77-0db129be000f">
+    <name>СтруктурнаяЕдиница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структурная единица</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="46171ff3-695c-4bc1-badc-97763aed1a21">
+    <name>ОтветственноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственное лицо</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>EnumRef.ОтветственныеЛицаОрганизации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="69ed33c1-ea0e-4b59-ba73-a9558a1f02fa">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

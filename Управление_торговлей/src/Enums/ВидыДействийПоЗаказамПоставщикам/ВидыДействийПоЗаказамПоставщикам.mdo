@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3ab7309-158a-4280-96e5-446fd2a9fe40">
+  <producedTypes>
+    <refType typeId="970ef0c8-73d9-4a3d-a1cd-f261ee835edb" valueTypeId="6db9d211-581d-4671-b829-64de57ac45cc"/>
+    <listType typeId="6b462844-cd1c-4a47-8be6-4034a36a2c1b" valueTypeId="b36cbf6c-1f10-4687-b935-fb89dc0c6464"/>
+    <managerType typeId="61a16597-38c3-4fbe-baf8-d1d6bf03b39f" valueTypeId="b9fca76d-3fec-484a-b592-6122eb250856"/>
+  </producedTypes>
+  <name>ВидыДействийПоЗаказамПоставщикам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды действий по заказам поставщикам</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dc734ef0-c437-490f-b79d-c0adb8c03523">
+    <name>ПоступлениеПоЗаказу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление по заказу</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7d85b3f8-becf-4bfc-a257-f3eb70b87e2c">
+    <name>ОплатаПоЗаказу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата по заказу</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

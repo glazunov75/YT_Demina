@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eab87104-f795-4a7b-bfb9-b2c9747da575">
+  <producedTypes>
+    <objectType typeId="8dcef499-634d-48d3-918f-2531719ceba0" valueTypeId="59da1103-e518-464c-aa77-6f80b51344bc"/>
+    <refType typeId="6a9c1ceb-9efe-4931-9e60-4909c71973a4" valueTypeId="f8624458-1fe7-4bab-9b10-03c4d1ac922a"/>
+    <selectionType typeId="3db3fde0-5e0b-4719-b3d2-a0adfa92961f" valueTypeId="1bbd06c4-ca19-476a-99fa-10c9b8e24b29"/>
+    <listType typeId="89f6c398-9918-4eee-bcbb-14e2af150573" valueTypeId="0a265510-37e5-4c35-aaf4-3994c4be3dcf"/>
+    <managerType typeId="7e59abad-6b85-41b1-aa90-920a0a6d9413" valueTypeId="36af1758-5a2c-427a-bb06-79b31fa95800"/>
+  </producedTypes>
+  <name>ДолжностиОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности организаций</value>
+  </synonym>
+  <comment>(Регл)</comment>
+  <inputByString>Catalog.ДолжностиОрганизаций.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ДолжностиОрганизаций.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>1</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ДолжностиОрганизаций.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ДолжностиОрганизаций.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="270ac9f5-ea80-40db-ba5b-2e3483208ede">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="495e13e2-8aec-4847-a6fd-600b40f8d3f9">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

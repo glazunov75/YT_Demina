@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8bc83b73-cbeb-4a00-88eb-9dbcee918216">
+  <producedTypes>
+    <objectType typeId="c1d3c41f-6961-4398-8aa3-cda650a3776c" valueTypeId="4f3cad4a-76a2-401b-aa9a-9443d7fdfa87"/>
+    <refType typeId="d1bbb757-cadd-4f90-a19a-3936c584c82d" valueTypeId="3de3d0fe-bc4f-4b0a-8810-d2ad5f532ab1"/>
+    <selectionType typeId="1d7d3206-1587-4d37-ae1d-0b448b70605a" valueTypeId="477764cb-cd17-45bc-a8fd-704a962f1552"/>
+    <listType typeId="83e6f6cb-7504-44e2-877f-1b31ca9d7a0c" valueTypeId="6fd79c04-21b3-4c3a-a0e5-46ad5de351b8"/>
+    <managerType typeId="2c83f8e4-082f-4448-8577-93f70c2f36bd" valueTypeId="ea4eb065-cef3-4611-8726-54460a6ad3bb"/>
+  </producedTypes>
+  <name>ВходящийРеджектСчетаФактуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Входящий реджект счета-фактуры</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>Document.ВходящийРеджектСчетаФактуры.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВходящийРеджектСчетаФактуры.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ВходящийРеджектСчетаФактуры.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.ВходящийРеджектСчетаФактуры.Form.ФормаВыбора</defaultChoiceForm>
+  <posting>Deny</posting>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <attributes uuid="ed0a5a8b-b4f2-488c-9548-c20ce08ad4c8">
+    <name>НомерВходящегоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер входящего документа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>80</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b671e34a-ad11-434a-b93b-5f26366381f5">
+    <name>ДатаВходящегоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата входящего документа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="3236092c-f5f2-4d66-bd25-e87eedfe0e1c">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="2dc6b993-f12c-4407-9429-936a082ef56d">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="6f2c93b8-55d8-4669-8e2e-2f98ed3babb6">
+    <name>Примечание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Примечание</value>
+    </synonym>
+    <comment>Любая дополнительная информация</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="75f0f891-a320-4a72-8a8a-93905e10b9b8">
+    <name>УчетнаяЗаписьЭлектронногоОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись электронного обмена</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.УчетныеЗаписиЭлектронногоОбмена</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="959b15d4-91cd-4209-a3f0-17530feb6402">
+    <name>Обработан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработан</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="234ce32e-aab9-4ab7-b36b-db40c5b5d9b4">
+    <name>ИсходныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходный документ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.ИсходящийСчетФактура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="95cbf022-882a-4a2f-b1d9-96f5ef41c81b">
+    <name>УчетныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетный документ</value>
+    </synonym>
+    <comment>Документ товарного учета</comment>
+    <type>
+      <types>DocumentRef.СчетФактураВыданный</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="32cd21fb-2f10-4a85-8b9a-64854d995986">
+    <name>ДанныеОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные обмена</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="2fbe332e-4aff-4cc9-a815-e45c331be284">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6dfcfd08-05c6-43d5-9f9b-ef9705a65b2a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2acea49a-70f1-4f25-a37d-23cb9b01a303">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

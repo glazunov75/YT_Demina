@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08cb1e37-3b42-4d94-a0de-9f88b300715f">
+  <producedTypes>
+    <managerType typeId="e1f92591-43a0-47fb-a790-763a974b469f" valueTypeId="38eae6a1-f086-4821-90f2-a882ca8e244c"/>
+    <valueManagerType typeId="203b7c1f-130e-4052-80b3-44c6d98691f5" valueTypeId="3eb996a4-8e05-4914-96e3-a5b58a33e3d3"/>
+  </producedTypes>
+  <name>ИнтервалДляОпросаРегламентныхЗаданийВФайловомВарианте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интервал для опроса регламентных заданий в файловом режиме</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

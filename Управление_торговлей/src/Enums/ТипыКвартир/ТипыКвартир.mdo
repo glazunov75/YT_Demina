@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c54e626-dce0-497e-bc0f-a43f8a413cd2">
+  <producedTypes>
+    <refType typeId="317bdad6-c5be-4c97-8b21-cf56ae6aa703" valueTypeId="5159ba7b-4584-45c0-976a-799d9788b8ef"/>
+    <listType typeId="c76e3167-d661-406e-90b2-7f152c77ae07" valueTypeId="19aba432-9d67-424e-affd-26d63853f8fb"/>
+    <managerType typeId="9002debe-320d-4746-9fc9-80ed6ffcdd5f" valueTypeId="88811dd4-f785-453a-b966-c44c39833373"/>
+  </producedTypes>
+  <name>ТипыКвартир</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы квартир</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7b3f0be1-93b1-497d-b915-069d341023e4">
+    <name>Квартира</name>
+    <synonym>
+      <key>ru</key>
+      <value>кв.</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="31e12149-dacb-4ecb-9602-33716bf5c60c">
+    <name>Офис</name>
+    <synonym>
+      <key>ru</key>
+      <value>оф.</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

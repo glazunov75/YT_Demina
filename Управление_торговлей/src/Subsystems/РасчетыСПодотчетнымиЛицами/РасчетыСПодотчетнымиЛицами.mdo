@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2199df73-4286-4e5b-a2bf-85125884fee5">
+  <name>РасчетыСПодотчетнымиЛицами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчеты с подотчетными лицами</value>
+  </synonym>
+  <comment></comment>
+  <content>CommonModule.ЗаполнениеДокументов</content>
+  <content>CommonModule.ОбработкаТабличныхЧастей</content>
+  <content>CommonModule.ОбщегоНазначения</content>
+  <content>CommonModule.РаботаСДиалогами</content>
+  <content>CommonModule.ФормированиеПечатныхФорм</content>
+  <content>Constant.ВалютаУправленческогоУчета</content>
+  <content>CommonForm.РедактированиеДокументаУдостоверяющегоЛичность</content>
+  <content>Catalog.Валюты</content>
+  <content>Catalog.ЕдиницыИзмерения</content>
+  <content>Catalog.КлассификаторОКОПФ</content>
+  <content>Catalog.Подразделения</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Document.АвансовыйОтчет</content>
+  <content>Document.Доверенность</content>
+  <content>Document.ПереоценкаВалютныхСредств</content>
+  <content>Document.РасходныйКассовыйОрдер</content>
+  <content>Enum.ВидыОперацийПриходныйОрдер</content>
+  <content>Enum.ВидыПоступленияТоваров</content>
+  <content>Enum.ДополнительнаяКолонкаПечатныхФормДокументов</content>
+  <content>Enum.ОтветственныеЛицаОрганизации</content>
+  <content>Report.ВедомостьВзаиморасчетыСПодотчетнымиЛицами</content>
+  <content>DataProcessor.ОбработкаТабличнойЧастиТовары</content>
+  <content>InformationRegister.ОтветственныеЛица</content>
+  <content>InformationRegister.ПаспортныеДанныеФизЛиц</content>
+  <content>AccumulationRegister.ВзаиморасчетыСПодотчетнымиЛицами</content>
+</mdclass:Subsystem>

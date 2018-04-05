@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b1f2507-78fc-4136-a282-8c16de3ef9f2">
+  <producedTypes>
+    <listType typeId="c846a623-ab14-413b-aca8-2e559fa1d2d3" valueTypeId="af99a77e-cb2b-41b5-8c47-d0009951fd21"/>
+    <managerType typeId="983d5a3b-58d7-4545-ba5d-cab260d82df3" valueTypeId="ef91afa6-26f6-41e0-8377-9733a3c0ece2"/>
+  </producedTypes>
+  <name>ЭлектронныеПисьмаПоАдресуЭлектроннойПочты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронные письма по адресу электронной почты</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>200</length>
+    </stringQualifiers>
+  </type>
+  <content>Document.ЭлектронноеПисьмо.Attribute.ОтправительАдресЭлектроннойПочты</content>
+  <content>Document.ЭлектронноеПисьмо.TabularSection.КомуТЧ.Attribute.АдресЭлектроннойПочты</content>
+  <content>Document.ЭлектронноеПисьмо.TabularSection.КопииТЧ.Attribute.АдресЭлектроннойПочты</content>
+  <content>Document.ЭлектронноеПисьмо.TabularSection.СкрытыеКопииТЧ.Attribute.АдресЭлектроннойПочты</content>
+</mdclass:FilterCriterion>

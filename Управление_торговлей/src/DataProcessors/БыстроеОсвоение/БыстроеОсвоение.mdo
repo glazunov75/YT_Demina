@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="801a023a-bcba-4584-8653-c4630c20ee28">
+  <producedTypes>
+    <objectType typeId="5b60a51a-c7f7-4559-ace7-6feec475d3bc" valueTypeId="7e8c5be1-b819-4ba6-9950-66ef1ef5a3e8"/>
+    <managerType typeId="eb71a4cc-7cb8-4c2b-903e-636c460c0dc4" valueTypeId="9bd39d35-fec3-46ee-bffa-10bf58f43ab0"/>
+  </producedTypes>
+  <name>БыстроеОсвоение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Быстрое освоение</value>
+  </synonym>
+  <comment>Быстрое освоение 1С: Управление торговлей</comment>
+  <defaultForm>DataProcessor.БыстроеОсвоение.Form.Форма</defaultForm>
+  <forms uuid="ce64db72-b754-4c51-bf97-8a7d3555c7d6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a0b7f1e6-30c3-4cc3-8d5f-3f1f3ed00959">
+    <name>ФормаПодготовки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подготовки</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="21225242-5322-4464-9b22-4115f6431db6">
+    <name>ФормаПолезнойИнформации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма полезной информации</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="032cef46-1e9e-4b0b-952a-5fc7ee3ca3e8">
+    <name>ДоброПожаловать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добро пожаловать!</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="cff7992a-d62f-4a04-9786-152f72261f20">
+    <name>Организации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод информации об организациях, входящих в состав торгового предприятия</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="84dd368e-d7c0-4eea-b669-2e6699461511">
+    <name>УчетнаяПолитика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка параметров учетной политики торгового предприятия</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="940fe342-be4d-413d-92cf-da856f1306d2">
+    <name>УчетнаяПолитика_НалоговыйУчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка параметров учетной политики для налогового учета</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="d2b1d3df-98d9-4f33-9233-f8aa4810962f">
+    <name>Контрагенты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение сведений о деловых партнерах торгового предприятия</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="80d06151-32dc-4a95-ad9b-fc6d4bb2c107">
+    <name>Документы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отражение торговых операций с помощью документов</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="71dbe0ef-700a-4bcf-8a2e-788eb847f51e">
+    <name>НастройкаДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка настроек для быстрого оформления документов</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="54aed4e5-eb6e-4d69-a5f7-334d8e8c17d1">
+    <name>ВводОстатковДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод остатков денежных средств на расчетных счетах торгового предприятия</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="3eae7240-1698-486a-ad1c-7fd60a6f06d0">
+    <name>ОстаткиКассы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод остатков денежных средств в кассах торгового предприятия</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="d30cdad1-f763-4fe2-a468-984c28e5cf7f">
+    <name>Склады</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение сведений о складах торгового предприятия</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="9f66bb78-b41b-41de-8395-6a80fda0336f">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение сведений о товарах и услугах торгового предприятия</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="d6d99422-7409-484a-b131-63e370f4c3e5">
+    <name>Цены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка цен на товары и услуги</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="2eef706f-b8e2-4c5b-9371-bcf32a6bab6a">
+    <name>ПоступлТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление товаров и услуг</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="f1b5b493-f5a8-41ba-bd1e-861a32e3111a">
+    <name>ЦеныПоПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формирование новых цен продажи при изменении цен поставщика</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="57bd4c52-7b9a-40ba-bd03-fc6e5267e8c4">
+    <name>ПлатежПост</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оформление оплаты поставщику</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="9fb1d85b-efa3-4772-aca9-7cbc94af770f">
+    <name>ЗаявкаНарасходДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оформление расхода денежных средств с предварительным согласованием</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="0a1e0915-2280-4a45-8837-c3c158a87a16">
+    <name>УстановкаЦенКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка цен клиентам </value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="d0072e7e-5747-4db2-be1f-a437c9bc02c7">
+    <name>УстановкаСкидок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка скидок клиентам торгового предприятия</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="2c821f76-aa9f-4e31-8390-876efe427f02">
+    <name>Резервирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выписка счета на оплату покупателю</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="ee489c3e-46c2-4bdd-b4c2-9c42c1edc4f9">
+    <name>ОплатаПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление денежных средств от покупателя на расчетный счет</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="072dd396-a975-40c9-888f-614c1fd4aa0e">
+    <name>Отгрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгрузка товаров покупателю по счету (работа по предоплате)</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="fa294442-a769-4041-b8c2-db4485172e3f">
+    <name>БыстраяПродажа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа товаров за наличный расчет</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="22e8a4d3-40bc-432b-bbd3-6975da6c7e6f">
+    <name>Комиссия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа с о сторонними магазинами (передача товаров на комиссию)</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="57ac9fbd-366b-4785-8eee-6c436a409126">
+    <name>ПродажаВРозницу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа товаров в розницу в торговом зале (обобщенному покупателю)</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="b6d7b73b-b4ad-4394-aa19-adc368e9951a">
+    <name>ПродажаНТТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа с неавтоматизированными торговыми точками (собственными магазинами)</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="7420e836-07b1-47af-8802-2713932ca2bb">
+    <name>АнализДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ показателей деятельности предприятия</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7cdb08bd-35b3-4910-a9de-101d2056823f">
+  <name>СтандартныеОтчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандартные отчеты</value>
+  </synonym>
+  <comment></comment>
+  <content>CommonPicture.Группировка</content>
+  <content>CommonPicture.ГруппировкиОтчета</content>
+  <content>CommonPicture.ДополнительныеПоляОтчета</content>
+  <content>CommonPicture.ЗаголовокОтчета</content>
+  <content>CommonPicture.ЗначокОтчет16</content>
+  <content>CommonPicture.ЗначокОтчет32</content>
+  <content>CommonPicture.Период_День</content>
+  <content>CommonPicture.Период_Месяц</content>
+  <content>CommonPicture.Период_Неделя</content>
+  <content>CommonPicture.РегистрНакопления_Обороты</content>
+  <content>CommonPicture.РегистрНакопления_Остатки</content>
+  <content>CommonPicture.СортировкаОтчета</content>
+  <content>CommonPicture.ТранспонированиеДиаграммы</content>
+  <content>CommonPicture.УсловноеОформлениеОтчета</content>
+  <content>CommonModule.РаботаСДиалогами</content>
+  <content>Constant.НастройкиКолонтитуловПоУмолчанию</content>
+  <content>Enum.ВариантыОтображенияОтчетов</content>
+  <content>Report.ДвиженияДокумента</content>
+  <content>Report.Диаграмма</content>
+  <content>Report.ОтчетДиаграмма</content>
+  <content>Report.ОтчетОстаткиИОбороты</content>
+  <content>Report.ОтчетСписокКроссТаблица</content>
+  <content>Report.УниверсальныйОтчет</content>
+  <parentSubsystem>Subsystem.ПодсистемаПолученияАналитическойИнформации</parentSubsystem>
+</mdclass:Subsystem>

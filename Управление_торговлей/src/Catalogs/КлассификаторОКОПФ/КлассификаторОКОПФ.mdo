@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f56b4cf-4737-4806-90d2-89c5783dfb8c">
+  <producedTypes>
+    <objectType typeId="2c186c83-3c18-471a-82d9-b3251b6e3fcd" valueTypeId="d9ba211e-5a56-4dbf-9d87-7c174bf0beb4"/>
+    <refType typeId="b8ec3f7b-5064-4620-8bf8-97f753c3f9f4" valueTypeId="cba961e8-7ebe-4aa5-b1bf-93d034e2522b"/>
+    <selectionType typeId="e528f3f4-cf0b-4c3b-a6d7-5e1d376a199b" valueTypeId="efea28b8-5aaa-451b-a7af-46f5705a0b6e"/>
+    <listType typeId="8a7ed837-e43d-4920-97a3-deeb48b520d1" valueTypeId="53979d01-5771-4a99-950d-8739409319a9"/>
+    <managerType typeId="51511649-a37e-4364-8919-2f4105cc7e49" valueTypeId="721ea3b4-801a-4e10-a66e-1f197b9b8e20"/>
+  </producedTypes>
+  <name>КлассификаторОКОПФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классификатор ОКОПФ</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>Catalog.КлассификаторОКОПФ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КлассификаторОКОПФ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>10</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КлассификаторОКОПФ.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.КлассификаторОКОПФ.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.КлассификаторОКОПФ.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="ed278a29-9143-479a-89eb-4334ee6dd2ef">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="857ce15b-542f-4b91-a6db-064855f33efa">
+    <name>БыстрыйВыбор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Быстрый выбор</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="9d29be2e-b42d-47a4-8a57-9773baaaa6b7">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0c818127-9469-482c-8b8f-675f49b8b6a5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e90aac3f-2b16-48f3-87da-6f1694418d72">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="489a14aa-7bdb-4a4a-83ee-82d65697ff1f">
+    <name>ФормаПодбораИзКлассификатора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подбора из классификатора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="88fcb691-c72d-40ff-9dc5-3a1587342c6d">
+    <name>КлассификаторОКОПФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификатор ОКОПФ</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Catalog>

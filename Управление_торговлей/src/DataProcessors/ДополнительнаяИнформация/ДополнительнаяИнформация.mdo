@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c777533-5f52-4f3d-85f7-55cd43defb86">
+  <producedTypes>
+    <objectType typeId="58afe344-066b-4be7-85da-e0f8e4eda34a" valueTypeId="12b27345-3ab2-407b-aedd-ac9fb08bf65a"/>
+    <managerType typeId="07f684be-d1d3-4870-b89a-7fa46d000f0c" valueTypeId="413f0b2e-e22b-4aeb-aa67-d13a817fcf8d"/>
+  </producedTypes>
+  <name>ДополнительнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительная информация</value>
+  </synonym>
+  <comment>[v.2.01, 01.11.2007]</comment>
+  <defaultForm>DataProcessor.ДополнительнаяИнформация.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="56c587c6-28d7-4f4c-94d9-9f9863757497">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="57504eea-216f-4d2c-bd46-abe703934358">
+    <name>ФормаРабочийСтол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма рабочий стол</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="7bd91bd6-1015-4a31-92df-82ba6a339592">
+    <name>Описатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описатель</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="0cb9c1b0-ce8c-4e29-8271-dced1df7b68d">
+    <name>Start</name>
+    <synonym>
+      <key>ru</key>
+      <value>Start</value>
+    </synonym>
+    <comment></comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="01efa82f-8b04-4170-a720-17875e81eaa8">
+    <name>Предприятие8</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предприятие8</value>
+    </synonym>
+    <comment></comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="fb7f71f6-d5fe-4de1-a1e2-889d34dab9d0">
+    <name>Бухру</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бухру</value>
+    </synonym>
+    <comment></comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="0b6e5ef2-2f7a-4d54-bec0-076248642b79">
+    <name>Отраслевые_решения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отраслевые решения</value>
+    </synonym>
+    <comment></comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="4f8c27eb-7e68-4dfc-8abc-3ebdf858f81f">
+    <name>ИТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИТС</value>
+    </synonym>
+    <comment></comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="fc7395c8-c578-474d-ad89-ffc723f4f5f3">
+    <name>Обучение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обучение</value>
+    </synonym>
+    <comment></comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="43cca346-deb1-4714-bd23-1b751b57ee99">
+    <name>Интернет_поддержка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интернет поддержка</value>
+    </synonym>
+    <comment></comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="effff921-7945-4f3f-8192-72a8d2614945">
+    <name>Книги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Книги</value>
+    </synonym>
+    <comment></comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="8bdd9abe-f029-45e9-af6a-b6500aee2010">
+    <name>Совместимо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Совместимо</value>
+    </synonym>
+    <comment></comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="38d7e8d7-c4dc-4889-b80d-1f69708f0784">
+    <name>МониторингИзмененийЗаконодательства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мониторинг изменений законодательства</value>
+    </synonym>
+    <comment></comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

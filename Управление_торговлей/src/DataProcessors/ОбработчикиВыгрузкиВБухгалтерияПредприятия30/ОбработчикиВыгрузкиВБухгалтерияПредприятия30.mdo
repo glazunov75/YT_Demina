@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbd0d402-75bf-488c-aaad-c86154da650d">
+  <producedTypes>
+    <objectType typeId="ae6ef437-dd1b-4170-9628-b6a838090a99" valueTypeId="33dc9dcc-a575-444c-a70e-c54543b56e47"/>
+    <managerType typeId="9d63ed2b-d355-45ea-bf70-47c169ef92ff" valueTypeId="d7f73f86-c208-45b2-b637-291fb9928c57"/>
+  </producedTypes>
+  <name>ОбработчикиВыгрузкиВБухгалтерияПредприятия30</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработчики выгрузки в Бухгалтерия предприятия 3.0</value>
+  </synonym>
+  <comment></comment>
+</mdclass:DataProcessor>

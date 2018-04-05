@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e162dd01-d605-4dc4-aacc-4e3a9a23de78">
+  <producedTypes>
+    <objectType typeId="faf58480-b1b3-4626-b545-28eec6795c81" valueTypeId="13c5ede9-fdc9-4f72-8d32-2b1428546ea1"/>
+    <managerType typeId="4e0231ca-c264-43c4-b0f2-55f0516a865e" valueTypeId="b3fc52de-aeff-4b1d-944a-a1396be8e2fd"/>
+  </producedTypes>
+  <name>ВедомостьПартииТоваровНаСкладах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведомость по партиям товаров на складах</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.ВедомостьПартииТоваровНаСкладах.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="dd5fbbb1-7859-4a57-a983-3c77b7fc02f6">
+    <name>УниверсальныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.УниверсальныйОтчет</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="30494aff-215a-494f-a9e0-f5c8938624a9">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

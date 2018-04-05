@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8121b64d-f178-450c-a28f-64dc64d5553e">
+  <producedTypes>
+    <refType typeId="8d183472-f00a-431c-83cc-4a6acc33eb88" valueTypeId="4a952529-ce5e-454f-9679-33e59564cf3b"/>
+    <listType typeId="8121b64d-f178-450c-a28f-64dc64d5553e" valueTypeId="8121b64d-f178-f50c-a28f-64dc64d5553e"/>
+    <managerType typeId="54459a86-45a5-48a8-b1a3-6f4e50fc2aad" valueTypeId="c3bebeec-689f-4a69-bce7-05cd17114829"/>
+  </producedTypes>
+  <name>ВидыОперацийЗакрытиеЗаказовПокупателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций документа &quot;Закрытие заказов покупателей&quot;</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="34736cae-c8a5-43d6-9e65-77b93f3bbb53">
+    <name>ЗакрытиеЗаказов</name>
+    <synonym>
+      <key>ru</key>
+      <value>закрытие заказов от покупателей</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="671add29-b175-4913-b6e1-cd021980a6c5">
+    <name>СнятиеРезервов</name>
+    <synonym>
+      <key>ru</key>
+      <value>снятие резервов и размещения</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5a22408-cec2-465f-80d8-b0cfa750f4e1">
+  <producedTypes>
+    <selectionType typeId="23546c5e-8047-404d-a750-8fdb8859207b" valueTypeId="a13c35e9-bf1e-444d-9c2b-5bc35c69563b"/>
+    <listType typeId="0da1bff1-0f59-40e2-bec2-aead3a2f9f0d" valueTypeId="ee91beb9-235c-4fb7-81bf-eed69524bc5b"/>
+    <managerType typeId="89d03817-f31b-46b9-af32-49249557e0ed" valueTypeId="f838c27e-4a64-49fa-b20d-d85993975ccd"/>
+    <recordSetType typeId="7db94896-0497-49e1-a0ee-ea7fcaae3dde" valueTypeId="3c4838eb-8a67-4650-af9e-1fbc73fe3e16"/>
+    <recordKeyType typeId="05442c24-50a9-4ac4-b4d6-83bef55fc20d" valueTypeId="a5861f85-1b77-4895-949e-0f601e543587"/>
+    <recordType typeId="d38afd15-843d-4e1e-aa9f-0e50a381736c" valueTypeId="8ec5822b-50bc-44c9-a12e-1a83106cdc19"/>
+    <recordManagerType typeId="34aabeb8-b3dc-4d8c-b9b8-79058e07df0e" valueTypeId="6c050ac1-fa90-41cc-9d11-060c2381ce9d"/>
+  </producedTypes>
+  <name>НастройкиПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки пользователей</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="d6876d33-a38c-4f7f-b70f-35790b8319f4">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>Characteristic.НастройкиПользователей</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="24336ced-3b71-42d2-aada-94a8fd554b00">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1cf9f022-d6a0-4faf-95f5-839258eeda06">
+    <name>Настройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.НастройкиПользователей</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

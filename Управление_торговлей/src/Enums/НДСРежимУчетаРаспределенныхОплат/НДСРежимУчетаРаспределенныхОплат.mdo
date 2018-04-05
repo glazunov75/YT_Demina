@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73ad03c0-4782-44df-bfde-2722d8d84a0d">
+  <producedTypes>
+    <refType typeId="2cf62d9e-b479-4a74-9f7d-7949646b3ee8" valueTypeId="126487aa-652c-4d27-8ca2-7bc18ccb02bf"/>
+    <listType typeId="b3547777-b046-4063-9923-ef4c5a657b4e" valueTypeId="cc186c90-d153-4700-88b1-874c06e0d408"/>
+    <managerType typeId="f8adc636-e730-4f03-a80c-cc9a4bacf0db" valueTypeId="092fe6c6-8a78-48ad-adba-f4f50144b725"/>
+  </producedTypes>
+  <name>НДСРежимУчетаРаспределенныхОплат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим учета распределенных оплат</value>
+  </synonym>
+  <comment>НДС. Режим учета распределенных оплат</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e1afbb63-d8aa-4ef2-b30d-907b5df2f76e">
+    <name>Приоритет_НДСнеМожетБытьПринятКВычету</name>
+    <synonym>
+      <key>ru</key>
+      <value>не может быть принят к вычету</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ba113ba0-01f1-426b-aa17-3a63ab94fd31">
+    <name>Приоритет_НДСМожетБытьПринятКВычету</name>
+    <synonym>
+      <key>ru</key>
+      <value>может быть принят к вычету</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

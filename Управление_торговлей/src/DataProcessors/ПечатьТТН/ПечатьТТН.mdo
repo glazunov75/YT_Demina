@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df757ecb-bce6-42df-b8d8-aed73de5344d">
+  <producedTypes>
+    <objectType typeId="74f0c2ce-0aa8-4346-bf2e-7465755812e4" valueTypeId="747318b7-bbba-4e52-b9b4-e293ec661e9e"/>
+    <managerType typeId="1dcf0772-40ad-44cb-a6d9-b1b7cec0b446" valueTypeId="f2d6d851-18e3-43a7-9f1b-7672a8d470fd"/>
+  </producedTypes>
+  <name>ПечатьТТН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать ТТН</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ПечатьТТН.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="d4032c5d-de36-482f-b562-dd1b4bd15b47">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.РасходныйОрдерНаТовары</types>
+      <types>DocumentRef.ПеремещениеТоваров</types>
+      <types>DocumentRef.РеализацияТоваровУслуг</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2ae10e92-db0d-4c1b-875f-9c184618b03d">
+    <name>СрокДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок доставки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="87d19225-18a9-4497-aeb1-58758127ab94">
+    <name>МаркаАвтомобиля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марка автомобиля</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="11069d89-1787-4f29-9dac-b4c58637602a">
+    <name>МаркаПрицепа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марка прицепа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="06e3707d-0f16-4f9f-9b37-b3ffc915ddcb">
+    <name>ГосНомерАвтомобиля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гос номер автомобиля</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>16</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f0b11aea-aff7-4a45-bde2-c6d6dd04416e">
+    <name>ГосНомерПрицепа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гос номер прицепа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>16</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="492e78cc-79ca-4eeb-ab98-fd7faff5503f">
+    <name>ПунктПогрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт погрузки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5f471f53-8001-42d6-99c6-9988e7309363">
+    <name>ПунктРазгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт разгрузки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a0835c58-d53a-4f36-b17e-f9492edda40c">
+    <name>Водитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Водитель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="aed81515-d5ac-4bf2-853f-f4d3080ff595">
+    <name>Перевозчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевозчик</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4e7bf391-409d-43a9-b5e9-5fa24456ec38">
+    <name>Заказчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказчик</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f648809e-8366-4d5d-93fa-ba08d4b9c0e7">
+    <name>ВидПеревозки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид перевозки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="68245903-d0cb-48fd-ab61-b40a2c905e98">
+    <name>ЛицензионнаяКарточка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лицензионная карточка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="28181566-2bcf-42a6-8de7-b7b0d8d15cbf">
+    <name>ВодительскоеУдостоверение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удостоверение №</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a8ec391c-02cb-4a54-a990-73cc7249765b">
+    <name>ТипЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип цен</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.ТипыЦенНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f71dc102-75b8-44dc-ab74-2bcec775ef1c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="056d0241-7e7b-47fe-aefe-37705ed15411">
+    <name>ФормаВыборГруппыТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбор группы товаров</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b7f773cb-e948-43b1-8eea-9ea6c03628d0">
+    <name>Ведомость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ведомость</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="fec88d8d-2f44-4655-a088-95cace0fe109">
+    <name>ЕТСНГ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЕТСНГ</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="2be63f3e-9837-4afb-89d2-0a68c4ecccdb">
+    <name>ТТН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТТН</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="0de3b840-5f50-4cb4-bfd1-078d7121e75d">
+    <name>ТТНПриложение4</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТТНПриложение4</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:DataProcessor>

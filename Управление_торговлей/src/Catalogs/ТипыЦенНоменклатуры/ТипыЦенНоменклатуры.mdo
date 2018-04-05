@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8dadd743-7db2-40c0-a080-2b6926ff314d">
+  <producedTypes>
+    <objectType typeId="544d6627-1faa-4c02-a74b-11103d1c582a" valueTypeId="4750f3de-7ad0-4692-87a8-f1cd6ef28e80"/>
+    <refType typeId="78c31531-d1a0-4645-805c-fdf731e63b89" valueTypeId="e1e11391-a9f7-4970-9336-9d66e9ca181a"/>
+    <selectionType typeId="7d11ce74-4a28-464d-a492-e26b56a86ba0" valueTypeId="8b1f2781-47de-429f-b0c5-4cb9102e9cb8"/>
+    <listType typeId="14153f6d-02c1-445b-956c-7a4252381c5f" valueTypeId="6360e98c-ac69-4146-b22b-f63dc2541556"/>
+    <managerType typeId="3c7fd398-d5b5-42a5-afe2-cb01d9192661" valueTypeId="dcab4f55-968b-41db-8ad6-3682b1418755"/>
+  </producedTypes>
+  <name>ТипыЦенНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы цен номенклатуры</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <inputByString>Catalog.ТипыЦенНоменклатуры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипыЦенНоменклатуры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>1</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТипыЦенНоменклатуры.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ТипыЦенНоменклатуры.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ТипыЦенНоменклатуры.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="8229c39a-8317-4fab-b27f-a687e4848477">
+    <name>ВалютаЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта цены по умолчанию</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="e8969ee3-db13-499d-b180-28e18745f069">
+    <name>БазовыйТипЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовый тип цен</value>
+    </synonym>
+    <comment>(Общ) Тип цен, от которого рассчитываются цены данного типа, если не выбран, то цены задаются вручную</comment>
+    <type>
+      <types>CatalogRef.ТипыЦенНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="1f9ccea9-54ab-4e11-9531-3a0cfddcf179">
+    <name>Рассчитывается</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассчитывается</value>
+    </synonym>
+    <comment>(Общ) Истина - цены автоматически рассчитываются (не хранятся) на основании цен базового типа</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="27355ebd-0ef9-4b83-9bad-1262c191f8ba">
+    <name>ПроцентСкидкиНаценки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент скидки или наценки по умолчанию</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b078ee61-b46f-4108-a9c2-63d3e9bf67b4">
+    <name>ЦенаВключаетНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена включает НДС</value>
+    </synonym>
+    <comment>(Общ) Истина - цена включает НДС, ложь - не включает</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="bbc56799-5185-49a0-a567-66529f5c7ed9">
+    <name>ПорядокОкругления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок округления</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>EnumRef.ПорядкиОкругления</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a6a5f472-bf94-4a7f-a797-7e6c81c8bcd7">
+    <name>ОкруглятьВБольшуюСторону</name>
+    <synonym>
+      <key>ru</key>
+      <value>Округлять в большую сторону</value>
+    </synonym>
+    <comment>(Общ) Истина, то при порядке округления &quot;5&quot; 0.01 будет округлена до 5, ложь - округление по арифметическим правилам</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="9c26208a-d912-4966-b387-50df44b88db3">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment>(Общ) Любая дополнительная информация</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="7c6339e1-90a5-4d66-a930-d6c723e91e26">
+    <name>СпособРасчетаЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ расчета цены</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.СпособыРасчетаЦены</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="b77fc40c-7018-418a-a823-ed0b90056a2c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="34949c7b-3d8d-4d3d-a12c-04d944ec053f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d4bf4021-4824-44c5-a0d4-53af325fbe02">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17ba3f68-3009-4b07-aa6a-951eac106346">
+  <name>ПиктограммаФайла_WinRar</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пиктограмма файла WinRar</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>14</x>
+  </transparentPixel>
+</mdclass:CommonPicture>

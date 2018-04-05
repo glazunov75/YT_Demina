@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="912f866b-160b-4031-85df-7a6da3f76a58">
+  <name>WEBПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>WEB-приложения</value>
+  </synonym>
+  <comment></comment>
+  <subsystems>WEBЗаказы</subsystems>
+  <subsystems>WEBСклад</subsystems>
+</mdclass:Subsystem>

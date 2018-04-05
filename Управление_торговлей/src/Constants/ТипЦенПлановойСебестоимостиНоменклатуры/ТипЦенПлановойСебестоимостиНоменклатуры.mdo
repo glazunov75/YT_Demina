@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc038016-a79e-4f24-8007-45f7e2910150">
+  <producedTypes>
+    <managerType typeId="39d72c4b-183a-4861-af52-8681018db746" valueTypeId="d5564305-ef66-49e4-acd1-ebcbb6db6731"/>
+    <valueManagerType typeId="6342840c-c079-43cd-bb39-dc8c866baca6" valueTypeId="c93e754c-3106-4bc0-809a-1e579bc98f3b"/>
+  </producedTypes>
+  <name>ТипЦенПлановойСебестоимостиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип цен плановой себестоимости номенклатуры</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <type>
+    <types>CatalogRef.ТипыЦенНоменклатуры</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

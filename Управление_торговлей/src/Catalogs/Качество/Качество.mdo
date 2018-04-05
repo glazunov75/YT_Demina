@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6004fed-a8a1-4ed8-8655-7b8459305371">
+  <producedTypes>
+    <objectType typeId="a91c6ae8-9460-4521-b19d-dfea6129ac47" valueTypeId="9db13952-2966-48b6-b670-a18268a03aba"/>
+    <refType typeId="67c9a055-4f58-4036-a4d8-3c6eef9ae19b" valueTypeId="5ca39415-734e-412a-bd4c-cdae1d7ec6e8"/>
+    <selectionType typeId="001f0a1a-38b5-426f-829a-198b134dcec6" valueTypeId="640cfe50-a037-4f19-9049-2f1a1b9c13aa"/>
+    <listType typeId="33963756-fb9e-4283-ab6e-394243c2a66f" valueTypeId="1418d464-ab56-418a-be34-d2599678a873"/>
+    <managerType typeId="29fe9cc5-7ea3-4945-9bb8-d562140e8272" valueTypeId="b7660f7d-44ea-4d6c-973b-20333b99572c"/>
+  </producedTypes>
+  <name>Качество</name>
+  <synonym>
+    <key>ru</key>
+    <value>Качество</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>Catalog.Качество.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Качество.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>40</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="d05404a0-6bce-449b-a798-41ebe5e5b977">
+      <name>Новый</name>
+      <description>Новый</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Качество.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Качество.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="243e020c-05a4-4e0b-92c0-f0677b2802b5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9af1ad28-0a8d-4a9f-b6f3-1d68acee2d8b">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51d4523d-4864-49ef-a484-ffc4a8d7f0d7">
+  <producedTypes>
+    <selectionType typeId="20e29a77-869e-4312-88bb-00d971378b56" valueTypeId="389a4d5a-3728-49b6-8541-1b60ac65075b"/>
+    <listType typeId="3b2edb99-63c0-4ed4-9861-b0ae8ddca5d2" valueTypeId="af935c31-d93f-4f36-9826-83064d3dc8cd"/>
+    <managerType typeId="fab43ae1-3a11-42ee-8f9d-8d576e05c9e3" valueTypeId="cc30f4b9-eb31-43c8-88e2-15edfa8b3571"/>
+    <recordSetType typeId="1e089703-55da-4a52-aff1-61443badc8bf" valueTypeId="c84869f3-5c8e-4b6d-9247-b7ecf111062f"/>
+    <recordKeyType typeId="52e9959f-28ad-4a4e-b265-532a92ddc072" valueTypeId="7587e619-988d-4835-80e2-c1e7595cd5f2"/>
+    <recordType typeId="5f097ba6-25c5-44e6-ab49-cb0e1e2e92c8" valueTypeId="774a2025-ea42-44b8-9d6f-2aa4957baa29"/>
+    <recordManagerType typeId="d5d1d496-7086-4f09-b20f-06dceb4b567e" valueTypeId="d5d28f77-a822-4360-8508-46f9aaa37eef"/>
+  </producedTypes>
+  <name>УсловияПоставокПоДоговорамКонтрагентовОбщие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Условия поставок по договорам контрагентов общие</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <editType>BothWays</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="bd709dc2-20a1-4ffe-a1f1-197cba9af406">
+    <name>Периодичность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.Периодичность</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f56518ab-3828-4f35-b848-33a945c58016">
+    <name>СуммаВзаиморасчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма взаиморасчетов</value>
+    </synonym>
+    <comment>Сумма в валюте взаиморасчетов</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ad156148-b7f1-4816-8ba5-d402de41e3fd">
+    <name>СуммаУпрУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма упр.учета</value>
+    </synonym>
+    <comment>Сумма в валюте упр.учета</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="fbd0c039-9c6f-4ec2-a800-07f4a44c77f7">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="bff8f63c-cb65-4f17-aae4-9f577bd78252">
+    <name>ДоговорКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор контрагента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

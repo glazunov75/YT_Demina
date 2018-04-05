@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4de003e5-d953-46c4-a3ae-56271adb783e">
+  <producedTypes>
+    <managerType typeId="adfc5f76-8f7f-4ec9-a56e-5b661b71aa0f" valueTypeId="9bdc7fcc-e477-42d5-847b-49c29d926b77"/>
+    <valueManagerType typeId="4de003e5-d953-46c4-a3ae-56271adb783e" valueTypeId="4de003e5-d953-f6c4-a3ae-56271adb783e"/>
+  </producedTypes>
+  <name>ВалютаРегламентированногоУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюта регламентированного учета</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <type>
+    <types>CatalogRef.Валюты</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

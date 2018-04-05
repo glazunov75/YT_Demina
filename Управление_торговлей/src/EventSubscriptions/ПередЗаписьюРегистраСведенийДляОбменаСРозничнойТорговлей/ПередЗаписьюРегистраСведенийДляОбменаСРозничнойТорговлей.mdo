@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69dec681-4512-416b-9f89-99ba0a5173cd">
+  <name>ПередЗаписьюРегистраСведенийДляОбменаСРозничнойТорговлей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перед записью регистра сведений для обмена с розничной торговлей</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>InformationRegisterRecordSet.ОтветственныеЛицаОрганизации</types>
+    <types>InformationRegisterRecordSet.КатегорииОбъектов</types>
+    <types>InformationRegisterRecordSet.ГраницыЗапретаИзмененияДанных</types>
+    <types>InformationRegisterRecordSet.НазначенияСвойствОбъектов</types>
+    <types>InformationRegisterRecordSet.КонтактнаяИнформация</types>
+    <types>InformationRegisterRecordSet.ЗначенияСвойствОбъектов</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ПроцедурыОбменаСРозничнойТорговлей.ПередЗаписьюРегистраСведенийДляОбменаСРозничнойТорговлейПередЗаписью</handler>
+</mdclass:EventSubscription>

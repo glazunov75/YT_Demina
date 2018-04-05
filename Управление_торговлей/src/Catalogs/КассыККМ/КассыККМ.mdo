@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6abfda84-eb8b-4c19-8a1f-5fb1637394a0">
+  <producedTypes>
+    <objectType typeId="0b22fc4d-dd52-430b-b47a-5a97fcdf510e" valueTypeId="4fe18c68-8732-4ffb-8860-f07e61161a13"/>
+    <refType typeId="125be686-b493-4aa2-b203-4dfe97c628f4" valueTypeId="3c0987a9-0de5-492c-87a5-8e07bc630ee1"/>
+    <selectionType typeId="2ba3c98b-905b-4d78-818d-4e5c23ec3dde" valueTypeId="460bde7a-1e87-458c-8134-cbf34637192c"/>
+    <listType typeId="31ce28fe-d529-49f5-9437-0fd306bcd174" valueTypeId="314ddfb4-2093-4844-b0e1-79977fe2436d"/>
+    <managerType typeId="1145baff-d87c-4b57-bb51-455005c46b7c" valueTypeId="3298d7a8-a15a-4f15-8c11-5b49a511f981"/>
+  </producedTypes>
+  <name>КассыККМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кассы ККМ</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <inputByString>Catalog.КассыККМ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КассыККМ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>1</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Организации</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КассыККМ.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.КассыККМ.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.КассыККМ.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="d6f47f2c-489c-4ee8-a37f-7f1d2df7c4cc">
+    <name>ФормироватьНефискальныеЧеки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формировать нефискальные чеки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="0ee68c64-d286-4a16-95c7-a776fdc6c64e">
+    <name>ШиринаЛенты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ширина ленты</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="4e817586-6cad-4c80-8ada-88db17b52724">
+    <name>РучнойРежимФормирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ручной режим формирования</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="7995e074-869d-4bf1-9258-3f28b322c89e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fcd31d9d-7463-4050-a9f9-25d535f0225c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dd3361ec-bf6c-4816-8368-4bf99e9fab27">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

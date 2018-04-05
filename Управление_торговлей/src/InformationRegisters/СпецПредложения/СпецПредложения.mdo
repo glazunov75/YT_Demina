@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4de38f1-26aa-48e1-8e7a-f2edf4230127">
+  <producedTypes>
+    <selectionType typeId="ea27ed49-6621-43e4-8c6f-207566fef0c5" valueTypeId="b578658e-1d11-4047-99e7-7773255d5c56"/>
+    <listType typeId="27af1d8b-0c8c-474f-b9cb-bd1003040331" valueTypeId="e47db673-b388-4133-9ce0-98f6dbf705c9"/>
+    <managerType typeId="63cc8533-ef4e-47b9-a62d-3f286a4f1dea" valueTypeId="b1bbaf6e-7399-49f3-a7c0-2f6a09ccc3b8"/>
+    <recordSetType typeId="b8323883-4c2d-4e4d-aa34-423e2e4d5763" valueTypeId="f9cc85b3-1b27-492c-8485-c8eda48a96d5"/>
+    <recordKeyType typeId="035365bc-8b6d-4d7e-8419-37aa35cff932" valueTypeId="3777f5c7-e5b9-4e02-88f4-03d0221d69de"/>
+    <recordType typeId="5047ac04-8e26-4616-bdf2-8b1213c25759" valueTypeId="20f2949b-8478-418b-9fa3-847ba8e6e360"/>
+    <recordManagerType typeId="7e3d2588-e934-4877-931d-a891030e64af" valueTypeId="3b1cbbaa-60b6-4813-a071-fc25d09ca2c0"/>
+  </producedTypes>
+  <name>СпецПредложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Специальные предложения</value>
+  </synonym>
+  <comment>(Упр) Комплекты номенклатуры и бонусов</comment>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dimensions uuid="7ecb0879-9e9b-42eb-960a-6ccadd87a708">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="27aa950b-6264-4ee6-897d-bc197c4c7493">
+    <name>ХарактеристикаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика номенклатуры</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f3aa1f74-ea31-41cd-bceb-e727f426e041">
+    <name>Комплектующая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплектующая</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="dc35b17b-1a04-483b-9bc1-74093404611e">
+    <name>ХарактеристикаКомплектующей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика комплектующей</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a9dc74f7-be11-4329-9fd9-d44c70a0cba8">
+    <name>ЭтоБонус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это бонус</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2468198a-defa-4c10-a5d8-5e5e4f09465a">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

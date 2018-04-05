@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ec49aad-128e-4a38-b954-efb4a1e032ee">
+  <name>ФормаСтруктурыПодчиненности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма структуры подчиненности документа</value>
+  </synonym>
+  <comment></comment>
+  <formType>Ordinary</formType>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38783f4a-2cd4-46ed-b773-68a7608db363">
+  <producedTypes>
+    <selectionType typeId="e7778858-5df9-461d-84f4-9faf4bfc03ce" valueTypeId="8e0eccf2-fdde-435f-bfba-fea24b8f8ad8"/>
+    <listType typeId="19688da1-f196-40c0-a277-63d7fc800ddb" valueTypeId="df2cd53b-b1a0-4ac9-9c45-f1a983e815b4"/>
+    <managerType typeId="67620a08-e0e8-461b-b982-e519fb9e28fd" valueTypeId="4448dad7-69ff-40e8-be8c-c151b739981a"/>
+    <recordSetType typeId="d6ec4d9e-fe19-48ca-aaca-6262bb39365a" valueTypeId="546aa84f-f2ae-4fe9-a5da-ec3d8cd2ec84"/>
+    <recordKeyType typeId="5aa508c8-3f50-4dcb-838c-d5a2cb3cbf2b" valueTypeId="3ca99acb-3804-454a-9936-047c80bbde55"/>
+    <recordType typeId="56d31212-2384-47c5-beda-a123b21715b2" valueTypeId="d0027a14-005c-4aff-a928-b9e44761f4af"/>
+    <recordManagerType typeId="778663f9-ffe1-4091-bb77-1831e5afd161" valueTypeId="18855c55-dca0-46e2-b1e7-94dcae4020cc"/>
+  </producedTypes>
+  <name>КомплектующиеНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комплектующие номенклатуры</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <defaultListForm>InformationRegister.КомплектующиеНоменклатуры.Form.ФормаСписка</defaultListForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="49d1d8bf-5c13-4a4b-8167-e72573797b26">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="023c793e-6a28-44f8-97cc-bccd728e5039">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.ЕдиницыИзмерения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="403185e2-88de-4efd-8384-e46097b75a00">
+    <name>ДоляСтоимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доля стоимости</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="03865b9f-0d50-4704-b097-8c32eef6d517">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ad3a31e7-0d82-4714-a587-228bb08a7fc2">
+    <name>ХарактеристикаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика номенклатуры</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="582a1c67-df99-4bca-a98e-fdbca4bc6288">
+    <name>Комплектующая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплектующая номенклатуры</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ceb4bb10-a145-4cbe-b116-4cee891f4e55">
+    <name>ХарактеристикаКомплектующей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика комплектующей</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="c4ab0cac-d426-453d-9685-5fd2abb8090c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

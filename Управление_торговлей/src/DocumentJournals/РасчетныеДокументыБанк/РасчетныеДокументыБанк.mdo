@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57f87918-a121-4db5-94cc-d6aeaa723f42">
+  <producedTypes>
+    <selectionType typeId="be7394e0-5e94-4d16-a5bb-ac185d8c9618" valueTypeId="bac8b1f2-cffa-40f2-baa1-92f834b5fca0"/>
+    <listType typeId="873b54e3-9091-4c56-b24d-241fa85c00c3" valueTypeId="d7bbd518-e0e1-4f61-8d44-2d14ae53a83a"/>
+    <managerType typeId="8ab11a2a-812e-453d-ae4a-f497747b9c6e" valueTypeId="8862910e-4035-404d-8c13-b3e3da7f2ed3"/>
+  </producedTypes>
+  <name>РасчетныеДокументыБанк</name>
+  <synonym>
+    <key>ru</key>
+    <value>Банковские расчетные документы</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DocumentJournal.РасчетныеДокументыБанк.Form.ФормаСписка</defaultForm>
+  <registeredDocuments>Document.ДенежныйЧек</registeredDocuments>
+  <registeredDocuments>Document.ПлатежноеПоручениеВходящее</registeredDocuments>
+  <registeredDocuments>Document.ПлатежноеПоручениеИсходящее</registeredDocuments>
+  <registeredDocuments>Document.ПлатежноеТребованиеВыставленное</registeredDocuments>
+  <registeredDocuments>Document.ПлатежноеТребованиеПолученное</registeredDocuments>
+  <registeredDocuments>Document.ПлатежныйОрдерПоступлениеДенежныхСредств</registeredDocuments>
+  <registeredDocuments>Document.ПлатежныйОрдерСписаниеДенежныхСредств</registeredDocuments>
+  <registeredDocuments>Document.ОбъявлениеНаВзносНаличными</registeredDocuments>
+  <registeredDocuments>Document.АккредитивПереданный</registeredDocuments>
+  <registeredDocuments>Document.АккредитивПолученный</registeredDocuments>
+  <registeredDocuments>Document.ИнкассовоеПоручениеПереданное</registeredDocuments>
+  <registeredDocuments>Document.ИнкассовоеПоручениеПолученное</registeredDocuments>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <columns uuid="12f313c0-0c7f-4b7a-bfb3-ce4a2c2bbe8a">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment>(общ)</comment>
+    <references>Document.ОбъявлениеНаВзносНаличными.Attribute.Организация</references>
+    <references>Document.ПлатежноеПоручениеИсходящее.Attribute.Организация</references>
+    <references>Document.ПлатежноеПоручениеВходящее.Attribute.Организация</references>
+    <references>Document.ПлатежныйОрдерСписаниеДенежныхСредств.Attribute.Организация</references>
+    <references>Document.ДенежныйЧек.Attribute.Организация</references>
+    <references>Document.ПлатежноеТребованиеПолученное.Attribute.Организация</references>
+    <references>Document.ПлатежноеТребованиеВыставленное.Attribute.Организация</references>
+    <references>Document.ПлатежныйОрдерПоступлениеДенежныхСредств.Attribute.Организация</references>
+    <references>Document.АккредитивПереданный.Attribute.Организация</references>
+    <references>Document.ИнкассовоеПоручениеПолученное.Attribute.Организация</references>
+    <references>Document.АккредитивПолученный.Attribute.Организация</references>
+    <references>Document.ИнкассовоеПоручениеПереданное.Attribute.Организация</references>
+  </columns>
+  <columns uuid="9cb324a4-0909-420b-b7e7-467122fea9f4">
+    <name>СчетОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет организации</value>
+    </synonym>
+    <comment>(общ)</comment>
+    <references>Document.ОбъявлениеНаВзносНаличными.Attribute.СчетОрганизации</references>
+    <references>Document.ПлатежноеПоручениеИсходящее.Attribute.СчетОрганизации</references>
+    <references>Document.ПлатежноеПоручениеВходящее.Attribute.СчетОрганизации</references>
+    <references>Document.ПлатежныйОрдерСписаниеДенежныхСредств.Attribute.СчетОрганизации</references>
+    <references>Document.ДенежныйЧек.Attribute.СчетОрганизации</references>
+    <references>Document.ПлатежноеТребованиеПолученное.Attribute.СчетОрганизации</references>
+    <references>Document.ПлатежноеТребованиеВыставленное.Attribute.СчетОрганизации</references>
+    <references>Document.ПлатежныйОрдерПоступлениеДенежныхСредств.Attribute.СчетОрганизации</references>
+    <references>Document.АккредитивПереданный.Attribute.СчетОрганизации</references>
+    <references>Document.ИнкассовоеПоручениеПолученное.Attribute.СчетОрганизации</references>
+    <references>Document.АккредитивПолученный.Attribute.СчетОрганизации</references>
+    <references>Document.ИнкассовоеПоручениеПереданное.Attribute.СчетОрганизации</references>
+  </columns>
+  <columns uuid="038b290e-6b0e-4add-a99e-f2976d0fdb57">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ПлатежноеПоручениеИсходящее.Attribute.ВидОперации</references>
+    <references>Document.ПлатежноеПоручениеВходящее.Attribute.ВидОперации</references>
+  </columns>
+  <columns uuid="de7561c8-d66e-47de-9651-322ac2514241">
+    <name>Информация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ПлатежноеПоручениеИсходящее.Attribute.Контрагент</references>
+    <references>Document.ПлатежноеПоручениеВходящее.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="e09ed02a-9c02-4c57-b0c4-a0c9286eaa83">
+    <name>СуммаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма документа</value>
+    </synonym>
+    <comment>(общ)</comment>
+    <references>Document.ОбъявлениеНаВзносНаличными.Attribute.СуммаДокумента</references>
+    <references>Document.ПлатежноеПоручениеИсходящее.Attribute.СуммаДокумента</references>
+    <references>Document.ПлатежноеПоручениеВходящее.Attribute.СуммаДокумента</references>
+    <references>Document.ПлатежныйОрдерСписаниеДенежныхСредств.Attribute.СуммаДокумента</references>
+    <references>Document.ДенежныйЧек.Attribute.СуммаДокумента</references>
+    <references>Document.ПлатежноеТребованиеПолученное.Attribute.СуммаДокумента</references>
+    <references>Document.ПлатежноеТребованиеВыставленное.Attribute.СуммаДокумента</references>
+    <references>Document.ПлатежныйОрдерПоступлениеДенежныхСредств.Attribute.СуммаДокумента</references>
+    <references>Document.АккредитивПереданный.Attribute.СуммаДокумента</references>
+    <references>Document.ИнкассовоеПоручениеПолученное.Attribute.СуммаДокумента</references>
+    <references>Document.АккредитивПолученный.Attribute.СуммаДокумента</references>
+    <references>Document.ИнкассовоеПоручениеПереданное.Attribute.СуммаДокумента</references>
+  </columns>
+  <columns uuid="f5991b8e-fbfc-427f-9b58-0c84f6c67574">
+    <name>Оплачено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачено</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ОбъявлениеНаВзносНаличными.Attribute.Оплачено</references>
+    <references>Document.ПлатежноеПоручениеИсходящее.Attribute.Оплачено</references>
+    <references>Document.ПлатежноеПоручениеВходящее.Attribute.Оплачено</references>
+    <references>Document.ПлатежныйОрдерСписаниеДенежныхСредств.Attribute.Оплачено</references>
+    <references>Document.ДенежныйЧек.Attribute.Оплачено</references>
+    <references>Document.ПлатежноеТребованиеПолученное.Attribute.Оплачено</references>
+    <references>Document.ПлатежноеТребованиеВыставленное.Attribute.Оплачено</references>
+    <references>Document.ПлатежныйОрдерПоступлениеДенежныхСредств.Attribute.Оплачено</references>
+    <references>Document.АккредитивПереданный.Attribute.Оплачено</references>
+    <references>Document.ИнкассовоеПоручениеПолученное.Attribute.Оплачено</references>
+    <references>Document.АккредитивПолученный.Attribute.Оплачено</references>
+    <references>Document.ИнкассовоеПоручениеПереданное.Attribute.Оплачено</references>
+  </columns>
+  <columns uuid="2963400a-6ee8-4e61-9eab-3e0fcea997cc">
+    <name>ДатаОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата оплаты</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ОбъявлениеНаВзносНаличными.Attribute.ДатаОплаты</references>
+    <references>Document.ПлатежноеПоручениеИсходящее.Attribute.ДатаОплаты</references>
+    <references>Document.ПлатежноеПоручениеВходящее.Attribute.ДатаОплаты</references>
+    <references>Document.ПлатежныйОрдерСписаниеДенежныхСредств.Attribute.ДатаОплаты</references>
+    <references>Document.ДенежныйЧек.Attribute.ДатаОплаты</references>
+    <references>Document.ПлатежноеТребованиеПолученное.Attribute.ДатаОплаты</references>
+    <references>Document.ПлатежноеТребованиеВыставленное.Attribute.ДатаОплаты</references>
+    <references>Document.ПлатежныйОрдерПоступлениеДенежныхСредств.Attribute.ДатаОплаты</references>
+    <references>Document.АккредитивПереданный.Attribute.ДатаОплаты</references>
+    <references>Document.ИнкассовоеПоручениеПолученное.Attribute.ДатаОплаты</references>
+    <references>Document.АккредитивПолученный.Attribute.ДатаОплаты</references>
+    <references>Document.ИнкассовоеПоручениеПереданное.Attribute.ДатаОплаты</references>
+  </columns>
+  <columns uuid="96bf9a73-6265-42eb-a086-590bb6ce6938">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment>(общ)</comment>
+    <references>Document.ПлатежноеПоручениеИсходящее.Attribute.Контрагент</references>
+    <references>Document.ПлатежноеПоручениеВходящее.Attribute.Контрагент</references>
+    <references>Document.ПлатежныйОрдерСписаниеДенежныхСредств.Attribute.Контрагент</references>
+    <references>Document.ПлатежноеТребованиеПолученное.Attribute.Контрагент</references>
+    <references>Document.ПлатежноеТребованиеВыставленное.Attribute.Контрагент</references>
+    <references>Document.ПлатежныйОрдерПоступлениеДенежныхСредств.Attribute.Контрагент</references>
+    <references>Document.АккредитивПереданный.Attribute.Контрагент</references>
+    <references>Document.ИнкассовоеПоручениеПолученное.Attribute.Контрагент</references>
+    <references>Document.АккредитивПолученный.Attribute.Контрагент</references>
+    <references>Document.ИнкассовоеПоручениеПереданное.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="49c959d7-7314-4afe-a27d-12188ce4d1b3">
+    <name>СтатьяДвиженияДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья движения денежных средств</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ПлатежноеПоручениеВходящее.Attribute.СтатьяДвиженияДенежныхСредств</references>
+    <references>Document.ПлатежноеПоручениеИсходящее.Attribute.СтатьяДвиженияДенежныхСредств</references>
+  </columns>
+  <columns uuid="efa3f5c4-712e-4bf0-8201-01598f73c1b0">
+    <name>ЧастичнаяОплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частичная оплата</value>
+    </synonym>
+    <comment>(общ)</comment>
+    <references>Document.ПлатежноеПоручениеИсходящее.Attribute.ЧастичнаяОплата</references>
+    <references>Document.ПлатежноеПоручениеВходящее.Attribute.ЧастичнаяОплата</references>
+    <references>Document.АккредитивПереданный.Attribute.ЧастичнаяОплата</references>
+    <references>Document.ИнкассовоеПоручениеПолученное.Attribute.ЧастичнаяОплата</references>
+    <references>Document.АккредитивПолученный.Attribute.ЧастичнаяОплата</references>
+    <references>Document.ПлатежноеТребованиеПолученное.Attribute.ЧастичнаяОплата</references>
+    <references>Document.ПлатежноеТребованиеВыставленное.Attribute.ЧастичнаяОплата</references>
+    <references>Document.ИнкассовоеПоручениеПереданное.Attribute.ЧастичнаяОплата</references>
+  </columns>
+  <columns uuid="bca5a5d0-cb9c-4b4f-ae3e-d6cc8a21bbca">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ОбъявлениеНаВзносНаличными.Attribute.ВалютаДокумента</references>
+    <references>Document.АккредитивПереданный.Attribute.ВалютаДокумента</references>
+    <references>Document.ПлатежноеПоручениеИсходящее.Attribute.ВалютаДокумента</references>
+    <references>Document.ИнкассовоеПоручениеПолученное.Attribute.ВалютаДокумента</references>
+    <references>Document.ПлатежноеПоручениеВходящее.Attribute.ВалютаДокумента</references>
+    <references>Document.АккредитивПолученный.Attribute.ВалютаДокумента</references>
+    <references>Document.ПлатежныйОрдерСписаниеДенежныхСредств.Attribute.ВалютаДокумента</references>
+    <references>Document.ДенежныйЧек.Attribute.ВалютаДокумента</references>
+    <references>Document.ПлатежноеТребованиеПолученное.Attribute.ВалютаДокумента</references>
+    <references>Document.ПлатежноеТребованиеВыставленное.Attribute.ВалютаДокумента</references>
+    <references>Document.ПлатежныйОрдерПоступлениеДенежныхСредств.Attribute.ВалютаДокумента</references>
+    <references>Document.ИнкассовоеПоручениеПереданное.Attribute.ВалютаДокумента</references>
+  </columns>
+  <columns uuid="045ebe80-1066-4d1d-81f0-faa490aa0021">
+    <name>ОтражатьВБухгалтерскомУчете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отражать в бухгалтерском учете</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.АккредитивПереданный.Attribute.ОтражатьВБухгалтерскомУчете</references>
+    <references>Document.ПлатежноеПоручениеИсходящее.Attribute.ОтражатьВБухгалтерскомУчете</references>
+    <references>Document.ИнкассовоеПоручениеПолученное.Attribute.ОтражатьВБухгалтерскомУчете</references>
+    <references>Document.ПлатежноеПоручениеВходящее.Attribute.ОтражатьВБухгалтерскомУчете</references>
+    <references>Document.АккредитивПолученный.Attribute.ОтражатьВБухгалтерскомУчете</references>
+    <references>Document.ПлатежныйОрдерСписаниеДенежныхСредств.Attribute.ОтражатьВБухгалтерскомУчете</references>
+    <references>Document.ПлатежноеТребованиеПолученное.Attribute.ОтражатьВБухгалтерскомУчете</references>
+    <references>Document.ПлатежноеТребованиеВыставленное.Attribute.ОтражатьВБухгалтерскомУчете</references>
+    <references>Document.ПлатежныйОрдерПоступлениеДенежныхСредств.Attribute.ОтражатьВБухгалтерскомУчете</references>
+    <references>Document.ИнкассовоеПоручениеПереданное.Attribute.ОтражатьВБухгалтерскомУчете</references>
+  </columns>
+  <columns uuid="4602f318-fc0c-4a7e-a329-f0722a4188ac">
+    <name>ОтражатьВНалоговомУчете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отражать в налоговом учете</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.АккредитивПереданный.Attribute.ОтражатьВНалоговомУчете</references>
+    <references>Document.ПлатежноеПоручениеИсходящее.Attribute.ОтражатьВНалоговомУчете</references>
+    <references>Document.ИнкассовоеПоручениеПолученное.Attribute.ОтражатьВНалоговомУчете</references>
+    <references>Document.ПлатежноеПоручениеВходящее.Attribute.ОтражатьВНалоговомУчете</references>
+    <references>Document.АккредитивПолученный.Attribute.ОтражатьВНалоговомУчете</references>
+    <references>Document.ПлатежныйОрдерСписаниеДенежныхСредств.Attribute.ОтражатьВНалоговомУчете</references>
+    <references>Document.ПлатежноеТребованиеПолученное.Attribute.ОтражатьВНалоговомУчете</references>
+    <references>Document.ПлатежноеТребованиеВыставленное.Attribute.ОтражатьВНалоговомУчете</references>
+    <references>Document.ПлатежныйОрдерПоступлениеДенежныхСредств.Attribute.ОтражатьВНалоговомУчете</references>
+    <references>Document.ИнкассовоеПоручениеПереданное.Attribute.ОтражатьВНалоговомУчете</references>
+  </columns>
+  <columns uuid="51775ffd-3163-4bf8-9f77-29f8b000e703">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ОбъявлениеНаВзносНаличными.Attribute.Ответственный</references>
+    <references>Document.АккредитивПереданный.Attribute.Ответственный</references>
+    <references>Document.ПлатежноеПоручениеИсходящее.Attribute.Ответственный</references>
+    <references>Document.ИнкассовоеПоручениеПолученное.Attribute.Ответственный</references>
+    <references>Document.ПлатежноеПоручениеВходящее.Attribute.Ответственный</references>
+    <references>Document.АккредитивПолученный.Attribute.Ответственный</references>
+    <references>Document.ПлатежныйОрдерСписаниеДенежныхСредств.Attribute.Ответственный</references>
+    <references>Document.ДенежныйЧек.Attribute.Ответственный</references>
+    <references>Document.ПлатежноеТребованиеПолученное.Attribute.Ответственный</references>
+    <references>Document.ПлатежноеТребованиеВыставленное.Attribute.Ответственный</references>
+    <references>Document.ПлатежныйОрдерПоступлениеДенежныхСредств.Attribute.Ответственный</references>
+    <references>Document.ИнкассовоеПоручениеПереданное.Attribute.Ответственный</references>
+  </columns>
+  <columns uuid="b8e5fa35-4892-4ff5-96c5-ce6fa342ea73">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.АккредитивПереданный.Attribute.Комментарий</references>
+    <references>Document.ПлатежноеПоручениеИсходящее.Attribute.Комментарий</references>
+    <references>Document.ИнкассовоеПоручениеПолученное.Attribute.Комментарий</references>
+    <references>Document.ПлатежноеПоручениеВходящее.Attribute.Комментарий</references>
+    <references>Document.АккредитивПолученный.Attribute.Комментарий</references>
+    <references>Document.ПлатежныйОрдерСписаниеДенежныхСредств.Attribute.Комментарий</references>
+    <references>Document.ПлатежноеТребованиеПолученное.Attribute.Комментарий</references>
+    <references>Document.ПлатежноеТребованиеВыставленное.Attribute.Комментарий</references>
+    <references>Document.ПлатежныйОрдерПоступлениеДенежныхСредств.Attribute.Комментарий</references>
+    <references>Document.ИнкассовоеПоручениеПереданное.Attribute.Комментарий</references>
+    <references>Document.ДенежныйЧек.Attribute.Комментарий</references>
+    <references>Document.ОбъявлениеНаВзносНаличными.Attribute.Комментарий</references>
+  </columns>
+  <columns uuid="7d0038ad-dbb7-4d60-af7e-ce01fbda9b7a">
+    <name>ОтражатьВОперУчете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отражать в опер учете</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.АккредитивПолученный.Attribute.ОтраженоВОперУчете</references>
+    <references>Document.ПлатежноеПоручениеВходящее.Attribute.ОтраженоВОперУчете</references>
+    <references>Document.ПлатежноеТребованиеВыставленное.Attribute.ОтраженоВОперУчете</references>
+    <references>Document.ПлатежноеПоручениеИсходящее.Attribute.ОтраженоВОперУчете</references>
+    <references>Document.ПлатежныйОрдерСписаниеДенежныхСредств.Attribute.ОтраженоВОперУчете</references>
+    <references>Document.ИнкассовоеПоручениеПереданное.Attribute.ОтраженоВОперУчете</references>
+    <references>Document.ПлатежныйОрдерПоступлениеДенежныхСредств.Attribute.ОтраженоВОперУчете</references>
+    <references>Document.АккредитивПереданный.Attribute.ОтраженоВОперУчете</references>
+    <references>Document.ИнкассовоеПоручениеПолученное.Attribute.ОтраженоВОперУчете</references>
+    <references>Document.ПлатежноеТребованиеПолученное.Attribute.ОтраженоВОперУчете</references>
+  </columns>
+  <forms uuid="b764ce44-d53b-491b-b817-ed68c169d63c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f442ae0-cf65-4ea8-b92c-32af08984e65">
+  <producedTypes>
+    <selectionType typeId="dd601705-49bd-4be2-9771-0dfc9d85ecfd" valueTypeId="f31ad3f5-5eda-4f0c-b3be-4097387a6ab4"/>
+    <listType typeId="1557c367-3434-4ab4-8a22-5419c4283408" valueTypeId="0a5fc50b-12d6-4a65-8151-6c6242ab1aae"/>
+    <managerType typeId="d43e00c3-e4a5-4cb1-b431-820cd17af3d9" valueTypeId="ce6154c1-bc3b-4ad9-8666-d3c20498266f"/>
+    <recordSetType typeId="3180d698-028c-40d3-890b-8e32163fa2ed" valueTypeId="0ba673db-798d-45b8-9cd1-2aefd4c13b16"/>
+    <recordKeyType typeId="80aca49f-7571-4db5-bb11-c1ea8de1c9d8" valueTypeId="3aabbd35-ed4c-4aa7-900a-49c66b57dac3"/>
+    <recordType typeId="62594fb0-d5b4-4bdc-83b7-d0d10cb4e2e8" valueTypeId="fbe85f25-73b8-4aff-8f0d-1a0e3a46b86e"/>
+    <recordManagerType typeId="26cc37bc-a18f-4dac-8819-5df49cacf468" valueTypeId="09f59618-d60d-4b7d-bd02-6b970563961f"/>
+  </producedTypes>
+  <name>ИсточникИнформацииПриОбращении</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источник информации при обращении</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <defaultListForm>InformationRegister.ИсточникИнформацииПриОбращении.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="a1dbeb7d-465c-4e30-9a97-22baab481086">
+    <name>ИсточникИнформации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник информации</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ИсточникиИнформацииПриОбращенииПокупателей</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a6be3bfe-3a0f-4cb1-9d68-1684676f6d73">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="8d126c41-9993-40d9-a190-a3875f88bd1f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

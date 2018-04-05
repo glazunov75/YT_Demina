@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19cc6026-eb0b-48e4-a447-d068a1b12cf1">
+  <producedTypes>
+    <objectType typeId="be7591e4-61c4-4198-885d-0d1b7d5c90d6" valueTypeId="d7230d33-31bd-4b02-aeb5-b0e42ad9628c"/>
+    <refType typeId="b45e3160-ae83-4438-b390-b5f1dee6040a" valueTypeId="314f8f49-e5a2-4c0d-b692-6e0c62fd0e2f"/>
+    <selectionType typeId="dcde479a-523a-4b69-9871-82f3bb9a5da5" valueTypeId="8b51409b-c843-4e17-9653-f6e2d410fddc"/>
+    <listType typeId="795cd7f9-5d4f-47cd-a840-735f60bc602e" valueTypeId="7d1b054e-8efd-49c4-b07b-5f0b6274675b"/>
+    <managerType typeId="fcf0057d-5c23-4466-9989-a91acf25656b" valueTypeId="76b67930-9ae9-43bb-820b-e68344044f22"/>
+  </producedTypes>
+  <name>УсловияПродаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Условия продаж</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <inputByString>Catalog.УсловияПродаж.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УсловияПродаж.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.УсловияПродаж.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.УсловияПродаж.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="284f07cb-27d2-447a-8a80-02ba88376441">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b3607de0-e848-4746-b46e-90757d6b84cd">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

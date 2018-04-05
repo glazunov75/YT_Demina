@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9748dbe6-b491-40fe-bfa7-0551196e503d">
+  <producedTypes>
+    <managerType typeId="525515bd-6d30-4276-9009-0d574264b220" valueTypeId="70b9ddfa-6f72-42f2-a9d1-672b6e410f0f"/>
+    <valueManagerType typeId="9748dbe6-b491-40fe-bfa7-0551196e503d" valueTypeId="9748dbe6-b491-f0fe-bfa7-0551196e503d"/>
+  </producedTypes>
+  <name>ЕдиницаИзмеренияВеса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единица измерения веса</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <type>
+    <types>CatalogRef.КлассификаторЕдиницИзмерения</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

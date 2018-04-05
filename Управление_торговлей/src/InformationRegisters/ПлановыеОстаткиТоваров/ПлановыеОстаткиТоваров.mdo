@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54fdff1d-48ec-4fbe-8492-5106652ee369">
+  <producedTypes>
+    <selectionType typeId="ec5b1668-c5b8-48b3-ac9a-dd58db5489cc" valueTypeId="95ea58da-1137-4863-9bc5-f15087a40181"/>
+    <listType typeId="c50509ff-bb3c-4b54-9e4f-2bcb431cc27c" valueTypeId="3074f119-df29-4401-bace-cffef29bfd72"/>
+    <managerType typeId="17c49709-0139-4fb4-add8-02c6a26c3e2a" valueTypeId="1e8fdaf9-40f0-44b7-ac54-d34f469366cd"/>
+    <recordSetType typeId="34a4250d-3b33-4c0b-be8f-9b62c087e2af" valueTypeId="c8edb28c-c530-412c-b563-61067b31fa9a"/>
+    <recordKeyType typeId="faacdf4d-7ba9-41e8-85f5-7483390f2193" valueTypeId="ca4258b2-84a5-4584-bb8f-f277d1c3c486"/>
+    <recordType typeId="9b1b98dc-0488-4f5d-bf52-d4f2566e2aaf" valueTypeId="0804b1a7-5d4d-4727-ab9b-728f8dbc030e"/>
+    <recordManagerType typeId="16d0b371-a622-46f4-9818-9b26447d9b2e" valueTypeId="ae374540-58ad-4d87-8620-86e99cf9c441"/>
+  </producedTypes>
+  <name>ПлановыеОстаткиТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Плановые остатки товаров</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <defaultListForm>InformationRegister.ПлановыеОстаткиТоваров.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="2fb68569-d7c5-4a59-9a80-b46b74496e3e">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="47a2d92c-128e-4bf8-9b97-37bff6cf0d93">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <comment>Без НДС</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5c711be8-9756-4e23-884b-40e318f62659">
+    <name>НДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>НДС</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9cba9a4a-ae71-4e5c-85de-cc3d71a9f63d">
+    <name>Сценарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СценарииПланирования</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="dbb9276b-7e1e-4c69-a84a-6df814028f61">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+      <types>CatalogRef.НоменклатурныеГруппы</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b0428f4e-ba8b-4f8f-a768-8ce4c1425a99">
+    <name>ХарактеристикаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика номенклатуры</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="4c8b829f-ffaf-45ec-b5b4-dd2786f9e3dc">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

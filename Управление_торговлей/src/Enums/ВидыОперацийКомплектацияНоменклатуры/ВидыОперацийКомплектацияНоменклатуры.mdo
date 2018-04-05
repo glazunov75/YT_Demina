@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1497c21e-a27b-4d24-b02e-af25adefb540">
+  <producedTypes>
+    <refType typeId="3a35b80e-a615-454e-83d2-76db11c52322" valueTypeId="1675b6f1-f7d5-4b54-9f43-4827a4655a2f"/>
+    <listType typeId="72e12b83-ef4a-484a-8382-af2f10c5aaf7" valueTypeId="ad486263-1699-4423-9a29-b5658136d67d"/>
+    <managerType typeId="5b6e9953-e49b-40ca-8fbd-789fc00c1bad" valueTypeId="6a9e9b89-4173-4e83-8eb6-88f7bd3eab4e"/>
+  </producedTypes>
+  <name>ВидыОперацийКомплектацияНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций документа &quot;Комплектация нменклатуры&quot;</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="d9b98495-12dc-448d-be31-3135c1e4f716">
+    <name>Комплектация</name>
+    <synonym>
+      <key>ru</key>
+      <value>комплектация</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e649db29-d191-42a6-9e82-cc17c81c1633">
+    <name>Разукомплектация</name>
+    <synonym>
+      <key>ru</key>
+      <value>разукомплектация</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

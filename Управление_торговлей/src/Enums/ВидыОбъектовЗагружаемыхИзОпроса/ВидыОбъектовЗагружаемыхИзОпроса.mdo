@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb4547e5-05ca-426d-a392-2e7e5c2f9989">
+  <producedTypes>
+    <refType typeId="26fb228b-7cf4-423a-b34f-f7787a2a5bd0" valueTypeId="632f0873-4f0a-4b00-b0b5-38be766ee567"/>
+    <listType typeId="90c10087-b89d-45a7-8d53-39d0b163ee4a" valueTypeId="c66f9682-f162-413b-806b-8f1ecd1002c9"/>
+    <managerType typeId="24f1335e-5b1d-4498-90a3-21b94acd9cc9" valueTypeId="a96b1020-8932-4b59-9b6f-2540c8dfe301"/>
+  </producedTypes>
+  <name>ВидыОбъектовЗагружаемыхИзОпроса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды объектов загружаемых из опроса</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="47a9caad-430c-459b-99c2-9258df517301">
+    <name>Контрагенты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник &quot;Контрагенты&quot;</value>
+    </synonym>
+    <comment>Справочник контрагентов</comment>
+  </enumValues>
+  <enumValues uuid="a92be714-c518-4bc0-b174-c1482751e3ae">
+    <name>КонтактныеЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник &quot;Контактные лица&quot;</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

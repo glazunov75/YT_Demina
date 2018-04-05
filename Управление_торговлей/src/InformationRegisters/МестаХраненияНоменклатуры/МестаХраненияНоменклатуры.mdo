@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c577bd2-e8e3-4920-b8e2-f7eb56e15872">
+  <producedTypes>
+    <selectionType typeId="b08c5549-a9ed-48ca-adcc-52d7ff66cab0" valueTypeId="bf61077e-7ca2-49b1-a46a-f7dba6bcfa85"/>
+    <listType typeId="51ab7b38-4ffd-46d0-8619-53f5c3e117ab" valueTypeId="60cc90d0-e9bc-42bd-a059-ca88f432648a"/>
+    <managerType typeId="2031cc49-ecab-42f2-bac8-30be6f27b384" valueTypeId="0c3b1e0f-1782-4a7d-a188-464386758fbe"/>
+    <recordSetType typeId="09dc8eb4-d842-46a0-a38d-4cea55ab35c4" valueTypeId="94ee740d-db32-474d-8bb6-1238fec3a8e0"/>
+    <recordKeyType typeId="41ab9153-deef-48b9-8e82-8ba9db650f96" valueTypeId="6b19c001-c770-4d63-9e80-79d1628a190e"/>
+    <recordType typeId="44015394-78c3-443a-9bd0-c67a2bc7d3a5" valueTypeId="098d2bdd-8cf2-4209-a95f-3fbe1c62f29a"/>
+    <recordManagerType typeId="78700383-7aa2-43b4-9da7-4b9f965eb281" valueTypeId="cbab8970-deed-4627-a494-069b7018dd86"/>
+  </producedTypes>
+  <name>МестаХраненияНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Места хранения номенклатуры</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <defaultListForm>InformationRegister.МестаХраненияНоменклатуры.Form.ФормаСписка</defaultListForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="b5e08bc7-e767-4f79-b690-e58838cbed93">
+    <name>МестоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.МестаХранения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1f6cd396-69a7-4107-8003-f01b7361518c">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f00c399e-ae64-48e7-8515-ccb4942fe9cf">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7f644b17-6d55-461c-91d4-880465747243">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e93ce199-a934-40aa-8a39-5e715a08d873">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

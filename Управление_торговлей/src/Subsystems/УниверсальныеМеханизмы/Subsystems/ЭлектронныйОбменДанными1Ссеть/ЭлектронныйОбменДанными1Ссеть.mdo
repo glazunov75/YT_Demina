@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f070183-4456-4e63-a5d6-15c433829bb9">
+  <name>ЭлектронныйОбменДанными1Ссеть</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронный обмен данными через 1С:Сеть</value>
+  </synonym>
+  <comment></comment>
+  <content>CommonPicture.ЭлектронныйОбмен1Ссеть</content>
+  <content>CommonModule.ЭлектронныеДокументы</content>
+  <content>ScheduledJob.ЗаданиеОбменЭлектроннымиДокументами</content>
+  <content>CommonForm.ФормаПараметрыВходящегоДокументаОбмена</content>
+  <content>Catalog.СвойстваНоменклатурыЭлектронногоОбмена</content>
+  <content>Catalog.УчетныеЗаписиЭлектронногоОбмена</content>
+  <content>Document.ВходящаяЭлектроннаяНакладная</content>
+  <content>Document.ВходящееИзвещение</content>
+  <content>Document.ВходящийАкцептЗаказа</content>
+  <content>Document.ВходящийАкцептНакладной</content>
+  <content>Document.ВходящийАкцептСчетаФактуры</content>
+  <content>Document.ВходящийЗаказ</content>
+  <content>Document.ВходящийЗапросКаталога</content>
+  <content>Document.ВходящийЗапросПрайсЛиста</content>
+  <content>Document.ВходящийКаталогТоваров</content>
+  <content>Document.ВходящийПрайсЛист</content>
+  <content>Document.ВходящийРеджектЗаказа</content>
+  <content>Document.ВходящийРеджектНакладной</content>
+  <content>Document.ВходящийРеджектСчетаФактуры</content>
+  <content>Document.ВходящийСчетФактура</content>
+  <content>Document.ВходящийТоварКРаботе</content>
+  <content>Document.ИсходящаяЭлектроннаяНакладная</content>
+  <content>Document.ИсходящееИзвещение</content>
+  <content>Document.ИсходящийЗаказ</content>
+  <content>Document.ИсходящийЗапросКаталога</content>
+  <content>Document.ИсходящийЗапросПрайсЛиста</content>
+  <content>Document.ИсходящийКаталогТоваров</content>
+  <content>Document.ИсходящийПрайсЛист</content>
+  <content>Document.ИсходящийРеджектАкцептЗаказа</content>
+  <content>Document.ИсходящийРеджектАкцептНакладной</content>
+  <content>Document.ИсходящийРеджектАкцептСчетаФактуры</content>
+  <content>Document.ИсходящийСчетФактура</content>
+  <content>Document.ИсходящийТоварКРаботе</content>
+  <content>DocumentJournal.ЭлектронныеДокументыЗаказыВходящие</content>
+  <content>DocumentJournal.ЭлектронныеДокументыЗаказыИсходящие</content>
+  <content>DocumentJournal.ЭлектронныеДокументыНакладныеВходящие</content>
+  <content>DocumentJournal.ЭлектронныеДокументыНакладныеИсходящие</content>
+  <content>DocumentJournal.ЭлектронныеДокументыТоварыВходящие</content>
+  <content>DocumentJournal.ЭлектронныеДокументыТоварыИсходящие</content>
+  <content>DocumentJournal.ЭлектронныеДокументыСчетаФактурыВходящие</content>
+  <content>DocumentJournal.ЭлектронныеДокументыСчетаФактурыИсходящие</content>
+  <content>Enum.СпособОтправкиЭлектронногоДокумента</content>
+  <content>Enum.ТипОчередиДляОбработкиЭлектронныхСообщений</content>
+  <content>DataProcessor.ДокументыЭлектронногоОбмена</content>
+  <content>InformationRegister.ИдентификаторыЭлектронногоОбмена</content>
+  <content>InformationRegister.ПараметрыЭлектронногоОбмена</content>
+  <parentSubsystem>Subsystem.УниверсальныеМеханизмы</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="773331e0-a9a7-4cb6-b370-8431164c05b1">
+  <producedTypes>
+    <refType typeId="f7e17451-2af0-4454-9d17-553b16ff3cb9" valueTypeId="b288831f-d32e-4455-a471-b8954ca9210b"/>
+    <listType typeId="773331e0-a9a7-4cb6-b370-8431164c05b1" valueTypeId="773331e0-a9a7-fcb6-b370-8431164c05b1"/>
+    <managerType typeId="904c5cbd-f55d-470f-ad4d-c8d4f69bf911" valueTypeId="eb8e92bb-944a-4126-b801-0b1e3497aebb"/>
+  </producedTypes>
+  <name>XYZКлассификация</name>
+  <synonym>
+    <key>ru</key>
+    <value>XYZ Классификация</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="abf7e5cb-cdfe-457c-9844-df5352a0d0d3">
+    <name>XКласс</name>
+    <synonym>
+      <key>ru</key>
+      <value>X - класс</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="0b8e9ef7-4ab3-4813-a88f-9384c6e3d103">
+    <name>YКласс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Y - класс</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f0d7272a-c361-4041-8059-c1038ece83c0">
+    <name>ZКласс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Z - класс</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

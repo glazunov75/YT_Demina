@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc658c38-4efd-4ff8-b223-5f3ad3dcd810">
+  <producedTypes>
+    <selectionType typeId="252f6263-cb1e-4b32-b1a6-954540072179" valueTypeId="4af340c6-f387-4694-8ebd-26a3827620d1"/>
+    <listType typeId="7f08768e-f2d4-4f3a-9364-4b1234fd0f0d" valueTypeId="294f76fd-9eea-4178-9b7d-cc71e9bc16f7"/>
+    <managerType typeId="dbb886bc-597b-4774-bfa7-b476ea0f7946" valueTypeId="c0f03df8-bc1c-43d5-bdb6-69ad756b93f6"/>
+    <recordSetType typeId="c81beb2f-cf32-4d02-b6a8-271b779f45f7" valueTypeId="733d77f4-f308-45f6-b834-a1ecfddec256"/>
+    <recordKeyType typeId="094412c1-164d-46cd-8237-0403365b2c6b" valueTypeId="64aef95d-93e9-4166-abfc-b9702aac3b10"/>
+    <recordType typeId="fde3bfeb-5b8e-4929-90a9-af65239d9837" valueTypeId="b228b153-8f2e-4571-a9eb-58b72d7df547"/>
+    <recordManagerType typeId="d8686ef0-9a33-429c-96fe-6814a43f9ec4" valueTypeId="6e0701a6-7fd1-4c31-829b-b9c39362e589"/>
+  </producedTypes>
+  <name>НадежностьПоставщиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Надежность поставщиков</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <defaultListForm>InformationRegister.НадежностьПоставщиков.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="faca3026-52c7-4447-97f9-189902ba9480">
+    <name>Надежность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Надежность</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.Важность</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8557c1a1-f7bb-4d00-a0f0-f0d6468653df">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="050c8897-47d4-492b-90c7-7e06b900ca58">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

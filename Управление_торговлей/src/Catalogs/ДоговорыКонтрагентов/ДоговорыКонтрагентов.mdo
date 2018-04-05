@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="941f3b97-168c-421f-9729-e5300f389756">
+  <producedTypes>
+    <objectType typeId="8edfc6b9-2795-457d-b91c-5323a5921428" valueTypeId="47760622-cb23-4f08-ab85-816f7bdc8951"/>
+    <refType typeId="3f5908f5-c9b5-4170-aed4-9b464b08d1e9" valueTypeId="f0bfe6be-57fc-4b5e-abc7-b1774cca725c"/>
+    <selectionType typeId="48d85cfc-ce06-4687-a420-08bdcb7116aa" valueTypeId="3c1797e7-fc9e-4a61-b27d-a35d982be5e8"/>
+    <listType typeId="476c95f2-b257-4903-bbc5-89318c5da68a" valueTypeId="464f4a2f-f2db-4195-a34d-fef969c26e00"/>
+    <managerType typeId="ec1beaa1-1d59-49e4-8eba-2f8e33e2535c" valueTypeId="53a79d48-58a4-47a4-95d7-4bf7c5479324"/>
+  </producedTypes>
+  <name>ДоговорыКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договоры контрагентов</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <inputByString>Catalog.ДоговорыКонтрагентов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ДоговорыКонтрагентов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ДоговорыКонтрагентов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.ДоговорыКонтрагентов.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.ДоговорыКонтрагентов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ДоговорыКонтрагентов.Form.ФормаВыбора</defaultChoiceForm>
+  <defaultFolderChoiceForm>Catalog.ДоговорыКонтрагентов.Form.ФормаВыбораГруппы</defaultFolderChoiceForm>
+  <attributes uuid="289d0643-6a24-458d-8ed2-aa10b0cd6ebb">
+    <name>ВалютаВзаиморасчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта взаиморасчетов</value>
+    </synonym>
+    <comment>(Общ) Определяет валюту взаиморасчетов по договору, не может меняться, если по договору проведен хотя бы один документ</comment>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="5704a70f-ff70-493c-a59c-a87a491143e3">
+    <name>ВедениеВзаиморасчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ведение взаиморасчетов</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>EnumRef.ВедениеВзаиморасчетовПоДоговорам</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="d6510e7c-6664-4e15-a59a-ab61241e06aa">
+    <name>ВидВзаиморасчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид взаиморасчетов</value>
+    </synonym>
+    <comment>(Упр)</comment>
+    <type>
+      <types>CatalogRef.ВидыВзаиморасчетов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="54bc1d3d-d7dc-4acc-82d9-e400bdeaa282">
+    <name>ВидУсловийДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид условий договора</value>
+    </synonym>
+    <comment>(Упр) </comment>
+    <type>
+      <types>EnumRef.ВидыУсловийДоговоровВзаиморасчетов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="85b0b808-7b20-44b4-8c13-fd4cc5d12459">
+    <name>ДержатьРезервБезОплатыОграниченноеВремя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Держать резерв без оплаты ограниченное время</value>
+    </synonym>
+    <comment>(Упр) Держать резерв без оплаты ограниченное/неограниченное время</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="af5c5792-3dd0-47d8-a170-944b7bd31f52">
+    <name>ДопустимаяСуммаЗадолженности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Допустимая сумма дебиторской задолженности</value>
+    </synonym>
+    <comment>(Упр) </comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="0c5f6417-fd92-40fd-80d2-02f8198b50fb">
+    <name>ДопустимоеЧислоДнейЗадолженности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Допустимое число дней дебиторской задолженности</value>
+    </synonym>
+    <comment>(Упр) </comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="91f2290c-ce66-4b3e-aad7-8d829e7fafef">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment>(Общ) Любая дополнительная информация</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a3f05b91-7a7d-4ab7-a9a3-26b620a05025">
+    <name>КонтролироватьСуммуЗадолженности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контролировать сумму дебиторской задолженности</value>
+    </synonym>
+    <comment>(Упр) </comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="206f63ad-ee78-4f15-bbce-c4dba69d4638">
+    <name>КонтролироватьЧислоДнейЗадолженности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контролировать число дней дебиторской задолженности</value>
+    </synonym>
+    <comment>(Упр) </comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="9cb374f1-edaa-466f-9087-ccf154247019">
+    <name>ОбособленныйУчетТоваровПоЗаказамПокупателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обособленный учет Товаров по заказам покупателей</value>
+    </synonym>
+    <comment>(Общ) Обособленный партионный учет Товаров по заказам покупателей</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="c01b9399-91ed-4002-a020-68365297a9d2">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment>(Общ) </comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="459a7f62-b5af-4248-96c6-c8a02e531763">
+    <name>ПроцентКомиссионногоВознаграждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент комиссионного вознаграждения</value>
+    </synonym>
+    <comment>(Общ) </comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="d7dc451b-abc1-4e11-bbd6-61107ad4ab95">
+    <name>ПроцентПредоплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент предоплаты</value>
+    </synonym>
+    <comment>(Упр) </comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="7c041050-b163-469b-a26a-f66356980a90">
+    <name>СпособРасчетаКомиссионногоВознаграждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ расчета комиссионного вознаграждения</value>
+    </synonym>
+    <comment>(Общ) </comment>
+    <type>
+      <types>EnumRef.СпособыРасчетаКомиссионногоВознаграждения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="5ced76e1-e2cd-444a-a7fd-e7908fc2d8ac">
+    <name>ТипЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип цен</value>
+    </synonym>
+    <comment>(Общ) Тип цен по умолчанию для оформления документов по данному договору</comment>
+    <type>
+      <types>CatalogRef.ТипыЦенНоменклатуры</types>
+      <types>CatalogRef.ТипыЦенНоменклатурыКонтрагентов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="2afcdcf1-f114-4420-8428-3a825e5c482d">
+    <name>ЧислоДнейРезерваБезОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число дней резерва без оплаты</value>
+    </synonym>
+    <comment>(Упр) Если 0, то не ограничено</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="c855c1f3-bd6d-4430-943b-34549c0381b7">
+    <name>ВидДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид договора</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>EnumRef.ВидыДоговоровКонтрагентов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="edb281c1-d8c4-4d1d-932f-c30dedbb8163">
+    <name>УчетАгентскогоНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учет агентского НДС</value>
+    </synonym>
+    <comment>Признак того что в данном договоре организация выступает в качестве налогового агента</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="c58b8905-d7db-4673-be8c-8c1dd27f7c54">
+    <name>ВидАгентскогоДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид агентского договора</value>
+    </synonym>
+    <comment>Разновидность договора с обязанностью оплаты организацией НДС в качестве налогового агента </comment>
+    <type>
+      <types>EnumRef.ВидыАгентскихДоговоров</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="233bf7af-9844-4d21-94ca-f2f9843b7e46">
+    <name>КонтролироватьДенежныеСредстваКомитента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контролировать денежные средства комитента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="317ffe59-a040-42f2-855d-0e4d4e8c25ae">
+    <name>РасчетыВУсловныхЕдиницах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты в условных единицах</value>
+    </synonym>
+    <comment>(Регл)</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="de84b61e-2bcb-4c5c-9a6f-4c4392c4508e">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="77283c6b-a009-44e4-9cc1-3e12309dfe5e">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a5b96844-0392-4daf-9b1d-f2ef1c378eff">
+    <name>РеализацияНаЭкспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализация на экспорт</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="ecb196c7-6821-4c31-acc2-48be238eaa9e">
+    <name>ВестиПоДокументамРасчетовСКонтрагентом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вести по документам расчетов с контрагентом</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="81857d79-ec2f-4220-9aa6-06ac473dd4f4">
+    <name>ОсновнойПроект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной проект</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВидыРаспределенияПоПроектам</types>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="bfa72e3f-195f-4aa3-8118-4ee1057f476a">
+    <name>ОсновнаяСтатьяДвиженияДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная статья движения денежных средств</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СтатьиДвиженияДенежныхСредств</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="41511625-cde8-46c2-8a3a-f854571b6a17">
+    <name>СрокДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок действия договора</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="3cf2fef6-cdc0-446b-92dc-c5094b763273">
+    <name>ПорядокРегистрацииСчетовФактурНаАвансПоДоговору</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок регистрации счетов-фактур на аванс по договору</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ПорядокРегистрацииСчетовФактурНаАванс</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="0f3e9efa-4a95-4927-8465-26dd5fef0f54">
+    <name>НаименованиеДляСчетаФактурыНаАванс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обобщенное наименование товаров для счета-фактуры на аванс</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="888e8431-d099-4357-81b9-fcbff88cac13">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a9863d33-55d8-4f16-b9e8-b1dde9da1cf4">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bb812e8a-372f-4346-81d1-0fd77bc1d293">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="80d4e639-fb30-46ea-be1d-98990ff5e1f5">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e61cab28-cd97-4079-80c0-4aea17b92ff1">
+    <name>ФормаВыбораГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

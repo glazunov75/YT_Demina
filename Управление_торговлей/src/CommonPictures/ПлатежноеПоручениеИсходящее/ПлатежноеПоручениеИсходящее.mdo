@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6e8249e-ae04-445f-a091-66f9f67d81d0">
+  <name>ПлатежноеПоручениеИсходящее</name>
+  <synonym>
+    <key>ru</key>
+    <value>Платежное поручение исходящее</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

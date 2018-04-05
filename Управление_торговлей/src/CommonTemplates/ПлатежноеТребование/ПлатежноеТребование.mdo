@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3d18d48-3545-4a3f-9e0c-82e711c1b2d8">
+  <name>ПлатежноеТребование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Платежное требование</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonTemplate>

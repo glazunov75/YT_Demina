@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdd5b807-77cd-48e7-bfd7-18b4af549b6e">
+  <producedTypes>
+    <refType typeId="920cc4fc-fac7-41fe-87ba-4da2372dda03" valueTypeId="073c35bf-3ac0-40e5-bb1c-c7c9c3c81fd7"/>
+    <listType typeId="46d90442-4acf-4a1b-96ac-ab4d09173cc3" valueTypeId="3ca3a7de-27b2-415b-813f-ac7e3af1c800"/>
+    <managerType typeId="758ffc64-cf9d-4061-a183-dfce830efabc" valueTypeId="a708616d-9a08-4891-a32b-650c5294f209"/>
+  </producedTypes>
+  <name>ЮрФизЛицо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Юр. / физ. лицо</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f1535720-d71b-4248-855f-88b45ed68109">
+    <name>ЮрЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юр. лицо</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="40aa38e8-993c-4bf0-9fe1-6425e8ccc815">
+    <name>ФизЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физ. лицо</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+</mdclass:Enum>

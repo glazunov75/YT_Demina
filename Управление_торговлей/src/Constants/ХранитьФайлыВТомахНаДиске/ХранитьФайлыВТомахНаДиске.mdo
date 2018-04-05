@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b07bf00-b869-46da-852f-76eab34eedad">
+  <producedTypes>
+    <managerType typeId="903a776d-ba41-43e0-ae0d-e77e57676319" valueTypeId="1fc28750-a46f-4a4a-8044-b3a9de487350"/>
+    <valueManagerType typeId="f340fa86-e8ca-4710-8eea-a4efc9b30b60" valueTypeId="ca90c983-a7c3-4c09-bf2b-94a12d3c049b"/>
+  </producedTypes>
+  <name>ХранитьФайлыВТомахНаДиске</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранить файлы в томах на диске</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

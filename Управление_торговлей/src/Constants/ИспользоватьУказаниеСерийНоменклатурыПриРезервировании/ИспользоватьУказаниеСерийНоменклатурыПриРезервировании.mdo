@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aaf7a4d0-745e-4751-96cd-e41aa7cfca62">
+  <producedTypes>
+    <managerType typeId="5493fb4b-5c55-4dfa-b4e0-b27f233cdb0b" valueTypeId="9c6d5607-0011-412f-8ddd-d8a1b91453f1"/>
+    <valueManagerType typeId="fbf7be65-ccca-4f49-ab8a-0ff734b46e6c" valueTypeId="5b40a4cf-e6d5-424c-b198-ec3726349413"/>
+  </producedTypes>
+  <name>ИспользоватьУказаниеСерийНоменклатурыПриРезервировании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать указание серий номенклатуры при резервировании</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

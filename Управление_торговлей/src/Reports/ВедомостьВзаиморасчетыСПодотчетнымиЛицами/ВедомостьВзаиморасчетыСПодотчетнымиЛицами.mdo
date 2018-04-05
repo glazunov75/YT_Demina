@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c7547db-9ecc-4790-9c90-c05684ea7164">
+  <producedTypes>
+    <objectType typeId="5166c995-38e2-4530-b7a8-1ab858e5f5e4" valueTypeId="33f09553-a5ca-445f-8e3c-5ba5049e27f1"/>
+    <managerType typeId="99264b47-664a-429e-be1b-d080139142a8" valueTypeId="b51c28bb-3d20-4ce3-bd1a-46843669ad78"/>
+  </producedTypes>
+  <name>ВедомостьВзаиморасчетыСПодотчетнымиЛицами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведомость по взаиморасчетам с подотчетными лицами</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.ВедомостьВзаиморасчетыСПодотчетнымиЛицами.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="62da8986-1ee7-425a-8f6a-86ed08e16ccf">
+    <name>УниверсальныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.УниверсальныйОтчет</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="d86d323c-e03d-40b2-bfb8-a556371d8a4a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

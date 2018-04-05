@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a1f869d-7fb7-4ce0-aed2-3d4b97fed21f">
+  <name>ИНВ3</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИНВ-3</value>
+  </synonym>
+  <comment>Инвентаризационная опись товарно-материальных ценностей (унифицированная форма № ИНВ-3)</comment>
+</mdclass:CommonTemplate>

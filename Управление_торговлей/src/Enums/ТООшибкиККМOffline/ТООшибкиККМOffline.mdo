@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f43e6de-0103-44c0-80cc-c4c8f18335ef">
+  <producedTypes>
+    <refType typeId="b67eb198-0f72-4776-b147-30703c7d4de9" valueTypeId="e5cf870f-377b-4bf4-9f12-5a6766a97af9"/>
+    <listType typeId="bad6c26a-84a2-4c8c-877c-e6544bc01858" valueTypeId="91b3b375-5dc2-46e6-9ae5-ecd0c216b1b7"/>
+    <managerType typeId="d6930e4a-1381-475d-a339-8e41a7900fcb" valueTypeId="9cd529af-25c8-45ea-a07e-625bbad69a63"/>
+  </producedTypes>
+  <name>ТООшибкиККМOffline</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТООшибки ККМOffline</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="09205440-15e0-471e-980b-856e9c4050e0">
+    <name>ОшибкаВыгрузкиТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>При попытке выгрузки товаров в ККМ, подключаемую в режиме Offline, произошла ошибка. Товары не были выгружены.</value>
+    </synonym>
+    <comment>Необходимо проверить параметры настройки и подключения ККМ и повторить попытку выгрузки товаров.</comment>
+  </enumValues>
+  <enumValues uuid="990cb8da-56cc-46f7-bd31-3a15d5f75bd3">
+    <name>ОшибкаЗагрузкиОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>При попытке загрузки отчёта о продажах из ККМ, подключаемой в режиме Offline, произошла ошибка. Отчёт не был загружен.</value>
+    </synonym>
+    <comment>Необходимо проверить параметры настройки и подключения ККМ и повторить попытку загрузки отчёта.</comment>
+  </enumValues>
+</mdclass:Enum>

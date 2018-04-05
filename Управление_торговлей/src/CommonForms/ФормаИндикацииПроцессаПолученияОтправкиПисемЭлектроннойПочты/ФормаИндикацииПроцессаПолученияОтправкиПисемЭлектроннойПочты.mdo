@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b264e41b-761e-4c9e-a6dc-e7336da7e24a">
+  <name>ФормаИндикацииПроцессаПолученияОтправкиПисемЭлектроннойПочты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма индикации процесса получения отправки писем электронной почты</value>
+  </synonym>
+  <comment></comment>
+  <formType>Ordinary</formType>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

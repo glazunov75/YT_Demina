@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c881bcd-0c98-471d-ab1b-687c2309f1fe">
+  <producedTypes>
+    <refType typeId="9e52583f-6d78-4bdf-bdf1-b2d0b203a14a" valueTypeId="a403d2e5-864e-43d3-b620-9608b7eb260f"/>
+    <listType typeId="d00c2f38-e498-4fc9-9e21-496eab20062d" valueTypeId="bfc88d10-9016-4a3f-844a-8f833678d4e3"/>
+    <managerType typeId="771be2ec-d6b4-47b6-8436-b92eaaeff2a7" valueTypeId="85311efc-7116-4256-9620-203630e47cc9"/>
+  </producedTypes>
+  <name>ТипыАвтоматическогоОбменаДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы автоматического обмена данными</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3eb06f3e-9198-477b-9dea-455019101b7a">
+    <name>ОбменЧерезФайловыйРесурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен через файловый ресурс</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b71edcc3-28a5-41ed-902a-2b3f963b8e2b">
+    <name>ОбменЧерезFTPРесурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен через FTP ресурс</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="11c2165c-a149-42f1-a99d-180cb5feeede">
+    <name>ОбменЧерезПочту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен электронными сообщениями</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ad89460e-dca5-40e8-b234-39c356d0fe6e">
+    <name>ОбменЧерезComСоединение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен через подключение к информационной базе</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

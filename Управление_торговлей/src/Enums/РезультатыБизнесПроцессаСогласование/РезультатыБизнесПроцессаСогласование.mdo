@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d855bc98-ea60-43b0-b03b-cf53b766041e">
+  <producedTypes>
+    <refType typeId="b94391d5-b7c5-4cf9-84f4-a740555179e3" valueTypeId="7327ef52-899c-4f1e-bb46-ba4dcf9bac0f"/>
+    <listType typeId="39938738-60f9-4dd8-934a-940c3cabf090" valueTypeId="f72d6e43-6519-4a1f-834e-dd5e62ed6ba4"/>
+    <managerType typeId="0676c291-6d21-449e-a814-8b7362f019c1" valueTypeId="52c45ef6-f919-4268-be3d-9bcc25c62992"/>
+  </producedTypes>
+  <name>РезультатыБизнесПроцессаСогласование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты бизнес процесса согласование</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ad974671-5dee-4052-915d-2d08c00e74c1">
+    <name>Утвердить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Утвердить</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4373fd2f-1de7-4e47-b81b-0d238bbf5760">
+    <name>Отклонить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонить</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="1ff7130f-0fff-46dc-a688-dc7a1f3fa769">
+    <name>ПовторноеСогласование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Повторное согласование</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="44029429-1490-4784-b929-3fa55ba68994">
+    <name>ЗавершитьСогласование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершить согласование</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

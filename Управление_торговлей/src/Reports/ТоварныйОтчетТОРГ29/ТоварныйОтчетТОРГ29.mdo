@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5304ec28-28bb-4917-9eba-501942ab5c60">
+  <producedTypes>
+    <objectType typeId="07b6234b-76cc-4702-94c0-064f180fb4ab" valueTypeId="0fc9e7c8-27c4-4e66-bd38-3af7e1275d81"/>
+    <managerType typeId="939c0eb1-e4cf-493c-af67-828bcf2376a5" valueTypeId="816c8344-c9ff-4ee4-8f01-d922a2fd0ace"/>
+  </producedTypes>
+  <name>ТоварныйОтчетТОРГ29</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товарный отчет (ТОРГ-29)</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <defaultForm>Report.ТоварныйОтчетТОРГ29.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="ca9c6ea2-7ad5-4615-9cc9-f568a6ee037a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="636c9b8c-a50d-43c3-99f5-b6ca8c02a5f7">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Report>

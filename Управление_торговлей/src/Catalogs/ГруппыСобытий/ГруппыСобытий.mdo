@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="732cb6ac-8019-44fe-96e2-9f96d3917990">
+  <producedTypes>
+    <objectType typeId="09260282-d927-40a6-877c-522095b01e56" valueTypeId="0e8fe3d4-abd8-4ee3-9976-90ad13382426"/>
+    <refType typeId="e3ef25ad-f9a4-43e4-8dbe-89e231294cc4" valueTypeId="be76d903-0712-4ea9-beb1-3e8af0663dc5"/>
+    <selectionType typeId="24a50062-12c1-4181-84ba-d44d7bfac863" valueTypeId="c1f068cc-3c03-4353-9151-dc7e69fa8ecd"/>
+    <listType typeId="ba335c62-a72b-4836-ba72-63d98e73d7b9" valueTypeId="6162a843-9270-46ee-87f3-0ea744d2c0a3"/>
+    <managerType typeId="763f90c5-068e-448a-af26-66358417f3ae" valueTypeId="d498dbcf-ed34-4724-aaa0-b9f69356bd2f"/>
+  </producedTypes>
+  <name>ГруппыСобытий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы событий</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>Catalog.ГруппыСобытий.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ГруппыСобытий.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ГруппыСобытий.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ГруппыСобытий.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="4da9ad81-1a6f-4f0e-a738-474d80811982">
+    <name>ОписаниеСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание события</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="5b759713-9e6f-440b-be4f-e77eb1466d5f">
+    <name>ВидОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид объекта</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ВидыОбъектовСобытия</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="47f30cfd-4bbf-4713-9e3e-366c9b2304f0">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ea77cbf1-75f7-444e-9981-88113a3dba07">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

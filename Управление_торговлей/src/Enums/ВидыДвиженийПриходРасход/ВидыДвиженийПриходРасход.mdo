@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af5f6d57-b78d-48ed-8360-46fecb9fd069">
+  <producedTypes>
+    <refType typeId="ab8a5d9a-37d6-4c68-baf6-0b6e7ab5cacd" valueTypeId="23ce7b2a-c290-4e0c-8139-bd3e1b49898c"/>
+    <listType typeId="42163c01-2c3f-4aa7-90f1-1f09f76e41cf" valueTypeId="46fc23f1-3fa2-4d1d-bcc0-4f9c48fe67ff"/>
+    <managerType typeId="bd47c62a-7af5-4b37-9be1-aec863562836" valueTypeId="ea3dba60-5597-4b1f-aeb2-f8871caac971"/>
+  </producedTypes>
+  <name>ВидыДвиженийПриходРасход</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды движений приход/расход</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="81b94757-c5de-459b-8d34-9c45c7f611a1">
+    <name>Приход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приход</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="59c9e103-fa64-45aa-a731-b0fe0932937b">
+    <name>Расход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расход</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

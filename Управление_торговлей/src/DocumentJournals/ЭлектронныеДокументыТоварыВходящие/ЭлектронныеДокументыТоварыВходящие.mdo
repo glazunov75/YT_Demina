@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0a83d94-a6be-4e86-95d5-aee24b1ab51a">
+  <producedTypes>
+    <selectionType typeId="1be203ea-9eb6-45d9-906d-5adae7ea8aef" valueTypeId="2d6a76a5-1d9a-497b-a23b-9e902fc8b10c"/>
+    <listType typeId="610bb7b3-f72e-4522-b1a9-4678f25b975b" valueTypeId="bf04fb4e-f48b-4c4c-8d40-c2449ff71df1"/>
+    <managerType typeId="da03edba-81bb-4ef9-87c0-0c8e4ae43f4d" valueTypeId="40cb9610-4799-42e7-be48-dee68130b19e"/>
+  </producedTypes>
+  <name>ЭлектронныеДокументыТоварыВходящие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронные документы товары входящие</value>
+  </synonym>
+  <comment></comment>
+  <registeredDocuments>Document.ВходящийЗапросКаталога</registeredDocuments>
+  <registeredDocuments>Document.ВходящийКаталогТоваров</registeredDocuments>
+  <registeredDocuments>Document.ВходящийТоварКРаботе</registeredDocuments>
+  <registeredDocuments>Document.ВходящийЗапросПрайсЛиста</registeredDocuments>
+  <registeredDocuments>Document.ВходящийПрайсЛист</registeredDocuments>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <columns uuid="9c921a5b-7236-4dac-ac29-356264cbbdb5">
+    <name>ДатаОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отправки</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ВходящийТоварКРаботе.Attribute.ДатаВходящегоДокумента</references>
+    <references>Document.ВходящийКаталогТоваров.Attribute.ДатаВходящегоДокумента</references>
+    <references>Document.ВходящийПрайсЛист.Attribute.ДатаВходящегоДокумента</references>
+    <references>Document.ВходящийЗапросПрайсЛиста.Attribute.ДатаВходящегоДокумента</references>
+    <references>Document.ВходящийЗапросКаталога.Attribute.ДатаВходящегоДокумента</references>
+  </columns>
+  <columns uuid="a3a01927-d27d-4df6-a990-0a252506b3aa">
+    <name>ОбработанОтправлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработан/отправлен</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ВходящийТоварКРаботе.Attribute.Обработан</references>
+    <references>Document.ВходящийКаталогТоваров.Attribute.Обработан</references>
+    <references>Document.ВходящийПрайсЛист.Attribute.Обработан</references>
+    <references>Document.ВходящийЗапросПрайсЛиста.Attribute.Обработан</references>
+    <references>Document.ВходящийЗапросКаталога.Attribute.Обработан</references>
+  </columns>
+  <columns uuid="1825f294-88ad-40b9-a645-9d5a460c2a98">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ВходящийТоварКРаботе.Attribute.Организация</references>
+    <references>Document.ВходящийКаталогТоваров.Attribute.Организация</references>
+    <references>Document.ВходящийПрайсЛист.Attribute.Организация</references>
+    <references>Document.ВходящийЗапросПрайсЛиста.Attribute.Организация</references>
+    <references>Document.ВходящийЗапросКаталога.Attribute.Организация</references>
+  </columns>
+  <columns uuid="5f059ca5-1464-4f33-bc7b-e38597e1f7fb">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ВходящийТоварКРаботе.Attribute.Контрагент</references>
+    <references>Document.ВходящийКаталогТоваров.Attribute.Контрагент</references>
+    <references>Document.ВходящийПрайсЛист.Attribute.Контрагент</references>
+    <references>Document.ВходящийЗапросПрайсЛиста.Attribute.Контрагент</references>
+    <references>Document.ВходящийЗапросКаталога.Attribute.Контрагент</references>
+  </columns>
+</mdclass:DocumentJournal>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4df45db6-9df8-423b-8be0-9398b7f42b75">
+  <producedTypes>
+    <objectType typeId="f03191b3-3f2a-4144-993d-ae14c3264155" valueTypeId="ab5bdc18-cf07-44ec-856d-fdc1b237b8cf"/>
+    <managerType typeId="9607f892-7aae-4444-aa0c-8cf0f283cbb7" valueTypeId="a5713995-b238-4ffb-bf91-687b10c5fdec"/>
+  </producedTypes>
+  <name>ДебиторскаяЗадолженностьПоИнтервалам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дебиторская задолженность по интервалам</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.ДебиторскаяЗадолженностьПоИнтервалам.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="04731d15-49cb-4d2c-84ec-05cb18776c2a">
+    <name>УниверсальныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.УниверсальныйОтчет</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f83e656f-169c-48f2-b3b1-0fc2f31d6516">
+    <name>Интервал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.НастройкаИнтервалов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="400f4465-3387-481f-bb73-95aba87572d7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff6b863f-cd7a-48b0-8117-68160f3ed55a">
+  <producedTypes>
+    <refType typeId="3f95b1fa-7b30-45a6-b62b-853cf0877750" valueTypeId="15abf73c-a01f-4e20-81c5-0053a530f286"/>
+    <listType typeId="4e954fe8-99f0-47f1-ab9c-be006389b8ae" valueTypeId="2d8b4d9d-2893-48b3-aa70-21c1cd69e145"/>
+    <managerType typeId="bebec68d-6d59-4a54-a62c-05c45614e2fe" valueTypeId="2fd162d1-8dc2-402a-8644-27fee9394053"/>
+  </producedTypes>
+  <name>ВидыОперацийПереоценкаТоваровВРознице</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций переоценка товаров в рознице</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="662367a3-3558-419c-9531-29d68bb408f5">
+    <name>ПереоценкаВРознице</name>
+    <synonym>
+      <key>ru</key>
+      <value>переоценка в рознице</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="561bda88-0fc7-44d2-bd76-0f4d8d64de51">
+    <name>ПереоценкаВНТТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>переоценка в НТТ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

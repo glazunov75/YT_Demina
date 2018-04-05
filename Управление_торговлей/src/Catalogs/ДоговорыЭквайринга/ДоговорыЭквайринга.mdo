@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4b7addf-d473-452e-99dc-229d0cde98b2">
+  <producedTypes>
+    <objectType typeId="46e50128-5d5c-429e-a521-c2dd1b971826" valueTypeId="c03dff37-fbe9-49d1-8374-a3d5c48b6157"/>
+    <refType typeId="b8b67b7d-98fa-43ca-9444-bbf1ff2fd496" valueTypeId="b22a9362-954c-4fc3-b483-ca3f7a48c326"/>
+    <selectionType typeId="01f03c66-3e81-4008-aac9-7d520c2909b9" valueTypeId="6ffbbd05-a7fa-450a-8b7e-6863df6e5654"/>
+    <listType typeId="7b3c5090-74b3-4177-92c7-4da66de5495d" valueTypeId="69236988-888d-471e-8975-5a260d718389"/>
+    <managerType typeId="d74c4d11-b905-4662-ba27-c18f8d2cbc8d" valueTypeId="ae9afacb-4f56-4d99-8d7a-a52762de250c"/>
+  </producedTypes>
+  <name>ДоговорыЭквайринга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договоры эквайринга</value>
+  </synonym>
+  <comment>(Упр) Договоры об использовании банковских карточек в качестве платежного средства</comment>
+  <inputByString>Catalog.ДоговорыЭквайринга.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ДоговорыЭквайринга.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ДоговорыЭквайринга.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ДоговорыЭквайринга.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ДоговорыЭквайринга.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="c5e85d09-fcd6-4dd6-aecf-3502ccb766d9">
+    <name>Эквайрер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эквайрер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a10a3944-f9ca-433c-8b89-2cefe24eb61c">
+    <name>ДоговорВзаиморасчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор взаиморасчетов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <tabularSections uuid="be4ff327-26c9-4038-97d2-3859f2f64e6f">
+    <producedTypes>
+      <objectType typeId="46dce190-d4d2-4f5c-80ae-755a361776dc" valueTypeId="5362de57-1d38-44b8-95dc-8acb5e6156a8"/>
+      <rowType typeId="dbe35cb1-8165-438c-9473-ca3c1949bd2e" valueTypeId="3561132f-e87d-4fbe-8f4e-42b0a9f486d6"/>
+    </producedTypes>
+    <name>ТарифыЗаРасчетноеОбслуживание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тарифы за расчетное обслуживание</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="6a9451cf-1485-43cd-867f-ea00acf4ec1a">
+      <name>ВидОплаты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид оплаты</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ВидыОплатЧекаККМ</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4367eab3-88c5-4283-b970-2a4208ea020d">
+      <name>ПроцентТорговойУступки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процент торговой уступки</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="11ea60e6-e5bd-4263-b0f9-d7410ede7a7e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="be1cb3be-35bc-443e-a882-2b8df8122c02">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b4f3fe01-9903-4594-98e5-89132ce58b74">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

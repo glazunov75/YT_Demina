@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="448e8f48-00d5-4c91-8648-5a6f71c20733">
+  <name>ПравилаОбмена_РТ_УТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правила обмена РТ в УТ</value>
+  </synonym>
+  <comment></comment>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

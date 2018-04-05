@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="570d13f2-8b4f-4312-bd0f-c51750ac4511">
+  <producedTypes>
+    <selectionType typeId="848e534e-e069-45de-a0fc-4e71d88e2dd1" valueTypeId="0674867f-ee14-486b-92e8-d849f67fe1d4"/>
+    <listType typeId="d9acdb62-88c0-4d22-9c2a-22a3ab7a6bad" valueTypeId="cc045f22-8264-4376-a5d8-4c4506fb6cb4"/>
+    <managerType typeId="35c4249a-670b-43dc-801f-f9ce6eaa89a2" valueTypeId="911cc0b5-3f5c-4681-ac1f-ea2c5a1ae9bc"/>
+    <recordSetType typeId="a5434d3f-305a-4316-b7e5-d278d7ab201f" valueTypeId="3af8446d-986b-4865-9003-ee0487b6ec41"/>
+    <recordKeyType typeId="28cf8d19-e2e8-4dc0-8458-f1ee61586a72" valueTypeId="06439f78-65cb-4b8c-8633-f305a1e0b476"/>
+    <recordType typeId="96d43dcc-744b-4f9e-a88f-b1abdb58ec91" valueTypeId="8d20d4cf-4a11-4e4f-b06d-267e7a9b2bd0"/>
+    <recordManagerType typeId="09b37097-95de-42ab-bb8c-dfdbfa9c5e83" valueTypeId="894c43d1-a1a6-4b17-94cb-93e4315970d2"/>
+  </producedTypes>
+  <name>НоменклатураКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура контрагентов</value>
+  </synonym>
+  <comment></comment>
+  <defaultListForm>InformationRegister.НоменклатураКонтрагентов.Form.ФормаСписка</defaultListForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="df3f0870-2fba-4c50-8d89-ac29b3ec0037">
+    <name>КодНоменклатурыКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код номенклатуры контрагента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2f27602c-1ff4-4feb-9154-4906ed73608b">
+    <name>АртикулНоменклатурыКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Артикул номенклатуры контрагента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2c89833b-115c-4c53-97c3-fdb14f992a80">
+    <name>НаименованиеНоменклатурыКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование номенклатуры контрагента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="24c845ea-9887-47a7-801b-bf1dfbeba557">
+    <name>ШтрихКодНоменклатурыКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод номенклатуры контрагента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>13</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8212c5f6-7276-40f1-b616-f1f2455bc6ad">
+    <name>ЕдиницаНоменклатурыКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовая единица измерения номенклатуры контрагента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.КлассификаторЕдиницИзмерения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8a6592fd-ecec-4629-8662-6dab558ed67e">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>110</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="e0347f5d-d55f-477a-9dcf-609323b2d619">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="86a6bb29-cff9-4618-98bb-7461e093a3f3">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ab82b3e4-782d-416d-b272-050f239f9c4f">
+    <name>ХарактеристикаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика номенклатуры</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="97f29b11-bb47-44e7-ba16-c765da18d96e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="082c2ab4-298d-4e97-b77b-8203ab9f9698">
+    <name>ФормаКопирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма копирования</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

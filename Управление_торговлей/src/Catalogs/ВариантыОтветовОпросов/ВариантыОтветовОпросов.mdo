@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35102b95-c059-4d08-b6d2-09cfe6913102">
+  <producedTypes>
+    <objectType typeId="1a24d7a9-d9aa-4c2f-84c0-0cacebee1ff1" valueTypeId="1f980bfc-b128-4a29-9e2f-38bd3fa31e7b"/>
+    <refType typeId="473b8ab4-f93f-4b25-9f88-d24bc53a6664" valueTypeId="f9865592-4a76-4fab-bcc1-8df504ad1ac7"/>
+    <selectionType typeId="4ff3203e-5abb-430a-8e72-f4af0d18c952" valueTypeId="2df2e027-4d75-4ff8-b708-8c64d06215b4"/>
+    <listType typeId="6af22978-92f5-4c5e-b96c-1ff6f47d1a43" valueTypeId="74da4e99-0c04-4c57-a88b-c9767e68d93a"/>
+    <managerType typeId="2c63d061-4f7f-4035-95d6-eea2b21ab909" valueTypeId="b3d7c5ca-910f-43f1-975f-ba2c6a873c6e"/>
+  </producedTypes>
+  <name>ВариантыОтветовОпросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты ответов опросов</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>Catalog.ВариантыОтветовОпросов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВариантыОтветовОпросов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>ChartOfCharacteristicTypes.ВопросыДляАнкетирования</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeSeries>WithinOwnerSubordination</codeSeries>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ВариантыОтветовОпросов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ВариантыОтветовОпросов.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="f797e538-0090-43ea-8660-74d1ceb798e1">
+    <name>ОценкаОтвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценка ответа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>5</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="fdf62711-f86a-469c-abc0-75c9bdab6193">
+    <name>ТребуетРазвернутыйОтвет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требует развернутый ответ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="9b76597e-d746-49d1-b4c5-68b419298125">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="236176cb-7600-4979-9fdb-3ea59898ef9a">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

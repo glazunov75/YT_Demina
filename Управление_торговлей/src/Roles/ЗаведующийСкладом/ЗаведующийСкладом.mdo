@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bac6c00-0a8c-43f4-9b08-f12c5b9292c3">
+  <name>ЗаведующийСкладом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заведующий складом</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

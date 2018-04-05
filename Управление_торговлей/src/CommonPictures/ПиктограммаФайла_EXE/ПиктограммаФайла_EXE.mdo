@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e92a8715-b733-48bf-8980-1934daf1f04a">
+  <name>ПиктограммаФайла_EXE</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пиктограмма файла EXE</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>14</x>
+  </transparentPixel>
+</mdclass:CommonPicture>

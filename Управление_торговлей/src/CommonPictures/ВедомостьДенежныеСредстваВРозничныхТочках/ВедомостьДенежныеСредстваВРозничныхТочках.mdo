@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7ab9c65-181a-43fc-8596-3cff9c305aa8">
+  <name>ВедомостьДенежныеСредстваВРозничныхТочках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведомость по денежным средствам в розничных точках</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

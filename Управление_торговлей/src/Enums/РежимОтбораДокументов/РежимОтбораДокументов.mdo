@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06e961ac-4de4-416f-988a-d471ba36b2f6">
+  <producedTypes>
+    <refType typeId="bdb41124-e004-4a37-ac0c-7ff4afffd3b7" valueTypeId="fdaf7b2d-833e-4c44-8ff2-e5fe3ffce155"/>
+    <listType typeId="951c6164-713a-45eb-bd82-bfe516b9f644" valueTypeId="cdc30f40-3efc-4baa-840b-4775ba37e974"/>
+    <managerType typeId="a168e149-8316-49c0-a213-23a003fedee9" valueTypeId="fec9dd49-749e-4e1c-b9f3-eaabbb3751eb"/>
+  </producedTypes>
+  <name>РежимОтбораДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим отбора документов</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ce819f81-66e4-4c8d-a5d4-0c782bf43bd6">
+    <name>ПоРеквизитам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По реквизитам</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="afbd8899-345e-476b-80a0-5b6d6f741e97">
+    <name>ПоОборотам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По оборотам</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

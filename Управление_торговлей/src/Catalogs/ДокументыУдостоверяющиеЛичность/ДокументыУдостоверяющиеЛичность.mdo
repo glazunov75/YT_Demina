@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e5aa5b7-d0b5-4f45-ab88-d63bbd64244a">
+  <producedTypes>
+    <objectType typeId="c192b044-e78d-4817-b3a3-206fb4b90e81" valueTypeId="85915721-e755-4ed0-b6ac-a8b86794793f"/>
+    <refType typeId="272ffbf7-0931-4693-ac13-0f861f1b51ba" valueTypeId="3b1d5f78-7369-469b-9159-dee4454a3533"/>
+    <selectionType typeId="3d9bf851-dfd6-4156-b75b-0def1d3fb592" valueTypeId="8d397361-a38b-412e-8709-e64e5bbc388a"/>
+    <listType typeId="ea3d35e0-6efa-407b-bd79-0b5b4df45cec" valueTypeId="75566e06-122a-4c80-aae5-6ae7f02e8697"/>
+    <managerType typeId="24ef87c1-a2db-44b0-8546-527312350bc0" valueTypeId="45e4af7f-4d5e-4edb-b933-e977efc89846"/>
+  </producedTypes>
+  <name>ДокументыУдостоверяющиеЛичность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы удостоверяющие личность</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <inputByString>Catalog.ДокументыУдостоверяющиеЛичность.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ДокументыУдостоверяющиеЛичность.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ДокументыУдостоверяющиеЛичность.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ДокументыУдостоверяющиеЛичность.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="eea93a20-65ce-4901-801c-66b9e622ffae">
+    <name>КодИМНС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код ИМНС</value>
+    </synonym>
+    <comment>(Регл)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>2</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a80285fe-cc4b-488c-b5b9-531e26f943de">
+    <name>КодПФР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код ПФР</value>
+    </synonym>
+    <comment>(Регл)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="e2719863-455e-44cd-a6ed-76282dfff702">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b5dd0d75-eac7-4848-b6bc-fe95ddfd6b84">
+    <name>ФормаПодбораИзКлассификатора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подбора из классификатора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a91a5900-d432-4a92-bfa8-8d81b7275f92">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8f06ceb8-d75f-4660-a9b1-a38cd0d4cbde">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="84533033-eef4-4ddc-9b98-98cd43604148">
+    <name>КлассификаторИМНС</name>
+    <synonym>
+      <key>ru</key>
+      <value>КлассификаторИМНС</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Catalog>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fb89dcd-a044-4010-a6fb-06fd2124a396">
+  <producedTypes>
+    <refType typeId="4dd75114-e707-4c25-ba94-795ac3a335ba" valueTypeId="59ba16b8-396c-4096-8318-8b6a49caa773"/>
+    <listType typeId="6fb89dcd-a044-4010-a6fb-06fd2124a396" valueTypeId="6fb89dcd-a044-f010-a6fb-06fd2124a396"/>
+    <managerType typeId="09247ec0-b01c-4e81-9517-f3d89c5a6fae" valueTypeId="2bff61be-2b92-40c7-b94b-d326d33725eb"/>
+  </producedTypes>
+  <name>СтретегииСписанияПартийТоваровПоСтатусам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стратегии списания партий товаров по статусам</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="61307952-3afa-49be-bc01-85c85e977003">
+    <name>СначалаПринятыеПотомСобственные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сначала принятые потом собственные</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="8fd6873c-8e8d-41dd-a26f-7cd85c9f294c">
+    <name>СначалаСобственныеПотомПринятые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сначала собственные потом принятые</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28cd1467-3222-4ff7-86ff-524730ee8faa">
+  <producedTypes>
+    <objectType typeId="90635028-b70d-476c-a679-87191034c084" valueTypeId="367014e9-a38e-4654-93e4-c68b4dafcb67"/>
+    <refType typeId="a63b3672-ad56-40f6-aa97-be07571f6c14" valueTypeId="e9aef4b6-7f09-40ba-bc94-c7bdb3a63a38"/>
+    <selectionType typeId="bbc3c9bf-8c29-45c4-825a-54a525431351" valueTypeId="73ddc205-474a-4e59-a7b2-f9ad100fd3f2"/>
+    <listType typeId="5c92b387-386b-4816-ac2f-b0c27cc13d5a" valueTypeId="b4aa80da-944c-4a94-b78d-0def771b051b"/>
+    <managerType typeId="02528129-4115-4e72-94cb-46fdbc998531" valueTypeId="5de08c49-8c3e-4f4b-8e2b-6177cbbe6723"/>
+  </producedTypes>
+  <name>Кассы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кассы</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <inputByString>Catalog.Кассы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Кассы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Организации</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Кассы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.Кассы.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.Кассы.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Кассы.Form.ФормаВыбора</defaultChoiceForm>
+  <defaultFolderChoiceForm>Catalog.Кассы.Form.ФормаВыбораГруппы</defaultFolderChoiceForm>
+  <attributes uuid="c11a0cd3-a524-4ca6-9649-8def2d8b4ca6">
+    <name>ВалютаДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта денежных средств</value>
+    </synonym>
+    <comment>(Общ) Валюта, в которой хранятся денежные средства. </comment>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="354433cf-f12b-4e18-8dea-6a1b615586cb">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8975f294-3da4-4359-b5af-2563c0555445">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f32021cf-64f0-4d7f-bcac-3ca7718fac6c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a316f82b-94a3-4bef-bc7f-9439a64ed122">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="21b78519-6de5-41b1-a985-c52030d7de71">
+    <name>ФормаВыбораГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73b5779f-1b9b-42ea-96e5-7e3215e8622b">
+  <producedTypes>
+    <objectType typeId="235a1278-c5df-4e4f-a67c-ea2c31a2e551" valueTypeId="5c671dfd-9f28-49c9-b3d9-4dca8a89ca97"/>
+    <managerType typeId="67c6067f-63c4-4a94-b318-f511b11436e0" valueTypeId="44245dcc-024e-4580-9498-a54a7e6fbc7b"/>
+  </producedTypes>
+  <name>ПредупреждениеОРазницеВоВремениССервером</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предупреждение о разнице во времени с сервером</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ПредупреждениеОРазницеВоВремениССервером.Form.Форма</defaultForm>
+  <forms uuid="3b7ff115-4c41-49c7-8162-d57be2aa01b0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

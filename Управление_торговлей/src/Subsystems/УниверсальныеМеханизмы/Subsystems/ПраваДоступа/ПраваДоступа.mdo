@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5ef0b6b-6025-4fca-a8e6-12404a419a1f">
+  <name>ПраваДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Права доступа</value>
+  </synonym>
+  <comment></comment>
+  <content>SessionParameter.ГраницыЗапретаИзмененияДанных</content>
+  <content>SessionParameter.ИспользоватьОграниченияПравДоступаНаУровнеЗаписей</content>
+  <content>SessionParameter.МетаданныеДокументовРегистрацииОбъектовДоступа</content>
+  <content>SessionParameter.ТекущийПользователь</content>
+  <content>Role.АдминистраторККМ</content>
+  <content>Role.ЗаведующийСкладом</content>
+  <content>Role.ИнтернетПользовательУправленияЗаказами</content>
+  <content>Role.Кассир</content>
+  <content>Role.Кладовщик</content>
+  <content>Role.МенеджерПоЗакупкам</content>
+  <content>Role.МенеджерПоПродажам</content>
+  <content>Role.ОператорККМ</content>
+  <content>Role.ПолныеПрава</content>
+  <content>Role.Пользователь</content>
+  <content>EventSubscription.ПередЗаписьюДокументаДатаЗапретаРедактирования</content>
+  <content>EventSubscription.ПередЗаписьюДокументаРегистрацияОбъектовДоступа</content>
+  <content>EventSubscription.ПередЗаписьюРегистраДатаЗапретаРедактирования</content>
+  <content>EventSubscription.ПриЗаписиДокументаРегистрацияОбъектовДоступа</content>
+  <content>Constant.ИспользоватьОграниченияПравДоступаНаУровнеЗаписей</content>
+  <content>Constant.ПрименятьДатуЗапретаДляПолныхПрав</content>
+  <content>CommonForm.УстановкаДатыЗапретаИзмененияДанных</content>
+  <content>Catalog.ГруппыДоступаККонтрагентам</content>
+  <content>Catalog.ГруппыПользователей</content>
+  <content>Enum.ВидыНаследованияПравДоступаИерархическихСправочников</content>
+  <content>Enum.ВидыОбъектовДоступа</content>
+  <content>Enum.ОбластиДанныхОбъектовДоступа</content>
+  <content>DataProcessor.НастройкаПравДоступа</content>
+  <content>InformationRegister.ГраницыЗапретаИзмененияДанных</content>
+  <content>InformationRegister.ЗначенияДополнительныхПравПользователя</content>
+  <content>InformationRegister.НазначениеВидовОбъектовДоступа</content>
+  <content>InformationRegister.НастройкиПравДоступаПользователей</content>
+  <content>InformationRegister.ОбъектыДоступаДокументов</content>
+  <content>InformationRegister.УдалитьГраницыЗапретаИзмененияДанных</content>
+  <content>InformationRegister.УдалитьПраваДоступаПользователей</content>
+  <content>ChartOfCharacteristicTypes.ПраваПользователей</content>
+  <parentSubsystem>Subsystem.УниверсальныеМеханизмы</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d2e2401-72e5-41b2-aca9-cd1bac35a5b4">
+  <producedTypes>
+    <refType typeId="dca7a081-07c8-4627-9558-fe5120cd6d5c" valueTypeId="0b35dd4a-8cf1-47f1-acc1-4b2f41644d65"/>
+    <listType typeId="2791dde7-96c1-42e3-9681-ed40533cf222" valueTypeId="b86ad1ef-c786-41ad-b0ef-17593d5fd957"/>
+    <managerType typeId="1b20c66c-8cd4-47cc-a8be-c730ee0fa4f3" valueTypeId="13c14678-6b5e-40f8-9942-3d0a8caa4ef9"/>
+  </producedTypes>
+  <name>РасчетыВозврат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчеты возврат</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d13a6bee-0fa0-456b-a6fc-9245c5fed81b">
+    <name>Расчеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="8023e96e-daa4-4cf1-af8b-8d0b82eb3f86">
+    <name>Возврат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

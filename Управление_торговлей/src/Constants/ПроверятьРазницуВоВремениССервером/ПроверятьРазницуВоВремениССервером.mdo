@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b87b53b8-da60-4f22-bfa5-611efe6f4db9">
+  <producedTypes>
+    <managerType typeId="5ebcfb7f-c5a8-4222-b777-62ddf1e33633" valueTypeId="d3bc9ed1-52be-4d28-ad45-b7e31acc3d6c"/>
+    <valueManagerType typeId="2f6647fd-c611-42cf-ae70-4e66f5b99b58" valueTypeId="cbd8879e-9335-4d92-a3d7-4d5ee46f6f8d"/>
+  </producedTypes>
+  <name>ПроверятьРазницуВоВремениССервером</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверять разницу во времени с сервером</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

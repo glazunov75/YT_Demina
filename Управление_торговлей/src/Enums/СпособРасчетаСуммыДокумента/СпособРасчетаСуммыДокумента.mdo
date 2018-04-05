@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17ec3c01-4421-4bb6-ab14-f4aef4b25ea7">
+  <producedTypes>
+    <refType typeId="a26fee66-1d3d-4a51-93fd-1b26eadd248c" valueTypeId="cd9ed504-f9da-441c-8765-e02030d82430"/>
+    <listType typeId="030bee94-53eb-4948-b742-0f6f70b1b40e" valueTypeId="0686fd05-7762-4d55-92a9-94601143d081"/>
+    <managerType typeId="dd55ed87-2532-4428-b836-a50c07df7da3" valueTypeId="b07837b3-2260-45ab-9dfb-e51889a68081"/>
+  </producedTypes>
+  <name>СпособРасчетаСуммыДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ расчета суммы документа</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e6482ccc-81ce-4f6c-bd29-674ccc249446">
+    <name>СУчетомВсехСкидок</name>
+    <synonym>
+      <key>ru</key>
+      <value>С учетом всех скидок</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ee4783b4-bd70-4c09-9103-993723fc3eb3">
+    <name>БезУчетаРучнойСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без учета ручной скидки</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9f5cb90c-1d17-4e31-85cb-8260327da1e3">
+    <name>БезУчетаСкидок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без учета скидок</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

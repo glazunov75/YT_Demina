@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca1cf6da-3d12-4fa1-a519-077fb235e510">
+  <producedTypes>
+    <objectType typeId="283ffea6-1d9e-4b73-9341-bbb2a4d36077" valueTypeId="75de79e1-6763-40cc-9c52-f2bcc656715e"/>
+    <refType typeId="0716f397-a469-44c6-bb3f-edfaf70b2106" valueTypeId="cd2c50d3-57a7-41b1-8108-a79e847c5d75"/>
+    <selectionType typeId="2794284e-9975-45ef-98c5-71748bdc6325" valueTypeId="dc8bf9bf-ffcb-4c40-b2bb-3d91e40af626"/>
+    <listType typeId="6c916e54-5a9e-4be0-99b8-b784d22c7ddb" valueTypeId="5e7a76c5-6731-4c63-a8c6-e1afc2bce88e"/>
+    <managerType typeId="22c4e24e-2f0e-4bd6-8f8a-781c924af007" valueTypeId="42a85fb9-a22f-4a10-b658-ac928a0f8179"/>
+  </producedTypes>
+  <name>СтатьиДвиженияДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи движения денежных средств</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <inputByString>Catalog.СтатьиДвиженияДенежныхСредств.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтатьиДвиженияДенежныхСредств.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="8732e41b-418d-497b-864d-e862d45a07f5">
+      <name>ВозвратДенежныхСредствПодотчетником</name>
+      <description>Возврат денежных средств подотчетником</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="184f7e9a-94b2-4c94-85c1-039d061e8766">
+      <name>ВозвратДенежныхСредствПокупателю</name>
+      <description>Возврат денежных средств покупателю</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="40281775-e6f9-437f-bb37-9150c8e0f0f9">
+      <name>ВозвратДенежныхСредствПоставщиком</name>
+      <description>Возврат денежных средств поставщиком</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="f6a92a76-bf54-426e-99a3-f0f67b34bb0d">
+      <name>ВыдачаДенежныхСредствКассеККМ</name>
+      <description>Выдача денежных средств кассе ККМ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="09619f4c-5703-4410-8a0f-204cb50a544f">
+      <name>ВыдачаДенежныхСредствПодотчетнику</name>
+      <description>Выдача денежных средств подотчетнику</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="eb3df34e-24c9-46b6-9967-3ab8deacf6d3">
+      <name>ОплатаПокупателя</name>
+      <description>Оплата покупателя</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="7839123d-afbb-4590-b99a-44a21979ed6a">
+      <name>ОплатаПоставщику</name>
+      <description>Оплата поставщику</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="4fab2ef7-e06a-4eba-918d-85ede85b2710">
+      <name>ПереоценкаВалютныхСредств</name>
+      <description>Переоценка валютных средств</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="82a2cb9c-d68b-444e-b8e1-57323777a814">
+      <name>ПеречислениеНалога</name>
+      <description>Перечисление налога</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+    </items>
+    <items id="51d5c88b-5074-4f16-b3b5-5aaeb8def865">
+      <name>ПриходДенежныхСредствРозничнаяВыручка</name>
+      <description>Приход денежных средств розничная выручка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="af659cf3-497a-4b2b-9f6b-16a4fcf7d5b1">
+      <name>ПрочиеПоступленияДенежныхСредств</name>
+      <description>Прочие поступления денежных средств</description>
+      <code xsi:type="core:StringValue">
+        <value>000000013</value>
+      </code>
+    </items>
+    <items id="57c27fa5-1515-4ee5-b193-fd83fed3553d">
+      <name>ПрочиеРасходыДенежныхСредств</name>
+      <description>Прочие расходы денежных средств</description>
+      <code xsi:type="core:StringValue">
+        <value>000000014</value>
+      </code>
+    </items>
+    <items id="928c88df-9c02-469a-b8d4-a0976bdeebf0">
+      <name>ПрочиеРасчетыСКонтрагентами</name>
+      <description>Прочие расчеты с контрагентами</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="e6848a0c-c774-4ded-9929-10e58116eff7">
+      <name>РасчетыПоКредитамИЗаймамСКонтрагентами</name>
+      <description>Расчеты по кредитам и займам с контрагентами</description>
+      <code xsi:type="core:StringValue">
+        <value>000000012</value>
+      </code>
+    </items>
+  </predefined>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.СтатьиДвиженияДенежныхСредств.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.СтатьиДвиженияДенежныхСредств.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="55e15648-f802-410b-8e96-33f7d9299a9b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ff2e8081-24f4-44ac-b74c-171dcccc5837">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

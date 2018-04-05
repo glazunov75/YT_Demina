@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e05d823-0dbe-4b15-bb3b-9a866d5b4fed">
+  <producedTypes>
+    <objectType typeId="f6ab0c24-7180-4068-b815-d613b0035452" valueTypeId="aed7ab4b-d44c-4e93-a37a-f65e5c7a66e3"/>
+    <refType typeId="6f2788a0-5d80-42ef-b21c-1623d2678069" valueTypeId="f4090291-7710-4bed-b6d4-2023d782b8d0"/>
+    <selectionType typeId="e2927e6b-3581-4171-990b-b52a92b6f6b3" valueTypeId="12edbd47-909d-4f6a-b60a-9a65b1b85746"/>
+    <listType typeId="bb075256-3e4c-41fa-b59a-3572ed11928e" valueTypeId="b1a0c98b-8b11-44e0-a390-5ab743b07e49"/>
+    <managerType typeId="6eda24b7-cf74-445e-938a-aee7b33d7096" valueTypeId="908eec16-9a3b-4981-a479-80a5740b3003"/>
+  </producedTypes>
+  <name>ОбработкиОбслуживанияТО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработки обслуживания торгового оборудования</value>
+  </synonym>
+  <comment>Данный справочник содержит обработки обслуживания торгового оборудования.</comment>
+  <inputByString>Catalog.ОбработкиОбслуживанияТО.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ОбработкиОбслуживанияТО.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ОбработкиОбслуживанияТО.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ОбработкиОбслуживанияТО.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ОбработкиОбслуживанияТО.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="b851473c-51fc-4fde-be3d-725777ad0726">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание обработки обслуживания</value>
+    </synonym>
+    <comment>Реквизит содержит описание обработки обслуживания.</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="2b47f50c-f038-4128-bfb6-322d9caae939">
+    <name>Вид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид торгового оборудования</value>
+    </synonym>
+    <comment>Вид торгового оборудования, обслуживаемый настоящей обработкой обслуживания.</comment>
+    <type>
+      <types>EnumRef.ВидыТорговогоОборудования</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="95c02029-0abd-428d-85e1-e9d6bfe7ec5f">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <comment>Имя файла обработки обслуживания.</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="7b99f05b-f63a-4afb-b82d-8c9c6b41814b">
+    <name>Обработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка обслуживания</value>
+    </synonym>
+    <comment>Обработка обслуживания торгового оборудования.</comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="81ca5bf6-688d-4570-85fc-50ed671cc064">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <comment>Версия обработки обслуживания.</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="605b2495-47cd-4534-bc76-cf2b2ec7226d">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <comment>Уникальный идентификатор обработки обслуживания.</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="6ee535e2-c589-42c4-8133-5a12ec403cd0">
+    <name>ВерсияAPI</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия API</value>
+    </synonym>
+    <comment>Версия API механизма торгового, поддерживаемого обработкой обслуживания.</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <tabularSections uuid="b1e1cd1b-a350-4cd5-8511-f69f228328d8">
+    <producedTypes>
+      <objectType typeId="e3b23cd5-c3f2-4f95-bd86-e9336c61e551" valueTypeId="c84a8511-244d-4341-a08d-4f22162dd622"/>
+      <rowType typeId="c8d5f2d0-1c56-4946-852c-5228e4cd4da4" valueTypeId="09667d14-5828-4e57-b663-a742bdd3a3b2"/>
+    </producedTypes>
+    <name>Модели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модели торгового оборудования</value>
+    </synonym>
+    <comment>Модели торгового оборудования, поддерживаемые данной обработкой обслуживания.</comment>
+    <attributes uuid="55e5e8f7-759a-4740-b10f-f559f2ccd9ab">
+      <name>Модель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Модель торгового оборудования</value>
+      </synonym>
+      <comment>Модель торгового оборудования.</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>256</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="fe5acb73-5cc9-43ac-8f6f-de2a8817b609">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment>Форма элемента справочника.</comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f0fd392c-0b25-4895-b994-64cea20beca5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment>Форма списка элементов справочника.</comment>
+    <formType>Ordinary</formType>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0fd2700f-c4ef-46a9-aee0-056ad1d0a9f3">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

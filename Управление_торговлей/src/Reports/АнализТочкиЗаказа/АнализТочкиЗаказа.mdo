@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d58e614a-82de-443c-8025-1d393fd3cf6e">
+  <producedTypes>
+    <objectType typeId="805e87ca-48c3-4371-aea0-0eb2e12cb3d3" valueTypeId="7d1a4f7a-076b-4aba-9866-74f0e734003b"/>
+    <managerType typeId="3df1582f-d1f3-4bb4-a199-f1d0e4be3709" valueTypeId="86b5b817-8f0d-49b6-9ba1-6b4db2d12b9e"/>
+  </producedTypes>
+  <name>АнализТочкиЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ точки заказа</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.АнализТочкиЗаказа.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="ba75caf5-4825-4d48-8dbd-aa7c457a82a3">
+    <name>УниверсальныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.УниверсальныйОтчет</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="0c9dc89c-a995-435b-8229-0d91143d9ab7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="362e7162-0809-4d2f-89be-449eacac6a06">
+    <name>ФормаФормированиеЗаказовПоставщикам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма формирование заказов поставщикам</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

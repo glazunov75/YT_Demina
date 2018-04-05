@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="040e7e85-225f-4dbd-8d2c-032eef751f4e">
+  <producedTypes>
+    <objectType typeId="d656fbe7-fef0-497d-8487-2c8e5fb020fb" valueTypeId="d3d5d240-055c-4235-92ec-0b54912bb0cf"/>
+    <refType typeId="d8b2cf9e-6bf3-4ffb-b389-8bcc4f6c49c5" valueTypeId="c64c7154-168a-4d38-9ab3-76498e5683e7"/>
+    <selectionType typeId="26152a37-74bc-4ea9-8e94-befa33bc53a1" valueTypeId="19c8b08b-b310-4c52-813a-79737e4fb93d"/>
+    <listType typeId="4f89f37f-b6e0-4cb8-af79-a7261b2f7238" valueTypeId="0090f0a2-bcf4-49d9-acc2-2106670d4087"/>
+    <managerType typeId="94e9b017-a401-4734-b6dc-3b1a48ec22ac" valueTypeId="3ace2932-a284-47c8-b06d-786b64e14639"/>
+  </producedTypes>
+  <name>ВидыВзаиморасчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды взаиморасчетов</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <inputByString>Catalog.ВидыВзаиморасчетов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыВзаиморасчетов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>1</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВидыВзаиморасчетов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВидыВзаиморасчетов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ВидыВзаиморасчетов.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="0b56ecad-0de0-449a-9652-ad8291076f93">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0804d7a8-457b-4baa-99db-92006bbd59bf">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4c52b8b7-392a-4c1e-b7ec-b40f743f2708">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

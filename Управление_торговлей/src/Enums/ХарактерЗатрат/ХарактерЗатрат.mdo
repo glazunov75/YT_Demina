@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3dd1878-f06c-4e79-8ecf-5cccc94ad502">
+  <producedTypes>
+    <refType typeId="ff1a02a5-ca41-4099-b0e0-cc700c2ecfe1" valueTypeId="45393113-5fda-47c6-a186-18980bb6e33a"/>
+    <listType typeId="e81db836-48e0-443e-aeb8-1356ebc0679e" valueTypeId="e0df2017-d1e7-46b7-adcb-3cf435450a3d"/>
+    <managerType typeId="166a503c-c532-464c-b3ea-73bce6a1f339" valueTypeId="a42f05fc-3c00-418d-9d13-c7bac9ffa188"/>
+  </producedTypes>
+  <name>ХарактерЗатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Характер затрат</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c66533c0-7b2f-4526-984a-cac32f9a73f0">
+    <name>БракВПроизводстве</name>
+    <synonym>
+      <key>ru</key>
+      <value>Брак в производстве</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="299fd9c0-4c17-4cfd-8b6e-671bb7ff2646">
+    <name>ВложенияВоВнеоборотныеАктивы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вложения во внеоборотные активы</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="ee3df592-0786-4899-a6c1-7485c46519d5">
+    <name>ИздержкиОбращения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Издержки обращения</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="a758429c-f3b3-4572-9330-a0f325aaa560">
+    <name>КоммерческиеРасходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коммерческие расходы</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="bd7c48cf-e373-473a-a336-9737176ff194">
+    <name>ОбщепроизводственныеРасходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общепроизводственные расходы</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="833031d4-6567-4a77-a782-64370700aa7a">
+    <name>ОбщехозяйственныеРасходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общехозяйственные расходы</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="269b954a-e239-4df9-9c53-ca73778548f2">
+    <name>ПроизводственныеРасходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производственные расходы</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="1c3ce547-67ac-4d78-9195-2ed3e74f85bf">
+    <name>Прочие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочие</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="1e227392-215c-4395-9d94-a85e65bec347">
+    <name>НеУчитываемыеВУправленческомУчете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не учитываемые в управленческом учете</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b874092-75ec-4360-b5e1-b36cbfc2cba1">
+  <producedTypes>
+    <objectType typeId="7110e983-f493-429e-9f84-5cf3b8b73425" valueTypeId="6fdcfec9-86da-4638-a332-97eee2565dba"/>
+    <refType typeId="1f170b5d-52d6-4003-b51a-1cec1095cc9d" valueTypeId="57db8678-5c8f-4993-823d-63b2c394240b"/>
+    <selectionType typeId="e0bc0dc4-0079-4dc2-be00-da1de5eff530" valueTypeId="20c8ee84-b074-4277-9493-1017d323c0ef"/>
+    <listType typeId="1f7650ac-76a7-407b-acbf-c56dcc4e4870" valueTypeId="558b51ca-5e45-4f82-8e99-e37beb3c38d0"/>
+    <managerType typeId="4812fdb4-a4d9-437a-b5f6-5bc3f1163d2a" valueTypeId="70e3eeac-dbd1-4035-bcaf-e65afed02e20"/>
+  </producedTypes>
+  <name>УстановкаДолейРаспределенияПоПроектам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка долей распределения по проектам</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <inputByString>Document.УстановкаДолейРаспределенияПоПроектам.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Catalog.ВидыРаспределенияПоПроектам</basedOn>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УстановкаДолейРаспределенияПоПроектам.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.УстановкаДолейРаспределенияПоПроектам.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.УстановкаДолейРаспределенияПоПроектам.Form.ФормаВыбора</defaultChoiceForm>
+  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <registerRecords>InformationRegister.РаспределениеПоПроектам</registerRecords>
+  <attributes uuid="b0c8a05a-8229-4a3d-9ca4-f44db19d92a0">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment>(Общ) Любая дополнительная информация</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="1712d498-fb54-478e-8160-e648f42e56f6">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="53755f4b-8791-4d97-a610-a52b4c4fdcb0">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="2435ac0b-2b96-480c-be16-dc60f4a3b29d">
+    <name>ВидРаспределенияПоПроектам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид распределения по проектам</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВидыРаспределенияПоПроектам</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="fa9a2f2c-f117-45c3-bd6e-c513fb10ea9a">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма документа</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2dcbad51-50cf-4ba7-bf33-2389529c778c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d085be31-1f5d-47e2-9b9f-519392edd100">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="97e91efc-0aad-495d-8992-fd079765786e">
+    <producedTypes>
+      <objectType typeId="85cebc60-0eeb-47c1-ac49-31b41cb0a374" valueTypeId="47beb528-99cc-4d78-a0ad-8de3db1bb36d"/>
+      <rowType typeId="f3babad5-cd50-4e94-a9e5-20deb1c09b00" valueTypeId="dce46b59-cbe2-4b57-beb0-5f800a015f7e"/>
+    </producedTypes>
+    <name>РаспределениеПоПроектам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распределение по проектам</value>
+    </synonym>
+    <comment>(Упр)</comment>
+    <attributes uuid="5947a368-eb45-498c-b8b2-f3e3711f79fc">
+      <name>Проект</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проект</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Проекты</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="91a5dcf6-b447-4f48-954f-177a235887ee">
+      <name>ДоляРаспределения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Доля распределения</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

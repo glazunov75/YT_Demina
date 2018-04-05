@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e12ed6a-e41c-4db7-a234-e47279426991">
+  <producedTypes>
+    <objectType typeId="7c6143c2-2462-49a9-9375-ef945318f4bc" valueTypeId="a509b3f4-53dd-4136-b7bd-60eeb5886ac4"/>
+    <managerType typeId="97424c00-3d4e-4476-8529-d79dba8b83c5" valueTypeId="eebbfeb7-9e64-4564-8513-123f36ac3f41"/>
+  </producedTypes>
+  <name>ЖурналУчетаВыданныхСчетовФактур</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал учета выданных счетов-фактур</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.ЖурналУчетаВыданныхСчетовФактур.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="0f3adbb1-b836-426e-a9e8-11fdeb68a2fe">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="24c01a0e-ef3f-490d-a95d-9a45cfad4919">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c1699d12-6b09-4345-ba00-1aeb7bbd800a">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ca651ad8-088f-4e9b-aad9-9a07ab7dff29">
+    <name>СформироватьОтчетПоСтандартнойФорме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сформировать отчет по стандартной форме</value>
+    </synonym>
+    <comment>Выбранный режим формирования отчета соответствует правилам ведения журнала учета выданных счетов-фактур и книги продаж. Для использования дополнительных возможностей отчета снимите установленный флажок &quot;Сформировать отчет по стандартной форме&quot;.</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="12f63573-aa4c-4b1c-b9d5-444e07ca5e2f">
+    <name>ОтображатьТолькоСФНаАванс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображать только счета-фактуры на предварительную оплату</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1e0413c0-829a-4226-95c9-f312451613b3">
+    <name>ОтображатьСФНаАванс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображать счета-фактуры на предварительную оплату</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ebf82217-99d7-4709-8e9a-a73edaddf698">
+    <name>ГруппироватьПоКонтрагентам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группировать по контрагентам</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9ceae9be-6693-4c4c-914c-5609036ad62f">
+    <name>ОтбиратьПоКонтрагенту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбирать по контрагенту</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c941e71c-3b15-41c9-b4fd-4be77e447c46">
+    <name>КонтрагентДляОтбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент для отбора</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="49cb67b2-4959-4bc9-9961-ec2c53923267">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d1f1ff59-ec2e-4b9c-9dc6-0b53b6c45cb4">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Report>

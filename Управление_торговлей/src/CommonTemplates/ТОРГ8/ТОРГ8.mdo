@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c186521-584d-47c4-ab4b-4a61ae520812">
+  <name>ТОРГ8</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТОРГ-8</value>
+  </synonym>
+  <comment>Заказ - отборочный лист (унифицированная форма ТОРГ-8)</comment>
+</mdclass:CommonTemplate>

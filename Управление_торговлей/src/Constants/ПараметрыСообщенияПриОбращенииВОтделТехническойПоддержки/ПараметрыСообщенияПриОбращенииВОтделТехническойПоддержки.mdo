@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55ef064f-6149-42ef-adce-48341757507d">
+  <producedTypes>
+    <managerType typeId="a1e09ff1-9321-4d16-90ee-b8e61471a964" valueTypeId="d7fcda72-e27a-48b5-819c-01e651b16d47"/>
+    <valueManagerType typeId="4a715c19-d8da-4cd0-8269-5428f19207c0" valueTypeId="a328c530-b678-490c-8dd3-c16571196b31"/>
+  </producedTypes>
+  <name>ПараметрыСообщенияПриОбращенииВОтделТехническойПоддержки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры сообщения при обращении в отдел технической поддержки</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

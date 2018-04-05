@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62b87bf8-74d6-4496-a50f-d4196d0c71e4">
+  <producedTypes>
+    <objectType typeId="93a449c3-e7b9-4cd6-874d-4b6dad2e73cd" valueTypeId="ce65b767-0a5a-401e-bf2b-8437b85d82e3"/>
+    <managerType typeId="e9d7b076-3796-4725-9ada-371fc0e856db" valueTypeId="a4e70bb9-e85b-4811-b766-f82e4b515327"/>
+  </producedTypes>
+  <name>ПродажиДиаграмма</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи (диаграмма)</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.ПродажиДиаграмма.Form.ФормаПродажи</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="ce80326b-39f6-4a74-a30b-28b2d4e8b7ec">
+    <name>ОбщийОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общий отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.ОтчетДиаграмма</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="ba9534de-59ea-4da2-a77f-490edb64b095">
+    <name>ФормаПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажи за период - диаграмма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="94a9e92e-686c-4dcb-961a-113c54459fe4">
+    <name>ПараметрыОтчетовПродажиКомпании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры отчетов оп регистру</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Report>

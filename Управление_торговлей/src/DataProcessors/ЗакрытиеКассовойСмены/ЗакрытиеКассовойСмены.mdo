@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d8337b4-9638-4fad-91d7-6890c6b8c94b">
+  <producedTypes>
+    <objectType typeId="06dfdad6-e3c8-4ff3-b684-eadde3213a72" valueTypeId="8be2b49e-dd01-4e05-b261-544057521a5a"/>
+    <managerType typeId="483829fb-610b-4c67-9384-58e87e412b53" valueTypeId="dcbe4737-a13b-4645-80eb-b53eb3fa4bef"/>
+  </producedTypes>
+  <name>ЗакрытиеКассовойСмены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрытие кассовой смены</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <defaultForm>DataProcessor.ЗакрытиеКассовойСмены.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="265440fb-cfd4-4945-875e-037aab93e389">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c1cf8ad7-7991-4913-93e0-79acb87bdc7e">
+    <name>КассаККМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса ККМ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.КассыККМ</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="4fc476e1-cd0a-41d5-a28b-a0653ad11dfa">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="78ea11d1-9ba0-4f8e-83e8-a438defb054f">
+    <name>ОтчетКассовойСменыБезГашения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет кассовой смены без гашения</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

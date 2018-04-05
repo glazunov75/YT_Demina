@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48fd7031-38ef-4cc9-96c5-fd8d79ced9eb">
+  <producedTypes>
+    <objectType typeId="fa6e0245-5049-4ef6-b44b-3e7b0373aa5a" valueTypeId="2d77b940-fb3d-4f22-98c7-285737536914"/>
+    <refType typeId="6b55b975-76cb-4948-93b2-5cb2f917e577" valueTypeId="6af6e076-695d-4e34-911a-7bb5ea7fdcbc"/>
+    <selectionType typeId="34731b3a-4bf6-4b6a-9294-4f72955b89f0" valueTypeId="fcba50d6-a1d0-429e-a630-aac7798b3795"/>
+    <listType typeId="033aed25-658d-4296-8094-b5f65abd57b4" valueTypeId="97165af4-212f-48fd-bc0c-93839a7eb69f"/>
+    <managerType typeId="7e110c78-ee40-403d-b4df-d54aaa8fe615" valueTypeId="ab3d0e7e-5f75-4139-aecb-c5e1ee4eee4e"/>
+  </producedTypes>
+  <name>СценарииПланирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сценарии планирования</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <inputByString>Catalog.СценарииПланирования.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СценарииПланирования.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СценарииПланирования.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.СценарииПланирования.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.СценарииПланирования.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.СценарииПланирования.Form.ФормаВыбора</defaultChoiceForm>
+  <defaultFolderChoiceForm>Catalog.СценарииПланирования.Form.ФормаВыбораГруппы</defaultFolderChoiceForm>
+  <attributes uuid="2857b07f-e5a4-4d30-828f-e765947d1ce6">
+    <name>Периодичность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.Периодичность</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="f83b2148-8549-41e0-aaca-14db9ce4a20f">
+    <name>ДетализацияПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Детализация планирования</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ДетализацияПланирования</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="f3e6a753-cd11-4bf9-bf75-ddfc8d052e32">
+    <name>УчетПоСуммам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учет по суммам</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="759a4b98-1581-4f0c-b649-5192ef66e78b">
+    <name>УчетПоКоличеству</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учет по количеству</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="94a97789-66c1-4ae9-8cb3-d0c66cf19d6d">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="888a3a30-d3c1-447a-a6bb-28f54d03062e">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="070b752c-59d5-404b-a3c5-a741e07f2b12">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e254ac23-a333-4872-85b6-cb0d7da174d9">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="612201d2-c669-48ab-907e-06e633f58c8b">
+    <name>ФормаВыбораГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

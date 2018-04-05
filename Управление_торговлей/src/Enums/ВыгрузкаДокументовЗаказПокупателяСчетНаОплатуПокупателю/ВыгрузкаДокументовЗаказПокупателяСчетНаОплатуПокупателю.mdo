@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="088ddfc0-8d79-47e3-a9b1-3ffb742fd0ff">
+  <producedTypes>
+    <refType typeId="ac9183ec-f0bb-4695-b8b3-9b7db221a962" valueTypeId="1e07e1ef-02ed-454e-bc85-b1da1ed92e0e"/>
+    <listType typeId="88e2483d-2b43-435f-a38f-71990516d254" valueTypeId="3cc613fa-db79-4d89-83e9-26bc4ee3442b"/>
+    <managerType typeId="988db493-e09d-4d4e-9a0c-f64182d87c6a" valueTypeId="84a4c3a1-5ea1-455d-936c-9767c4648c5f"/>
+  </producedTypes>
+  <name>ВыгрузкаДокументовЗаказПокупателяСчетНаОплатуПокупателю</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка документов заказ покупателя счет на оплату покупателю</value>
+  </synonym>
+  <comment>Выгрузка документов заказ покупателя счет на оплату покупателю</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="03959e41-75db-4a8e-9b10-693689dccccc">
+    <name>НеВыгружать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выгружать</value>
+    </synonym>
+    <comment>Документы &quot;Заказ покупателя&quot;, &quot;Счет на оплату покупателю&quot; не выгружаются</comment>
+  </enumValues>
+  <enumValues uuid="dcdc5149-7348-46d8-ba84-e0b815abfa84">
+    <name>ЗаказПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ покупателя</value>
+    </synonym>
+    <comment>Выгружается документ &quot;Заказ покупателя&quot;</comment>
+  </enumValues>
+  <enumValues uuid="e30e34f3-3df4-447a-9318-3c3a8c07554b">
+    <name>СчетНаОплатуПокупателю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет на оплату покупателю</value>
+    </synonym>
+    <comment>Выгружается документ &quot;Счет на оплату покупателю&quot;</comment>
+  </enumValues>
+</mdclass:Enum>

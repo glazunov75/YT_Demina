@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fdbb15a-aceb-4920-853d-af41f32efa19">
+  <producedTypes>
+    <objectType typeId="f58e69f0-e18e-4259-b2b5-45db463f78f8" valueTypeId="e7ef82f3-1f3b-4607-9b4d-956ce42881c9"/>
+    <refType typeId="d581464e-1c02-4dd7-92df-eef1b13417c5" valueTypeId="5091f025-d766-4a72-8f17-3c12adf77fec"/>
+    <selectionType typeId="ff06f5e2-834d-48f5-9964-07cd5f6802d0" valueTypeId="694eae65-d531-46e0-8cb6-5d82f98d0b58"/>
+    <listType typeId="048f2533-e2b9-4305-b0fc-d46c0c91bbca" valueTypeId="b55d3ec0-0c1b-4f13-82dd-b559436e4ca1"/>
+    <managerType typeId="00941cc5-6d57-4f8d-b1cc-ba64ae205bbd" valueTypeId="f4b35378-7a70-4891-b17a-a39739d0c296"/>
+  </producedTypes>
+  <name>Территории</name>
+  <synonym>
+    <key>ru</key>
+    <value>Территории</value>
+  </synonym>
+  <comment>(Упр.)</comment>
+  <inputByString>Catalog.Территории.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Территории.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Территории.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Территории.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Территории.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="df978d68-cfa8-427f-a474-d77f31ec6fcf">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6019d9c9-3f1c-4649-920e-cc6fd6aba81a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e25309ea-6b47-4278-93c4-7757a954b3a9">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

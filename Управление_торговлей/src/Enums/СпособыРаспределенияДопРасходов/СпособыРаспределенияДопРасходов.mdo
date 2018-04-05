@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c5e1a18-c6f0-4f36-82c7-5e1a0f1a1e27">
+  <producedTypes>
+    <refType typeId="b89320bb-2a83-4a24-9f34-b43f9b941356" valueTypeId="dbcaadcd-a0f2-4ff1-9ff8-e118541c241f"/>
+    <listType typeId="4c5e1a18-c6f0-4f36-82c7-5e1a0f1a1e27" valueTypeId="4c5e1a18-c6f0-ff36-82c7-5e1a0f1a1e27"/>
+    <managerType typeId="eb792286-31ca-4198-ad3a-4764239b93e1" valueTypeId="d6604edf-7b6f-4598-aedd-b1b85d51483f"/>
+  </producedTypes>
+  <name>СпособыРаспределенияДопРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы распределения доп расходов</value>
+  </synonym>
+  <comment>(Общ) Способы распределения суммы по строкам номенклатуры</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c3de4856-3141-4397-98ae-a6ab063f9432">
+    <name>ПоСумме</name>
+    <synonym>
+      <key>ru</key>
+      <value>По сумме</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="ed2a46aa-8e44-4c94-89ca-3e74804315eb">
+    <name>ПоКоличеству</name>
+    <synonym>
+      <key>ru</key>
+      <value>По количеству</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="12eb8d49-b239-4a52-b4bd-45ca911f7f88">
+    <name>ПоВесу</name>
+    <synonym>
+      <key>ru</key>
+      <value>По весу</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+</mdclass:Enum>

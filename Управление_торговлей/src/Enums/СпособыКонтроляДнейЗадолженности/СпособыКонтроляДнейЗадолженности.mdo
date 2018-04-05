@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6560e166-307d-475f-a417-82d2d2974a87">
+  <producedTypes>
+    <refType typeId="a1d5bef9-ac98-426b-aa5a-3719fbd0af68" valueTypeId="1d281b1c-0971-4363-9d6b-b365b8107e44"/>
+    <listType typeId="7e911bd4-8fd9-4b21-a00c-c8b269760611" valueTypeId="d9751e0e-0d6c-4cd6-811d-239c19244902"/>
+    <managerType typeId="f98fcb7d-b4b7-4c6f-80a3-743af47645ea" valueTypeId="689d3b07-40ac-4370-84c0-ff66e808eb06"/>
+  </producedTypes>
+  <name>СпособыКонтроляДнейЗадолженности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы контроля дней задолженности</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7059a823-02a6-43cb-95b9-22a5671ccb31">
+    <name>ПоКалендарнымДням</name>
+    <synonym>
+      <key>ru</key>
+      <value>По календарным дням</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="543ae558-5045-4b6a-88fc-0e758ff9c1c3">
+    <name>ПоРабочимДням</name>
+    <synonym>
+      <key>ru</key>
+      <value>По рабочим дням</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

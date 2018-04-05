@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d27d910-0389-47c3-947f-8646a107b84f">
+  <producedTypes>
+    <selectionType typeId="d04e56d1-c0ca-4b33-9c3e-2733cefeb24e" valueTypeId="90670066-945a-4f65-a91e-8b500ccc8d7c"/>
+    <listType typeId="5170fe53-dabb-44a0-aa5a-6ce76420325b" valueTypeId="24352429-3aa8-458e-9c25-1a3eeeefdc8b"/>
+    <managerType typeId="56e2904e-8c65-48e6-a9f1-01e2483c4a12" valueTypeId="e05859b8-cff2-47e7-a730-f21932da3baf"/>
+    <recordSetType typeId="947ab798-8415-4e06-954e-fe6f956a006a" valueTypeId="ac522c53-e118-44c2-b390-44e2e0366273"/>
+    <recordKeyType typeId="fd3f970e-7c49-4e70-9608-c92005dcf5ca" valueTypeId="447ef908-e338-4082-a851-d6950e7b7ff8"/>
+    <recordType typeId="b62f19f2-7ff3-4bcb-9a87-a33268507165" valueTypeId="aac0502a-d389-496b-8566-2a6ec5b3f37b"/>
+    <recordManagerType typeId="49c45bd3-9f12-4bc6-916c-c011bbd78108" valueTypeId="3e962df1-c218-4412-acd2-e3ad53c07b08"/>
+  </producedTypes>
+  <name>ГраницыЗапретаИзмененияДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Границы запрета изменения данных</value>
+  </synonym>
+  <comment></comment>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="de4ce3ac-d281-49f1-805d-2a8b66c6645c">
+    <name>ГраницаЗапретаИзменений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Граница запрета изменений</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="025755eb-9eab-421c-9ccc-f15a5b8998ba">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="80bfa9ad-a67f-4445-a891-b637001a471b">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ГруппыПользователей</types>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

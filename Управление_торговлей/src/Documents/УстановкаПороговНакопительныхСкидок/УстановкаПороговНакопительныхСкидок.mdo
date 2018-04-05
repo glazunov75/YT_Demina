@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c13b62d-78e0-4817-b306-429592944e5a">
+  <producedTypes>
+    <objectType typeId="7f95c12a-4488-4bf2-95ea-43c084a68a06" valueTypeId="6e4c8634-c2b2-418a-96cc-20f6a01bd61a"/>
+    <refType typeId="a39435dc-c612-4dd1-95c1-434a40aab028" valueTypeId="eac28152-b8db-421f-91c7-1349912da4a0"/>
+    <selectionType typeId="56601555-abe4-4038-90bd-23d26f9fae02" valueTypeId="8d0f2b0a-be8c-40c8-a187-192fb3554b6b"/>
+    <listType typeId="e36c5543-da55-4915-952b-bc3dcdc3f7d8" valueTypeId="fda7c932-e352-4a27-8895-07d99fe83b04"/>
+    <managerType typeId="b73c56e7-92e5-49bf-81cc-0505bbde42b8" valueTypeId="83854c1c-41db-4ded-8f5f-52d92e747c3f"/>
+  </producedTypes>
+  <name>УстановкаПороговНакопительныхСкидок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка порогов накопительных скидок</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <inputByString>Document.УстановкаПороговНакопительныхСкидок.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УстановкаПороговНакопительныхСкидок.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.УстановкаПороговНакопительныхСкидок.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.УстановкаПороговНакопительныхСкидок.Form.ФормаВыбора</defaultChoiceForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <registerRecords>InformationRegister.ПорогиНакопительныхСкидок</registerRecords>
+  <attributes uuid="f54fb46f-b005-4d7a-aa24-aff8c308cb44">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="379442ac-fb20-4091-9ff5-ab38df14a2c0">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment>Любая дополнительная информация</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="704502fa-59da-446c-8cb0-cd7a31a00be6">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="988d4146-2c75-4fd1-ac6d-529a69e08435">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cdb14574-3873-46bd-9876-645a1934288f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="1492932d-c2f6-4dd1-bd75-7068e9640b91">
+    <producedTypes>
+      <objectType typeId="a1cb1414-1386-44e6-9604-cda12db5a0c7" valueTypeId="3f2eb9cc-6e94-4649-92db-6750d4fce2f2"/>
+      <rowType typeId="2624f374-3003-4a8e-ba25-9eeb6541f001" valueTypeId="837a1b4d-eb4b-460a-bd6e-30f0c40c0687"/>
+    </producedTypes>
+    <name>ШкалаДиапазонов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шкала диапазонов</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="95ba2ec9-c5c3-4633-ab8d-e3e0fdde88a2">
+      <name>НижняяГраница</name>
+      <synonym>
+        <key>ru</key>
+        <value>Нижняя граница</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ef5a5584-bfd4-492d-93a2-bdddbd72470c">
+      <name>ЗначениеПорога</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение порога</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ВидыДисконтныхКарт</types>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

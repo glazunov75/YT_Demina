@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62a97faf-6768-47fb-b9dd-ea06c52ab0eb">
+  <name>ПредупреждениеОРазницеВоВремениССервером</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предупреждение о разнице во времени с сервером</value>
+  </synonym>
+  <comment></comment>
+  <content>CommonModule.ПроверкаРазницыВремени</content>
+  <content>CommonModule.ПроверкаРазницыВремениКлиент</content>
+  <content>Constant.ПроверятьРазницуВоВремениССервером</content>
+  <content>DataProcessor.ПредупреждениеОРазницеВоВремениССервером</content>
+</mdclass:Subsystem>

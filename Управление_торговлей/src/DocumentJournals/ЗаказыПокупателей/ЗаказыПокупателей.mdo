@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65673760-9d13-4481-aa00-0f72a0a0e6bc">
+  <producedTypes>
+    <selectionType typeId="073bf6d9-d636-4cc3-a10d-d34a28813492" valueTypeId="833a709a-11ce-4556-861b-03eb0d53c55b"/>
+    <listType typeId="5e9757dd-33a8-456f-9f8f-a4da43cc26d3" valueTypeId="c8d330fa-6b35-4b6a-bcd9-3df5b0c2f81a"/>
+    <managerType typeId="184befd2-f8fa-4827-9565-ba479502e482" valueTypeId="4fe7463e-dbfd-4523-b51c-a90be101ae0a"/>
+  </producedTypes>
+  <name>ЗаказыПокупателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы покупателей</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DocumentJournal.ЗаказыПокупателей.Form.ФормаСписка</defaultForm>
+  <registeredDocuments>Document.ЗаказПокупателя</registeredDocuments>
+  <registeredDocuments>Document.КорректировкаЗаказаПокупателя</registeredDocuments>
+  <registeredDocuments>Document.РезервированиеТоваров</registeredDocuments>
+  <registeredDocuments>Document.ЗакрытиеЗаказовПокупателей</registeredDocuments>
+  <columns uuid="c97fe3ae-93c6-4496-a82c-078db024e72a">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.РезервированиеТоваров.Attribute.ВидОперации</references>
+    <references>Document.ЗакрытиеЗаказовПокупателей.Attribute.ВидОперации</references>
+  </columns>
+  <columns uuid="2556c49c-45f4-4f81-9607-858a3997ad8f">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ЗаказПокупателя.Attribute.СуммаДокумента</references>
+    <references>Document.КорректировкаЗаказаПокупателя.Attribute.СуммаДокумента</references>
+  </columns>
+  <columns uuid="78bdcce4-5b2e-4b1c-81d5-6bbd459279a5">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ЗаказПокупателя.Attribute.ВалютаДокумента</references>
+  </columns>
+  <columns uuid="1a4a1ccc-2cd2-4628-b9ef-2d95a1c092b0">
+    <name>Информация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.КорректировкаЗаказаПокупателя.Attribute.ЗаказПокупателя</references>
+    <references>Document.ЗаказПокупателя.Attribute.Контрагент</references>
+    <references>Document.РезервированиеТоваров.Attribute.Заказ</references>
+  </columns>
+  <columns uuid="dabbe989-4bed-4e94-b11b-291562054ec4">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ЗаказПокупателя.Attribute.Организация</references>
+    <references>Document.КорректировкаЗаказаПокупателя.Attribute.Организация</references>
+  </columns>
+  <columns uuid="d9a4a5b5-122d-4b2f-94d9-e6100cd4f5c9">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ЗаказПокупателя.Attribute.Подразделение</references>
+    <references>Document.ЗакрытиеЗаказовПокупателей.Attribute.Подразделение</references>
+    <references>Document.РезервированиеТоваров.Attribute.Подразделение</references>
+  </columns>
+  <columns uuid="d3d8c589-d7c6-4407-9cba-b3614ceb03e1">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ЗакрытиеЗаказовПокупателей.Attribute.Ответственный</references>
+    <references>Document.ЗаказПокупателя.Attribute.Ответственный</references>
+    <references>Document.РезервированиеТоваров.Attribute.Ответственный</references>
+    <references>Document.КорректировкаЗаказаПокупателя.Attribute.Ответственный</references>
+  </columns>
+  <columns uuid="b109c6e3-c5b3-4b44-bed9-1dddc8e5fe40">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ЗакрытиеЗаказовПокупателей.Attribute.Комментарий</references>
+    <references>Document.КорректировкаЗаказаПокупателя.Attribute.Комментарий</references>
+    <references>Document.ЗаказПокупателя.Attribute.Комментарий</references>
+    <references>Document.РезервированиеТоваров.Attribute.Комментарий</references>
+  </columns>
+  <columns uuid="59c59092-0f0b-49a4-b9d8-3962a5d56088">
+    <name>ДатаОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата оплаты</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ЗаказПокупателя.Attribute.ДатаОплаты</references>
+  </columns>
+  <columns uuid="8b14514c-07a6-484b-9372-2b8b961bc2b5">
+    <name>ДатаОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отгрузки</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ЗаказПокупателя.Attribute.ДатаОтгрузки</references>
+  </columns>
+  <forms uuid="c403a20d-b31e-4639-a9dd-0f1d1e99272c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

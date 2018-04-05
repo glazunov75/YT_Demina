@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4cb2c377-b1c3-4c50-abcd-91aef6da663a">
+  <producedTypes>
+    <refType typeId="7139d3da-432e-4a1a-90b5-663bb144874c" valueTypeId="a1b8fa10-5030-4f67-a466-a2f598a4d2e5"/>
+    <listType typeId="dc47d5cb-ed0d-40cc-abce-c96ccdb3d7b0" valueTypeId="373069cd-09cb-4140-98c2-711c90433f09"/>
+    <managerType typeId="a4858651-1c03-44ea-959a-dd7b253e4713" valueTypeId="d996c9e5-e7ee-449d-b816-50cb17f8596d"/>
+  </producedTypes>
+  <name>ВариантыУказанияСкладовВТабличнойЧастиДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты указания складов в табличной части документов</value>
+  </synonym>
+  <comment>(Общ.)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0bc989bb-bee6-4185-9e11-d2e4092d0d54">
+    <name>НеИспользовать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не использовать</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3f533bb5-bbd1-4d46-b65d-71c6a5151d88">
+    <name>ДляДокументовПоступления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для документов поступления</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="96cb5c3e-3f9f-4045-b000-daab938fc1fa">
+    <name>ДляДокументовРеализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для документов реализации</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="8fc0d5f5-5754-481a-9c5d-696d33155d24">
+    <name>ДляДокументовПоступленияРеализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для документов поступления и реализации</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

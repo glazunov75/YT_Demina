@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a2e9091-d6a3-43c0-aab6-61461f55e11f">
+  <producedTypes>
+    <objectType typeId="60981116-3a16-491a-9ed4-1fecb26b094f" valueTypeId="940f2298-9ef2-4198-9e4d-802f338c02db"/>
+    <managerType typeId="a00711af-474a-4970-8582-05bee67c2534" valueTypeId="885b256e-b0df-444b-8716-8676d088b5bb"/>
+  </producedTypes>
+  <name>ЗадолженностьДиаграмма</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задолженность (диаграмма)</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.ЗадолженностьДиаграмма.Form.ФормаДебиторскаяЗадолженность</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <attributes uuid="a79de617-565a-45b3-af63-46f984f0929a">
+    <name>ОбщийОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общий отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.ОтчетДиаграмма</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="759ef38c-0b1e-4e21-9aaf-99458eec7c5f">
+    <name>ФормаДебиторскаяЗадолженность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дебиторская задолженность контрагентов-диаграмма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="38b7137c-465f-4b5f-94a3-9b958d0face3">
+    <name>ФормаКредиторскаяЗадолженность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма основная</value>
+    </synonym>
+    <comment>Кредиторская задолженность контрагентов-диаграмма </comment>
+    <formType>Ordinary</formType>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

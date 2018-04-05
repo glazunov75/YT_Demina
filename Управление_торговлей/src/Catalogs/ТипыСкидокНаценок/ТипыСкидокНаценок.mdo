@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08066ae6-0f2f-4d69-8d91-a46422e036bd">
+  <producedTypes>
+    <objectType typeId="7d0eb5e6-3463-4d99-882f-eab5837798fb" valueTypeId="6c371e33-29df-4fe1-820f-19875f43bcfa"/>
+    <refType typeId="49f55422-71bb-4d53-8b49-b9e13e9eb848" valueTypeId="9191c749-7592-4e6f-a7c7-a92852776f5a"/>
+    <selectionType typeId="d4e5586a-abea-4110-a50a-3f8480071260" valueTypeId="cec9253a-4078-4c27-ae38-8237fd23d95d"/>
+    <listType typeId="2af22d13-d721-4fc5-90b0-a775fdb694c7" valueTypeId="056278a7-69ba-48e5-8fde-951d486fcd5c"/>
+    <managerType typeId="ed0dba67-9e11-43ed-bee0-1525f26b0ece" valueTypeId="24fa4d1a-c216-4760-b846-cc8ccaf65318"/>
+  </producedTypes>
+  <name>ТипыСкидокНаценок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы скидок и наценок</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <inputByString>Catalog.ТипыСкидокНаценок.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипыСкидокНаценок.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>1</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТипыСкидокНаценок.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ТипыСкидокНаценок.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ТипыСкидокНаценок.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="7b10d15c-299f-4669-ae56-192985b908e4">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <comment>(Общ) Валюта, в которой задана скидка </comment>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="410f2076-90fa-4266-b52c-a8ac4691874d">
+    <name>ДляВсейНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для всей номенклатуры</value>
+    </synonym>
+    <comment>Удалить (Общ) Истина -  скидка действует для всех номенклатурных позиций, иначе - только для заданных в регистре сведений Скидки</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="07fef32a-1562-4ffc-a0f2-b71a6489a64d">
+    <name>ПроцентСкидкиНаценки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент скидки наценки</value>
+    </synonym>
+    <comment>(Общ) Процент скидки по умолчанию (сумма или процент)</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="683a9f45-2777-4ea0-9d9f-74fb5658143a">
+    <name>ЗначениеУсловия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение условия</value>
+    </synonym>
+    <comment>(Общ) Значение условия скидки</comment>
+    <type>
+      <types>CatalogRef.ВидыОплатЧекаККМ</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="5c24a5f6-3ad0-463e-bcbb-ad0c297b81ef">
+    <name>ОбщееВремяНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общее время начала</value>
+    </synonym>
+    <comment>(Общее время начала действия скидки)</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="12f1d8d4-f1d5-42cd-ab50-725da8c9d9ba">
+    <name>ОбщееВремяОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общее время окончания</value>
+    </synonym>
+    <comment>(Общее время окончания действия скидки)</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="ad22629d-9ba6-40f0-a69f-b820a5c29eab">
+    <name>ОграничениеСкидкиНаценки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничение скидки наценки</value>
+    </synonym>
+    <comment>(Общ) Ограничение скидки</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="41db500b-869d-4ac1-a7fe-7fed5afadb41">
+    <name>Условие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условие</value>
+    </synonym>
+    <comment>(Общ) Условие скидки-наценки</comment>
+    <type>
+      <types>EnumRef.УсловияСкидкиНаценки</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="6f776966-2c5d-4f99-b20a-e9fd597f2699">
+    <name>Качество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Качество</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Качество</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="38a31285-8516-4437-a037-2f1e7d15e1c7">
+    <name>ДляВсехПолучателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для всех получателей</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="4403df01-c771-4cee-915b-bfbb756622d3">
+    <name>ПоДнямНедели</name>
+    <synonym>
+      <key>ru</key>
+      <value>По дням недели</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="0375f547-ce35-48ac-96c2-8cdf91cb37c2">
+    <name>ВидСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид скидки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ВидыСкидок</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <tabularSections uuid="1f54b9a4-a2d0-4b8e-b5d8-3716a6e9e743">
+    <producedTypes>
+      <objectType typeId="2ab0070b-69ef-483c-8136-885f8303c1b4" valueTypeId="5b76e402-8746-4bc2-8b21-caa19ce6cd21"/>
+      <rowType typeId="ac86b29d-578c-4087-b7f9-ae38543fed50" valueTypeId="9869279a-28a3-41d4-891b-642931b33317"/>
+    </producedTypes>
+    <name>ВремяПоДнямНедели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время по дням недели</value>
+    </synonym>
+    <comment>(Общ) Время действия скидки</comment>
+    <attributes uuid="0493ac16-8154-4d26-9d98-befa34f2f7db">
+      <name>Выбран</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выбран</value>
+      </synonym>
+      <comment>(Общ) Признак выбранного дня недели</comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9ff23f03-439f-44fc-8cc9-86ba07655085">
+      <name>ДеньНедели</name>
+      <synonym>
+        <key>ru</key>
+        <value>День недели</value>
+      </synonym>
+      <comment>(Общ) День недели</comment>
+      <type>
+        <types>EnumRef.ДниНедели</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cd976400-84a4-45cb-afee-0726e36fce28">
+      <name>ВремяНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время начала</value>
+      </synonym>
+      <comment>(Общ) Время начала действия скидки</comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Time</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1ef7d702-60d0-4a58-93e9-b8490d1d199d">
+      <name>ВремяОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время окончания</value>
+      </synonym>
+      <comment>(Общ) Время окончания действия скидки</comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Time</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="47f055f7-900f-47c6-bc73-7c0f98e09857">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7c0a2b24-3712-47cd-a93d-3a0364a36dd4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8da93bb6-771d-4d1e-a6a7-053ca6b86429">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

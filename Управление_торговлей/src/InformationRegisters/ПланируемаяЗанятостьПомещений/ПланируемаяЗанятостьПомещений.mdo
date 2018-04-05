@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="411f714d-7f76-4003-b10a-d7b98917a943">
+  <producedTypes>
+    <selectionType typeId="f654e465-40c1-4277-9284-120eb863f5c1" valueTypeId="34ddad48-87ba-4a33-a980-56a9e1b30450"/>
+    <listType typeId="94cd6bae-3d47-4e6a-ad44-696b64ce9f1e" valueTypeId="c642c095-1e9a-48dc-a589-5a465a7f5c00"/>
+    <managerType typeId="c10a9a44-2457-45a4-92b5-993fe1f266a0" valueTypeId="bc874993-288e-4a2c-b2eb-ab9903120d73"/>
+    <recordSetType typeId="fbd325a8-5dee-46df-ba38-5dbaaafa628d" valueTypeId="b2ef3af2-1f57-4a50-bd58-6cb97f2bada5"/>
+    <recordKeyType typeId="0b9572d3-3fa1-4bf6-b075-8624bb8c1cee" valueTypeId="402e7da7-ae9f-4334-8b86-8b60919980b5"/>
+    <recordType typeId="f8a0fda3-a34e-4bf1-b833-d5ffbaec532a" valueTypeId="89418cf4-461a-4d16-8222-5ed860cc296a"/>
+    <recordManagerType typeId="5cd69e92-1740-4c62-b562-fc67fae14100" valueTypeId="44be23bb-20b9-49d9-ae34-ab097e16cacc"/>
+  </producedTypes>
+  <name>ПланируемаяЗанятостьПомещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планируемая занятость помещений</value>
+  </synonym>
+  <comment></comment>
+  <defaultListForm>InformationRegister.ПланируемаяЗанятостьПомещений.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="f18a1a81-d8e4-4d20-ac4c-c68e068b9ee5">
+    <name>Занятость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Занятость</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.Занятость</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="9d8a4b61-de25-484a-8fd9-705030c52ed9">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="4064dec0-7093-4aab-aa51-c9f49eb6d545">
+    <name>Помещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помещение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Помещения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="de02e301-08eb-42ff-958f-5566d1731114">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="712fb940-8da3-4239-8c58-1a010e0b77c0">
+  <producedTypes>
+    <refType typeId="58fd3631-0a98-416c-bbbc-7ac42420cfd6" valueTypeId="5fa56266-8a18-4554-89cb-a6ddd5b3ea72"/>
+    <listType typeId="c2829fb8-d8dd-4e93-9b82-400fe377b0c7" valueTypeId="fa7188aa-6383-4b86-b17e-cb0e96f6c043"/>
+    <managerType typeId="8d38fe8d-0c84-48d5-ae19-f8ad5f7bb769" valueTypeId="f0ecb933-c4d6-476e-8a3a-d94d6610f30f"/>
+  </producedTypes>
+  <name>СобытияПоНДСПродажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>События по НДС (продажи)</value>
+  </synonym>
+  <comment>(Регл)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="863b65a0-bdfb-4da4-ba52-f9312e9df3fa">
+    <name>ПолученАванс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получен аванс</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d4843d7a-bf76-4f1e-ba44-6a75122fde06">
+    <name>Реализация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализация</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="02b6ecde-7000-4cdb-b36f-60a793eb39e5">
+    <name>НДСНачисленКУплате</name>
+    <synonym>
+      <key>ru</key>
+      <value>НДС начислен к уплате</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="deb3c84f-caae-4bf5-83e2-352fc3179fff">
+    <name>ПодтвержденаСтавка0</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждена ставка 0%</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c83d5aee-0b48-4dd8-9e47-cafcc4077579">
+    <name>НеПодтвержденаСтавка0</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не подтверждена ставка 0%</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="79f51c00-ba72-4470-a3e8-7dcfb13b95f7">
+    <name>НДССкорректирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>НДС скорректирован</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e651033e-7260-4745-bafe-2e2842e8a3ad">
+    <name>Оплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="cad19b35-65cf-4b03-be91-da8810d93d83">
+    <name>Возврат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат</value>
+    </synonym>
+    <comment>Возвращено от покупателя</comment>
+  </enumValues>
+  <enumValues uuid="2b351a5c-2191-4612-97de-5884cf22316f">
+    <name>ВосстановлениеНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Восстановление НДС</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

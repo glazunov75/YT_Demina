@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e92a4f9-7f0b-476c-8dfd-34d029e681b1">
+  <producedTypes>
+    <objectType typeId="40ccf987-9bb0-425a-85ea-359487fa4303" valueTypeId="ca8866ea-e96e-4342-97e8-406091eb035f"/>
+    <refType typeId="29c4d48c-d5e3-473f-9bc7-39525b90583b" valueTypeId="40977fa0-72c6-4951-8b58-c69a33a3dbf8"/>
+    <selectionType typeId="3f137cf5-21e7-434f-b230-7c8ea9ee6005" valueTypeId="1a56abb6-8605-4009-a52c-5c9c360bc645"/>
+    <listType typeId="a188e49a-9904-4451-8063-f19903481746" valueTypeId="db30c7e7-7681-4cd1-96eb-2e729c9887e4"/>
+    <managerType typeId="0532991a-e6c8-430d-a96f-7e352ed08e4c" valueTypeId="fbd7d2ee-2a48-4aab-a775-4e52d81ec14c"/>
+  </producedTypes>
+  <name>ИсходящееИзвещение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исходящее извещение</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>Document.ИсходящееИзвещение.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ИсходящееИзвещение.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ИсходящееИзвещение.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.ИсходящееИзвещение.Form.ФормаВыбора</defaultChoiceForm>
+  <posting>Deny</posting>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <attributes uuid="d014c5e8-0a32-4308-becf-57b44793f310">
+    <name>УчетнаяЗаписьЭлектронногоОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись электронного обмена</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.УчетныеЗаписиЭлектронногоОбмена</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="d9bae9f8-273a-49c8-955c-dc0e0e6b61c9">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="7eec57a8-28dc-48f1-ad0c-305fbcb16c5a">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>80</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a4af75c4-2ced-417f-9952-39a13d430921">
+    <name>Примечание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Примечание</value>
+    </synonym>
+    <comment>Любая дополнительная информация</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="e9424e49-5b5f-4d6d-bc7e-46cecbe1e2e7">
+    <name>ДанныеОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные обмена</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="79fb5c48-cd55-481c-95c4-7cfdb827dcef">
+    <name>ИсходныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходный документ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.ВходящийЗапросКаталога</types>
+      <types>DocumentRef.ИсходящийКаталогТоваров</types>
+      <types>DocumentRef.ВходящаяЭлектроннаяНакладная</types>
+      <types>DocumentRef.ИсходящийРеджектАкцептСчетаФактуры</types>
+      <types>DocumentRef.ВходящийАкцептСчетаФактуры</types>
+      <types>DocumentRef.ИсходящийРеджектАкцептЗаказа</types>
+      <types>DocumentRef.ВходящийАкцептНакладной</types>
+      <types>DocumentRef.ВходящийЗапросПрайсЛиста</types>
+      <types>DocumentRef.ИсходящийРеджектАкцептНакладной</types>
+      <types>DocumentRef.ВходящийСчетФактура</types>
+      <types>DocumentRef.ИсходящаяЭлектроннаяНакладная</types>
+      <types>DocumentRef.ВходящийКаталогТоваров</types>
+      <types>DocumentRef.ВходящийРеджектЗаказа</types>
+      <types>DocumentRef.ИсходящийПрайсЛист</types>
+      <types>DocumentRef.ИсходящийЗаказ</types>
+      <types>DocumentRef.ИсходящийЗапросКаталога</types>
+      <types>DocumentRef.ВходящийАкцептЗаказа</types>
+      <types>DocumentRef.ВходящийТоварКРаботе</types>
+      <types>DocumentRef.ИсходящийТоварКРаботе</types>
+      <types>DocumentRef.ВходящийРеджектСчетаФактуры</types>
+      <types>DocumentRef.ИсходящийСчетФактура</types>
+      <types>DocumentRef.ВходящийРеджектНакладной</types>
+      <types>DocumentRef.ВходящийПрайсЛист</types>
+      <types>DocumentRef.ИсходящийЗапросПрайсЛиста</types>
+      <types>DocumentRef.ВходящийЗаказ</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="042d844a-1941-4fcb-be40-8c1510209fde">
+    <name>СтатусОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус обработки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="dc70e0b3-5e15-441a-8a03-d60e8346cf43">
+    <name>Отправлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="f0eff190-c56b-4fcb-bfec-78a3d2c55262">
+    <name>ДатаОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отправки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="f658f60b-0961-45f3-b096-90468add05b5">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8b338106-3b8c-4027-8789-2baea2301024">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9e3a59a6-fc2e-4bb2-8766-c8f1c5a39b8b">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="711cfae1-f75b-418b-95c0-478c8a44bd41">
+    <producedTypes>
+      <objectType typeId="3f3936d3-6774-4b95-a870-ba9f644e0de7" valueTypeId="c65e24ae-f1cf-4f9d-9f60-076c44feae79"/>
+      <rowType typeId="17fc8a26-bf78-4e38-ba92-4d61f0c35518" valueTypeId="7823eb4a-34c3-4cbd-b8bd-a35f9924ab38"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="26ccc57e-3b0c-4993-a840-15ea0419dcc0">
+      <name>ИдТовара</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ид товара</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>80</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9be7e486-6e40-41bb-90d3-ad26510d21d1">
+      <name>Примечание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Примечание</value>
+      </synonym>
+      <comment>Любая дополнительная информация</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

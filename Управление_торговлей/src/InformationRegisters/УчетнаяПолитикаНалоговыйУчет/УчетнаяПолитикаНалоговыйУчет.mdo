@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="541bf152-fe90-41a0-88ac-4bb623f35640">
+  <producedTypes>
+    <selectionType typeId="d2bb98c2-7b36-4a98-935c-2603d1f8dd01" valueTypeId="228f515b-0b73-4aaf-a750-58b1d4cd9779"/>
+    <listType typeId="bbafd93d-af66-4d04-a204-45d5afff6628" valueTypeId="4772afcd-2f2b-4d2c-9287-c2f3745c8b5b"/>
+    <managerType typeId="10eb3b22-4c19-4d46-a1d4-15fed8329612" valueTypeId="a1a2f240-e286-4fce-b6e5-a1be9d379add"/>
+    <recordSetType typeId="9d268024-6e5b-4e63-a428-f6b276401007" valueTypeId="b7c0e444-b1ab-4e12-afbb-fa93e6ba99b3"/>
+    <recordKeyType typeId="76294623-1cc1-4224-b986-b51237a78ff4" valueTypeId="44bf2e11-c89a-4c4b-a9e4-5d6e5e0ed94b"/>
+    <recordType typeId="6eb32e32-b54e-4ce8-bc97-b9aed4c011b7" valueTypeId="42f1ef9a-672d-42a3-9ce3-7656826f0cd7"/>
+    <recordManagerType typeId="e1ade81b-3784-4a1e-a604-1127c2ce90b2" valueTypeId="736a40e0-f538-4049-9ecb-a3dec1efa6ae"/>
+  </producedTypes>
+  <name>УчетнаяПолитикаНалоговыйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная политика (налоговый учет)</value>
+  </synonym>
+  <comment>(Регл)</comment>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.УчетнаяПолитикаНалоговыйУчет.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.УчетнаяПолитикаНалоговыйУчет.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="65be1d62-a7db-430c-aece-c41d17724e4f">
+    <name>МоментОпределенияНалоговойБазыНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Момент определения реализации для НДС</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.МоментыОпределенияНалоговойБазыНДС</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b72b2490-7999-4d36-a1f6-08e3f6ecc657">
+    <name>ОрганизацияЯвляетсяПлательщикомЕНВД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация является плательщиком ЕНВД</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e5165c8d-b29e-4644-9fc7-554197fac001">
+    <name>РозничнаяТорговляОблагаетсяЕНВД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Розничная торговля облагается ЕНВД</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e268872e-9a37-44ab-99ea-ddb13487164b">
+    <name>СложныйУчетНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличие операций комиссии, без НДС или с НДС 0% </value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="08f77845-ba5f-4ca0-ac3b-f3b0fdbb88c3">
+    <name>НДСРежимУчетаРаспределенныхОплат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим учета распределенных оплат</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.НДСРежимУчетаРаспределенныхОплат</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d21e3504-7144-416e-84fc-5841a4f94b26">
+    <name>НДСИспользованиеОплатПокупателя_Приоритет0</name>
+    <synonym>
+      <key>ru</key>
+      <value>НДС При распределении оплат покупателя приоритет по реализации 0%</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bdde125c-9363-4610-b605-7ff659dd98f7">
+    <name>НДСНалоговыйПериод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Налоговый период по НДС</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.Периодичность</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="95c1cd85-bd33-4d76-ba55-18139aeae01e">
+    <name>ПартионныйУчетНДСвРазрезеСерийИХарактеристик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вести партионный учет НДС в разрезе серий и характеристик</value>
+    </synonym>
+    <comment>Вести партионный учет НДС в разрезе серий и характеристик</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f16b5315-101d-4bf3-84e1-c35072c278c2">
+    <name>ПартионныйУчетНДСвРазрезеСкладов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вести партионный учет НДС в разрезе складов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="256e7f4d-0140-4aa7-8cbb-dc50bb86107e">
+    <name>НДСПриНеподтвержденииСверху</name>
+    <synonym>
+      <key>ru</key>
+      <value>При неподтверждении правомерности применения ставки НДС 0%</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3df6a115-2ecb-4434-a845-11ccd2168bc3">
+    <name>ОрганизацияНеЯвляетсяПлательщикомНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация не является плательщиком НДС</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0cb692a9-e3ba-4631-8b0b-3fa2cc5d3a1d">
+    <name>ПорядокРегистрацииСчетовФактурНаАванс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок регистрации счетов фактур на аванс</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ПорядокРегистрацииСчетовФактурНаАванс</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1178ff2e-b0e0-4535-9ad2-989c0eeaf3d2">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="78babc51-9948-4c41-8587-232ecafb1043">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b6ba8022-eec6-465a-b846-ce601015d35b">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

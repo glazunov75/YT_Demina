@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31890cb7-d015-4fc3-b7bc-3e0ec1815393">
+  <producedTypes>
+    <selectionType typeId="1ad8637a-8d85-4c8d-8829-c2a6ddac2660" valueTypeId="cd9b69be-d6e5-4022-8dd8-6454d73bf02d"/>
+    <listType typeId="ba8ab7a4-859c-4ff3-b83e-02ba722e0b1d" valueTypeId="f586daee-4636-408d-a9d3-a3e88762481d"/>
+    <managerType typeId="6f9c4660-1a7b-4ecc-bc2f-b461a64f8d4b" valueTypeId="7aceb2f9-2828-406f-9e48-7fdec195cf6f"/>
+    <recordSetType typeId="d38bc27e-245f-4e1c-8498-e2c4030e370e" valueTypeId="67128851-066c-4659-83f8-086b0f3e1265"/>
+    <recordKeyType typeId="56648513-dca1-44e1-a9e3-b5dfcb2d66a1" valueTypeId="b1acb6ce-687d-442f-bc7b-3ccf726f8e49"/>
+    <recordType typeId="f1721510-8fdb-40f1-a0b2-c844fe07aff9" valueTypeId="54a7a00b-64eb-46b8-91d7-910319a54050"/>
+    <recordManagerType typeId="4cc5829f-d571-42e0-bfaa-649b13494ad3" valueTypeId="cd6ec025-de18-4b3d-b564-555c55231b76"/>
+  </producedTypes>
+  <name>УчетнаяПолитика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная политика</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <editType>BothWays</editType>
+  <defaultRecordForm>InformationRegister.УчетнаяПолитика.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.УчетнаяПолитика.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="a07df52e-1b69-462e-ae8e-50f12f4ee78f">
+    <name>ВедениеУчетаПоПроектам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ведение учета по проектам</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="63245562-fb69-45fd-b480-4e5c99f6455d">
+    <name>ВестиПартионныйУчетПоСкладам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вести партионный учет по складам</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ec78f733-c577-47e1-b5cf-53cef8fed33c">
+    <name>ИспользоватьСкидкиПоВидуОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать скидки по виду оплаты</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7e98df71-177c-4794-9183-f419ae602683">
+    <name>ИспользоватьСкидкиПоДисконтнойКарте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать скидки по дисконтной карте</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="21a0d9e1-63ab-4d68-9d22-08ea23b8a4b2">
+    <name>ИспользоватьСкидкиПоКоличествуТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать скидки по количеству товара</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="49480d42-8e42-47d0-a8d3-dd9e405f66a6">
+    <name>ИспользоватьСкидкиПоСуммеДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать скидки по сумме документа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9d928bf0-eb61-421d-8c9e-85c5c7394d6c">
+    <name>НеВключатьНДСВСтоимостьПартий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не включать НДС в стоимость партий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="27310d40-2c26-4873-92c4-244bbc56ada7">
+    <name>ПараметрABCКлассификацииПокупателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр ABC классификации покупателей</value>
+    </synonym>
+    <comment>(Упр)</comment>
+    <type>
+      <types>EnumRef.ПараметрыABCКлассификацииПокупателей</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="89c2b4c2-d92b-408b-b100-2ad35edac960">
+    <name>ПараметрРаспределенияПокупателейПоСтадиямВзаимоотношений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр распределения покупателей по стадиям взаимоотношений</value>
+    </synonym>
+    <comment>(Упр)</comment>
+    <type>
+      <types>EnumRef.ПараметрыРаспределенияПокупателейПоСтадиямВзаимоотношений</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="21496f2e-08c3-4290-84cb-dc3cab862e2c">
+    <name>СписыватьПартииПриПроведенииДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списывать партии при проведении документов</value>
+    </synonym>
+    <comment>(Общ) Выполнять списание партий сразу же при проведении документов оперативного учета</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3642fdc7-e40b-43e1-806d-e8dfc0a8b53c">
+    <name>СпособОценкиМПЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ оценки МПЗ</value>
+    </synonym>
+    <comment>(Упр) Способ оценки МПЗ</comment>
+    <type>
+      <types>EnumRef.СпособыОценки</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1269c390-6328-43b8-a12f-ba49b48e01cd">
+    <name>СтратегияСписанияПартийТоваровПоСтатусам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стратегия списания партий товаров по статусам партии</value>
+    </synonym>
+    <comment>(Общ) Стратегия списания партий товаров по статусам партий</comment>
+    <type>
+      <types>EnumRef.СтретегииСписанияПартийТоваровПоСтатусам</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b6640720-03be-4ba8-84f4-4b166def8c21">
+    <name>НеВключатьНДСВЗатраты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не включать НДС в затраты</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="eb380fd1-0f44-4c02-88c3-8ae2c6c4e7eb">
+    <name>ВестиУчетТоваровОрганизацийВРазрезеСкладов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вести учет товаров организаций в разрезе складов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="18933758-ae81-4c72-bf71-f23ed4c6602d">
+    <name>ИспользоватьНакопительныеСкидкиПоДисконтнымКартам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать накопительные скидки по дисконтным картам</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0266afc2-890d-4ba0-b972-69d79da835e3">
+    <name>СпособИспользованияНакопительныхСкидок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ использования накопительных скидок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.СпособыИспользованияНакопительныхСкидок</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9a1110ba-5581-47c1-b0f4-655adce5b6f4">
+    <name>ПериодичностьРасчетаНакопленияСкидок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность расчета накопления скидок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ПериодичностьНакопленияСкидок</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0f6f017a-1fcf-4871-936b-b43efd16ebd8">
+    <name>ОпределениеВремениПроведенияПлатежногоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Определение времени проведения платежного документа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.СпособыОпределенияВремениПроведенияПлатежногоДокумента</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c4c25b54-f21f-4335-8c61-6ae90cbb2e2a">
+    <name>АнализироватьПрошлыйПериодНакопленияСкидок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализировать прошлый период накопления скидок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <forms uuid="0a26980f-e370-44ff-aad1-c6c22e88261e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2b34442b-ec42-4485-982d-6ed73b9345e3">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

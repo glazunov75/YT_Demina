@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0609db21-96db-4058-ae52-02d72364c1ad">
+  <name>М11</name>
+  <synonym>
+    <key>ru</key>
+    <value>М-11</value>
+  </synonym>
+  <comment>Требование-накладная (унифицированная форма № М-11)</comment>
+</mdclass:CommonTemplate>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0347ee2a-d017-4c7d-9624-8848c933aafb">
+  <producedTypes>
+    <selectionType typeId="8f8704fd-5f99-4cfc-9c81-0b0fbf403f0b" valueTypeId="c4132e5f-65a3-4a22-8aed-c09646851c67"/>
+    <listType typeId="686e275b-6cb5-4737-b2eb-0f998db823f1" valueTypeId="f986743d-704d-46dd-9c02-da7f7fc4f5b9"/>
+    <managerType typeId="7ecb5dc3-4a1a-4fa5-b694-fedee1c15643" valueTypeId="0bf00b02-f508-4f21-a78f-5615904acbf9"/>
+    <recordSetType typeId="d60573cd-00f1-4061-9804-d014899a688d" valueTypeId="bf5ed462-69b2-43a3-8dc0-dbd48fdc6b8e"/>
+    <recordKeyType typeId="1d052b5d-22a7-4b2f-9c21-79e92565953a" valueTypeId="f8285c84-e385-4cdf-a4e8-2c8dd5bc6b39"/>
+    <recordType typeId="522d54a3-5d69-4ee3-bdf8-93743891901d" valueTypeId="fe63c304-c286-4fda-9fa4-c696e31e52b4"/>
+    <recordManagerType typeId="a42d4f45-745e-480a-a06a-69f39d201574" valueTypeId="d879b606-8fcd-4068-bc50-3544acec4680"/>
+  </producedTypes>
+  <name>ПредметыЭлектронныхПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предметы электронных писем</value>
+  </synonym>
+  <comment></comment>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="d6335744-050d-4ee2-b176-2f084bc46315">
+    <name>Скрытый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрытый</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="34f59e0d-9c93-4215-91a1-acf4ae5126f1">
+    <name>ГруппаПисемЭлектроннойПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа писем электронной почты</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ГруппыПисемЭлектроннойПочты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="96d953de-a9ff-437e-8a8a-18311297ac3f">
+    <name>Предмет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предмет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

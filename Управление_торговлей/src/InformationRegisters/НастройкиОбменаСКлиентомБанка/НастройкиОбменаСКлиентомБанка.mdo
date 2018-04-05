@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90e8ff45-8c1f-4990-9f38-79bec8f52f3b">
+  <producedTypes>
+    <selectionType typeId="32db1608-ec03-4433-8f34-801c8d0a20b9" valueTypeId="f1e26441-68b8-48a4-9c9a-92900267aad0"/>
+    <listType typeId="be6428a8-755b-40df-821f-3c37876d374c" valueTypeId="f9d60663-8d87-4f5a-bd64-474014d6b3bf"/>
+    <managerType typeId="89f1332e-37d7-420f-a361-3fd430b942fa" valueTypeId="5b8de83f-d5dc-498a-b0d0-63858d21c94a"/>
+    <recordSetType typeId="a3bed918-504a-4221-9d60-baaac96262e7" valueTypeId="9603af9a-16a1-4f6a-ac1d-2ff414c3a940"/>
+    <recordKeyType typeId="5fae2c9e-e5dd-4bc7-a53b-31ee4cb6bac2" valueTypeId="a7202e26-ca0c-400b-a620-0a3c2ce3aa86"/>
+    <recordType typeId="82ce3804-cbee-4b95-8932-81341325f1b3" valueTypeId="11726b3d-4566-47ef-92cc-a22213ea0e84"/>
+    <recordManagerType typeId="23da58dd-d6b7-4902-9176-fd5c80faeb2f" valueTypeId="cae36c9a-a737-4b22-bef5-ad28a2946b04"/>
+  </producedTypes>
+  <name>НастройкиОбменаСКлиентомБанка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки обмена данными с &quot;Клиентом Банка&quot;</value>
+  </synonym>
+  <comment></comment>
+  <defaultListForm>InformationRegister.НастройкиОбменаСКлиентомБанка.Form.ФормаСписка</defaultListForm>
+  <resources uuid="8e17022d-3e61-4062-bc86-3807e3e0a0e1">
+    <name>Программа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>254</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b2648009-4bdb-49d7-b648-12dbbbbce489">
+    <name>Кодировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кодировка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="892feb8d-a2b8-40b3-8038-8da4596e0384">
+    <name>ВидыВыгружаемыхПлатДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды выгружаемых платежных документов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="456d57c2-6e1d-44e2-b96a-26acc20391ef">
+    <name>ФайлЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл загрузки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>254</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="290da2f8-f8dd-40b7-b7ff-5b4d3a350d69">
+    <name>ФайлВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл выгрузки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>254</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1605062f-bceb-49bc-8a93-9bce16665203">
+    <name>НеКонтролироватьОкончаниеНомера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не контролировать окончание номера на 000</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c6655e71-434b-4711-908d-8dd95616cc07">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1faed47b-0686-4f62-b776-dac3560eaa95">
+    <name>БанковскийСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банковский счет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.БанковскиеСчета</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="b42babf4-6f83-45d9-b975-2c74896f55fd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

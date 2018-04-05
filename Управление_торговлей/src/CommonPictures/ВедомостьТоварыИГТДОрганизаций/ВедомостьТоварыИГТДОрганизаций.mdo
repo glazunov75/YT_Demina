@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00f14f6a-001f-46e5-ac6f-77c8e25cdb7e">
+  <name>ВедомостьТоварыИГТДОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведомость по товарам и ГТД организаций</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f651c76-3501-47d7-9c20-175da4935599">
+  <producedTypes>
+    <refType typeId="9e76c149-1d00-40aa-ac84-0ed6ef8873ae" valueTypeId="3db5fc29-ba1a-49b0-bf0a-e21bfafd4466"/>
+    <listType typeId="d75be232-c4b9-40a5-b70e-3d67d6595bbb" valueTypeId="9912afee-e7a0-4ad3-a619-7e74368e5e06"/>
+    <managerType typeId="7a72e1c1-442b-4b2d-8fad-9647fa0dea40" valueTypeId="0ffa942f-6fc0-4d15-937c-8a57089335f9"/>
+  </producedTypes>
+  <name>ВидыБизнесПроцессов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды бизнес процессов</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8ee037a4-10bc-4d82-bdc1-1984d33a301e">
+    <name>ПереоценкаТоваровРозница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переоценка товаров розница</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="1e13247a-d09f-4b86-a605-ecf0b1de514a">
+    <name>ПереоценкаТоваровАТТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переоценка товаров АТТ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="a4f3fb5a-b73d-4cf1-b7d6-538b0b668013">
+    <name>СогласованиеЗаказаПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласование заказа покупателя</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

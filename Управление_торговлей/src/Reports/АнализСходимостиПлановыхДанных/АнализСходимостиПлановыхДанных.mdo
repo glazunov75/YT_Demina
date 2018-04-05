@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21ac6800-a9eb-4416-8058-1498c5524f47">
+  <producedTypes>
+    <objectType typeId="4f9b731c-ebb8-436b-83b9-7dcc4f65d7a8" valueTypeId="ea7c1958-3c07-42c0-b6e4-df1c59658d4f"/>
+    <managerType typeId="98acf1d7-d237-468e-a25e-b130fd2a6561" valueTypeId="f61ee936-15ed-47c8-a7c7-5598413ff422"/>
+  </producedTypes>
+  <name>АнализСходимостиПлановыхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ сходимости плановых данных</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.АнализСходимостиПлановыхДанных.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="2cad12a7-c4f4-4be4-b16c-08506ab5ca1b">
+    <name>УниверсальныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.УниверсальныйОтчет</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="07e0ded2-c1db-4d39-8025-875f7ae16d2d">
+    <producedTypes>
+      <objectType typeId="2cf4ac61-610d-4379-8c66-596a00c8830a" valueTypeId="d9e73455-0394-4c27-805c-19b67d5961ea"/>
+      <rowType typeId="d6975dcf-018f-43ce-994b-3b98a051eae8" valueTypeId="01642932-1eff-4f99-912c-e4819332ae2f"/>
+    </producedTypes>
+    <name>ДанныеОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные отчета</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="ea40b11b-6fae-4282-ab7f-c12979f3f8b0">
+      <name>Сценарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сценарий</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.СценарииПланирования</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="761a3c34-4b0c-4657-bb5c-31ad90372bb9">
+      <name>ДатаНач</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bc2a5a6e-b04c-4a4a-a938-434e87106cd5">
+      <name>ДатаКон</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата окончания</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="98b3aba5-26dd-4eca-801e-c1b6f21635fd">
+      <name>ТипДанных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип данных</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef.ВидыПланирования</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="e1206adb-0319-4b51-9e6c-d07e8b5bbe62">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df5bc99a-7349-4319-ac92-cd79570ea7b9">
+  <producedTypes>
+    <objectType typeId="209cbff1-44cf-4e97-9747-72bd1f6e22ad" valueTypeId="e3bc8c4f-32ec-4c1e-8366-058990f1fbff"/>
+    <refType typeId="e4b5ac5e-fddd-4614-9251-3933ddddf1c3" valueTypeId="da3c72f5-757e-42fb-94c2-7b503816023e"/>
+    <selectionType typeId="074f8030-ac49-409f-9563-20d60dd91c65" valueTypeId="09847264-fee8-47de-bac9-656541cbc30f"/>
+    <listType typeId="075999b0-515d-43e3-86fc-181fa5760eb5" valueTypeId="174345b1-2a42-47da-b4d1-e5f223d05cdf"/>
+    <managerType typeId="8369a919-71ba-459a-a3a6-962840d80c89" valueTypeId="2b917d98-ec78-4ead-aded-6401eb0ae2f9"/>
+  </producedTypes>
+  <name>НомераГТД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номера ГТД</value>
+  </synonym>
+  <comment>(Регл) Грузовые таможенные декларации</comment>
+  <inputByString>Catalog.НомераГТД.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>1</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>30</codeLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.НомераГТД.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.НомераГТД.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="bc9ae6c8-2c36-4dac-8f4c-03c1eff4dd60">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment>Любая дополнительная информация</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="2b87f9f6-71cb-41b6-abab-ef7bd343d3c8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="96fc64f5-b1e0-445a-aaf2-ad466d057133">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6de5bbf0-68ef-4848-abe2-500ff5be2f65">
+  <producedTypes>
+    <objectType typeId="5b1dd316-c4a6-468b-8f1f-de20777ecade" valueTypeId="ef3cbb00-aa53-4c4f-978c-198fa992d4b8"/>
+    <managerType typeId="fbf9857e-9ad0-49f0-8808-45a0ca8fb44d" valueTypeId="1700aee8-a42b-44e7-9235-a8c35de2a18a"/>
+  </producedTypes>
+  <name>СписокКомплектующих</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список комплектующих</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.СписокКомплектующих.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="2b430a78-9fb9-4587-a081-93d4e5344245">
+    <name>УниверсальныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.УниверсальныйОтчет</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="fe300fdf-d15f-4922-8002-4343c32e25c7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

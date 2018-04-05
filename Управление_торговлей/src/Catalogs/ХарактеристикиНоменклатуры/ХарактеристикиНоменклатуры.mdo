@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2aece6c-765d-4274-a63a-c825abe61655">
+  <producedTypes>
+    <objectType typeId="c31288f0-e20d-49be-836a-88124d71ce24" valueTypeId="e9b2b228-e274-43af-8660-3b428c68c7d5"/>
+    <refType typeId="de681bef-7b2a-42e5-a126-f4a04369411f" valueTypeId="f6001aa2-21f7-434c-89f4-0a9c2cd4d8eb"/>
+    <selectionType typeId="f0417967-c811-4f26-a386-b93ff18bdca5" valueTypeId="9c361432-0439-4208-8785-75f74280487e"/>
+    <listType typeId="e507db55-dfc8-43ff-b940-874079ef57c4" valueTypeId="54581f97-f08e-46d0-a899-64c12895ea21"/>
+    <managerType typeId="187b54c3-f414-4992-a31b-42805d459b72" valueTypeId="3c78ac5a-731a-41c9-8492-f8e15c215694"/>
+  </producedTypes>
+  <name>ХарактеристикиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Характеристики номенклатуры</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <inputByString>Catalog.ХарактеристикиНоменклатуры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>1</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Номенклатура</owners>
+  <descriptionLength>100</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ХарактеристикиНоменклатуры.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ХарактеристикиНоменклатуры.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ХарактеристикиНоменклатуры.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="7f12ff36-7a0e-4e98-a2c9-6f4717a43361">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ce1cc9b3-d83b-48e3-9fd6-f6a8dc1db717">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="53832e52-9aef-4b81-816c-7ca493f6ac3d">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора по значениям свойств</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

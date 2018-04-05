@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e8527f2-df18-41ea-a4f5-db3360a289ba">
+  <producedTypes>
+    <managerType typeId="d3966f43-e5ad-481a-96cb-4676616254f6" valueTypeId="25010b26-dc58-48cc-af5d-1adb0840621b"/>
+    <valueManagerType typeId="987cdf1f-2e88-4908-8027-f6d13da0972f" valueTypeId="ab1c7451-04e3-4bfd-99c5-4fecb2d3c22b"/>
+  </producedTypes>
+  <name>УдалитьНастройкаОбновленияКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить настройка обновления конфигурации</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

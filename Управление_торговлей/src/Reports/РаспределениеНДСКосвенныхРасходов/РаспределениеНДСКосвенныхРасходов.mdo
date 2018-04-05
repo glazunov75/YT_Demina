@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8191bf5b-bd29-450f-8508-0a875fe2a30d">
+  <producedTypes>
+    <objectType typeId="b7634761-0dda-4039-9c91-eec7b83ecbe7" valueTypeId="6846e9ac-b6c9-4a6a-a3b1-4bb992343706"/>
+    <managerType typeId="99556110-a5cc-48b1-958c-9687ab542027" valueTypeId="d5f074ba-c171-4d58-8d56-5b0e05858475"/>
+  </producedTypes>
+  <name>РаспределениеНДСКосвенныхРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет о распределении НДС косвенных расходов</value>
+  </synonym>
+  <comment>Отчет по распределению сумм НДС по приобретенным ценностям, относящимся к косвенным расходам</comment>
+  <defaultForm>Report.РаспределениеНДСКосвенныхРасходов.Form.Отчет</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="9f9cb993-b301-45a8-89b0-e9a1036c303e">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3cec3ba5-a9f4-49d4-bd2a-69e23586dad6">
+    <name>ДатаНач</name>
+    <synonym>
+      <key>ru</key>
+      <value>С</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a5d044d7-436c-4821-ada4-f9c6e0258066">
+    <name>ДатаКон</name>
+    <synonym>
+      <key>ru</key>
+      <value>по</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="837755d3-9aa3-4b60-8a43-141721c617db">
+    <name>ВидОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид отчета</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="90803e18-5ab5-40d7-bbd8-8b26b10889ce">
+    <name>ВыручкаПоДокументам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить выручку по данным документа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fdd55a5a-c588-4fe1-bb35-e27ae899f042">
+    <name>ДокументРаспределения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ распределения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.РаспределениеНДСКосвенныхРасходов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="5ccb0d99-adaa-4ee3-b8d9-72fd82eda9ac">
+    <name>Отчет</name>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="f0ecd0fe-a0c6-4237-8fa1-6d42b1bc40cd">
+    <name>Таблица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Report>

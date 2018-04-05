@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34502803-3924-4928-9e02-2eec8e149e25">
+  <name>СерийныеНомера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Серийные номера</value>
+  </synonym>
+  <comment></comment>
+  <content>CommonPicture.СерийныеНомера</content>
+  <content>CommonTemplate.СписокСерийныхНомеров</content>
+  <content>CommonModule.ОбщегоНазначения</content>
+  <content>CommonModule.УчетСерийныхНомеров</content>
+  <content>Constant.ИспользоватьСерийныеНомера</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.СерийныеНомера</content>
+  <content>Document.АвансовыйОтчет</content>
+  <content>Document.ВозвратТоваровОтПокупателя</content>
+  <content>Document.ВозвратТоваровПоставщику</content>
+  <content>Document.ВозвратТоваровПоставщикуИзНТТ</content>
+  <content>Document.ОприходованиеТоваров</content>
+  <content>Document.ОтчетКомиссионераОПродажах</content>
+  <content>Document.ОтчетОРозничныхПродажах</content>
+  <content>Document.ПоступлениеТоваровУслуг</content>
+  <content>Document.ПоступлениеТоваровУслугВНТТ</content>
+  <content>Document.РеализацияТоваровУслуг</content>
+  <content>Document.ЧекККМ</content>
+  <content>DataProcessor.ВводСерийныхНомеров</content>
+  <content>DataProcessor.ПечатьСерийныхНомеров</content>
+  <content>DataProcessor.ПроверкаШтрихкодов</content>
+  <content>DataProcessor.СоставНабора</content>
+</mdclass:Subsystem>

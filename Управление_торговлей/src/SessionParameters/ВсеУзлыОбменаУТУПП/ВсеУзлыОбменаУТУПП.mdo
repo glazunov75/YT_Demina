@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82185385-0af8-4288-b0d5-18890056a08e">
+  <name>ВсеУзлыОбменаУТУПП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Все узлы обмена УТУПП</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>FixedArray</types>
+  </type>
+</mdclass:SessionParameter>

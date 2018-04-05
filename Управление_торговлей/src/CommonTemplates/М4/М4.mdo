@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1b8fba6-5e8e-47b6-ad44-afbdfae44395">
+  <name>М4</name>
+  <synonym>
+    <key>ru</key>
+    <value>М-4</value>
+  </synonym>
+  <comment>Приходный ордер (унифицированная форма № М-4)</comment>
+</mdclass:CommonTemplate>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a072373-4654-463e-b0cb-6f2b38c5c01d">
+  <producedTypes>
+    <selectionType typeId="e0105b8c-e266-4c0f-a9e6-5f8b909c89ce" valueTypeId="56cdbfbb-bf59-4799-9c03-4eadac1fd235"/>
+    <listType typeId="7b1dcdb9-db18-4fc6-a789-3f236bf13a04" valueTypeId="97a69b2e-273f-4438-828d-78d1f8ec51d2"/>
+    <managerType typeId="3ffd06c1-6b94-49d9-b7be-43fb9d6d8543" valueTypeId="3a93c17e-6ebf-412b-bb46-adcaacbc6440"/>
+    <recordSetType typeId="8e939dec-8b96-40b9-a60c-c6418e002517" valueTypeId="0a569670-e351-43b5-9639-63924461588d"/>
+    <recordKeyType typeId="d279c5d2-6e3e-4ed2-b989-78c3a7402a09" valueTypeId="5ba6d24c-37aa-4fdc-a4cb-ca73ec920392"/>
+    <recordType typeId="5eab88a5-156d-43bd-852d-77a138817bf7" valueTypeId="71645030-ccee-4406-95d0-1179ed5d48c6"/>
+    <recordManagerType typeId="266267c2-703c-46c9-80db-34a4732be106" valueTypeId="2112bbeb-ea2a-47ce-af5b-1932316ea90c"/>
+  </producedTypes>
+  <name>УстановкаПроектовДляНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка проектов для номенклатуры</value>
+  </synonym>
+  <comment></comment>
+  <defaultListForm>InformationRegister.УстановкаПроектовДляНоменклатуры.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <resources uuid="fcebe541-6c03-4306-be55-6b62327c3682">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВидыРаспределенияПоПроектам</types>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="caea912e-c627-4742-b192-0d73de906038">
+    <name>НоменклатураПроекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура проекта</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="38fb90ce-d9ad-4fad-84d0-89cd8a33a2c0">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

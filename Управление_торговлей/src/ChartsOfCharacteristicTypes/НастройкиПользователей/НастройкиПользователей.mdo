@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3346a7df-86db-44b3-bdb5-38b118f33f56">
+  <producedTypes>
+    <objectType typeId="f70448c6-cdfa-45a2-963e-41fc81ae34ed" valueTypeId="c5fb96ad-7e82-4e23-8c04-cb0aaabe82a7"/>
+    <refType typeId="f0d4dac6-14d0-4a5f-9a74-659aa71fa712" valueTypeId="14951549-9dff-404a-a9c9-05248e789012"/>
+    <selectionType typeId="f9506ae8-884b-4b7c-b539-6a937c809233" valueTypeId="98138314-0c85-4b8e-9c87-3954f0ffa176"/>
+    <listType typeId="33dd80a1-f12e-4f5e-a4fb-68c96163cd74" valueTypeId="6c6687b5-5e89-46d9-8038-b7a818e9c521"/>
+    <managerType typeId="159f713f-eeec-4690-b023-c526509816f9" valueTypeId="0b5abaf8-08f9-4e33-b287-70b9d8a4d04a"/>
+    <containerType typeId="b2acc72b-1f2e-4cac-9fb2-98c8ec5b383c" valueTypeId="68168829-74bb-4fd9-9aeb-d3e9d4df1fc0"/>
+  </producedTypes>
+  <name>НастройкиПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки пользователей</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>ChartOfCharacteristicTypes.НастройкиПользователей.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.НастройкиПользователей.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.Организации</types>
+    <types>CatalogRef.КассыККМ</types>
+    <types>CatalogRef.ЦеновыеГруппы</types>
+    <types>CatalogRef.Пользователи</types>
+    <types>EnumRef.СтатусыКонтрагентов</types>
+    <types>EnumRef.ВходящееИсходящееСобытие</types>
+    <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+    <types>CatalogRef.Подразделения</types>
+    <types>CatalogRef.КлассификаторЕдиницИзмерения</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.ТСДФорматыДанных</types>
+    <types>EnumRef.СтавкиНДС</types>
+    <types>Boolean</types>
+    <types>CatalogRef.Валюты</types>
+    <types>CatalogRef.ВидыОплатЧекаККМ</types>
+    <types>CatalogRef.Склады</types>
+    <types>EnumRef.СостоянияОбъектов</types>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <types>CatalogRef.ТипыЦенНоменклатуры</types>
+    <types>CatalogRef.ГруппыДоступностиСкладов</types>
+    <types>EnumRef.ВедениеВзаиморасчетовПоДоговорам</types>
+    <types>EnumRef.СостоянияСобытий</types>
+    <types>EnumRef.ВидыОперацийОтчетОРозничныхПродажах</types>
+    <types>String</types>
+    <types>CatalogRef.Кассы</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>EnumRef.ВидыОбъектовСобытия</types>
+    <types>CatalogRef.УсловияПродаж</types>
+    <types>CatalogRef.ДоговорыЭквайринга</types>
+    <types>CatalogRef.СтатьиЗатрат</types>
+    <types>CatalogRef.ВидыНоменклатуры</types>
+    <types>EnumRef.ВидыСобытий</types>
+    <numberQualifiers>
+      <precision>5</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>300</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <hierarchical>true</hierarchical>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="5c45a363-d756-4f15-af50-0ab553470d2f">
+      <name>Взаиморасчеты</name>
+      <description>Взаиморасчеты</description>
+      <isFolder>true</isFolder>
+      <code>000000104</code>
+      <type/>
+      <content id="d5948d86-1ae0-450b-b1d0-4cfdeab9d752">
+        <name>ОсновныеРасчетыПоДокументамСКонтрагентами</name>
+        <description>Взаиморасчеты вести по документам расчетов с контрагентами</description>
+        <code>000000090</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="ec15c429-6c04-40cf-9d5b-290e93458304">
+        <name>ОсновныеРасчетыПоДоговоруВУсловныхЕдиницах</name>
+        <description>Взаиморасчеты по договору в условных единицах</description>
+        <code>000000091</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="ab51eba3-f5ce-4da6-8582-dee25648f48e">
+        <name>ОсновнаяВалютаВзаиморасчетов</name>
+        <description>Основная валюта взаиморасчетов</description>
+        <code>000000011</code>
+        <type>
+          <types>CatalogRef.Валюты</types>
+        </type>
+      </content>
+      <content id="98977c78-9173-48c3-918a-530027dd75d7">
+        <name>ОсновноеВедениеВзаиморасчетовПоДоговорам</name>
+        <description>Основное ведение взаиморасчетов по договорам</description>
+        <code>000000064</code>
+        <type>
+          <types>EnumRef.ВедениеВзаиморасчетовПоДоговорам</types>
+        </type>
+      </content>
+      <content id="b29ff252-d300-4db4-8cc3-e191615e2dc1">
+        <name>ОсновнойСтатусКонтрагента</name>
+        <description>Основной статус контрагента</description>
+        <code>000000059</code>
+        <type>
+          <types>EnumRef.СтатусыКонтрагентов</types>
+        </type>
+      </content>
+    </items>
+    <items id="31d09f6c-334f-4b5f-b156-4627b6ccfabd">
+      <name>ВстроенныйПочтовыйКлиент</name>
+      <description>Встроенный почтовый клиент</description>
+      <isFolder>true</isFolder>
+      <code>000000040</code>
+      <type/>
+      <content id="6f9a413d-e5ea-4f58-8f82-02f7450e7a33">
+        <name>АвтооткрытиеЭлектроннойПочтыПриЗапускеПрограммы</name>
+        <description>Автооткрытие электронной почты при запуске программы</description>
+        <code>000000036</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="07498eca-bc7a-4995-83ae-70a72df31cd4">
+        <name>ИзменятьСписокЭлектронныхПисемПриВыбореПапкиПисем</name>
+        <description>Изменять список электронных писем при выборе папки а не при активизации</description>
+        <code>000000030</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="df7c29ed-c489-43e6-a337-94f54ff6d52d">
+        <name>КодировкаПисьмаЭлектроннойПочтыПоУмолчанию</name>
+        <description>Кодировка письма электронной почты по умолчанию</description>
+        <code>000000099</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>300</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="11548358-8794-455a-8c81-782545bbc88b">
+        <name>КоманднаяСтрокаДляЗапускаВнешнегоХТМЛРедактора</name>
+        <description>Командная строка для запуска внешнего редактора HTML-текстов</description>
+        <code>000000054</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>300</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="8def5cbc-223b-495c-a94f-c83d306efbbf">
+        <name>ПолучениеЭлектронныхПисемПриОткрытии</name>
+        <description>Получение электронных писем при открытии формы обработки почты</description>
+        <code>000000031</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="b589bb41-208f-4a28-a37c-efc63fe10464">
+        <name>ОсновнаяУчетнаяЗапись</name>
+        <description>Учетная запись электронной почты по умолчанию</description>
+        <code>000000029</code>
+        <type>
+          <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+        </type>
+      </content>
+    </items>
+    <items id="8966c475-d626-4faa-88bf-4991ccf0b129">
+      <name>ДругиеНастройки</name>
+      <description>Другие настройки</description>
+      <isFolder>true</isFolder>
+      <code>000000060</code>
+      <type/>
+      <content id="b286825b-bc9e-4fa7-a150-94615c71a580">
+        <name>АвтооткрытиеФормыРабочегоМестаМенеджераПоПродажамПриЗапускеПрограммы</name>
+        <description>Автооткрытие формы рабочего места менеджера по продажам при запуске программы</description>
+        <code>000000053</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="ad0b5395-4ab7-404c-aafd-b6bd41dc3b06">
+        <name>ВыполнятьПоискДублейПередЗаписьюНовогоКонтрагента</name>
+        <description>Выполнять поиск дублей перед записью нового контрагента</description>
+        <code>000000097</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="8842fc60-3211-412a-bac9-dcf87b4bbe79">
+        <name>ЗагружатьАктуальныеКурсыВалютПриЗапускеСистемы</name>
+        <description>Загружать актуальные курсы валют при запуске системы</description>
+        <code>000000102</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="7b275624-7fdc-4728-b2bf-009a44e2dfed">
+        <name>ЗапрашиватьПодтверждениеПриЗакрытии</name>
+        <description>Запрашивать подтверждение при закрытии программы</description>
+        <code>000000045</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="376ac2aa-a675-4a4f-ae6b-bb1523fbf852">
+        <name>ИспользоватьПомощникВводаНовыхКонтрагентов</name>
+        <description>Использовать помощник ввода новых контрагентов</description>
+        <code>000000080</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="48c5d70a-d4df-4363-8b98-c56ea5f17ecf">
+        <name>КонтролироватьОстаткиТоваровПриОперативномПроведенииЧековККМ</name>
+        <description>Контролировать остатки товаров при оперативном проведении чеков ККМ</description>
+        <code>000000096</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="cf8c7ea2-f527-4240-9368-48ec9ae1039c">
+        <name>НеПредлагатьНеполныеСпецПредложения</name>
+        <description>Не предлагать неполные спец. предложения</description>
+        <code>000000095</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="b2de8b42-3009-422f-9c2c-1899e6625300">
+        <name>ОсновнаяДатаНачалаОтчетов</name>
+        <description>Основная дата начала отчетов</description>
+        <code>000000015</code>
+        <type>
+          <types>Date</types>
+          <dateQualifiers>
+            <dateFractions>Date</dateFractions>
+          </dateQualifiers>
+        </type>
+      </content>
+      <content id="e03864e8-0245-4a27-bb0c-7178fbb9e7f8">
+        <name>ОсновнойКаталогФайлов</name>
+        <description>Основной каталог файлов</description>
+        <code>000000016</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>200</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="8a9f0f01-938d-4b80-a10e-1bbc066740e0">
+        <name>ОткрыватьФормуВыбораСправочникаКонтрагентыСОтборомПоТекущемуПользователю</name>
+        <description>Открытие списка выбора контрагентов по умолчанию с отбором по менеджеру</description>
+        <code>000000023</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="eb1c19cc-94b9-4390-acd9-3969cabed8bf">
+        <name>ОткрыватьФормуВыбораСправочникаНоменклатураСОтборомПоПоставщику</name>
+        <description>Открытие списка выбора номенклатуры по умолчанию с отбором по поставщику</description>
+        <code>000000039</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="aa457f1d-c0f0-4c18-a214-54fbd328e974">
+        <name>ПечатьДокументовБезПредварительногоПросмотра</name>
+        <description>Печать документов без предварительного просмотра</description>
+        <code>000000032</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="71488398-7044-4f59-99af-a8cc683f8ab1">
+        <name>ПредупреждатьОРазницеВремениССервером</name>
+        <description>Предупреждать о разнице времени с сервером 1С:Предприятия</description>
+        <code>000000110</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="0371a512-550a-44bb-a59f-9153a5d7d8c3">
+        <name>ПриИзмененииСуммыПересчитыватьСкидку</name>
+        <description>При изменении суммы пересчитывать скидку, а не цену</description>
+        <code>000000024</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="3cd0f19c-02d9-4488-9695-1ca1207453aa">
+        <name>РасширеннаяФормаНастройкиОтчетов</name>
+        <description>Расширенная форма настройки отчетов</description>
+        <code>000000098</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="1da969a1-bf33-4fc2-8280-7b82c7d48bc2">
+        <name>РегистрироватьЦеныПоставщика</name>
+        <description>Регистрировать цены поставщика</description>
+        <code>000000063</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+    </items>
+    <items id="b4825738-07bf-4ae2-8966-4429f94bc063">
+      <name>Заказы</name>
+      <description>Заказы</description>
+      <isFolder>true</isFolder>
+      <code>000000043</code>
+      <type/>
+      <content id="4cb986d4-7419-4af8-a034-3953ac1ae696">
+        <name>АвтоРазмещение</name>
+        <description>Авто размещение</description>
+        <code>000000019</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="3862f847-4eb2-4957-933d-d49cc3914608">
+        <name>АвтоРезервирование</name>
+        <description>Авто резервирование</description>
+        <code>000000020</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="6bde85c6-79df-4ad6-9740-cd2550f57a2a">
+        <name>ГруппаДоступностиСкладов</name>
+        <description>Группа доступности складов</description>
+        <code>000000061</code>
+        <type>
+          <types>CatalogRef.ГруппыДоступностиСкладов</types>
+        </type>
+      </content>
+      <content id="83c25e38-c4ff-468b-97ab-3ec2326a1862">
+        <name>ИспользоватьПлановуюСебестоимость</name>
+        <description>Использовать плановую себестоимость</description>
+        <code>000000021</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="c5e8f8a2-3988-4015-8f4c-fd6b75e858a6">
+        <name>ОсновнойОбособленныйУчетТоваровПоЗаказамПокупателей</name>
+        <description>Обособленный учет товаров по заказам покупателей</description>
+        <code>000000093</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="138d4061-5592-46b3-a704-19bf23063e62">
+        <name>ОсновнойРазмерПредоплатыПоЗаказуПокупателя</name>
+        <description>Основной размер предоплаты по заказу покупателя, процентов, не менее</description>
+        <code>000000092</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>3</precision>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+    </items>
+    <items id="ab262f0a-53a0-48b3-bf73-840b8d516cbb">
+      <name>Запасы</name>
+      <description>Запасы</description>
+      <isFolder>true</isFolder>
+      <code>000000106</code>
+      <type/>
+      <content id="fd3808f9-50e0-4d06-972a-d2a068f37319">
+        <name>ОсновнаяЕдиницаПоКлассификатору</name>
+        <description>Основная единица по классификатору</description>
+        <code>000000014</code>
+        <type>
+          <types>CatalogRef.КлассификаторЕдиницИзмерения</types>
+        </type>
+      </content>
+      <content id="d192c20c-bb76-44ff-acc1-3af32050af63">
+        <name>ОсновнойВидНоменклатуры</name>
+        <description>Основной вид номенклатуры</description>
+        <code>000000094</code>
+        <type>
+          <types>CatalogRef.ВидыНоменклатуры</types>
+        </type>
+      </content>
+      <content id="f8cb179b-1eaf-4885-abb2-84c017577e45">
+        <name>ОсновнойСклад</name>
+        <description>Основной склад</description>
+        <code>000000002</code>
+        <type>
+          <types>CatalogRef.Склады</types>
+        </type>
+      </content>
+    </items>
+    <items id="f2a72331-4873-4ee8-8ac0-7534bb006c00">
+      <name>КалендарьПользователяСобытияНапоминания</name>
+      <description>Календарь пользователя, События, Задачи</description>
+      <isFolder>true</isFolder>
+      <code>000000041</code>
+      <type/>
+      <content id="ad273460-aba9-416f-9276-a1bf3b453c6d">
+        <name>ВидСобытияПоУмолчанию</name>
+        <description>Вид нового события по умолчанию</description>
+        <code>000000101</code>
+        <type>
+          <types>EnumRef.ВидыСобытий</types>
+        </type>
+      </content>
+      <content id="f38af471-52f8-49b5-b61b-afb530e82ed2">
+        <name>ОсновнойВидОбъектаСобытия</name>
+        <description>Вид объекта по умолчанию для нового события</description>
+        <code>000000055</code>
+        <type>
+          <types>EnumRef.ВидыОбъектовСобытия</types>
+        </type>
+      </content>
+      <content id="20199b7c-9524-4baf-9603-0b19615179d7">
+        <name>УдалитьИзменениеПользователяВКалендареПользователя</name>
+        <description>Возможность просмотра календарей других пользователей</description>
+        <code>000000022</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="69187b31-d86d-47e7-9078-28cee21de815">
+        <name>ИнтервалНапоминанияДоНачалаСобытия</name>
+        <description>Интервал напоминания до начала события, мин.</description>
+        <code>000000017</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>2</precision>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="e71e4a08-ba40-4655-a769-2f0a7d1ee5f8">
+        <name>ПоказыватьСписокЗадачПриЗапуске</name>
+        <description>Показывать список задач при запуске</description>
+        <code>000000108</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="6d330019-56f2-46a6-8d20-af1f3ce72242">
+        <name>РежимРабочегоСтолаДляМенеджераКонтактов</name>
+        <description>Режим рабочего стола для менеджера контактов</description>
+        <code>000000100</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="5ec04af4-233c-4967-a9e6-1eb5200aa34a">
+        <name>СостояниеНовогоВходящегоСобытия</name>
+        <description>Состояние по умолчанию для нового входящего события</description>
+        <code>000000025</code>
+        <type>
+          <types>EnumRef.СостоянияСобытий</types>
+        </type>
+      </content>
+      <content id="27aac420-c95e-4b71-9a62-b473adebab30">
+        <name>СостояниеНовогоИсходящегоСобытия</name>
+        <description>Состояние по умолчанию для нового исходящего события</description>
+        <code>000000026</code>
+        <type>
+          <types>EnumRef.СостоянияСобытий</types>
+        </type>
+      </content>
+      <content id="afa2f38a-5013-41d2-8154-3d67f455ae1f">
+        <name>ТипСобытияПоУмолчанию</name>
+        <description>Тип по умолчанию для нового события</description>
+        <code>000000027</code>
+        <type>
+          <types>EnumRef.ВходящееИсходящееСобытие</types>
+        </type>
+      </content>
+    </items>
+    <items id="7bbbf04c-d322-46ce-bd80-b295b1d69a91">
+      <name>ОсновныеЗначенияДляПодстановки</name>
+      <description>Основные значения для подстановки в документы и справочники</description>
+      <isFolder>true</isFolder>
+      <code>000000056</code>
+      <type/>
+      <content id="377a6ee8-fe2e-4d2e-a273-0d70223d8121">
+        <name>ОтражениеВУчете</name>
+        <description>Отражение в учете</description>
+        <isFolder>true</isFolder>
+        <code>000000103</code>
+        <type/>
+        <content id="b276d128-341c-4fce-8216-6b1ee536a151">
+          <name>ОтражатьДокументыВБухгалтерскомУчете</name>
+          <description>Отражать документы в бухгалтерском учете</description>
+          <code>000000052</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="82679289-dca7-450f-a621-dd93f9b4185d">
+          <name>ОтражатьДокументыВНалоговомУчете</name>
+          <description>Отражать документы в налоговом учете</description>
+          <code>000000057</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="99d7742b-2071-4991-8456-6eb9ebde5cbf">
+          <name>ОтражатьДокументыВУправленческомУчете</name>
+          <description>Отражать документы в управленческом учете</description>
+          <code>000000058</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+      <content id="f5606f8a-f3b0-4001-bcab-d11a6b84d000">
+        <name>ПрочиеЗначения</name>
+        <description>Прочие значения</description>
+        <isFolder>true</isFolder>
+        <code>000000107</code>
+        <type/>
+        <content id="0ae14077-9ae6-4f07-b029-7c141f5981fe">
+          <name>ОсновнаяКасса</name>
+          <description>Основная касса</description>
+          <code>000000003</code>
+          <type>
+            <types>CatalogRef.Кассы</types>
+          </type>
+        </content>
+        <content id="1d6571d0-fabb-457a-9626-9b2f77fa4d34">
+          <name>ОсновнаяОрганизация</name>
+          <description>Основная организация</description>
+          <code>000000001</code>
+          <type>
+            <types>CatalogRef.Организации</types>
+          </type>
+        </content>
+        <content id="0e773ac4-fd29-496f-bd07-a080dab9bc84">
+          <name>ОсновнаяСтавкаНДС</name>
+          <description>Основная ставка НДС</description>
+          <code>000000012</code>
+          <type>
+            <types>EnumRef.СтавкиНДС</types>
+          </type>
+        </content>
+        <content id="0082c7cb-fffa-436b-a8da-a078a716df98">
+          <name>ОсновноеПодразделение</name>
+          <description>Основное подразделение</description>
+          <code>000000005</code>
+          <type>
+            <types>CatalogRef.Подразделения</types>
+          </type>
+        </content>
+        <content id="720c475f-652f-4d9c-8231-2cde515ea63e">
+          <name>ОсновнойДоговорЭквайринга</name>
+          <description>Основной договор эквайринга</description>
+          <code>000000088</code>
+          <type>
+            <types>CatalogRef.ДоговорыЭквайринга</types>
+          </type>
+        </content>
+        <content id="1a686fbc-8d97-4c60-8cb2-4faba573d12b">
+          <name>ОсновнойКодГородаТелефона</name>
+          <description>Основной код города телефона</description>
+          <code>000000082</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>100</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="5fa05d27-4fe5-455a-ac42-2476cc3f1e64">
+          <name>ОсновнойКодСтраныТелефона</name>
+          <description>Основной код страны телефона</description>
+          <code>000000081</code>
+          <type>
+            <types>String</types>
+            <stringQualifiers>
+              <length>100</length>
+            </stringQualifiers>
+          </type>
+        </content>
+        <content id="f9f749f8-e52c-40ea-ba0e-210c3dd2d3b1">
+          <name>ОсновнойОтветственный</name>
+          <description>Основной ответственный</description>
+          <code>000000006</code>
+          <type>
+            <types>CatalogRef.Пользователи</types>
+          </type>
+        </content>
+        <content id="496a97fc-db99-467c-a1aa-0a9e07050868">
+          <name>ОсновнойПокупатель</name>
+          <description>Основной покупатель</description>
+          <code>000000008</code>
+          <type>
+            <types>CatalogRef.Контрагенты</types>
+          </type>
+        </content>
+        <content id="24f8f6ca-a3b6-4d29-8983-72e9bcd428d9">
+          <name>ОсновнойПоставщик</name>
+          <description>Основной поставщик</description>
+          <code>000000007</code>
+          <type>
+            <types>CatalogRef.Контрагенты</types>
+          </type>
+        </content>
+      </content>
+    </items>
+    <items id="f31bec9c-b653-447d-8ba1-cb888be30b20">
+      <name>ПанельФункций</name>
+      <description>Панель функций</description>
+      <isFolder>true</isFolder>
+      <code>000000069</code>
+      <type/>
+      <content id="9f99e112-867c-4ffb-b836-a723e497e6ad">
+        <name>ОткрыватьПриЗапускеПанельФункций</name>
+        <description>Открывать при запуске панель функций</description>
+        <code>000000071</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="179e4bd9-119c-41f3-9815-4d3112082096">
+        <name>ПоказыватьБыстроеОсвоениеПриНачалеРаботыСистемы</name>
+        <description>Показывать &quot;Быстрое освоение&quot; при начале работы системы</description>
+        <code>000000084</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="71dcbb50-de50-4882-ba06-341e7272a8fc">
+        <name>ПоказыватьОписанияПанелиФункций</name>
+        <description>Показывать описания панели функций</description>
+        <code>000000072</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="4d84c0da-8ae5-4d3c-9770-70ab0b41a38f">
+        <name>ПоказыватьСхемыПанелиФункций</name>
+        <description>Показывать схемы панели функций</description>
+        <code>000000083</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="3ac3938b-01c7-4a91-b1c0-03cbbb78ec33">
+        <name>ТекущаяСтраницаПанелиФункций</name>
+        <description>Текущая страница панели функций</description>
+        <code>000000073</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>300</length>
+          </stringQualifiers>
+        </type>
+      </content>
+    </items>
+    <items id="620807ff-d4b6-4f8d-93a1-38ba4ec488a8">
+      <name>РозничнаяТорговляИТорговоеОборудование</name>
+      <description>Розничная торговля и торговое оборудование</description>
+      <isFolder>true</isFolder>
+      <code>000000076</code>
+      <type/>
+      <content id="5724623e-938d-4453-98a6-46bb70a360ed">
+        <name>ККМ</name>
+        <description>ККМ</description>
+        <isFolder>true</isFolder>
+        <code>000000077</code>
+        <type/>
+        <content id="8b24aa92-d0e6-4674-bd50-d52e09fb7822">
+          <name>ОсновнаяКассаККМ</name>
+          <description>Основная касса ККМ</description>
+          <code>000000004</code>
+          <type>
+            <types>CatalogRef.КассыККМ</types>
+          </type>
+        </content>
+        <content id="8a82f2c7-1989-4ebb-8bc7-893ffb0c1ed6">
+          <name>ОсновнойВидОперацииДокументаОтчетОРозничныхПродажах</name>
+          <description>Основной вид операции документа &quot;Отчет о розничных продажах&quot;</description>
+          <code>000000089</code>
+          <type>
+            <types>EnumRef.ВидыОперацийОтчетОРозничныхПродажах</types>
+          </type>
+        </content>
+        <content id="5e20dad4-0db5-468b-9ab1-2fba36dd6ea4">
+          <name>ОсновнойВидОплатыЧекаККМ</name>
+          <description>Основной вид оплаты чека ККМ</description>
+          <code>000000087</code>
+          <type>
+            <types>CatalogRef.ВидыОплатЧекаККМ</types>
+          </type>
+        </content>
+        <content id="369ccca0-714a-47ab-b59c-3b0ca1c98925">
+          <name>ПарольАдминистратораФискальногоРегистратора</name>
+          <description>Пароль администратора фискального регистратора</description>
+          <code>000000066</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>5</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="27da251e-9ca4-46e9-ab68-8bcaa4fe5379">
+          <name>ПарольКассираФискальногоРегистратора</name>
+          <description>Пароль кассира фискального регистратора</description>
+          <code>000000065</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>5</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="f83676e0-3bff-447d-b0fd-cdb9f1df2337">
+          <name>ПечататьНДСВКассовыхЧекахИзДокументовЧекККМ</name>
+          <description>Печатать НДС в кассовых чеках из документов &quot;Чек ККМ&quot;</description>
+          <code>000000109</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+      <content id="ecf50022-a0a4-4f21-bac8-9da046d31ae1">
+        <name>ПечатьЭтикеток</name>
+        <description>Печать этикеток</description>
+        <isFolder>true</isFolder>
+        <code>000000046</code>
+        <type/>
+        <content id="a7945874-9dfd-4e79-96a4-2447e0f1dc14">
+          <name>ПринтерЭтикеток</name>
+          <description>На спец. принтер этикеток</description>
+          <code>000000047</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="7fabe7b5-1775-4dd2-b0c1-c07dcbad2419">
+          <name>СразуНаПринтер</name>
+          <description>Печатать сразу на принтер</description>
+          <code>000000051</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="bd42d6aa-33a3-4d5b-81fc-0142521b56f9">
+          <name>ПечататьЦену</name>
+          <description>Печатать цену на этикетке</description>
+          <code>000000048</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="1ae3c962-612b-46fa-b8b5-304c56f2079d">
+          <name>ПринтерЭтикетокВысота</name>
+          <description>Этикетка - высота на спец. принтере (мм)</description>
+          <code>000000050</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>2</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="312c69c6-d69e-46f3-9d2a-d3c74c7e9ee3">
+          <name>ПринтерЭтикетокШирина</name>
+          <description>Этикетка - ширина на спец. принтере (мм)</description>
+          <code>000000049</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>2</precision>
+              <nonNegative>true</nonNegative>
+            </numberQualifiers>
+          </type>
+        </content>
+      </content>
+      <content id="2a062d1a-2ff6-4730-a7b6-1922ef26522f">
+        <name>ТерминалыСбораДанных</name>
+        <description>Терминалы сбора данных</description>
+        <isFolder>true</isFolder>
+        <code>000000078</code>
+        <type/>
+        <content id="88642f9e-af1a-41d3-b2a5-652dc18a1ce7">
+          <name>ТаблицаТСДВыгрузка</name>
+          <description>Таблица ТСД (выгрузка)</description>
+          <code>000000067</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>5</precision>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="8c472000-6003-4602-8467-095668034234">
+          <name>ТаблицаТСДЗагрузка</name>
+          <description>Таблица ТСД (загрузка)</description>
+          <code>000000075</code>
+          <type>
+            <types>Number</types>
+            <numberQualifiers>
+              <precision>5</precision>
+            </numberQualifiers>
+          </type>
+        </content>
+        <content id="a2d1a0b8-3e9e-4da1-a3a2-333401843232">
+          <name>ФорматДанныхТСДВыгрузка</name>
+          <description>Формат данных ТСД по умолчанию (выгрузка)</description>
+          <code>000000068</code>
+          <type>
+            <types>CatalogRef.ТСДФорматыДанных</types>
+          </type>
+        </content>
+        <content id="ab7a7053-eb0c-4db8-a101-d6973a65e384">
+          <name>ФорматДанныхТСДЗагрузка</name>
+          <description>Формат данных ТСД по умолчанию (загрузка)</description>
+          <code>000000074</code>
+          <type>
+            <types>CatalogRef.ТСДФорматыДанных</types>
+          </type>
+        </content>
+      </content>
+    </items>
+    <items id="273d085a-0fd2-4b9c-8f48-fb7c0296fcd5">
+      <name>Ценообразование</name>
+      <description>Ценообразование</description>
+      <isFolder>true</isFolder>
+      <code>000000105</code>
+      <type/>
+      <content id="0c173527-ee3c-4b5b-82f7-b63a7b615406">
+        <name>ОсновноеУсловиеПродаж</name>
+        <description>Основное условие продаж</description>
+        <code>000000085</code>
+        <type>
+          <types>CatalogRef.УсловияПродаж</types>
+        </type>
+      </content>
+      <content id="3b0883eb-e367-40d5-ae6c-83f89b5a09cd">
+        <name>ОсновнойТипЦенПродажи</name>
+        <description>Основной тип цен продажи</description>
+        <code>000000010</code>
+        <type>
+          <types>CatalogRef.ТипыЦенНоменклатуры</types>
+        </type>
+      </content>
+    </items>
+  </predefined>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>ChartOfCharacteristicTypes.НастройкиПользователей.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>ChartOfCharacteristicTypes.НастройкиПользователей.Form.ФормаВыбора</defaultChoiceForm>
+  <defaultFolderChoiceForm>ChartOfCharacteristicTypes.НастройкиПользователей.Form.ФормаВыбораГруппы</defaultFolderChoiceForm>
+  <forms uuid="a0843329-0ff5-4395-b10a-61d88e5a4953">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e99bc0f5-6f80-4b2b-bbce-6754e40f0e27">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dee08c10-7e38-4ea4-9954-2f16fe722f03">
+    <name>ФормаВыбораГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCharacteristicTypes>

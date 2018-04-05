@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd9ddcc6-089a-47b6-8f37-2de932502d82">
+  <name>ЗначокОрганизация33</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значок организация33</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>30</x>
+    <y>11</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

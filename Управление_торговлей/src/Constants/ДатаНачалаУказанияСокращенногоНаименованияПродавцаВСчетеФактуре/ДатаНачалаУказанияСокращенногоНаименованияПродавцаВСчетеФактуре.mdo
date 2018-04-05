@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3e0d885-3bd7-4ed2-904d-1b691388bb68">
+  <producedTypes>
+    <managerType typeId="2f7e5165-f543-48b9-b1e5-b10c2f9bd556" valueTypeId="14e3f7ef-df08-41c3-9093-d9f62f4c8f24"/>
+    <valueManagerType typeId="ad283a98-ed1f-42e2-ba2c-83f9f91a86cf" valueTypeId="9efe0172-8039-4bb3-82a8-b7f43a14a3ab"/>
+  </producedTypes>
+  <name>ДатаНачалаУказанияСокращенногоНаименованияПродавцаВСчетеФактуре</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата начала указания сокращенного наименования продавца в счете-фактуре</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

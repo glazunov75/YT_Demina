@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd427c2f-0359-4995-a673-0ea7ba300f02">
+  <name>ПередЗаписьюДокументаДляОбменаСРозничнойТорговлей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перед записью документа для обмена с розничной торговлей</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>DocumentObject.ПеремещениеТоваров</types>
+    <types>DocumentObject.РеализацияТоваровУслуг</types>
+    <types>DocumentObject.ОплатаОтПокупателяПлатежнойКартой</types>
+    <types>DocumentObject.ВозвратТоваровОтПокупателя</types>
+    <types>DocumentObject.ВозвратТоваровПоставщику</types>
+    <types>DocumentObject.ПриходныйКассовыйОрдер</types>
+    <types>DocumentObject.ПоступлениеТоваровУслуг</types>
+    <types>DocumentObject.КомплектацияНоменклатуры</types>
+    <types>DocumentObject.ОприходованиеТоваров</types>
+    <types>DocumentObject.ИнвентаризацияТоваровНаСкладе</types>
+    <types>DocumentObject.ВнутреннийЗаказ</types>
+    <types>DocumentObject.ОтчетОРозничныхПродажах</types>
+    <types>DocumentObject.ПереоценкаТоваровВРознице</types>
+    <types>DocumentObject.ВнутреннееПеремещениеНаличныхДенежныхСредств</types>
+    <types>DocumentObject.СписаниеТоваров</types>
+    <types>DocumentObject.РасходныйКассовыйОрдер</types>
+    <types>DocumentObject.РасходныйОрдерНаТовары</types>
+    <types>DocumentObject.ПриходныйОрдерНаТовары</types>
+    <types>DocumentObject.УстановкаЦенНоменклатуры</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ПроцедурыОбменаСРозничнойТорговлей.ПередЗаписьюДокументаДляОбменаСРозничнойТорговлейПередЗаписью</handler>
+</mdclass:EventSubscription>

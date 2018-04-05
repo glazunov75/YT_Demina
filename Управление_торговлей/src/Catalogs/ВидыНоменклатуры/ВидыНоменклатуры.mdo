@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="057212f0-eeec-43ca-8579-566c4b55d007">
+  <producedTypes>
+    <objectType typeId="3887bd35-4d7c-4970-bb0d-c89c8cf3b17e" valueTypeId="3d342898-ee05-4a75-b993-9a4552e96c8d"/>
+    <refType typeId="c7fe2ab6-14f2-4f47-a9ca-61ee6ce8b430" valueTypeId="ea8be915-4053-4d38-a6a7-58d3074a2454"/>
+    <selectionType typeId="c9ba46c2-e4c2-40ec-89f7-662d54e3b3c8" valueTypeId="294fbcb4-8a54-4409-83bd-bfe4e638bdca"/>
+    <listType typeId="9d37302a-4097-45b4-82f0-c6b1d84ed85e" valueTypeId="0e848f99-5b5d-41bd-a626-9bf31f063ec3"/>
+    <managerType typeId="9e8ee76a-79ab-402a-ab27-e78b3b164752" valueTypeId="4f1dd0e2-3141-4e90-8ce1-88b91d1b989a"/>
+  </producedTypes>
+  <name>ВидыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды номенклатуры</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <inputByString>Catalog.ВидыНоменклатуры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыНоменклатуры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ВидыНоменклатуры.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ВидыНоменклатуры.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="c4894796-a9b2-4701-b99b-a3c4eadfe9b2">
+    <name>ТипНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип номенклатуры</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ТипыНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="11487a02-62ea-49db-b8dc-2ff731f22ba8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a8b01851-8388-4570-a75e-4c9a47ed0560">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72f263e1-66bc-4e53-a0b0-262aaaee6e3b">
+  <producedTypes>
+    <refType typeId="5ae2d29d-440f-4274-a095-5f3d8ff47211" valueTypeId="30b8be7b-ded3-4c0e-ac41-c56522cc3c47"/>
+    <listType typeId="72f263e1-66bc-4e53-a0b0-262aaaee6e3b" valueTypeId="72f263e1-66bc-fe53-a0b0-262aaaee6e3b"/>
+    <managerType typeId="fad6ee08-a343-4586-8cc8-d8fc6f9dc36a" valueTypeId="f90a725a-37c8-48ca-80cb-beb2118b74a1"/>
+  </producedTypes>
+  <name>СтадииВзаимоотношенийСПокупателями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стадии взаимоотношений с покупателями</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="74856e35-faba-42dd-8c9f-f63be46bc785">
+    <name>ПотенциальныйПокупатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Потенциальный покупатель</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="642ab866-3a4d-4354-aae3-a6971c50e30a">
+    <name>РазовыйПокупатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разовый покупатель</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="19cbbbd0-34bf-4e89-bee7-5d5e2ecdaea6">
+    <name>ПостоянныйПокупатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Постоянный покупатель</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="59b9989c-a17a-4caf-9386-cdb2e9dd3603">
+    <name>ПотерянныйПокупатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Потерянный покупатель</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

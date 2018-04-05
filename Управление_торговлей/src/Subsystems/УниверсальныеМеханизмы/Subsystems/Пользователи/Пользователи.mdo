@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2dd3153-cee4-47e4-9749-8bc68b2dc706">
+  <name>Пользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи</value>
+  </synonym>
+  <comment></comment>
+  <content>CommonPicture.Настройки</content>
+  <content>CommonPicture.НастройкиПользователя</content>
+  <content>Interface.ИнтерфейсКассира</content>
+  <content>Interface.Общий</content>
+  <content>Interface.Планирование</content>
+  <content>Interface.Полный</content>
+  <content>Interface.УправлениеДенежнымиСредствами</content>
+  <content>Interface.УправлениеЗакупками</content>
+  <content>Interface.УправлениеЗапасами</content>
+  <content>Interface.УправлениеПродажами</content>
+  <content>Interface.УправлениеРозничнойТорговлей</content>
+  <content>SessionParameter.ГраницыЗапретаИзмененияДанных</content>
+  <content>SessionParameter.ИспользоватьОграниченияПравДоступаНаУровнеЗаписей</content>
+  <content>SessionParameter.ТекущийПользователь</content>
+  <content>Role.Пользователь</content>
+  <content>CommonModule.НастройкаПравДоступа</content>
+  <content>CommonModule.ОбщегоНазначения</content>
+  <content>CommonModule.ПолныеПрава</content>
+  <content>CommonModule.УправлениеПользователями</content>
+  <content>CommonForm.РедактированиеДокументаУдостоверяющегоЛичность</content>
+  <content>CommonForm.УстановкаДатыЗапретаИзмененияДанных</content>
+  <content>CommonForm.ФормаВыбораПользователяWindows</content>
+  <content>CommonForm.ФормаПользователяИБ</content>
+  <content>Catalog.ГруппыПользователей</content>
+  <content>Catalog.Пользователи</content>
+  <content>Enum.СостоянияОбъектов</content>
+  <content>Enum.СтатусыКонтрагентов</content>
+  <content>Enum.УдалитьНаборПравПользователей</content>
+  <content>DataProcessor.СписокПользователейИБ</content>
+  <content>InformationRegister.НастройкиПользователей</content>
+  <content>InformationRegister.СобытияКалендаряПользователя</content>
+  <content>InformationRegister.СобытияКалендаряПользователяОбобщенные</content>
+  <content>InformationRegister.УдалитьЗначенияПравПользователя</content>
+  <content>ChartOfCharacteristicTypes.НастройкиПользователей</content>
+  <content>ChartOfCharacteristicTypes.ПраваПользователей</content>
+  <parentSubsystem>Subsystem.УниверсальныеМеханизмы</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0f9ad75-8e00-4c03-ac65-9663adae78b3">
+  <producedTypes>
+    <managerType typeId="7f635031-2c95-469c-a470-f7f7b3b82608" valueTypeId="3f86d0c6-ac0a-42e6-962f-852c1701c0d7"/>
+    <valueManagerType typeId="359ba054-908e-44d7-9e4c-b2b8ee98c3ef" valueTypeId="f39090f1-be9f-43c3-b685-cbde9771f860"/>
+  </producedTypes>
+  <name>УказаниеСкладовВТабличнойЧастиДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Указание складов в табличной части документов</value>
+  </synonym>
+  <comment>(Общ.)</comment>
+  <type>
+    <types>EnumRef.ВариантыУказанияСкладовВТабличнойЧастиДокументов</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

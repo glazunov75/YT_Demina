@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50622be4-9626-4b43-a23b-733c8d071621">
+  <producedTypes>
+    <objectType typeId="e1a68bee-6b86-44c2-8ff4-4bbd8acf0e51" valueTypeId="e9d4d7c3-bf32-4e1e-9a13-4b2dd4d93a48"/>
+    <managerType typeId="226402cd-ef51-40a3-9795-8bda9c78ef6c" valueTypeId="cdfe6ad2-869e-4077-9c05-20ea69f6c9a1"/>
+  </producedTypes>
+  <name>АнализПричинЗакрытияЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ причин закрытия заказов</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.АнализПричинЗакрытияЗаказов.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="bbda2f90-4cde-4ad6-9593-d1261becf093">
+    <name>УниверсальныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.УниверсальныйОтчет</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="64a33a3d-39e2-4771-b123-ba5ca9177ea0">
+    <name>ЗаказыПокупателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказы покупателей</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d6397eec-9d41-489c-bbbe-f8de3e107b05">
+    <name>ЗаказыПоставщикам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказы поставщикам</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="53c6b04c-b58e-4c86-8315-dd41bb571544">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

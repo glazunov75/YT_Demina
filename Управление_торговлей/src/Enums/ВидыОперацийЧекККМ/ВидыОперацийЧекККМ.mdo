@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c244ce1-a7ef-4cc2-a670-c2195b6368ca">
+  <producedTypes>
+    <refType typeId="fe2cfb7c-be0e-4e34-9ed3-0a7d7cacec3e" valueTypeId="6122dbeb-0753-4a47-9434-3e00f00d7bc6"/>
+    <listType typeId="4c244ce1-a7ef-4cc2-a670-c2195b6368ca" valueTypeId="4c244ce1-a7ef-fcc2-a670-c2195b6368ca"/>
+    <managerType typeId="2c6092ef-2dec-4a0c-bb70-fd22e796bbd6" valueTypeId="a54a63b0-2e33-4c2b-959d-ecc4ecc074c4"/>
+  </producedTypes>
+  <name>ВидыОперацийЧекККМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций документа &quot;Чек ККМ&quot;</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="72bda9b1-1d16-48cf-b2ad-53436d75f68a">
+    <name>Продажа</name>
+    <synonym>
+      <key>ru</key>
+      <value>продажа</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="a73429ef-1583-4cc3-aedb-897afe0c3dd5">
+    <name>Возврат</name>
+    <synonym>
+      <key>ru</key>
+      <value>чек на возврат</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

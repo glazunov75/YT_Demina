@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bda5961-746a-4b3a-9dc5-63f76cb930e6">
+  <name>СостояниеНеСогласовано</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние не согласовано</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

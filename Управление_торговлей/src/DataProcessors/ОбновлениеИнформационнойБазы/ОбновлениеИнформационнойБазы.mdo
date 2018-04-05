@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e83540b-f70d-4924-9c91-1b6672c08a09">
+  <producedTypes>
+    <objectType typeId="bf642058-0fa9-41aa-830c-ef1a654c5ecf" valueTypeId="01caebc1-99d6-48fc-9308-0ba29b09517a"/>
+    <managerType typeId="4a4b0db3-fd7e-45cb-9c0f-8e181b963ccf" valueTypeId="661308ee-2e05-4547-9e92-db30291047b1"/>
+  </producedTypes>
+  <name>ОбновлениеИнформационнойБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление информационной базы</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ОбновлениеИнформационнойБазы.Form.ОписаниеОбновлений</defaultForm>
+  <forms uuid="8f221ae3-eca3-4683-8246-bfcf234cf59c">
+    <name>ЗаполнениеДокументОснованиеВНОНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение реквизита &quot;Документ-основание (поступление и др.)&quot; в документах &quot;Ввод начальных остатков НДС&quot;</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fd27ca57-8996-4c91-8391-19e66aaf63b4">
+    <name>ЗаполнениеНДСВСтоимостиТоваровВДокументах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение реквизита &quot;НДС в стоимости товаров&quot; в документах &quot;Перемещение товаров&quot; и &quot;Комплектация номенклатуры&quot;</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dea2667e-5b95-4400-99bc-c70d6e2ce18b">
+    <name>ЗаполнениеНовогоИзмеренияОрганизацияВРегистреВзаиморасчетыСПодотчетнымиЛицами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение нового измерения организация в регистре взаиморасчеты с подотчетными лицами</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="99ce3c7d-e8a9-434a-a88e-cc6734c31ffb">
+    <name>ЗаполнениеНовыхИзмеренийКонтрагентОрганизацияВРегистрахНакопления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение новых измерений Контрагент, Организация в регистрах накопления</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="07584c32-299c-4e19-b8a5-8716645ae4d1">
+    <name>ЗаполнениеРегистраОбъектыДоступаДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение регистра сведений Объекты доступа документов</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="609177e2-aabf-4ade-b660-bcb188e3cd2e">
+    <name>ЗаполнениеРеквизитаВидНоменклатурыВСправочникеНоменклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение реквизита &quot;Вид номенклатуры&quot; в справочнике &quot;Номенклатура&quot;</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0b0e29c4-ec7a-42db-935f-79f2dbcee730">
+    <name>ЗаполнениеРеквизитаВнутрЗаказВДокументеПеремещениеТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение реквизитов &quot;Внутренний заказ&quot;, &quot;Документ резерва&quot; в документе &quot;Перемещение товаров&quot;</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ff910aca-d44e-4146-b180-4aaf58155f47">
+    <name>ЗаполнениеРеквизитаВнутрЗаказВДокументеТребованиеНакладная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение реквизитов &quot;Внутренний заказ&quot; , &quot;Заказ резерв&quot; в документах &quot;Требование накладная&quot;</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="90fc43bf-4a82-4926-a644-720685cba9ec">
+    <name>ЗаполнениеРеквизитовДокументовЦенообразования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение реквизитов документов ценообразования</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5e2a49f1-49b2-429e-898c-0f7a78175d1d">
+    <name>ЗаполнениеРесурсаНДСВРегистреЗакупки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение ресурса НДС в регистре Закупки</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f77e0530-e2f4-4f87-ab6f-5808c6f29b59">
+    <name>ЗаполнениеРесурсаНДСВРегистреПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение ресурса НДС в регистре Продажи</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="07bfd50b-f516-408a-89db-7ea6596cde53">
+    <name>ЗаполнениеРесурсаСтоимостьБезСкидокВРегистреПродажиДляУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение ресурса стоимость без скидок в регистре продажи для услуг</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5a987e48-dea3-4438-a608-633b38b65a3a">
+    <name>ЗаполнениеСтраныРоссия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение страны Россия</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="31673410-ab1e-408a-bd79-a759db808228">
+    <name>ЗапускПакетаОбработокОбновленияКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запуск пакета обработок обновления конфигурации</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f2bf7b45-79ee-4fb6-ba0b-bca38433d66c">
+    <name>ИзменениеВидаСкладаСРозничногоНаОптовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение вида склада с розничного на оптовый</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="70cebdb8-377f-4c53-a1d0-daa5b0a37001">
+    <name>КонвертацияПравДоступаПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация прав доступа пользователей</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="62f26d4b-1da2-4116-9658-dce114181b2d">
+    <name>КонвертацияСправочникаДополнительныеПечатныеФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертация справочника &quot;Дополнительные печатные формы&quot;</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="92db5ddd-d0ad-41c7-992e-ddc328bb5a5a">
+    <name>ОбновлениеДанныхГТДИмпорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление данных &quot;ГТД по импорту&quot;</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="77988ea1-2e5b-4394-9f92-21a81831edda">
+    <name>ОбновлениеДанныхДокументовПрочиеЗатраты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление данных документов Прочие затраты</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9a4123e3-ad71-4282-87bc-f31a98df771c">
+    <name>ОбновлениеДанныхКорректировкаЗаказаПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление данных &quot;Корректировка заказа покупателя&quot;</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="aecd91c6-bc56-4b59-8af2-728caf70f9dd">
+    <name>ОбновлениеДанныхКорректировкаЗаказаПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление данных &quot;Корректировка заказа поставщику&quot;</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3d2041c7-141a-41bc-9409-c5c3aca76d18">
+    <name>ОбновлениеДанныхНДСРасчеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление данных НДС Расчеты</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7017b71c-0422-42e7-ab35-52e5e7a119f0">
+    <name>ОбновлениеДанныхОтражениеПоступленияТоваровИУслугНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление данных &quot;Отражение поступления товаров и услуг (НДС)&quot;</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3f302b57-8d27-4fa4-9cc6-5ef960a9c788">
+    <name>ОбновлениеДанныхОтражениеРеализацииТоваровИУслугНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление данных &quot;Отражение реализации товаров и услуг (НДС)&quot;</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="07ac0f19-8ad7-47f1-9e1a-fe4aff4942c5">
+    <name>ОбновлениеДанныхПоВзаиморасчетамВРазрезеДокументовРасчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление данных по взаиморасчетам в разрезе документов расчетов</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c8d1f5e5-7195-4f2c-a7d4-25745813ff98">
+    <name>ОбновлениеДанныхПоУчетуНДСсАвансов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление данных по учету НДС с авансов</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a044bf3f-1f99-43a4-a231-5807645588d0">
+    <name>ОбновлениеДанныхПоУчетуНДСсАвансовДополнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление данных по учету НДС с авансов (дополнение)</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="46c6cbba-8ef6-411f-8f9a-d3e1eebc99a4">
+    <name>ОбновлениеДанныхРегистраНДСПартииТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление данных регистра НДС Партии товаров</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8af30867-cf60-4c58-a7e9-3d01a8423ea8">
+    <name>ОбновлениеДанныхСчетФактураВыданный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление данных &quot;Счет-фактура выданный&quot;</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d458c468-e9e0-446d-9f79-fdbd5bee0699">
+    <name>ОбновлениеДанныхСчетФактураПолученный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление данных &quot;Счет-фактура полученный&quot;</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c3860415-17e2-4c28-a3b1-15fb94e4b786">
+    <name>ОбновлениеДанныхУстановкаЗначенийТочкиЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление данных &quot;Установка значений точки заказа&quot;</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dca507ab-bb9f-4e23-a29c-e202e0a973da">
+    <name>ОбновлениеДокументовЗакрытиеЗаказовПокупателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление документов &quot;Закрытие заказов покупателей&quot;</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bd8526e4-2c41-43c7-a22b-99a7675ff33f">
+    <name>ОбновлениеДокументовКорректировкаДолга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление документов корректировка долга</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="05065dd5-3b0d-4fda-bb2a-9e6f36be9292">
+    <name>ОбновлениеНастроекОбменаДанными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление настроек обмена данными</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d93ae71a-008e-4950-bf0d-68400c5ab0a8">
+    <name>ОбновлениеНомеровДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление номеров документов</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e4ef9ccd-988f-4b9b-9fdc-a924e8d77136">
+    <name>ОбновлениеПравилОбменаСБухгалтерияПредприятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление правил обмена с конфигурацией &quot;Бухгалтерия предприятия&quot;</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d8055b5d-6bb9-4cc8-b9ba-b3e54929e960">
+    <name>ОбновлениеПравилОбменаСБухгалтерияПредприятияКОРП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление правил обмена с конфигурацией &quot;Бухгалтерия предприятия КОРП, редакция 2.0&quot;</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1da6fc80-9d9d-4994-af6a-ca187111fdad">
+    <name>ОбновлениеПравилОбменаСРозница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление правил обмена с конфигурацией &quot;Розница&quot;</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5c4ce8af-77cb-4624-89d5-8088c69c6783">
+    <name>ОбновлениеПравилОбменаС_УПП_КА</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление правил обмена с конфигурацией &quot;УПП, редакция 1.3 / КА, редакция 1.1&quot;</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3d19b70f-ee41-44a6-be49-32cb3b0c017b">
+    <name>ОбновлениеТипаЭлементаВАдресномКлассификаторе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление типа элемента в адресном классификаторе</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b2ea4f48-c782-48d3-848d-928eba6453ec">
+    <name>ОписаниеОбновлений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание обновлений</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2f80b3f4-49c5-4a8b-a4fc-25b964201630">
+    <name>ПодчинениеКассИККМОрганизациям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подчинение касс и ККМ организациям</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0ca44c97-14b3-4541-9ac5-5acc820cc7cb">
+    <name>СписокДокументовРеализацияБракИзРезерва</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формирование списка документов &quot;Реализация&quot; с видом операции &quot;Брак&quot; и способом списания &quot;из резерва&quot;</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1c4b0668-2c69-42af-88cb-e728f9eee6b7">
+    <name>УстановкаСоответствияПроектовНоменклатуре</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка соответствия проектов и номенклатуры в регистре сведений &quot;УстановкаПроектовДляНоменклатуры&quot;</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1f98eb05-297c-40ba-8231-2ae4ba406ce3">
+    <name>УстановкаВидаСчетаФактурыВыданного</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка вида счета-фактуры для документа &quot;Счет-фактура выданный&quot;</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d3708e9d-29e9-46ff-966f-a5678110cbf7">
+    <name>УстановкаВидаСчетаФактурыПолученного</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка вида счета-фактуры для документа &quot;Счет-фактура полученный&quot;</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="47ccfca3-9d0b-4221-b480-5218b0f266d5">
+    <name>ОписаниеОбновлений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание обновлений</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:DataProcessor>

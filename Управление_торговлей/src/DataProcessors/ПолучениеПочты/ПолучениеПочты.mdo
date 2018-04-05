@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d185fdc-0141-4326-8193-b4b1a5483820">
+  <producedTypes>
+    <objectType typeId="bb320d1a-51a3-4ddf-b345-8d433b9e925c" valueTypeId="9dd2fb0c-6abd-468c-9ea1-2b810be45968"/>
+    <managerType typeId="88356268-423b-48e3-9d8f-5b4df2c66cbe" valueTypeId="6a7d6342-dfab-431f-acb6-c47d6e1041f4"/>
+  </producedTypes>
+  <name>ПолучениеПочты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение почты</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ПолучениеПочты.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="c728d69d-29d9-4dac-8d82-245b3f4f45b3">
+    <name>Отчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="88dab91b-c3eb-4744-bae4-86a0b732d126">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="304840ea-cb68-4fbe-9e32-a705d8cca47e">
+    <name>ФормаПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма письма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c43a67fd-3b3d-4ace-a8f7-b8788c7733df">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

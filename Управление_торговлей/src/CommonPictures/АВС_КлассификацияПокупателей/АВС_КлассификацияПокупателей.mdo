@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad3915d3-2cb3-4313-90a4-78612a83b1be">
+  <name>АВС_КлассификацияПокупателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>АВС-классификация покупателей</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>13</x>
+    <y>1</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

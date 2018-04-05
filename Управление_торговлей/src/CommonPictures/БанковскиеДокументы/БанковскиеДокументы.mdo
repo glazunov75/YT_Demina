@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="adf374a6-6782-4ad2-b6ab-497cab25b57d">
+  <name>БанковскиеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Банковские документы</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3cabdb1-8acd-491d-81c2-660adbdfd25b">
+  <producedTypes>
+    <refType typeId="24973a94-12de-475e-9088-9462e9c3841d" valueTypeId="09db8293-b2ef-48a7-a2c5-05b8ed8a5c49"/>
+    <listType typeId="c32cf5e5-f324-48ca-8d37-a38af9c45783" valueTypeId="aefea65a-aa90-484b-a431-b52de26714d0"/>
+    <managerType typeId="13b7e563-8a36-43fb-baeb-04bab210a53e" valueTypeId="bf959589-b9db-49f5-aa22-f43f6615dcc0"/>
+  </producedTypes>
+  <name>ВидыРасчетовСКонтрагентами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды расчетов с контрагентами</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="30b4d531-8d2b-42a6-9f33-5b1b32af50df">
+    <name>ПоПриобретению</name>
+    <synonym>
+      <key>ru</key>
+      <value>По приобретению</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="8ba4c299-8fae-44ab-ad7d-47cf8c4c496c">
+    <name>ПоРеализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>По реализации</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c74cb0e6-8425-40cb-8f84-15b03ac71323">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

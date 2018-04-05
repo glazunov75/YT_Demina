@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25f1202e-f2e0-4135-a34f-fbbafb2dabfb">
+  <producedTypes>
+    <objectType typeId="ab28ec15-20ff-4466-a1fc-e676ce16280f" valueTypeId="4631ad4b-3d37-4151-a288-458bcaa015f4"/>
+    <managerType typeId="4ac19b0a-f31d-48c3-bc75-c24f45ac50dc" valueTypeId="5ba922a9-86c2-407f-b3c5-8013753957cc"/>
+  </producedTypes>
+  <name>ДебиторскаяЗадолженностьПоСрокамДолга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дебиторская задолженность по срокам долга</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.ДебиторскаяЗадолженностьПоСрокамДолга.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="6e01d4a3-efcd-480c-a37d-2cb1560df839">
+    <name>УниверсальныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.УниверсальныйОтчет</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="89069219-c09d-4805-8e1b-d76a9b15ea98">
+    <name>Интервал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.НастройкаИнтервалов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="9deb7a90-e6cf-497f-a5a3-dca759498444">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79a0b9a8-738b-467a-b91d-1a8ae89315db">
+  <name>ОбновлениеКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление конфигурации</value>
+  </synonym>
+  <comment></comment>
+  <content>CommonPicture.Информация32</content>
+  <content>CommonPicture.Предупреждение32</content>
+  <content>CommonPicture.ДлительнаяОперация48</content>
+  <content>CommonPicture.ЗаставкаОбновленияКонфигурации</content>
+  <content>CommonPicture.ЗначокЗаставкиОбновленияКонфигурации</content>
+  <content>CommonPicture.ЗначокОбновлениеКонфигурацииЧерезИнтернет16</content>
+  <content>Interface.ОбновлениеКонфигурацииИБ</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазы</content>
+  <content>CommonModule.ОбновлениеКонфигурации</content>
+  <content>CommonModule.УправлениеСоединениямиИБ</content>
+  <content>Constant.НомерВерсииКонфигурации</content>
+  <content>Constant.ПараметрыАдминистрированияИБ</content>
+  <content>Constant.СтатусОбновленияКонфигурации</content>
+  <content>DataProcessor.ОбновлениеКонфигурации</content>
+  <content>CommonModule.УправлениеСоединениямиИБГлобальный</content>
+  <content>CommonModule.УправлениеСоединениямиИБКлиент</content>
+  <content>f6cf5d39-f130-42a9-b45f-0b4158d951d8</content>
+  <content>CommonModule.УправлениеСоединениямиИБПереопределяемый</content>
+  <parentSubsystem>Subsystem.УниверсальныеМеханизмы</parentSubsystem>
+</mdclass:Subsystem>

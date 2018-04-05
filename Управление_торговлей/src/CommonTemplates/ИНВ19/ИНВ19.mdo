@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d89e95f8-ad82-4558-9cbe-3e52f3104245">
+  <name>ИНВ19</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИНВ-19</value>
+  </synonym>
+  <comment>Сличительная ведомость результатов инвентаризации товарно-материальных ценностей (унифицированная форма № ИНВ-19)</comment>
+</mdclass:CommonTemplate>

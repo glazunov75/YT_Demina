@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4589257d-19f2-4467-b8e3-572cf4d1572d">
+  <producedTypes>
+    <objectType typeId="7a9b60c8-40d7-4824-bcde-c79329909ffd" valueTypeId="92650423-d17f-44f0-a38e-347734a9f1fc"/>
+    <managerType typeId="d61ce802-a13e-4426-884e-1f140006742b" valueTypeId="abd0aad9-8c60-46ef-b073-f6eaf3ec9e82"/>
+  </producedTypes>
+  <name>ОстаткиДенежныхСредствДиаграмма</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки денежных средств (диаграмма)</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.ОстаткиДенежныхСредствДиаграмма.Form.ФормаДенежныеСредства</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="2aa2e3c1-06f3-4696-ad57-3e9f70081d7f">
+    <name>ОбщийОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общий отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.ОтчетДиаграмма</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2d7ba4af-0a6b-4de1-97ae-059ef658a9d2">
+    <name>ФормаДенежныеСредства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остатки денежных средств - диаграмма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3effd558-865f-4ac7-8446-6b6cea67cd16">
+    <name>ПараметрыОтчетовДенежныеСредства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры отчетов по регистру</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Report>

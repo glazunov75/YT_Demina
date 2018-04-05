@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c0168f7-66ec-4732-b700-ec938055b89f">
+  <producedTypes>
+    <objectType typeId="7743e5f0-f186-40e7-a3d3-940faa50d4f4" valueTypeId="dfa9447c-ad42-4460-a565-85a90df8f980"/>
+    <managerType typeId="d733b92a-d338-42b0-ac7f-07cefb220296" valueTypeId="8a24da1e-3517-46d3-b20f-978557dd3f98"/>
+  </producedTypes>
+  <name>ТОКлиентККМOnline</name>
+  <synonym>
+    <key>ru</key>
+    <value>Клиент ККМ, подключаемой в режиме Online</value>
+  </synonym>
+  <comment>Данная обработка обрабатывает события от ККМ, подключаемых в режиме Online.</comment>
+</mdclass:DataProcessor>

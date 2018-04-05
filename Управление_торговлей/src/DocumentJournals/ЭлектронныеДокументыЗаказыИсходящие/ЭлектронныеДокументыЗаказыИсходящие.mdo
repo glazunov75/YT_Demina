@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb2dd1bb-1e0f-421c-9e29-753c1e358f0e">
+  <producedTypes>
+    <selectionType typeId="5b8a5029-054f-4c12-8a7f-3baf41d3112b" valueTypeId="e5755238-4770-4102-91f1-4b821c227491"/>
+    <listType typeId="42779452-30e4-45b6-a085-aa8e19b4d426" valueTypeId="bd43c4ac-a9c2-4924-bd63-c1ff24e0f1e6"/>
+    <managerType typeId="21452c77-7b40-41db-b5f0-2721003cea4e" valueTypeId="90825d45-da6d-48f9-abbf-4d4dadd9638e"/>
+  </producedTypes>
+  <name>ЭлектронныеДокументыЗаказыИсходящие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронные документы заказы исходящие</value>
+  </synonym>
+  <comment></comment>
+  <registeredDocuments>Document.ИсходящийЗаказ</registeredDocuments>
+  <registeredDocuments>Document.ИсходящийРеджектАкцептЗаказа</registeredDocuments>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <columns uuid="5fc2d217-8b1a-4610-9c63-1480431fef75">
+    <name>ДатаОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отправки</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ИсходящийЗаказ.Attribute.ДатаОтправки</references>
+    <references>Document.ИсходящийРеджектАкцептЗаказа.Attribute.ДатаОтправки</references>
+  </columns>
+  <columns uuid="6ee9ac2e-a7d3-44de-8939-7c116d5f5649">
+    <name>ОбработанОтправлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработан/отправлен</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ИсходящийЗаказ.Attribute.Отправлен</references>
+    <references>Document.ИсходящийРеджектАкцептЗаказа.Attribute.Отправлен</references>
+  </columns>
+  <columns uuid="ce8c8e47-55a7-4a4c-9028-e3de018db197">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ИсходящийЗаказ.Attribute.Организация</references>
+    <references>Document.ИсходящийРеджектАкцептЗаказа.Attribute.Организация</references>
+  </columns>
+  <columns uuid="c1528177-6a0b-40bd-b55e-ce37247f4fcd">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ИсходящийЗаказ.Attribute.Контрагент</references>
+    <references>Document.ИсходящийРеджектАкцептЗаказа.Attribute.Контрагент</references>
+  </columns>
+</mdclass:DocumentJournal>

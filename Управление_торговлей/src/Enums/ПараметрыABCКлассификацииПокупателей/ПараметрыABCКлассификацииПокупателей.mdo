@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10ac052e-e287-4607-b223-a0c06288abf3">
+  <producedTypes>
+    <refType typeId="b04efa8e-e9b5-49e2-a64f-b0fbbcc208db" valueTypeId="0710e2c4-a781-417c-b9bd-59dbd3cebfc8"/>
+    <listType typeId="2070cf55-048d-43cc-9c45-86702e541d55" valueTypeId="eea12c39-6bb9-49b5-a07f-d2080da82cca"/>
+    <managerType typeId="c228b294-23cb-4aeb-ac0e-48e5a5774634" valueTypeId="bd474209-13fc-44d5-815a-5c82b84dd11d"/>
+  </producedTypes>
+  <name>ПараметрыABCКлассификацииПокупателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры ABC Классификации покупателей</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="aee3fc03-f8c4-4b65-b3c4-ccb50fc80b50">
+    <name>СуммаВыручки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма выручки</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="30ffe18d-bb66-41e6-a9cf-d98448108ef5">
+    <name>СуммаВаловойПрибыли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма валовой прибыли</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

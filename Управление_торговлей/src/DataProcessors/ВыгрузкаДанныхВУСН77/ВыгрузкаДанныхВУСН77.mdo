@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e74d9fbe-9ea5-4755-ba74-e8bb59e1b74a">
+  <producedTypes>
+    <objectType typeId="5bcfd228-8882-49b1-9e8f-dc9174abc37a" valueTypeId="04d146cb-5296-47bd-993b-f3a0be39042b"/>
+    <managerType typeId="13a5d744-23c1-41dc-9ff0-88b0646601b3" valueTypeId="8b78ef88-0983-49c4-b86d-804204526aa1"/>
+  </producedTypes>
+  <name>ВыгрузкаДанныхВУСН77</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка данных в конфигурацию &quot;Упрощенная система налогообложения&quot;</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ВыгрузкаДанныхВУСН77.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="7e9dac77-3c0d-4fd1-81c6-7a59a4edbb53">
+    <name>ДатаНач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата Нач</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dc586c62-d8b4-43b7-920c-9558f40fa76e">
+    <name>ДатаКон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата Кон</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="61aec53c-bdb5-4935-b0f9-e11541016b68">
+    <name>НеЗамещатьДокументыПриЗагрузке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не замещать документы при загрузке</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4b7ba599-58a6-4a6b-a5af-a79673ac8b38">
+    <name>НеЗамещатьСправочникиПриЗагрузке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не замещать справочники при загрузке</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="541d0fff-fdad-45da-876a-7048a236631f">
+    <name>ЮридическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юридическое лицо</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2b18f0eb-f534-4d42-bdec-ec407d8876cc">
+    <name>ФайлВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл выгрузки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e30fc69b-0f0d-469f-9913-a6f4e64ab5a3">
+    <name>ТаблицаПравилВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица правил выгрузки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueTree</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6e51142a-ca38-48e1-b89d-6a0eca7a996c">
+    <name>ТаблицаПравилКонвертации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица правил конвертации</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c525b545-9065-4abb-afce-eba4284aa12d">
+    <name>ОбъектНУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект налогообложения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="d999eeab-acc0-454e-b59b-2227bb2db799">
+    <producedTypes>
+      <objectType typeId="6c321dc8-df77-43ed-8ac1-067155673296" valueTypeId="d3bc4b5d-5dac-4a57-b2e1-2ae568569641"/>
+      <rowType typeId="9d7251e2-110e-4d49-8f5d-927d16420617" valueTypeId="13c3db3e-b94d-4083-915c-779d845feb7a"/>
+    </producedTypes>
+    <name>ФильтрыОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фильтры отчета</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="7f49002d-c127-41e8-aff7-56e84ced7a88">
+      <name>ИмяФильтра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя фильтра</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f5cb572b-332a-4656-bcbe-fddaef0af5a0">
+      <name>ЗначениеФильтра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение фильтра</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>AnyRef</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="af3aa830-80b5-471a-b106-0c2b67bd735f">
+      <name>ПредставлениеФильтра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление фильтра</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="378ec590-1d47-4f68-9227-0abf37239f37">
+      <name>ОписаниеФильтра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание фильтра</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="dff8d1ee-0149-4f50-a79b-130b79ab688c">
+      <name>ТипФильтра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип фильтра</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="1ed486ef-2ea4-43fe-b70f-b5eee5655cb1">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a87d6f9b-0f0c-4519-81dc-1ce7063778b9">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5a02512a-fd1b-488f-a442-680a63e15ab4">
+    <name>ПравилаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПравилаОбмена</value>
+    </synonym>
+    <comment></comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

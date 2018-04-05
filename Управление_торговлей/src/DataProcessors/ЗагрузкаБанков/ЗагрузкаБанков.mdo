@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f28f7e91-54cb-4b1d-a800-a3d0dcb9eb2c">
+  <producedTypes>
+    <objectType typeId="15dc2e93-1b24-4293-a5dd-347b8313bf11" valueTypeId="114987c5-746a-402c-a96e-c55128bf656e"/>
+    <managerType typeId="94b7868d-7899-4228-aec3-559e61f0953d" valueTypeId="7ec52121-e70b-48c8-8cb9-34e6dea230dc"/>
+  </producedTypes>
+  <name>ЗагрузкаБанков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка банков</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ЗагрузкаБанков.Form.ФормаКлассификатора</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="14a32750-56e7-425b-9f5a-a59156bea8d8">
+    <name>ВариантЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант загрузки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="d6d52cea-00be-4799-a110-57c4ec90cff7">
+    <name>ФормаКлассификатора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма классификатора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

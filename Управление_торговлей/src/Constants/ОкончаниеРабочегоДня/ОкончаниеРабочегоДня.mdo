@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9cddc217-8950-4e46-b5eb-976a9d7872b7">
+  <producedTypes>
+    <managerType typeId="6b51132c-931f-4754-88d0-092f80bd406f" valueTypeId="2ea023d5-8a75-4140-a8e6-c78ca521942a"/>
+    <valueManagerType typeId="9cddc217-8950-4e46-b5eb-976a9d7872b7" valueTypeId="9cddc217-8950-fe46-b5eb-976a9d7872b7"/>
+  </producedTypes>
+  <name>ОкончаниеРабочегоДня</name>
+  <synonym>
+    <key>ru</key>
+    <value>Окончание рабочего дня</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Time</dateFractions>
+    </dateQualifiers>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

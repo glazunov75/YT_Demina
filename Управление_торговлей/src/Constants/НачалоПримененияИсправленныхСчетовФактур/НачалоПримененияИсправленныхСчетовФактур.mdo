@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0228f65e-7678-4583-992c-33f24d08094d">
+  <producedTypes>
+    <managerType typeId="af0ec270-2bdc-4978-b455-38308f2ea19d" valueTypeId="5fd476e9-f435-4b9c-837d-ac31e2b579a3"/>
+    <valueManagerType typeId="e295fabc-4275-4610-a870-5e6309da4486" valueTypeId="6d0e955c-3cd7-4fa4-9c9f-dce9353e250b"/>
+  </producedTypes>
+  <name>НачалоПримененияИсправленныхСчетовФактур</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начало применения исправленных счетов-фактур</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <defaultForm>CommonForm.НастройкаПараметровУчета</defaultForm>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

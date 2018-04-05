@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0b06ef9-17e6-4356-a2fe-4517da9be28e">
+  <name>ИнтернетПользовательУправленияЗаказами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интернет пользователь управления заказами</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e4860ac-eafd-44fd-bf3d-f458698a669f">
+  <producedTypes>
+    <objectType typeId="0192d452-4610-413c-ad20-16e57f596ccd" valueTypeId="26b8bde3-4082-474f-b7ca-51f6e14977cd"/>
+    <refType typeId="b9e6a2b5-db60-4b45-8d1d-78393e672f2c" valueTypeId="af623852-4baa-4a90-a481-344002fe159f"/>
+    <selectionType typeId="4ef639c1-e99e-4ff1-9980-ba0aaa2bd4a4" valueTypeId="2fb70baa-89a6-49fa-8a68-196c1a4ea4ba"/>
+    <listType typeId="70d2f4ed-9956-46ff-bab4-b93c6f0bf0de" valueTypeId="5359c7ce-7e82-4a92-b8b5-082cc3051a26"/>
+    <managerType typeId="f40a3f80-0c09-4abb-98ec-7f39cc94a33e" valueTypeId="fc691d02-e6e9-43b6-989d-e10efcf6e608"/>
+  </producedTypes>
+  <name>КонтактныеЛицаКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактные лица контрагентов</value>
+  </synonym>
+  <comment>Контактные лица контрагентов</comment>
+  <inputByString>Catalog.КонтактныеЛицаКонтрагентов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КонтактныеЛицаКонтрагентов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КонтактныеЛицаКонтрагентов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.КонтактныеЛицаКонтрагентов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.КонтактныеЛицаКонтрагентов.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="515e08bd-8d45-4c85-86bd-f9f2158177b2">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="5c525db3-5ed7-4201-a7d2-f0cf2f4c4217">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="4ded06af-10c6-4ae4-8f30-df636d7f97a9">
+    <name>КонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.КонтактныеЛица</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a1570ad8-9c74-424c-9cc0-607277017224">
+    <name>РольКонтактногоЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль контактного лица</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.РолиКонтактныхЛиц</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="7e68f3b8-bb49-40cb-8145-e3e082dc6538">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f1524736-0409-4fcd-9b91-d1046098ed52">
+    <name>ФормаВводаНового</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ввода нового</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c967b082-bcf0-4cbb-aa0e-ed7d233b467b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e6a2cf74-6d94-414c-b336-dda795f587fe">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

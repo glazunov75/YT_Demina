@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="232e626f-0e1c-4b6f-bf17-685b15a5a418">
+  <producedTypes>
+    <managerType typeId="1266b16e-9926-4b50-96fa-2801cbcb68a3" valueTypeId="9233221b-1550-4610-a3ce-b54c235f3b19"/>
+    <valueManagerType typeId="c06ad34d-d95e-402a-b111-97587970e32d" valueTypeId="cc5a1a2f-2f71-4f2f-aa83-ef619201355d"/>
+  </producedTypes>
+  <name>ЗначенияПоУмолчаниюДляНовогоКонтрагента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения по умолчанию для нового контрагента</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

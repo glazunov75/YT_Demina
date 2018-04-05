@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcb0f35b-00cf-4a11-8e50-62ac14b11268">
+  <name>КОМИС4</name>
+  <synonym>
+    <key>ru</key>
+    <value>КОМИС-4</value>
+  </synonym>
+  <comment>Справка о продаже товаров, принятых на комиссию (унифицированная форма № КОМИС-4)</comment>
+</mdclass:CommonTemplate>

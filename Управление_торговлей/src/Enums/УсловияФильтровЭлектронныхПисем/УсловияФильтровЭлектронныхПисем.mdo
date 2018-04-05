@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58b16683-779d-49a6-85be-343361a6c6a5">
+  <producedTypes>
+    <refType typeId="4cd6772f-ce8c-461a-bd64-f757a25f408d" valueTypeId="a17b62fd-7578-4cf3-831e-d53585b41f3d"/>
+    <listType typeId="17d053ea-c32a-4681-8c78-464f3f6f872f" valueTypeId="396d0a61-1d89-49ce-95f0-cb0e73b94246"/>
+    <managerType typeId="f34479d0-b794-46dd-b040-90f86eb50fe1" valueTypeId="3cccf407-f8a7-471e-ae60-cede77228a10"/>
+  </producedTypes>
+  <name>УсловияФильтровЭлектронныхПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Условия фильтров электронных писем</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3380c607-000b-49d0-9711-105e655e0af8">
+    <name>ПолеОтправительСодержит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле &quot;Отправитель&quot; содержит ...</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="61657f2d-cf55-4662-a4d9-c2ad425f41df">
+    <name>ТемаПисьмаСодержит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема письма содержит ...</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="870cff4f-73a6-4091-b427-bbb06e5eb866">
+    <name>ТекстПисьмаСодержит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст письма содержит ...</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3c8dc861-e635-4031-94a8-2c5ddbb56a85">
+    <name>ПолеКомуСодержит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле &quot;Кому&quot; содержит ...</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="75250cb5-80b9-4617-90eb-a0cff5427ff3">
+    <name>ПолеКопииСодержит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле &quot;Копии&quot; содержит ...</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

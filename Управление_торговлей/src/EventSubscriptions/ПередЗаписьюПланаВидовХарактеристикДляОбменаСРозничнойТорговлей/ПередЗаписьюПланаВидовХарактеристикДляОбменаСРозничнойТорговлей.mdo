@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5af2525-6963-4db6-bfdb-3c576c34b1ff">
+  <name>ПередЗаписьюПланаВидовХарактеристикДляОбменаСРозничнойТорговлей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перед записью плана видов характеристик для обмена с розничной торговлей</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>ChartOfCharacteristicTypesObject.НазначенияСвойствКатегорийОбъектов</types>
+    <types>ChartOfCharacteristicTypesObject.СвойстваОбъектов</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ПроцедурыОбменаСРозничнойТорговлей.ПередЗаписьюПланаВидовХарактеристикДляОбменаСРозничнойТорговлейПередЗаписью</handler>
+</mdclass:EventSubscription>

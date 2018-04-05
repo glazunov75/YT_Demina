@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b962ab0-e47d-411d-820c-fa54cc3e3e05">
+  <producedTypes>
+    <objectType typeId="91be6458-22b0-4ba5-806e-1f2b9c842ff4" valueTypeId="40f97894-1e89-4918-8990-cd242c648c4e"/>
+    <refType typeId="e08e7dd4-3db8-4f6a-baef-e6fd294a664d" valueTypeId="54959995-ce98-4b9e-8e29-1ee0495b75a9"/>
+    <selectionType typeId="fc2ae36a-c4f3-4711-bc6a-a6852067b82e" valueTypeId="5a15a97a-4775-4b9d-845b-3687b3f8607e"/>
+    <listType typeId="7472a37f-1fe4-45d5-8d1d-b8cbda07204f" valueTypeId="d9fb56bc-d4fa-4a7f-92db-b8abf3bde88c"/>
+    <managerType typeId="33790467-1941-401c-b717-0ca0d8dce7a8" valueTypeId="b493b820-66cf-4602-84a6-73937353a987"/>
+  </producedTypes>
+  <name>ABCКлассификацияПокупателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>ABC-классификация покупателей</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <inputByString>Document.ABCКлассификацияПокупателей.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ABCКлассификацияПокупателей.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ABCКлассификацияПокупателей.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.ABCКлассификацияПокупателей.Form.ФормаВыбора</defaultChoiceForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <registerRecords>InformationRegister.ABCКлассификацияПокупателей</registerRecords>
+  <attributes uuid="98928482-abdb-460a-88b5-6c67b567c1de">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b4084015-400e-47bd-b976-26f694f44f20">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="937edef7-6d34-4558-a99b-a8e694f85867">
+    <name>ПроцентAКласса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент А класса</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="25dd74a4-378d-4ae9-ba36-aaf1bc0aab99">
+    <name>ПроцентBКласса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент B класса</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="436d6bdd-b9d1-4924-8f36-3a558574a195">
+    <name>ПроцентCКласса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент С класса</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="60fe6f7f-e156-4e55-965a-c69296a8a5d7">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="3d2dd936-0a0a-4dbc-83e9-40197b4c5dcf">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="d0ce1cb8-b90d-463f-95c1-bcf021654e37">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9e94fe8e-d7f8-429f-ad7d-d2b632e95dad">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9d979d84-fbd1-4b19-8667-5b9d180e22e4">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="52ffb7f0-b273-4832-a493-33a5f1c0471c">
+    <producedTypes>
+      <objectType typeId="2b84e49b-6693-46e1-99c2-024f2ef8cebd" valueTypeId="93b744a4-686f-4c58-aaf7-9568a6c96720"/>
+      <rowType typeId="f98c95c7-b156-44c9-a364-fa422d922664" valueTypeId="3fa85360-b9d9-4034-9b4c-508721d6e0ec"/>
+    </producedTypes>
+    <name>ТаблицаРаспределенияКонтрагентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица распределения контрагентов</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="21fc9e3a-c966-4b21-90aa-46ca14663387">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8463a504-1103-476d-bd52-e6cdc44f79be">
+      <name>ABCКлассификация</name>
+      <synonym>
+        <key>ru</key>
+        <value>ABC Классификация</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef.ABCКлассификация</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="341cbfdd-16fb-487f-8235-4769de616f28">
+      <name>ЗначениеПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение параметра</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="418e079b-26eb-4516-9179-b538c645bac0">
+      <name>МенеджерКонтрагента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Менеджер контрагента</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6808ef15-0295-4327-bb0d-00464337c636">
+      <name>ABCКлассификацияСтарая</name>
+      <synonym>
+        <key>ru</key>
+        <value>ABC Классификация старая</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef.ABCКлассификация</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

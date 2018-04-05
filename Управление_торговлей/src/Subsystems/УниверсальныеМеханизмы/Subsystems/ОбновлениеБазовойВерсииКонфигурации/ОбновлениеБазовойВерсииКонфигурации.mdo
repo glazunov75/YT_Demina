@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9ec2077-6d62-454e-9cc6-36e7e67cc880">
+  <name>ОбновлениеБазовойВерсииКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление базовой версии конфигурации</value>
+  </synonym>
+  <comment></comment>
+  <parentSubsystem>Subsystem.УниверсальныеМеханизмы</parentSubsystem>
+</mdclass:Subsystem>

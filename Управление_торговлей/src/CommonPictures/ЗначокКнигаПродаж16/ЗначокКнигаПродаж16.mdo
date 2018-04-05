@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e43fe3cf-2a06-4ebc-9d18-40b7d5420be6">
+  <name>ЗначокКнигаПродаж16</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значок книга продаж16</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ae8c27e-8b6c-4884-b567-83f0436fb008">
+  <producedTypes>
+    <objectType typeId="2d6cd5b1-ccee-4dbf-b048-a86d802c065f" valueTypeId="1a4e731e-a67b-433f-a3bf-b6cd3fabb48a"/>
+    <refType typeId="ba64bf51-6624-4eb8-8894-8152b94384c8" valueTypeId="0a23fc50-f639-40e4-ab90-6770f240b2e2"/>
+    <selectionType typeId="303d9fe9-a636-463e-9027-a60bf24899ef" valueTypeId="d5284e27-9197-487d-b3b4-f17377745797"/>
+    <listType typeId="d1ad469c-06aa-48f4-9927-0fde244f9819" valueTypeId="2072290d-511f-4064-bd59-9dc112a9db47"/>
+    <managerType typeId="35a71a94-ab9c-4509-b572-21e944bd41f3" valueTypeId="d7046da6-93bf-433a-9ff1-e4f113ed88a4"/>
+  </producedTypes>
+  <name>КатегорииОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории объектов</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <inputByString>Catalog.КатегорииОбъектов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КатегорииОбъектов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>1</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="f5ca1d1d-b200-40ff-ac31-2da6b9dcb5a5">
+      <name>ЗаказСWEBСайта</name>
+      <description>Заказ с WEB-сайта</description>
+      <code xsi:type="core:StringValue">
+        <value>000000000</value>
+      </code>
+    </items>
+    <items id="b2b08829-92ed-4765-b1b6-69d476cb4b91">
+      <name>СостояниеЗаказаНаWEBСайтеДоставкаРазрешена</name>
+      <description>Состояние заказа на WEB-сайте: Доставка разрешена</description>
+      <code xsi:type="core:StringValue">
+        <value>000000101</value>
+      </code>
+    </items>
+    <items id="70e6e376-9674-4be2-b9c1-50c595bd2481">
+      <name>СостояниеЗаказаНаWEBСайтеЗавершен</name>
+      <description>Состояние заказа на WEB-сайте: Завершен</description>
+      <code xsi:type="core:StringValue">
+        <value>000000102</value>
+      </code>
+    </items>
+    <items id="f98189c6-7060-4c4b-8bbd-28a1ca3d18eb">
+      <name>СостояниеЗаказаНаWEBСайтеОплачен</name>
+      <description>Состояние заказа на WEB-сайте: Оплачен</description>
+      <code xsi:type="core:StringValue">
+        <value>000000103</value>
+      </code>
+    </items>
+    <items id="06cabeb4-669e-4b36-a1cd-1d86db9c9685">
+      <name>СостояниеЗаказаНаWEBСайтеОтменен</name>
+      <description>Состояние заказа на WEB-сайте: Отменен</description>
+      <code xsi:type="core:StringValue">
+        <value>000000104</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КатегорииОбъектов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.КатегорииОбъектов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.КатегорииОбъектов.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="925aa1b5-e8b9-4600-a0b9-08959afdcfb1">
+    <name>НазначениеКатегории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение категории</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.НазначенияСвойствКатегорийОбъектов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="4bad0178-8df1-4583-b38c-40467b13c381">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8fe33968-ee4d-49e2-92fb-f5638e9c46b7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3ca5b31c-0b06-4bae-bf6c-1a801faa55cb">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f3d79db-fc4e-49f0-b1a5-6aaabe818fc2">
+  <producedTypes>
+    <selectionType typeId="cec395aa-324f-4dc2-9309-21ba1b2b4542" valueTypeId="4c02df62-a959-4486-a66e-87227d1e2571"/>
+    <listType typeId="5460346d-05cd-49c6-a7ed-1d2d7562d7fe" valueTypeId="ad0fc871-faf5-4683-b505-cd629a8f03a7"/>
+    <managerType typeId="4df9c5dc-040c-4b7b-9d48-12a25d962900" valueTypeId="415fbd68-0058-44da-beab-9eb21f71fa93"/>
+    <recordSetType typeId="ee5b988f-01b0-4e3f-98bf-79c1409a27f3" valueTypeId="9ee0dbaf-d523-4393-a902-76bcdf232fe2"/>
+    <recordKeyType typeId="47352da4-5339-4519-a20b-b86c3f019e49" valueTypeId="d95421a1-e256-4a9b-9f0a-3520e008c8a3"/>
+    <recordType typeId="3e86b59d-1ece-4648-a138-ee3411b018e6" valueTypeId="81f11e2e-abd7-48a5-9635-4f7d7d920cb0"/>
+    <recordManagerType typeId="cc73177e-e921-485b-9b6b-3c3a68a02035" valueTypeId="ab67ed67-3e68-46ca-a612-00c4d16d3e1b"/>
+  </producedTypes>
+  <name>УстановкаВидовРаспределенияДляСтатейДДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка видов распределения для статей ДДС</value>
+  </synonym>
+  <comment></comment>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <resources uuid="c4695d1a-e4fb-4130-9858-1e612d7220dd">
+    <name>ВидРаспределенияПоПроектам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид распределения по проектам</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВидыРаспределенияПоПроектам</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8de6b944-1aef-454c-96ef-f8f628d149cd">
+    <name>СтатьяДвиженияДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья движения денежных средств</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СтатьиДвиженияДенежныхСредств</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

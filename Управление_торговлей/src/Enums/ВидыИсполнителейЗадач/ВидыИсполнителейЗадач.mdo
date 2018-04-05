@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfb06222-68d0-4ec7-8aa9-0d02e11cd606">
+  <producedTypes>
+    <refType typeId="1a5f3983-44c4-4e25-b58d-3d24a78c7109" valueTypeId="08e6e395-61b2-4820-9438-bfd073c519db"/>
+    <listType typeId="bddcd876-a1da-4d7f-b8ef-80f68fc8cefb" valueTypeId="92dce468-cbb9-476c-8caf-8091e7d1d6d8"/>
+    <managerType typeId="6063d960-5331-44bc-a44c-8875ff8c02aa" valueTypeId="4e66bb6e-7fe8-4d58-976a-64bdf0b678ba"/>
+  </producedTypes>
+  <name>ВидыИсполнителейЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды исполнителей задач</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="eee8cab4-bb98-48aa-bedd-299ccec54893">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="86ffacca-e5ce-4ea1-bb96-ad609d0c1297">
+    <name>Инициатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инициатор</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

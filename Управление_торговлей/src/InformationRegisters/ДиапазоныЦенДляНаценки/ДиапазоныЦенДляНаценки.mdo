@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d1b626a-2c31-4dd9-8e73-ffacb83ecace">
+  <producedTypes>
+    <selectionType typeId="fcd00a32-9f85-4704-9d02-7f078527bebd" valueTypeId="b9df72fe-8473-4b89-9e6b-f2241de3168b"/>
+    <listType typeId="b91e6133-5938-425b-8f99-4eea94def848" valueTypeId="f1f4b1d3-15b1-4272-90d0-44db04321a53"/>
+    <managerType typeId="6b4704dd-0d0c-4d8d-a450-eda07ae66ccd" valueTypeId="423ec1a2-46c8-4d25-b7b1-ea68b79aa0cc"/>
+    <recordSetType typeId="c1d4be27-c751-486b-b46f-63e96dbd2136" valueTypeId="46eb4ea3-5bf0-4fe2-b30c-03e10079ae5e"/>
+    <recordKeyType typeId="61bcaffe-bce6-48b7-8b67-0c826e55c938" valueTypeId="d4f5e6b7-2ef6-45e2-bf6e-9531949b041a"/>
+    <recordType typeId="ab167be9-5cf6-43dd-afd8-e3a144da49ac" valueTypeId="33275a84-7757-402a-9c9d-b52bcec065c0"/>
+    <recordManagerType typeId="d17ad121-fee6-486b-9815-86838aaa7467" valueTypeId="f94d07ab-402a-4baf-b602-4850974d4e54"/>
+  </producedTypes>
+  <name>ДиапазоныЦенДляНаценки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диапазоны цен для наценки</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="11947048-4eac-4227-a3f6-a7bb30200356">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1af87c97-5f35-43cd-a55f-f71fb21fc0cd">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="10cecb46-3a42-4dbb-9e6a-8d57521f9235">
+    <name>ТипЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип цен</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ТипыЦенНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8a03aa67-8171-4e02-afc9-c22c32659a37">
+    <name>ВерхняяГраница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Верхняя граница</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

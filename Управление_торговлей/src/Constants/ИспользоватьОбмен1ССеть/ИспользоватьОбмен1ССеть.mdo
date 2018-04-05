@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed40833e-8b92-40ae-bd19-0bd70a9ba978">
+  <producedTypes>
+    <managerType typeId="10de618f-f37f-469b-9147-0ce457b17fcd" valueTypeId="30a7c517-0a8a-4990-8156-3e980589c236"/>
+    <valueManagerType typeId="f1a12a60-292e-4c2d-9a84-9e03098a5f0b" valueTypeId="801e49bf-660e-4ffe-8ae4-a22e9ed871e1"/>
+  </producedTypes>
+  <name>ИспользоватьОбмен1ССеть</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать обмен через 1С:Сеть</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

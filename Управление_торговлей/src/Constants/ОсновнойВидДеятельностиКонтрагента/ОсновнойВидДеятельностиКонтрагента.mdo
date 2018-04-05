@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e30ce08-d02e-4538-bc25-d7b8de6d799f">
+  <producedTypes>
+    <managerType typeId="4bb0a99a-27e2-47c6-a2b0-ac8cfe9b6406" valueTypeId="5b2dbbd0-e813-47fb-932c-5b776da1d6cf"/>
+    <valueManagerType typeId="17024f80-17da-4f44-a10c-1a82a1bddd88" valueTypeId="7016165f-fede-4645-bd5c-f92bdd2f9c21"/>
+  </producedTypes>
+  <name>ОсновнойВидДеятельностиКонтрагента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основной вид деятельности контрагента</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>CatalogRef.ВидыДеятельностиКонтрагентов</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

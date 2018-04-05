@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d88e87c2-d2bd-4b36-a68a-10ff1b6997f7">
+  <producedTypes>
+    <objectType typeId="8b9c07e5-0452-40bb-8928-52a66686d2de" valueTypeId="49d92f42-c676-4c72-9bfb-fdba2ac4656d"/>
+    <managerType typeId="1a2bccb3-c72e-4ba0-b726-fd8eda5ceb2f" valueTypeId="62c3d813-2fd6-4145-9aa7-5dc61bc5bb04"/>
+  </producedTypes>
+  <name>АвтоПолучениеОтправкаЭлектронныхПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Авто получение/отправка электронных писем</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.АвтоПолучениеОтправкаЭлектронныхПисем.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <tabularSections uuid="026c4ea9-f33b-4b34-8aad-89ac12bfb9f1">
+    <producedTypes>
+      <objectType typeId="05079282-d735-4c4c-906c-87405af9425e" valueTypeId="29b199a2-b018-4971-bcea-b4db6b070627"/>
+      <rowType typeId="0adfd9c9-7204-4fae-9601-07974c134167" valueTypeId="42126853-677a-4e3d-b4b2-ba8e65e11b4d"/>
+    </producedTypes>
+    <name>УчетныеЗаписиАвтоматическогоТранспортаПисем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетные записи автоматического транспорта писем</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="e0e5066e-b426-4826-8b3b-0a3b85193efd">
+      <name>УчетнаяЗапись</name>
+      <synonym>
+        <key>ru</key>
+        <value>Учетная запись</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6b69c51a-26b2-4f72-8b6b-8dc51962f943">
+      <name>ВремяПоследнегоПолучения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время последнего получения</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8a169fc1-64fe-4a55-89fd-b5cc453d2f13">
+      <name>ИнтервалОбновления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Интервал обновления</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="552bf43e-b5a4-402f-9bfb-27f2c1158f27">
+      <name>АдресЭлектроннойПочты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Адрес электронной почты</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="920b1bac-387b-4d8b-96b5-6f59ad2a8b48">
+      <name>Действие</name>
+      <synonym>
+        <key>ru</key>
+        <value>Действие</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef.ВидыДействийАвтоПолученияОтправкиЭлектронныхПисем</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="c1e688dd-c8e3-4406-9043-591f2753686a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

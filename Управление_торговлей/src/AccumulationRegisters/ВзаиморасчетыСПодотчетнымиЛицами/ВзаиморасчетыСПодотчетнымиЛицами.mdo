@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d186772-16cb-4cd4-b466-55ab2e967b38">
+  <producedTypes>
+    <selectionType typeId="de9a9881-f8d3-41b1-8f76-39c7d949d11d" valueTypeId="4e66ef19-4d0c-40c0-8b1f-438c53aad9b3"/>
+    <listType typeId="2a819185-f431-4052-803e-6220283fcec1" valueTypeId="cdab0b9b-a316-4eb8-925a-9538c43c7646"/>
+    <managerType typeId="28d3ed53-2db3-415d-8818-e6af4b988de6" valueTypeId="dff10918-17b4-454d-b19c-2b1255b80576"/>
+    <recordSetType typeId="63121416-014a-4a3c-bd4c-3ccd6b4baef3" valueTypeId="d6e5e58d-b3fa-48ae-a0f0-c94c0a01761e"/>
+    <recordKeyType typeId="0d15a647-ff44-4cce-9813-bb3daae07a61" valueTypeId="d2b73468-9904-42f5-b835-28f6083caec8"/>
+    <recordType typeId="1dcb7ed6-19c8-47ac-864a-fb8790475d90" valueTypeId="22861373-74e5-449e-848e-7f47503141ac"/>
+  </producedTypes>
+  <name>ВзаиморасчетыСПодотчетнымиЛицами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаиморасчеты с подотчетными лицами</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <resources uuid="144f2450-84b3-40a3-a923-2f93f02519a2">
+    <name>СуммаВзаиморасчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма взаиморасчетов</value>
+    </synonym>
+    <comment>Сумма в валюте взаиморасчетов</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="886df1ed-532a-4248-be37-f3fa27cdae74">
+    <name>СуммаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма упр. учета</value>
+    </synonym>
+    <comment>Сумма в валюте упр. учета</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="4a72ef88-63ef-480f-8285-5617853dac37">
+    <name>ФизЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подотчетное лицо</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="11679e73-3c7c-4a91-948c-3b15a46f74b6">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="e8ae1ae1-ac7f-402a-a9fb-09299d775a7e">
+    <name>РасчетныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчетный документ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.ПриходныйКассовыйОрдер</types>
+      <types>DocumentRef.ПлатежноеПоручениеИсходящее</types>
+      <types>DocumentRef.РасходныйКассовыйОрдер</types>
+      <types>DocumentRef.ПлатежныйОрдерСписаниеДенежныхСредств</types>
+      <types>DocumentRef.АвансовыйОтчет</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="3b1d575b-9013-49c8-8c33-76eed5f9fade">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

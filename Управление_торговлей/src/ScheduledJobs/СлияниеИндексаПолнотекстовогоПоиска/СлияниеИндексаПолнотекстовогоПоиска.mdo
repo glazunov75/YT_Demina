@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="653eb766-4922-46af-9891-c3630512fa48">
+  <name>СлияниеИндексаПолнотекстовогоПоиска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Слияние индекса полнотекстового поиска</value>
+  </synonym>
+  <comment></comment>
+  <methodName>CommonModule.МодульРегламентныхЗаданий.СлияниеИндексаПолнотекстовогоПоиска</methodName>
+  <description></description>
+  <key></key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>1</restartCountOnFailure>
+  <restartIntervalOnFailure>30</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

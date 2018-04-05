@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="159edfb1-4b34-4b27-92a5-a8a518ff53be">
+  <producedTypes>
+    <objectType typeId="2a86f5d4-0882-4398-b880-0939c5cf763a" valueTypeId="3aac82ea-aa35-4b97-b8ba-7ddb54b80d08"/>
+    <managerType typeId="f5994e41-f7aa-4025-8ef5-7057b122c30b" valueTypeId="a93ab589-a956-455d-a521-b2c1c3c34310"/>
+  </producedTypes>
+  <name>ДвиженияДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движения документа по регистрам</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.ДвиженияДокумента.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <attributes uuid="8921e183-be68-486c-a64c-e1acd5ec9545">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="98713812-1e17-41f9-87b8-1c25865b06d0">
+    <name>ВыводитьВВидеТаблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить в виде таблицы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2155c63a-7c69-44be-bd68-d840ca03cd47">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="2969b184-865f-4edd-ac04-9cd488467f46">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="93b29fd0-3687-465c-a726-82c2d74853bd">
+    <name>МакетНастройкиРегистраРегистрБухгалтерииБюджетирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бюджетирование - регистр бухгалтерии </value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="a58669e5-6b1b-4df7-970b-6ab266ca5cae">
+    <name>МакетНастройкиРегистраРегистрБухгалтерииМеждународный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Международный регистр бухгалтерии </value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="784e14fe-55d2-4372-a067-b1b34175dd3e">
+    <name>МакетНастройкиРегистраРегистрБухгалтерииНалоговый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Налоговый регистр бухгалтерии </value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="a4d24da7-82fe-4243-8e65-488279ac7db7">
+    <name>МакетНастройкиРегистраРегистрБухгалтерииХозрасчетный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хозрасчетный регистр бухгалтерии </value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Report>

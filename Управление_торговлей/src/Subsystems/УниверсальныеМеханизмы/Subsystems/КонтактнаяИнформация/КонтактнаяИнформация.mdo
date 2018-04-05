@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba90cd78-6de5-49a9-9768-3fffae23484f">
+  <name>КонтактнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактная информация</value>
+  </synonym>
+  <comment></comment>
+  <content>CommonPicture.Контакт</content>
+  <content>CommonPicture.КонтактнаяИнформация</content>
+  <content>CommonModule.ОбщегоНазначения</content>
+  <content>CommonModule.РаботаСДиалогами</content>
+  <content>CommonModule.УправлениеКонтактнойИнформацией</content>
+  <content>Constant.ШаблоныТелефонныхНомеров</content>
+  <content>CommonForm.РедактированиеДокументаУдостоверяющегоЛичность</content>
+  <content>Catalog.ВидыКонтактнойИнформации</content>
+  <content>Enum.ВидыОбъектовКонтактнойИнформации</content>
+  <content>Enum.ТипыДомов</content>
+  <content>Enum.ТипыКвартир</content>
+  <content>Enum.ТипыКонтактнойИнформации</content>
+  <content>Enum.ТипыКорпусов</content>
+  <content>Report.ОтчетОКонтактнойИнформации</content>
+  <content>DataProcessor.РедактированиеКонтактнойИнформации</content>
+  <content>DataProcessor.ЭкспортИмпортКонтактныхДанныхОбъектов</content>
+  <content>InformationRegister.КонтактнаяИнформация</content>
+  <subsystems>АдресныйКлассификатор</subsystems>
+  <parentSubsystem>Subsystem.УниверсальныеМеханизмы</parentSubsystem>
+</mdclass:Subsystem>

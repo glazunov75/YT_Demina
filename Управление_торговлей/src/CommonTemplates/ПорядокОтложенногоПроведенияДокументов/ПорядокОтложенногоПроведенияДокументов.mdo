@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47925b84-5287-4bfd-a358-7992aaca4de1">
+  <name>ПорядокОтложенногоПроведенияДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порядок отложенного проведения документов</value>
+  </synonym>
+  <comment></comment>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

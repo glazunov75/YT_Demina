@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca0951bc-a22b-4ff2-9fcc-e157b1c08e11">
+  <producedTypes>
+    <objectType typeId="cce2c3c9-dfd7-4368-87b0-4e6b93734764" valueTypeId="b27d1479-13de-457f-a8bc-01dd6c42e48f"/>
+    <refType typeId="dd74a1ff-faf5-41dd-86de-db3d997d7904" valueTypeId="ebf0206f-be30-43e7-ac16-293b5f2711b0"/>
+    <selectionType typeId="86dcbf15-4d15-4362-a430-422cfed0ae65" valueTypeId="d0a6e426-cba8-4c2d-8003-6d86c7c5a494"/>
+    <listType typeId="533620a5-9fce-4e32-9435-217b6c80d230" valueTypeId="d5a0ada1-f2a0-4105-bd01-b6af069b919f"/>
+    <managerType typeId="ff380556-9681-4257-9d4f-b50da4f78334" valueTypeId="00cf0245-cf1f-4b0e-bf8b-20c17b3c905a"/>
+  </producedTypes>
+  <name>НоменклатурныеГруппы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатурные группы</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <inputByString>Catalog.НоменклатурныеГруппы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НоменклатурныеГруппы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НоменклатурныеГруппы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.НоменклатурныеГруппы.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.НоменклатурныеГруппы.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.НоменклатурныеГруппы.Form.ФормаВыбора</defaultChoiceForm>
+  <defaultFolderChoiceForm>Catalog.НоменклатурныеГруппы.Form.ФормаВыбораГруппы</defaultFolderChoiceForm>
+  <attributes uuid="133a170a-870e-470b-b51c-97df64e53e25">
+    <name>ЕдиницаХраненияОстатков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица хранения остатков</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ЕдиницыИзмерения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="f20becf8-25a9-4035-85f1-ee8b2f8dd4fb">
+    <name>БазоваяЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовая единица измерения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.КлассификаторЕдиницИзмерения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="16e17ce1-2332-4243-ab4c-7f9d1520b3e0">
+    <name>СтавкаНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка НДС</value>
+    </synonym>
+    <comment>Ставка НДС по умолчанию для оформления документов</comment>
+    <type>
+      <types>EnumRef.СтавкиНДС</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="9adb4ec0-6b1d-4ff7-a04d-69bbdc477c07">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0f468a93-4e25-4ba6-9864-a08509eabe44">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3439bad2-f76e-430f-9f9c-d750f1f21ca7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e229a3eb-d2d3-4189-9dd2-d8d6fce64723">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e57395be-23d3-4635-a5b5-7b73bd3bc3fe">
+    <name>ФормаПодбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="673d5cc2-c8bf-4637-8811-76a4c6d891cc">
+    <name>ФормаВыбораГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

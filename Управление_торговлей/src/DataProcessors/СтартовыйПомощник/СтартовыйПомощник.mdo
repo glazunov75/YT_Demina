@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61fa33bc-e585-4138-bf2f-1ac3a67d59be">
+  <producedTypes>
+    <objectType typeId="ffc87d05-43b9-4387-80e3-2ebcd8b6e178" valueTypeId="09fe86c4-bbc1-4e7a-9d08-bfb6887ee1be"/>
+    <managerType typeId="8ce388ab-570d-4648-8df4-1a547d6c8de8" valueTypeId="dbc81a27-de39-49d1-b6ae-315300175152"/>
+  </producedTypes>
+  <name>СтартовыйПомощник</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стартовый помощник</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.СтартовыйПомощник.Form.Форма</defaultForm>
+  <attributes uuid="7ae347d2-0d69-484f-852b-8820703e752d">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogObject.Организации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2681c47f-84c7-4a71-a7d7-404503377732">
+    <name>ОсновнойБанковскийСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной банковский счет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogObject.БанковскиеСчета</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="10a663d8-7d5f-4fbe-aadd-1ee42d3e4855">
+    <name>НалоговыйУчетЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Налоговый учет запись</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>InformationRegisterRecordManager.УчетнаяПолитикаНалоговыйУчет</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="65715d89-8d87-47ba-a241-ac30fac11bba">
+    <name>НаборКонтактнойИнформации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор контактной информации</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>InformationRegisterRecordSet.КонтактнаяИнформация</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="152670be-45fc-4a7c-a3dc-defe7a1ad8e2">
+    <name>ОтветственныеЛицаОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственные лица организации</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>InformationRegisterRecordSet.ОтветственныеЛицаОрганизации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6e214b2e-ce77-4c64-aff7-bdf3a74ebb86">
+    <name>КонстантыНабор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Константы набор</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ConstantsSet</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0fbb390f-9f7b-4e9f-87dd-cf212e641df9">
+    <name>УчетнаяПолитика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная политика</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>InformationRegisterRecordManager.УчетнаяПолитика</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="773b1a7d-3f6a-40e2-abe2-847851878017">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="4535e77e-2e35-443a-8b04-49db01d4de95">
+    <name>СведенияОбОрганизациях</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сведения об организациях</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="3ed87621-0961-43c3-8f72-99fbc600065e">
+    <name>НастройкиУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки учета</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="b93c7ca2-57aa-40c6-b5c0-3e7434cc6761">
+    <name>УчетнаяПолитика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная политика</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:DataProcessor>

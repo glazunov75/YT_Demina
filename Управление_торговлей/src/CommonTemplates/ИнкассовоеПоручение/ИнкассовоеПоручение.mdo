@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3557afbb-5be1-473e-8a6f-c5064934c7bc">
+  <name>ИнкассовоеПоручение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инкассовое поручение</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonTemplate>

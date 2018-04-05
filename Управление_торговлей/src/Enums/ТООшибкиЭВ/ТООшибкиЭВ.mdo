@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f40c6ff9-bfb9-4203-b965-15c98f3511c6">
+  <producedTypes>
+    <refType typeId="e2679f47-87ef-454e-a820-a9f8b702ec65" valueTypeId="11878b8b-fce2-480f-8a43-d376809a90b4"/>
+    <listType typeId="cd6f1b99-73a2-48e0-8f2d-ed2c12c17984" valueTypeId="8128ad89-25d8-44a3-8a57-e6c475c856fe"/>
+    <managerType typeId="67865cf0-fa40-48c9-a3d1-16d453f1ed6e" valueTypeId="ee0f3c7a-fe1a-4f24-9fb6-c87655de9959"/>
+  </producedTypes>
+  <name>ТООшибкиЭВ</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТООшибки ЭВ</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14b9b431-db6a-4362-8db7-8d3fc155d6cf">
+  <name>ПередУдалениемСправочникаДляОбменаСРозничнойТорговлей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перед удалением справочника для обмена с розничной торговлей</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>CatalogObject.Организации</types>
+    <types>CatalogObject.КатегорииОбъектов</types>
+    <types>CatalogObject.Склады</types>
+    <types>CatalogObject.Кассы</types>
+    <types>CatalogObject.ХранилищеДополнительнойИнформации</types>
+    <types>CatalogObject.ЗначенияСвойствОбъектов</types>
+    <types>CatalogObject.ИнформационныеКарты</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.ПроцедурыОбменаСРозничнойТорговлей.ПередУдалениемСправочникаДляОбменаСРозничнойТорговлейПередУдалением</handler>
+</mdclass:EventSubscription>

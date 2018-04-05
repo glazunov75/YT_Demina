@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f06bbc1b-ec06-4bb0-bee7-2697ff62b59a">
+  <producedTypes>
+    <objectType typeId="18e33199-17d7-4739-a934-22880df50697" valueTypeId="85b85cb6-94ba-4fcb-b121-b393c33f7e8b"/>
+    <managerType typeId="01230f0d-05d5-404f-a0b6-ddb0efe8ced4" valueTypeId="dab0e09f-5ef1-404f-bc48-2d77a69974fd"/>
+  </producedTypes>
+  <name>НеоплаченныеВходящиеПлатежи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Неоплаченные входящие платежи</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.НеоплаченныеВходящиеПлатежи.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="e350bd11-94f7-4408-8c15-c5ae46e4046d">
+    <name>УниверсальныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.УниверсальныйОтчет</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="a98596bf-4fa5-49ed-983e-bba95ecd3e46">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

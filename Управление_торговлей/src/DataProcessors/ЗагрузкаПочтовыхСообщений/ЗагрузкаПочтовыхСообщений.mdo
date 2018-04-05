@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ab8fd90-db47-44f7-8e99-f68cde085c0f">
+  <producedTypes>
+    <objectType typeId="8de98c9c-e581-43e2-adbd-47a21552575e" valueTypeId="56b7dcd4-813e-4e07-be9b-8d16da5d76d1"/>
+    <managerType typeId="a29419a6-cdb6-4514-8c71-157b38554495" valueTypeId="0bdc38ee-5399-40d9-abca-d88ae29eda5d"/>
+  </producedTypes>
+  <name>ЗагрузкаПочтовыхСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка почтовых сообщений</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ЗагрузкаПочтовыхСообщений.Form.Форма</defaultForm>
+  <attributes uuid="f803fb67-ae47-4e44-88d6-0ac27b8d98e5">
+    <name>УчетнаяЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="e224382c-7831-4b79-bdbb-4c9e8be24647">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="765938e6-090a-4f0f-a8d7-f98f7377a023">
+  <producedTypes>
+    <selectionType typeId="f76bd170-42c8-48ce-8357-0f1ddb024b6a" valueTypeId="e65957a6-77a5-4908-92c5-44fb351b755e"/>
+    <listType typeId="2768cc74-5587-484f-bb4f-b9c04828123f" valueTypeId="d6f4f015-f69e-4ecf-b7db-34fda473f841"/>
+    <managerType typeId="0a47c75d-eb42-44d7-8330-29f1f754bb06" valueTypeId="94a40826-af0e-4647-9ee4-e2aa46c7d1ae"/>
+    <recordSetType typeId="75dc82fe-34dc-4e37-8e73-38d6e7c28422" valueTypeId="28254571-06d9-47fd-8a06-c2fd0aa9515c"/>
+    <recordKeyType typeId="4e935a92-5674-4762-9694-c3be742f037c" valueTypeId="ce71aad5-cd07-475a-b6bf-af6a35454938"/>
+    <recordType typeId="b4261d6a-fa40-481c-b013-3311e4ae0356" valueTypeId="5fe56ce3-c6ff-4286-981d-23b525836f94"/>
+    <recordManagerType typeId="87312eca-b99f-4dec-a06d-84f01497468e" valueTypeId="d45617a2-1ad4-45b7-9729-4394f171ca09"/>
+  </producedTypes>
+  <name>НазначениеВидовОбъектовДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначение видов объектов доступа</value>
+  </synonym>
+  <comment></comment>
+  <dimensions uuid="67637403-2234-41bc-8cce-2b4a03c7be97">
+    <name>ГруппаПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа пользователей</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ГруппыПользователей</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="51dd9d5a-6280-49f9-aa03-b465fab4bd38">
+    <name>ВидОбъектаДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид объекта доступа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ВидыОбъектовДоступа</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

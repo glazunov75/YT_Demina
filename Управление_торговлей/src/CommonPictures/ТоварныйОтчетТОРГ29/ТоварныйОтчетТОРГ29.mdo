@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="591cc9ee-1492-41d7-a130-315c61e3bb1a">
+  <name>ТоварныйОтчетТОРГ29</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товарный отчет (ТОРГ-29)</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

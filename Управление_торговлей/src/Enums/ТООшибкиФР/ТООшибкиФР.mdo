@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd0f00ce-1851-47b7-becb-e799e421d61e">
+  <producedTypes>
+    <refType typeId="036aa289-0302-4e9a-bf81-6bdd9e621834" valueTypeId="3974ecbf-e417-46d2-9989-4625f797342a"/>
+    <listType typeId="6239e0f2-1847-495f-8b40-274de1bb7397" valueTypeId="cd16561b-22fd-4081-8f41-375d72c67fa2"/>
+    <managerType typeId="f9af114a-c020-4dfb-b25f-97f1460bd864" valueTypeId="77712790-b4fb-47c7-b8ba-a584239b76f1"/>
+  </producedTypes>
+  <name>ТООшибкиФР</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТООшибки ФР</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="328337a0-f862-4834-b083-ad62b412683b">
+    <name>ОшибкаНеобходимПарольАдминистратора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для выполнения данной операции необходим корректный пароль администратора</value>
+    </synonym>
+    <comment>Убедитесь, что в настройках параметров модели ФР задан корректный пароль администратора</comment>
+  </enumValues>
+  <enumValues uuid="0bda1161-4e95-4894-8ab9-bb79f81aa366">
+    <name>ОшибкаНеобходимПарольКассира</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для выполнения данной операции необходим корректный пароль кассира</value>
+    </synonym>
+    <comment>Убедитесь, что в настройках параметров модели ФР задан корректный пароль кассира</comment>
+  </enumValues>
+  <enumValues uuid="9293c6fb-57a4-4b37-8b35-184c0c12bbd9">
+    <name>ОшибкаНетВозможностиПечатиПКО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данный фискальный регистратор не имеет возможности отражать в чеке факт наличных расчетов с юридическими лицами</value>
+    </synonym>
+    <comment>Если данная возможность предусмотрена фискальным регистратором, рекомендуется проверить, установлен ли флаг &quot;Наличная оплата&quot; в форме &quot;Настройка параметров&quot; модели фискального регистратора в обработке &quot;Подключение и настройка торгового оборудования&quot;.</comment>
+  </enumValues>
+  <enumValues uuid="5168c955-46c8-4472-be24-9898165cf25f">
+    <name>ОшибкаНетНаличных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Недостаточно наличных средств в кассе для выполнения операции</value>
+    </synonym>
+    <comment>Выполнение операции в данный момент невозможно. В случае, если данная ошибка возникает при попытке закрыть чек необходимо уменьшить сумму сдачи.</comment>
+  </enumValues>
+  <enumValues uuid="3400597b-8ae5-4783-87e5-29cc8b8cab8b">
+    <name>ОшибкаРежимПечатиЧека</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение данного действия невозможно в режиме печати чека</value>
+    </synonym>
+    <comment>Необходимо закрыть или аннулировать чек и повторить попытку ещё раз.</comment>
+  </enumValues>
+  <enumValues uuid="4fe1b775-c954-4781-99ab-3b978de7645d">
+    <name>ОшибкаСуммыНедостаточно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переданной суммы недостаточно для оплаты</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

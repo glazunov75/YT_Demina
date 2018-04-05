@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df1f9a04-9f84-4924-9df3-a681672570d2">
+  <name>ЭлектронныйОбмен1Ссеть</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронный обмен 1С:сеть</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

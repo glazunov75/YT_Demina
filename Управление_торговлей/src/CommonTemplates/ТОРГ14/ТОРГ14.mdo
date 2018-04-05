@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10b03504-6a32-4f0a-bcc7-1ff6e4274bad">
+  <name>ТОРГ14</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТОРГ-14</value>
+  </synonym>
+  <comment>Расходно-приходная накладная (для мелкорозничной торговли) унифицированная форма (ТОРГ-14)</comment>
+</mdclass:CommonTemplate>

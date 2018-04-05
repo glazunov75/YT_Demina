@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fe1cc6a-1832-42b3-80e4-569093aeb2ed">
+  <producedTypes>
+    <managerType typeId="46569d92-fcea-4892-9404-f04740c6798b" valueTypeId="a4d85d80-3e4a-4d31-ab31-c1efd945357d"/>
+    <valueManagerType typeId="7164ff0e-9fb0-4431-95d6-3b2d06c12b04" valueTypeId="ed91e4ac-4f6d-4815-b57c-af084c410cce"/>
+  </producedTypes>
+  <name>СохранятьИнформациюОМестеСозданияОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сохранять информацию о месте создания объектов</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

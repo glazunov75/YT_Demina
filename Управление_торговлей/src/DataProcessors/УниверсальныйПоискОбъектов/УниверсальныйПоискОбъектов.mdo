@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d954587f-7081-4b3f-8c8c-1142c342e4b6">
+  <producedTypes>
+    <objectType typeId="b99cec01-cffe-40b7-bd9a-716ae5e4ad52" valueTypeId="f9918f7a-3331-49be-bd25-8d1c653cac9b"/>
+    <managerType typeId="d7b28c3d-4614-45a8-88b9-04de216ce010" valueTypeId="aed2850f-d83a-4fa6-a583-3979cd28ca26"/>
+  </producedTypes>
+  <name>УниверсальныйПоискОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Универсальный поиск объектов</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.УниверсальныйПоискОбъектов.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="b5c283ed-36c2-4608-b47b-6bd9fbe93725">
+    <name>УказыватьОбластиНахожденияСсылок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Указывать области нахождения ссылок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="30bd8ed0-821e-474a-a2e4-4aceac51e6dd">
+    <name>ОтборОбъектовУдовлетворяющихВсемУсловиям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор объектов удовлетворяющих всем условиям</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5987cc60-90ec-405d-9520-d1fc4d58afb3">
+    <name>НастройкаПоискаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка поиска данных</value>
+    </synonym>
+    <comment></comment>
+    <type/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="3b028b76-fb88-437d-b32f-f3e304e38fd9">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e0fafa65-8932-440a-a3d9-93afcaa2d29d">
+    <name>ФормаНастройкиПостроителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки построителя</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="8d0ae35b-ca29-4562-999e-4cf8efaa44b9">
+    <name>ФорматПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат поиска</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:DataProcessor>

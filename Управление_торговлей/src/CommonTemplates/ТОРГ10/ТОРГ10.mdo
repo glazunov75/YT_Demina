@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2230cd1-0509-43f6-ad7c-9be16bab9312">
+  <name>ТОРГ10</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТОРГ-10</value>
+  </synonym>
+  <comment>Товары (унифицированная форма ТОРГ-10)</comment>
+</mdclass:CommonTemplate>

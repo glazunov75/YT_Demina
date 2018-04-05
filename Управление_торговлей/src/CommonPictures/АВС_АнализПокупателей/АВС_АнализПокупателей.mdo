@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b93fcf0-c619-4d68-be1b-f97a6b1d0852">
+  <name>АВС_АнализПокупателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>АВС-анализ покупателей</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel/>
+</mdclass:CommonPicture>

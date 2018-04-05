@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e40826fc-b999-4da2-93e4-bac3451a7da6">
+  <producedTypes>
+    <objectType typeId="c5c1c01c-0165-497c-ac8d-e21e227eec32" valueTypeId="66d44528-eca2-4869-9c97-8f369fa61fac"/>
+    <managerType typeId="85ca339c-6025-4410-b06a-376286f454f8" valueTypeId="eeccfd58-5a69-45f5-acb3-b973aebb6c82"/>
+  </producedTypes>
+  <name>ИдентификацияШтрихкодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификация штрихкодов</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ИдентификацияШтрихкодов.Form.Форма</defaultForm>
+  <forms uuid="27b56419-41dc-459e-a0e4-344f83f1419f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

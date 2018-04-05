@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4a2e938-d63f-4a61-b8a6-c63c75733c72">
+  <producedTypes>
+    <managerType typeId="a7c92c8b-5f1a-486c-a51f-1d6b60557007" valueTypeId="58a00b56-72f5-4cdf-9479-b65d5ef4c919"/>
+    <valueManagerType typeId="fff470ab-7181-482d-8456-3272003c39fe" valueTypeId="d2996c9e-e7f3-40bc-bcb1-becad7d2fe9f"/>
+  </producedTypes>
+  <name>ИспользоватьОграниченияПравДоступаНаУровнеЗаписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать ограничения прав доступа на уровне записей</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

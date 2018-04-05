@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="139fe5c5-d6d5-4817-a21a-02b44a93c024">
+  <name>MSOutlook</name>
+  <synonym>
+    <key>ru</key>
+    <value>MS Outlook</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>9</x>
+    <y>7</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

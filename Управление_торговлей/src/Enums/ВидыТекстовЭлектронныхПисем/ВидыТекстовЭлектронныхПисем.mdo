@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b35303d8-b228-4b0e-80c4-b3b9ad3f5743">
+  <producedTypes>
+    <refType typeId="e379c7fa-a0e3-4b1d-a5c4-b0097d35d16a" valueTypeId="9164ec55-1dde-44b6-a8b1-cf1b44dc278a"/>
+    <listType typeId="6e901b06-2c5e-47b4-85d4-17fbef83b47a" valueTypeId="d0f1aaa7-8f0f-4d03-9ed4-0fa181975e2a"/>
+    <managerType typeId="cf845e89-249b-45e7-a6c6-8eb9c18c4f24" valueTypeId="2b04826d-3a35-4e2c-a02c-98ee47d58b79"/>
+  </producedTypes>
+  <name>ВидыТекстовЭлектронныхПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды текстов электронных писем</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3f747028-0195-46ca-823d-10e1bbf88e00">
+    <name>HTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTML</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d9a42e3e-c671-469c-baa9-5900d43feba4">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Простой текст</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f08408a1-89b1-406f-8869-29f1dbc2ea71">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4be3586f-2126-4c36-888d-ab7b15d7d35a">
+    <name>HTMLСКартинками</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTML с картинками</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

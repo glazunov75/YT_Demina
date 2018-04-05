@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86bf779a-a612-418f-aff1-62e9bd5f074c">
+  <producedTypes>
+    <objectType typeId="1b1ffa58-3ff7-46fd-9550-d29d11582771" valueTypeId="16e8f798-9658-4741-b36b-6b8fcc74c77e"/>
+    <managerType typeId="82cd1898-4526-46e5-8fd9-e48570884341" valueTypeId="78443719-f8f0-4d0f-a4ce-cdd2459a9a2f"/>
+  </producedTypes>
+  <name>ВыполнениеУсловийПоДоговорамКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение условий по договорам контрагентов</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.ВыполнениеУсловийПоДоговорамКонтрагентов.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="2ff6bde9-5756-485c-8968-c9a824a066de">
+    <name>ГруппировкаДоговорКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группировка договор контрагента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="52753872-1271-4899-b9c4-976737dc5286">
+    <name>ГруппировкаДокументВыполненияУсловий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группировка документ выполнения условий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="827ae32f-b9e9-41cf-8fac-0104589ef950">
+    <name>ГруппировкаДокументУсловий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группировка документ условий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9b8d3924-6a5f-4822-b478-3be2bb6d1c6f">
+    <name>ГруппировкаКонтрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группировка контрагент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="221de97d-c2b5-4c01-ba35-bf4b74a951be">
+    <name>ГруппировкаНоменклатураУсловий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группировка номенклатура условий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c9c41cae-ed03-4c9f-9a55-37d8a8e658e3">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="402c487e-aded-4c96-a657-480ac36cc73b">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="603d361d-12a8-4bd5-9818-4469d5ef1e65">
+    <name>Отбор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Filter</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2a3cc54a-9a42-422c-8464-f33bafba2b36">
+    <name>ПоказыватьЗаголовок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать заголовок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2692a4a9-20e8-497b-9a5e-a03f00093852">
+    <name>РаскрашиватьГруппировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раскрашивать группировки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="83ac7ecd-0201-480b-8aeb-04eb9279c439">
+    <name>СохраненныеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохраненные настройки</value>
+    </synonym>
+    <comment></comment>
+    <type/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="801af931-ddf9-427b-8823-131048ab711d">
+    <name>ГруппировкаОсновнойМенеджерПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группировка основной менеджер покупателя</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="4a672536-eb74-4a35-8ad2-3c401f682466">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c457497f-c429-463f-a3b2-4417ad21c8b1">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="698469d1-37ed-4833-86b8-72dc3fe7385c">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Report>

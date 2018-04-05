@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f451e084-40c0-4080-a6f3-015920ec3405">
+  <producedTypes>
+    <refType typeId="854311f7-7357-415e-be91-4b368f252411" valueTypeId="19563184-24c5-4e7b-ad31-1d4cefe4012b"/>
+    <listType typeId="8e0b69c3-eb99-4a57-988a-3774a5cb861a" valueTypeId="7a141968-af18-44d0-80c0-f794702fdf23"/>
+    <managerType typeId="13487fbf-606f-4f33-96c6-9f7eaddc6bf8" valueTypeId="87039871-4ca7-493e-a3a4-06b49da15380"/>
+  </producedTypes>
+  <name>ОтнесениеРасходовКДеятельностиЕНВД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отнесение расходов к деятельности, облагаемой ЕНВД</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2804bc01-8efb-478f-8406-17db142b6ab6">
+    <name>РасходыОтносятсяКнеЕНВД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расходы относятся к деятельности, не облагаемой ЕНВД</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="86009ae3-b669-4cdd-b3a2-3134dff322e3">
+    <name>РасходыОтносятсяКЕНВД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расходы относятся к деятельности, облагаемой ЕНВД</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ed4084b1-5f9f-4d19-abcf-ff44d9639e94">
+    <name>РасходыРаспределяются</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расходы распределяются</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

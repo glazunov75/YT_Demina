@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a1da0b7-a5f3-481e-af3a-92510d45cef7">
+  <name>ОбменДаннымиБПКОРП8_0</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными с БП 8 (отжата)</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

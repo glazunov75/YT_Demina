@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11c53567-ba90-4355-a8d8-7245e39c0c1f">
+  <name>СчетФактура451</name>
+  <synonym>
+    <key>ru</key>
+    <value>СчетФактура</value>
+  </synonym>
+  <comment>Макет счета-фактуры согласно постановлению №451 от 26.05.2009 г.</comment>
+</mdclass:CommonTemplate>

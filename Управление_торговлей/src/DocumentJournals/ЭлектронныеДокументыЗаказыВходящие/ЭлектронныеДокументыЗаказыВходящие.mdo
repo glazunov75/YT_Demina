@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0efd994a-de22-4bcb-a630-30dc0394487a">
+  <producedTypes>
+    <selectionType typeId="c489a9ad-a6a2-4d91-a806-fe04f105b822" valueTypeId="1525c207-8767-4a07-b1b4-11182594d696"/>
+    <listType typeId="d3a1542c-26e6-4ccf-bb85-689cb82e0580" valueTypeId="9feb4354-c657-47f5-a7ed-bcf9b1d7e969"/>
+    <managerType typeId="1820a4dc-9fe9-4e2c-841b-83f013907b5d" valueTypeId="9fe5a501-b34e-4796-992c-cddd07f38d87"/>
+  </producedTypes>
+  <name>ЭлектронныеДокументыЗаказыВходящие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронные документы заказы входящие</value>
+  </synonym>
+  <comment></comment>
+  <registeredDocuments>Document.ВходящийЗаказ</registeredDocuments>
+  <registeredDocuments>Document.ВходящийРеджектЗаказа</registeredDocuments>
+  <registeredDocuments>Document.ВходящийАкцептЗаказа</registeredDocuments>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <columns uuid="cf24a53c-4a01-4e94-b31a-529bbbc70834">
+    <name>ДатаОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отправки</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ВходящийЗаказ.Attribute.ДатаВходящегоДокумента</references>
+    <references>Document.ВходящийРеджектЗаказа.Attribute.ДатаВходящегоДокумента</references>
+    <references>Document.ВходящийАкцептЗаказа.Attribute.ДатаВходящегоДокумента</references>
+  </columns>
+  <columns uuid="ffe9d29e-0058-4d6c-9773-2f0abf333ed5">
+    <name>ОбработанОтправлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработан/отправлен</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ВходящийЗаказ.Attribute.Обработан</references>
+    <references>Document.ВходящийРеджектЗаказа.Attribute.Обработан</references>
+    <references>Document.ВходящийАкцептЗаказа.Attribute.Обработан</references>
+  </columns>
+  <columns uuid="23a7ab90-6659-43cf-844d-bbd272877121">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ВходящийЗаказ.Attribute.Организация</references>
+    <references>Document.ВходящийРеджектЗаказа.Attribute.Организация</references>
+    <references>Document.ВходящийАкцептЗаказа.Attribute.Организация</references>
+  </columns>
+  <columns uuid="9c2c9266-b56d-48af-8598-2ee219447004">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ВходящийЗаказ.Attribute.Контрагент</references>
+    <references>Document.ВходящийРеджектЗаказа.Attribute.Контрагент</references>
+    <references>Document.ВходящийАкцептЗаказа.Attribute.Контрагент</references>
+  </columns>
+</mdclass:DocumentJournal>

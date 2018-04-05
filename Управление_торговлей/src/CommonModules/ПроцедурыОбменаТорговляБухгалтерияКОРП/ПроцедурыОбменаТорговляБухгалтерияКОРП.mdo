@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63463198-ff8b-4c1d-b67b-d50402f6c281">
+  <name>ПроцедурыОбменаТорговляБухгалтерияКОРП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процедуры обмена торговля бухгалтерия КОРП</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

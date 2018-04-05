@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="960bb789-2ab9-4b4c-af2b-9beae590fe43">
+  <producedTypes>
+    <objectType typeId="3f32c43f-dbcd-47c4-b03e-2cab0ef0f419" valueTypeId="714be0d6-7a16-41a7-ad5b-d51327140691"/>
+    <refType typeId="5e6baaac-cb7d-4582-b9e3-9ec8456df072" valueTypeId="acdc6abb-79e4-4922-bd23-10f08cfcf278"/>
+    <selectionType typeId="b5cdd23f-35a0-4421-95de-96843299b857" valueTypeId="95e65bdf-37b1-40a6-95e8-916b4d1edf57"/>
+    <listType typeId="7667059d-89af-4a2c-9de5-308e4629e79f" valueTypeId="36357e0c-e322-4e0f-a2ce-480bec26dc23"/>
+    <managerType typeId="f0c47f73-62b1-4a97-8ea8-7769c0e2b0ee" valueTypeId="07997391-e17f-4b9f-a56e-42552c6ab4d7"/>
+    <containerType typeId="2c626fa8-e489-4f61-917a-0397f2bbc941" valueTypeId="82d12a7d-8280-496f-be6d-64255b25e0de"/>
+  </producedTypes>
+  <name>ПраваПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Права пользователей</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <inputByString>ChartOfCharacteristicTypes.ПраваПользователей.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ПраваПользователей.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>Boolean</types>
+    <types>CatalogRef.ТипыЦенНоменклатуры</types>
+  </type>
+  <hierarchical>true</hierarchical>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="98ba8ed0-2293-41c8-9ae3-16238f191c70">
+      <name>Документы</name>
+      <description>Документы</description>
+      <isFolder>true</isFolder>
+      <code>000000060</code>
+      <type/>
+      <content id="66ecdb48-9791-49a7-a4bd-4f6665e73d31">
+        <name>КонтролироватьПревышениеОбъемЗаказаПриОтгрузке</name>
+        <description>Контролировать превышение объема заказа при отгрузке</description>
+        <code>000000050</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="1670067a-ca78-4a94-8bed-e4933d172950">
+        <name>НеОтпускатьТоварСЦенойНижеОпределенногоТипа</name>
+        <description>Не отпускать товар с ценой ниже определенного типа</description>
+        <code>000000005</code>
+        <type>
+          <types>CatalogRef.ТипыЦенНоменклатуры</types>
+        </type>
+      </content>
+      <content id="a8fdf085-24fd-4757-b8b3-22991db7e3ed">
+        <name>ПечатьНепроведенныхДокументов</name>
+        <description>Печать непроведенных документов</description>
+        <code>000000001</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="63f91238-604a-47dd-abd1-36c8864c50ab">
+        <name>РазрешитьНулевыеЦеныВОпте</name>
+        <description>Разрешить нулевые цены в оптовой торговле</description>
+        <code>000000049</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="df0377f5-2b70-4f20-a52d-67c2b62e8849">
+        <name>РазрешитьНулевыеЦеныВРознице</name>
+        <description>Разрешить нулевые цены в розничной торговле</description>
+        <code>000000048</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="d51d2215-ec6f-4800-8b9b-2657c902390f">
+        <name>РазрешитьПревышениеОстаткаТоваровНаСкладе</name>
+        <description>Разрешить превышение остатка товаров на складе</description>
+        <code>000000053</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="b75a46c4-2b1e-4cb9-8a33-c185645516a6">
+        <name>РазрешитьПревышениеОстаткаТоваровОрганизации</name>
+        <description>Разрешить превышение остатка товаров организации</description>
+        <code>000000047</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="261c2a40-83cf-4385-b723-ec27a6a60ece">
+        <name>РазрешитьПревышениеСвободногоОстаткаДС</name>
+        <description>Разрешить превышение свободного остатка денежных средств</description>
+        <code>000000051</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="5e8e5f7c-a991-43df-991b-34e01f38c521">
+        <name>РазрешитьПроведениеБезКонтроляВзаиморасчетов</name>
+        <description>Разрешить проведение без контроля взаиморасчетов</description>
+        <code>000000066</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="0ee185b7-2951-4429-a261-2b7ae4ce40be">
+        <name>РазрешитьПроведениеПлатежаБезЗаявки</name>
+        <description>Разрешить проведение платежа без заявки</description>
+        <code>000000054</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="2a07a698-289f-4bb5-bbdd-b9ce2ff292c1">
+        <name>РассчитыватьДолгПриОткрытииФорм</name>
+        <description>Рассчитывать долг при открытии форм</description>
+        <code>000000007</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="f523c976-8e2f-488d-b560-3521b993e4fe">
+        <name>РедактированиеТаблиц</name>
+        <description>Редактирование таблиц</description>
+        <code>000000002</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="51dd7561-8a0a-44f9-8f4e-3c623796df44">
+        <name>РедактированиеЦенВДокументах</name>
+        <description>Редактирование цен и скидок в документах</description>
+        <code>000000003</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+    </items>
+    <items id="feec6550-d9e1-435a-9a7d-fec19b5ce9a7">
+      <name>ИнтерфейсКассира</name>
+      <description>Интерфейс кассира</description>
+      <isFolder>true</isFolder>
+      <code>000000055</code>
+      <type/>
+      <content id="701d0a64-f55f-453e-8317-3a51700a4c21">
+        <name>РазрешитьАннулированиеЧека</name>
+        <description>Разрешить аннулирование чека</description>
+        <code>000000056</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="730ff980-23b0-4821-81ab-75c12a3fab16">
+        <name>РазрешитьЗакрытиеСмены</name>
+        <description>Разрешить закрытие смены</description>
+        <code>000000057</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="fcb84703-1b14-4a76-825a-51aa048caedb">
+        <name>РазрешитьНазначениеРучныхСкидок</name>
+        <description>Разрешить назначение ручных скидок</description>
+        <code>000000063</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="0e838a69-ae54-423b-9ecf-e663fa35c1da">
+        <name>РазрешитьОтчетОСменеБезГашения</name>
+        <description>Разрешить отчет о смене без гашения</description>
+        <code>000000058</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="3422c9ac-73b3-4d4a-8fac-a8dc39b92458">
+        <name>РазрешитьЧекВозврата</name>
+        <description>Разрешить чек возврата</description>
+        <code>000000059</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+    </items>
+    <items id="a6b4523e-484e-4082-b34a-5336f69ccb60">
+      <name>КалендарьПользователяСобытияНапоминания</name>
+      <description>Календарь пользователя</description>
+      <isFolder>true</isFolder>
+      <code>000000067</code>
+      <type/>
+      <content id="5fcb2689-5dd8-471f-8ce8-1473153d8f0e">
+        <name>ИзменениеПользователяВКалендареПользователя</name>
+        <description>Возможность просмотра календарей других пользователей</description>
+        <code>000000068</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+    </items>
+    <items id="358e06bb-4f83-415c-867e-3948edb3f66b">
+      <name>РапортРуководителю</name>
+      <description>Рапорт руководителю</description>
+      <isFolder>true</isFolder>
+      <code>000000008</code>
+      <type/>
+      <content id="0e473008-bc2d-4124-99e7-841cd91cb529">
+        <name>РапортРуководителю_ДенежныеСредства</name>
+        <description>Рапорт руководителю:  денежные средства</description>
+        <isFolder>true</isFolder>
+        <code>000000023</code>
+        <type/>
+        <content id="a4f21d7a-598a-4296-98c8-f4eb264c485f">
+          <name>РапортРуководителю_ДенежныеСредства_ОстатокСредствВКассах</name>
+          <description>Рапорт руководителю: денежные средства - остаток средств в кассах</description>
+          <code>000000024</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="b21f0b2a-92b7-464c-a00a-d5110a4872b5">
+          <name>РапортРуководителю_ДенежныеСредства_ОстатокСредствНаСчетах</name>
+          <description>Рапорт руководителю: денежные средства - остаток средств на счетах</description>
+          <code>000000025</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="2be1f817-662e-4e9b-aae9-8096b8bdb9fc">
+          <name>РапортРуководителю_ДенежныеСредства_ПриходПоСтатьям</name>
+          <description>Рапорт руководителю: денежные средства - приход по статьям движения</description>
+          <code>000000027</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="86b6c27a-4be2-478d-9efb-61c3070bb7e9">
+          <name>РапортРуководителю_ДенежныеСредства_РасходПоСтатьям</name>
+          <description>Рапорт руководителю: денежные средства - расход по статьям движения</description>
+          <code>000000026</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+      <content id="9e386398-121c-47ed-a8c4-fc323031271b">
+        <name>РапортРуководителю_Взаиморасчеты</name>
+        <description>Рапорт руководителю: взаиморасчеты</description>
+        <isFolder>true</isFolder>
+        <code>000000028</code>
+        <type/>
+        <content id="5233602c-9ce3-4e8f-ba5a-b43b16ec35a1">
+          <name>РапортРуководителю_Взаиморасчеты_ЗадолженностьКомиссионеров</name>
+          <description>Рапорт руководителю: взаиморасчеты - задолженность комиссионеров</description>
+          <code>000000033</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="efb2a561-46bb-4f28-a966-1eef3a985dee">
+          <name>РапортРуководителю_Взаиморасчеты_ДебиторскаяЗадолженностьКомпании</name>
+          <description>Рапорт руководителю: взаиморасчеты - задолженность компании</description>
+          <code>000000030</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="dca5d9a6-90e9-4e44-bba7-05ad3d858110">
+          <name>РапортРуководителю_Взаиморасчеты_ДебиторскаяЗадолженностьКонтрагентов</name>
+          <description>Рапорт руководителю: взаиморасчеты - задолженность контрагентов</description>
+          <code>000000029</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="075c0816-79cd-4c6e-b2b9-99a9f156ae55">
+          <name>РапортРуководителю_Взаиморасчеты_ДебиторскаяЗадолженностьПодотчетников</name>
+          <description>Рапорт руководителю: взаиморасчеты - задолженность подотчетников</description>
+          <code>000000031</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="d99015db-996a-4ad8-a311-c2dacd92d795">
+          <name>РапортРуководителю_Взаиморасчеты_ПросроченнаяЗадолженностьКомиссионеров</name>
+          <description>Рапорт руководителю: взаиморасчеты - просроч. задолж. комиссионеров</description>
+          <code>000000034</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="ab4cf260-d960-4c56-8b1d-69b8f24a8edb">
+          <name>РапортРуководителю_Взаиморасчеты_ПросроченнаяЗадолженностьПодотчетников</name>
+          <description>Рапорт руководителю: взаиморасчеты - просроч. задолж. подотчетников</description>
+          <code>000000032</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+      <content id="b3d7b4fb-6834-481d-8a7b-5c0103d24653">
+        <name>РапортРуководителю_ОборотныеСредства</name>
+        <description>Рапорт руководителю: группа оборотные средства</description>
+        <isFolder>true</isFolder>
+        <code>000000014</code>
+        <type/>
+        <content id="1050cac1-c7ce-479c-8ad5-0e5cd9767f07">
+          <name>РапортРуководителю_ОборотныеСредства_ДебиторскаяЗадолженность</name>
+          <description>Рапорт руководителю: оборотные средства - дебиторская задолженность</description>
+          <code>000000011</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="7938277d-0bb4-433e-90f2-189916aebe2d">
+          <name>РапортРуководителю_ОборотныеСредства_ДенежныеСредства</name>
+          <description>Рапорт руководителю: оборотные средства - денежные средства</description>
+          <code>000000009</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="ca5e599e-9693-43b8-ba27-7ef99266e979">
+          <name>РапортРуководителю_ОборотныеСредства_ИтогоКапитал</name>
+          <description>Рапорт руководителю: оборотные средства - капитал (итого)</description>
+          <code>000000022</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="6332edcc-3afd-4e9e-a242-26c07a6401cb">
+          <name>РапортРуководителю_ОборотныеСредства_КредиторскаяЗадолженность</name>
+          <description>Рапорт руководителю: оборотные средства - кредиторская задолженность</description>
+          <code>000000013</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="0060cd3d-587e-4a42-870f-d98f2774fa22">
+          <name>РапортРуководителю_ОборотныеСредства_ОбщийИтог</name>
+          <description>Рапорт руководителю: оборотные средства - общий итог</description>
+          <code>000000021</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="2d01fbf4-f669-4027-85fa-729bad45f987">
+          <name>РапортРуководителю_ОборотныеСредства_ОстаткиТоваров</name>
+          <description>Рапорт руководителю: оборотные средства - остатки товаров</description>
+          <code>000000012</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="d7c37342-750b-42c7-ad01-f95b95948c92">
+          <name>РапортРуководителю_ОборотныеСредства_Подотчет</name>
+          <description>Рапорт руководителю: оборотные средства - подотчет</description>
+          <code>000000010</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+      <content id="56edc05c-f24f-4926-974a-320adeba84fc">
+        <name>РапортРуководителю_ПоступленияИПлатежи</name>
+        <description>Рапорт руководителю: группа поступления и платежи</description>
+        <isFolder>true</isFolder>
+        <code>000000015</code>
+        <type/>
+        <content id="00ac08ab-7ec4-436f-a8c6-6319485a19a3">
+          <name>РапортРуководителю_ПоступленияИПлатежи_ДвижениеДенежныхСредств</name>
+          <description>Рапорт руководителю: поступления и платежи - движение денежных средств</description>
+          <code>000000016</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="14ed51e7-c073-458d-8a21-6a2796765189">
+          <name>РапортРуководителю_ПоступленияИПлатежи_ПланируемыеПоступленияПлатежи</name>
+          <description>Рапорт руководителю: поступления и платежи - планируемые поступления и платежи</description>
+          <code>000000061</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="32fd0bb7-675f-4ae0-9f9e-824876d3d14b">
+          <name>РапортРуководителю_ПоступленияИПлатежи_ПлатежныйКалендарь</name>
+          <description>Рапорт руководителю: поступления и платежи - платежный календарь</description>
+          <code>000000062</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+      <content id="465596e8-8366-4bde-96af-55064034b13f">
+        <name>РапортРуководителю_Заказы</name>
+        <description>Рапорт руководителю: заказы</description>
+        <isFolder>true</isFolder>
+        <code>000000039</code>
+        <type/>
+        <content id="cac78fd9-bb7b-45f0-9bd0-6f31374446c0">
+          <name>РапортРуководителю_Заказы_ЗакрытыеЗаказы</name>
+          <description>Рапорт руководителю: заказы - закрытые заказы покупателей</description>
+          <code>000000069</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="1e729dcd-b9af-4f59-b550-0a5fcc5b348a">
+          <name>РапортРуководителю_Заказы_НеисполненныеЗаказыПокупателей</name>
+          <description>Рапорт руководителю: заказы - неисполненные заказы покупателей</description>
+          <code>000000040</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="f84a28ac-f4ff-4fbf-ad4a-a1d17c64cd5a">
+          <name>РапортРуководителю_Заказы_НеисполненныеЗаказыПоставщикам</name>
+          <description>Рапорт руководителю: заказы - неисполненные заказы поставщикам</description>
+          <code>000000041</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="0ddc4dfa-3be3-420b-a5ef-9aae4296212b">
+          <name>РапортРуководителю_Заказы_ПросроченныеЗаказы</name>
+          <description>Рапорт руководителю: заказы - просроченные заказы</description>
+          <code>000000019</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+      <content id="62ba329e-257b-4faa-bea7-adc4f5cb3213">
+        <name>РапортРуководителю_Продажи</name>
+        <description>Рапорт руководителю: продажи</description>
+        <isFolder>true</isFolder>
+        <code>000000035</code>
+        <type/>
+        <content id="a01a7225-4969-484c-924b-b996643b5951">
+          <name>РапортРуководителю_Продажи_ВаловаяПрибыль</name>
+          <description>Рапорт руководителю: продажи - валовая прибыль</description>
+          <code>000000037</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="0fb0e1a8-cd81-4378-a2a3-9c55812d26d8">
+          <name>РапортРуководителю_Продажи_ВаловаяПрибыльПроцент</name>
+          <description>Рапорт руководителю: продажи - валовая прибыль (процентом)</description>
+          <code>000000038</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="408e1550-ba0d-4661-91d8-7b821057255f">
+          <name>РапортРуководителю_Продажи_ОбъемОтгрузки</name>
+          <description>Рапорт руководителю: продажи - объем отгрузки</description>
+          <code>000000036</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="9c8f7256-e4b4-4774-9531-f8cd85af26c3">
+          <name>РапортРуководителю_Продажи_ОбъемПродаж</name>
+          <description>Рапорт руководителю: продажи - объем продаж</description>
+          <code>000000006</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="8cbe36ab-ad24-4d66-b38a-6dfc4f5a7b6f">
+          <name>РапортРуководителю_Продажи_ПродажиИПоступления</name>
+          <description>Рапорт руководителю: продажи - продажи и поступления</description>
+          <code>000000020</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+      <content id="20487745-47be-41cb-b914-d5100a90d760">
+        <name>РапортРуководителю_КоэфПривлеченияПокупателей</name>
+        <description>Рапорт руководителю: коэффициент привлечения и удержания покупателей</description>
+        <code>000000044</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="1a97d11d-b9d1-457a-9b33-759a5925f6eb">
+        <name>РапортРуководителю_ЛиквидностьСклада</name>
+        <description>Рапорт руководителю: оценка ликвидности склада</description>
+        <code>000000043</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="c1603b69-ec33-47f6-b640-c84b07bdc1cb">
+        <name>РапортРуководителю_РейтингИсточниковИнформации</name>
+        <description>Рапорт руководителю: рейтинг лучших источников информации</description>
+        <code>000000046</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="263885ed-ae38-4cd4-8c14-e6e3963e69d2">
+        <name>РапортРуководителю_РейтингМенеджеров</name>
+        <description>Рапорт руководителю: рейтинг лучших менеджеров</description>
+        <code>000000045</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="4e18bed2-27f8-4722-b9f4-7e241c9e8653">
+        <name>РапортРуководителю_СебестоимостьТоварныхЗапасов</name>
+        <description>Рапорт руководителю: себестоимость товарных запасов</description>
+        <code>000000042</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+    </items>
+    <items id="055a25c5-4754-4de9-9b36-d2f75a69126a">
+      <name>Справочники</name>
+      <description>Справочники</description>
+      <isFolder>true</isFolder>
+      <code>000000064</code>
+      <type/>
+      <content id="17b51e40-6243-4a53-8e19-a932aa4fd1de">
+        <name>РазрешитьРедактированиеКИвСписке</name>
+        <description>Разрешить редактирование КИ в списке</description>
+        <code>000000065</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+    </items>
+  </predefined>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>ChartOfCharacteristicTypes.ПраваПользователей.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>ChartOfCharacteristicTypes.ПраваПользователей.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="29c49ae2-1491-4416-aa58-05684d737bfd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ee8cae9c-e71f-40aa-baa9-9c0fb78a984b">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCharacteristicTypes>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b442f6d6-6b87-4f42-9d79-f40cb3edfc58">
+  <producedTypes>
+    <objectType typeId="3b9ff38c-6311-4ce5-a49c-da685dbdedc0" valueTypeId="bc9f161e-a65a-436a-963d-3bc4a3917052"/>
+    <managerType typeId="f14f1432-70e2-47af-83ab-5c71705d2cd3" valueTypeId="f63e7a3e-ebae-4b3d-8c2f-b23a84a1a511"/>
+  </producedTypes>
+  <name>РедактированиеДанныхНезарегистрированныхКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактирование данных незарегистрированных контрагентов</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.РедактированиеДанныхНезарегистрированныхКонтрагентов.Form.Форма</defaultForm>
+  <attributes uuid="807ea1db-668f-4ddf-8016-2890391b773b">
+    <name>Запись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>InformationRegisterRecordManager.ДанныеНезарегистрированныхКонтрагентов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="8772ad51-d5a1-48c6-bce2-cf2c60858daf">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

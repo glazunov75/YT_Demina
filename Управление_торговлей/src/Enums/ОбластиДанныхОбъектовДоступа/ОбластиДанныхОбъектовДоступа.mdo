@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97292455-e77e-4f8f-9d1c-7b22205092f7">
+  <producedTypes>
+    <refType typeId="a6ece32f-beb2-48ad-8b44-ab9426ac2de3" valueTypeId="0018164a-725c-4cf4-b652-ec4518801bbd"/>
+    <listType typeId="3a98ef17-da72-4a1a-8d74-69dbcb73c281" valueTypeId="3091f8e7-c09c-4f3d-b149-9bd304fdc3c0"/>
+    <managerType typeId="5a206b25-598a-406f-a890-2a0b45889151" valueTypeId="af7d819a-2c5a-4d70-8adb-3f5b322c5ae7"/>
+  </producedTypes>
+  <name>ОбластиДанныхОбъектовДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Области данных объектов доступа</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="860d847c-953f-48ec-b513-fb1881b0b4d5">
+    <name>КонтрагентыСписок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагенты (список)</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

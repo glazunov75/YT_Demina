@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c49b504-e209-47db-86ee-49b7e36b489e">
+  <producedTypes>
+    <selectionType typeId="17f48752-5f0f-4c14-95d2-319d8b3cd209" valueTypeId="336f21a8-1496-431f-9463-5044a48803ad"/>
+    <listType typeId="200cd473-14c7-4fd7-91e6-a2cc65c24fa2" valueTypeId="9858f28d-445d-4fcc-9ca8-9f2e737f889d"/>
+    <managerType typeId="9701ddad-2e71-4394-b7e5-6fe4437c651b" valueTypeId="f4fd184a-eafe-4adc-8d41-9d06107a8097"/>
+    <recordSetType typeId="74d63d68-f550-4445-b95c-3a1071b98528" valueTypeId="10f855f3-2420-4774-a1bf-9e127eed84db"/>
+    <recordKeyType typeId="1b0dcc02-65a4-4cd9-a87a-462442bc9eca" valueTypeId="ee58f0f4-e969-4d7b-b7bd-e5bdb047d42d"/>
+    <recordType typeId="b2332da6-fac3-4cd1-9b05-1c9707f95708" valueTypeId="7a95dc7e-5427-4886-b76d-7e14c7fbb775"/>
+    <recordManagerType typeId="fa74a3ee-1914-4498-bb77-b138d721bc4d" valueTypeId="f1fa4f37-a3f5-4fe2-ae3c-6ba697acb3ed"/>
+  </producedTypes>
+  <name>КатегорииОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории объектов</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <dimensions uuid="537457ef-c7ba-4c8d-92a0-db4a9906baed">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>DocumentRef</types>
+      <types>CatalogRef</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1247cc41-6857-4862-8be0-beec95b6f2eb">
+    <name>Категория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.КатегорииОбъектов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="225d8224-b3e0-4294-bcf1-8c4a46df7d40">
+  <producedTypes>
+    <objectType typeId="df0fdcd1-4363-4f07-9cde-34da72e30970" valueTypeId="b47cbcb0-8e0d-4d27-a6d5-42f484b0f55f"/>
+    <managerType typeId="a0662942-fec0-4670-97e9-bdb384bfc6b9" valueTypeId="255b041b-6b0c-46b9-9092-50a3aa2e4229"/>
+  </producedTypes>
+  <name>ПроведениеПоПартиям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проведение по партиям</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ПроведениеПоПартиям.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="95205333-6259-4ec6-bd45-0aeeab39d288">
+    <name>ДатаКонцаОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата конца обработки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b5f12a13-33ea-4f7c-8105-ee9df3b744d9">
+    <name>ОтражатьВУправленческомУчете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отражать в управленческом учете</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3b2a16d6-9006-49b9-a929-ba20613b48f1">
+    <name>Останавливаться</name>
+    <synonym>
+      <key>ru</key>
+      <value>Останавливаться</value>
+    </synonym>
+    <comment>Останавливаться на первом документе, который не провелся по партиям</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e8babc08-4f26-4cbb-b647-ed732ee620fd">
+    <name>ВыполнятьНаСервере</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнять на сервере</value>
+    </synonym>
+    <comment>Выполнять на сервере</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bb9f587e-1b89-461e-8bb0-cdddbbf141f5">
+    <name>МаксимальноеКоличествоСтрокВТранзакции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальное количество строк в транзакции</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="930e5182-5bc8-46b4-86d9-63c2ce4932d9">
+    <name>МаксимальноеКоличествоДокументовВВыборке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальное количество документов в выборке</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="b6c8b3b8-9d34-4fa4-b383-f2da8b660b11">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

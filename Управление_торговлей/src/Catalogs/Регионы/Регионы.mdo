@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1bbe412-6ad6-4472-8e30-6c50f941ceaa">
+  <producedTypes>
+    <objectType typeId="95226778-1264-47b0-bde2-e3a774be1b86" valueTypeId="4db28b13-45d4-4324-86c7-c14d47ee735d"/>
+    <refType typeId="df7ce7e5-420b-4b8c-9a2f-8b5ed5ccf8e5" valueTypeId="7a591257-bba7-4552-844a-22adf8c64e11"/>
+    <selectionType typeId="df88ed6f-0243-4c52-a162-492d134b3ff7" valueTypeId="330ad46b-8687-4c71-a406-593019878509"/>
+    <listType typeId="a0bf01a0-7214-4c9e-befd-ef30f7586eac" valueTypeId="1c0eaf84-0ad2-463f-89cb-0fb13874884b"/>
+    <managerType typeId="13afc6b1-74da-4729-a749-9b3d9755865f" valueTypeId="b986b31b-103b-444a-b327-756c8bbf40d2"/>
+  </producedTypes>
+  <name>Регионы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регионы</value>
+  </synonym>
+  <comment>Регионы</comment>
+  <inputByString>Catalog.Регионы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Регионы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Регионы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Регионы.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Регионы.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="450d2a95-d1e2-4d14-9ffd-26acda42b6d8">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment>Комментарий</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="ac765c37-689c-49a7-b5ed-9397c5121e34">
+    <name>КодРегиона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код региона</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>5</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="4bccf5a4-307f-4f1b-a108-52e6e8adb391">
+    <name>КодАдресногоЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код адресного элемента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>25</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="1937ffbd-410e-423d-b1bb-42cfff596092">
+    <name>ЖДСтанцияНазначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ж/Д cтанция назначения</value>
+    </synonym>
+    <comment>Железнодорожная станция назначения</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="90100096-e1a1-4faa-b093-4eec05cac6d6">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="89ea81bc-fc52-45f7-a2fd-330fdd2f104e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="026dedb2-fb47-4d50-9a76-f4408bae67b6">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="690da8e1-c14d-4437-8c3e-034437645be7">
+    <name>ФормаВводаРегиона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ввода региона</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b3d9c258-f873-474e-acf1-6258d2275fd0">
+    <name>ФормаЗаполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма заполнения</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

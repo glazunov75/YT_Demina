@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0cdca0fe-12bd-4d88-b1be-0d9140239e4f">
+  <producedTypes>
+    <objectType typeId="0e0733c3-79e8-4595-bf34-2bb1aee22b48" valueTypeId="b32e5670-eab0-4287-97ff-4470221a759b"/>
+    <managerType typeId="abd14c29-9205-4706-a3c1-f909cc7d8c30" valueTypeId="ab6c270f-6191-417a-bab2-19bea93abbdb"/>
+  </producedTypes>
+  <name>ПечатьСерийныхНомеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать серийных номеров</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ПечатьСерийныхНомеров.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="92169e75-db9e-434c-bbcc-3f9998bedee2">
+    <name>ВнешняяТаблицаТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешняя таблица товаров</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="68417e75-d9fb-42fd-bf60-95761b3d07a6">
+    <name>ВнешнийЭлементНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний элемент номенклатуры</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="df4e0290-b200-48a0-a0aa-1f41668e464f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

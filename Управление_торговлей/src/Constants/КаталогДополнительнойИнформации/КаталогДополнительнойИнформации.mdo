@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9356d6f7-f317-47ac-a527-1a9ba7a9ec04">
+  <producedTypes>
+    <managerType typeId="3a2b2840-fac0-48d9-b980-e321d37af03c" valueTypeId="220bd45c-f037-4891-8f65-f2a3964c80a4"/>
+    <valueManagerType typeId="77c3a65e-0994-4a80-811f-05920fe56e04" valueTypeId="433880dd-65f0-4ffc-b272-3e3cc5f584dd"/>
+  </producedTypes>
+  <name>КаталогДополнительнойИнформации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталог дополнительной информации</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c210e58-2c86-42a6-ac2d-09e82256da2d">
+  <producedTypes>
+    <managerType typeId="99ab5024-fb10-493a-a853-239d230ee752" valueTypeId="93ec036d-9921-4615-bed6-337edb269af5"/>
+    <valueManagerType typeId="1a992b82-0650-4d61-9abe-42c86c62894f" valueTypeId="97a381f1-f534-4de4-bdba-9d3c44ed2f3f"/>
+  </producedTypes>
+  <name>ИспользованиеВстроенногоПочтовогоКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование встроенного почтового клиента</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

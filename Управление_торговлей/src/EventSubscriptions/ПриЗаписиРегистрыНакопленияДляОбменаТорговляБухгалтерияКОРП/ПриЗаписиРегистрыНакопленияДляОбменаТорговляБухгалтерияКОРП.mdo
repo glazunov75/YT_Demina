@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be44c4cd-3268-4d2f-8d3d-b9901eb651b7">
+  <name>ПриЗаписиРегистрыНакопленияДляОбменаТорговляБухгалтерияКОРП</name>
+  <synonym>
+    <key>ru</key>
+    <value>При записи регистры накопления для обмена торговля бухгалтерия КОРП</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>AccumulationRegisterRecordSet.ПартииТоваровНаСкладах</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ПроцедурыОбменаТорговляБухгалтерияКОРП.ПриЗаписиРегистрыНакопленияДляОбменаТорговляБухгалтерияКОРППриЗаписи</handler>
+</mdclass:EventSubscription>

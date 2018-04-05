@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5203ae5-a629-4aff-979f-5bc5ef800f30">
+  <producedTypes>
+    <refType typeId="5d2b4ba9-b017-41f5-b7ac-2797e6a9eb02" valueTypeId="564f370f-5e9b-46fa-9b77-12e231ebc123"/>
+    <listType typeId="66d4ef72-c19f-4d53-a20a-2c01a2dc6cb9" valueTypeId="773c8f90-01f7-436a-a1d0-911fe375e40b"/>
+    <managerType typeId="f15c9f24-d3d8-474a-a7d0-af243d6d5717" valueTypeId="a86a2c11-a0f6-46d7-990c-ac0d3562db9b"/>
+  </producedTypes>
+  <name>ВидыДействийАвтоПолученияОтправкиЭлектронныхПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды действий автополучения/отправки электронных писем</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="76c29d0f-1c65-49f5-8fd6-2e645489405d">
+    <name>Получение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="29d2ea3d-f056-4b87-9f13-dd48925c9902">
+    <name>Отправка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c59be23d-8d5b-482a-babc-6c9b00f47cf1">
+    <name>ПолучениеИОтправка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение и отправка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

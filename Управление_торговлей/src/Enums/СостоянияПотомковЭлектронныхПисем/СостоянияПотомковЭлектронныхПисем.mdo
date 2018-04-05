@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c46ca5e-0894-4fd3-9074-dd4e9408f9e2">
+  <producedTypes>
+    <refType typeId="344463e7-c992-44ba-b43f-825a76d92994" valueTypeId="b2911b91-ff27-4ac5-b7eb-2ce90db35613"/>
+    <listType typeId="ea03a60f-f08b-4508-8c50-0d44a31f9c0b" valueTypeId="3b411d66-fccc-494e-a345-d5b4b126feec"/>
+    <managerType typeId="40c1dc53-ef06-4535-8098-74ec800b31d4" valueTypeId="125ce26d-89c7-4a0b-8cd7-6a4d26e035e6"/>
+  </producedTypes>
+  <name>СостоянияПотомковЭлектронныхПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния потомков электронных писем</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="05b45884-7a31-44dc-9b11-aca4235e817f">
+    <name>ОтветСохранен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответ сохранен</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f4904de8-b44e-4c40-827c-f6b6fc7fe4a9">
+    <name>ОтветОтправлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответ отправлен</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e0221646-017c-4b6c-9730-32df65492888">
+    <name>ПереадресацияСохранена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переадресация сохранена</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e20d042e-b272-47b6-b5a1-aae7061f1b58">
+    <name>ПереадресацияОтправлена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переадресация отправлена</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

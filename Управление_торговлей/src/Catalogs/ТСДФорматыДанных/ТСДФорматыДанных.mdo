@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3519ed58-f511-460a-b6e5-9b2a9de678d5">
+  <producedTypes>
+    <objectType typeId="817277f4-77dd-4bb1-a060-7c398eebcc88" valueTypeId="1fefcc69-57dd-4f76-b046-80d54ff580b6"/>
+    <refType typeId="4e03bae0-c12f-4526-880c-51024f7b7ace" valueTypeId="c67ac48f-db3e-46f7-b580-fe01170f1411"/>
+    <selectionType typeId="845adc42-36a9-4046-a39b-cd9efdc0105b" valueTypeId="4da665ae-3ab4-4ba1-908b-c378c85fe9b8"/>
+    <listType typeId="a136cfd8-5d09-48b8-9585-c17eea829d01" valueTypeId="3e142756-76d4-4c8e-a649-4000e5cd6f56"/>
+    <managerType typeId="99001a10-8c98-4080-8c7f-4b97a08be02a" valueTypeId="a4289f16-f91d-4dbc-ac6d-603f2880c79b"/>
+  </producedTypes>
+  <name>ТСДФорматыДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форматы выгрузки для терминалов сбора данных</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <inputByString>Catalog.ТСДФорматыДанных.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТСДФорматыДанных.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТСДФорматыДанных.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ТСДФорматыДанных.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ТСДФорматыДанных.Form.ФормаВыбора</defaultChoiceForm>
+  <tabularSections uuid="9b157710-d089-4519-a873-cfa3af6028b5">
+    <producedTypes>
+      <objectType typeId="87f7dd6d-5763-4786-b046-79b5149f468a" valueTypeId="b47e813a-40bd-46f7-9d67-83cb48164db3"/>
+      <rowType typeId="d93fd12f-27e3-4203-8103-a9bcac22b355" valueTypeId="fce61ae8-3cdd-49c6-bc23-9874adcacbea"/>
+    </producedTypes>
+    <name>СвязываемыеПоля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Связываемые поля</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="ebd9f791-6394-4f2b-8c2b-bf6252f5859b">
+      <name>ПараметрНоменклатуры</name>
+      <synonym>
+        <key>ru</key>
+        <value>Параметр номенклатуры</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef.ТСДПоляДанных</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="51e7ba62-aaa1-4162-9c72-92740caff96d">
+      <name>ПолеТСД</name>
+      <synonym>
+        <key>ru</key>
+        <value>Поле ТСД</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="d580be84-0ae5-4431-89f7-87ca379868d4">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7c32b194-f538-467c-9eb6-b94a2d00d097">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ebba0c0d-06f3-4091-a35b-e64195f5ad7b">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84b8a4fd-b598-4e9b-adb9-fa87fd53c704">
+  <producedTypes>
+    <objectType typeId="46753b5b-13e1-4180-a2ac-6f11cd0ba9f4" valueTypeId="1bfbe740-2bda-4789-b6be-2fb1d82a03cb"/>
+    <managerType typeId="82778e91-e4f0-4bb9-8585-29a08333c8a1" valueTypeId="47d65aa0-d258-42a8-a029-6dea8d137f6a"/>
+  </producedTypes>
+  <name>ЗадолженностьПоКонтрагентам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задолженность по контрагентам</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.ЗадолженностьПоКонтрагентам.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="c090b2fb-fb73-434a-bda0-c6b7de9daba9">
+    <name>ПереключательЗадолженность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип выводимой задолженности</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7f101e68-0ee9-476b-8e1f-70bf0a9062f4">
+    <name>УниверсальныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.УниверсальныйОтчет</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="54957c4d-89a1-4e42-b9eb-74599528ea31">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

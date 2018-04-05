@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd074891-5ec6-43d6-8fa5-a2fa3841071d">
+  <producedTypes>
+    <refType typeId="097743fc-f29e-48e2-b855-b84ec0d0078f" valueTypeId="3b5f79ab-c691-4964-8cb6-de7fc01a3244"/>
+    <listType typeId="dd074891-5ec6-43d6-8fa5-a2fa3841071d" valueTypeId="dd074891-5ec6-f3d6-8fa5-a2fa3841071d"/>
+    <managerType typeId="360f7ec1-d89b-4db8-91c3-bcd51b658dd1" valueTypeId="fddf8b59-2aa1-48d8-88ae-2eeb4013d5be"/>
+  </producedTypes>
+  <name>СпособыЗаполненияЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ заполнения цен</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f2542fc2-a2d4-4418-83ca-863cd086cc6d">
+    <name>ПоЦенамНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>По ценам номенклатуры</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="47a6e7d0-3d8e-44f5-ba21-0dd3447244b4">
+    <name>ПоЦенамНоменклатурыКонтрагентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>По ценам номенклатуры контрагентов</value>
+    </synonym>
+    <comment>(Упр)</comment>
+  </enumValues>
+  <enumValues uuid="e59d1f5a-4c72-4df2-8786-098966a881e1">
+    <name>ПоНоменклатуреИЦенамКонтрагентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>По номенклатуре и ценам контрагентов</value>
+    </synonym>
+    <comment>(Упр)</comment>
+  </enumValues>
+  <enumValues uuid="61b9b36b-c08b-4400-8010-7684974cb30f">
+    <name>ПоРозничнымЦенам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По розничным ценам</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="216d83e4-bba7-4b48-8e53-e5b6b8e7d60d">
+    <name>ПоПродажнымЦенам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По продажным ценам</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

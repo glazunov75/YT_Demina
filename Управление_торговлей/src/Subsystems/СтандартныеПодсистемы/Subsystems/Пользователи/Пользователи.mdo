@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac5d53d0-98f2-48ac-b46c-dfcf846f9176">
+  <name>Пользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи</value>
+  </synonym>
+  <comment></comment>
+  <content>CommonPicture.СостоянияПользователей</content>
+  <content>SessionParameter.ТекущийПользователь</content>
+  <content>CommonModule.Пользователи</content>
+  <content>Catalog.Пользователи</content>
+  <content>StyleItem.ПользовательВыбранный</content>
+  <content>CommonPicture.СостояниеПользователя06</content>
+  <content>CommonPicture.СостояниеПользователя05</content>
+  <content>CommonPicture.СостояниеПользователя04</content>
+  <content>CommonPicture.СостояниеПользователя03</content>
+  <content>CommonPicture.СостояниеПользователя02</content>
+  <content>CommonPicture.СостояниеПользователя01</content>
+  <content>CommonPicture.ПоказатьТолькоВыбранныеРоли</content>
+  <content>CommonPicture.СостояниеПользователя07</content>
+  <content>CommonPicture.СостояниеПользователя08</content>
+  <content>CommonPicture.СостояниеПользователя09</content>
+  <content>CommonPicture.СостояниеПользователя10</content>
+  <content>CommonPicture.СостояниеПользователя11</content>
+  <content>CommonPicture.СостояниеПользователя12</content>
+  <content>SessionParameter.ТекущийВнешнийПользователь</content>
+  <content>CommonModule.ПользователиКлиентСервер</content>
+  <content>CommonModule.ПользователиСлужебный</content>
+  <content>CommonModule.ПользователиСлужебныйПовтИсп</content>
+  <content>Enum.ТипыПользователей</content>
+  <content>Constant.ПараметрыРаботыПользователей</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

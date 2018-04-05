@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de074663-dc9e-4a89-a940-e02832b58d6d">
+  <producedTypes>
+    <objectType typeId="e9e57f3c-efcc-48ea-bb9f-bdc474cb108b" valueTypeId="41bfd2c4-ed2b-45b1-ace7-fb9cc742a161"/>
+    <managerType typeId="7759ee88-2758-44ef-a1a7-7232fdba71e3" valueTypeId="581e2640-73e8-4554-9f26-239a1d58bddf"/>
+  </producedTypes>
+  <name>АнализСобытийИИсточниковИнформацииПокупателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ событий и источников информации покупателей</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.АнализСобытийИИсточниковИнформацииПокупателей.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="0398ab78-6c57-4940-b5b3-fcf96df1fa67">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="991c4733-81fc-452d-a1fb-7576cc89c576">
+    <name>ПоказыватьЗаголовок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать заголовок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="10b1ea49-2d49-4c4c-af20-39c2e34a60a6">
+    <name>РаскрашиватьГруппировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раскрашивать группировки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="67a47090-16e1-4721-8ce7-db5afa18efee">
+    <name>НастройкиДиаграммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки диаграммы</value>
+    </synonym>
+    <comment></comment>
+    <type/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f6210957-cf52-4380-ac81-76083ac24f70">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c34c72a9-5450-4070-92d1-54e71e58065e">
+    <name>ПостроительОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Построитель отчета</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportBuilder</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="34a6655c-13b0-4573-8b2a-7adecac20cac">
+    <name>ИспользоватьСвойстваИКатегории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать свойства и категории</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="59583918-6b4d-442e-899b-419ab01f5648">
+    <name>ВыбранаГруппировкаПоНоменклатуре</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбрана группировка по номенклатуре</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="ed57c28c-9483-4fa7-8c01-60473bb6da67">
+    <producedTypes>
+      <objectType typeId="1883ac07-6cc8-46ba-a2b1-14457491939a" valueTypeId="8630805c-7f74-419f-98b9-2f74a1a0c2c6"/>
+      <rowType typeId="39350570-8b6b-4f81-bc75-2cab9773491d" valueTypeId="3d97e779-ff44-4a7c-a9a1-9b251981f843"/>
+    </producedTypes>
+    <name>ПоказателиОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатели отчета</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="995fba1b-94ff-4eae-9ea8-d139b401c3a0">
+      <name>ИмяПоказателя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя показателя</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a081cc9d-bc45-4c08-93f4-705981e69833">
+      <name>ПредставлениеПоказателя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление показателя</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b4fac0c2-cbfb-4392-9cc4-e6cd798dcc1e">
+      <name>ИспользованиеПоказателя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Использование показателя</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="414057f0-9f54-48c6-b92d-3274e95f7343">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cdbc9db0-92fa-4012-8922-a8e3154753bb">
+    <name>ФормаНастройкиДиаграммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки диаграммы</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="13102a94-54fb-43f2-937d-a3a07f878e55">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="f078f189-0461-46dc-86be-c8187ce0efb4">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Report>

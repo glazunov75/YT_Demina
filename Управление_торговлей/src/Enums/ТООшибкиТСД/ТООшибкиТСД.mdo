@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1387c137-a0d7-4004-b3c0-2e10a8174b31">
+  <producedTypes>
+    <refType typeId="d96f10a2-cb1a-44d0-96fb-cdc051b522f3" valueTypeId="a59a328f-f218-4017-aa03-648878abad82"/>
+    <listType typeId="690b7345-d939-4a2e-98fb-91abe5a235b8" valueTypeId="ca63119e-86b0-4b24-a67f-fb7c58546922"/>
+    <managerType typeId="1ef94d0d-b886-440f-a6fc-b7694d1b6ef4" valueTypeId="cad3311e-905b-4dcb-9026-fcc3c7da8158"/>
+  </producedTypes>
+  <name>ТООшибкиТСД</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТООшибки ТСД</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="715caad1-79fc-43ca-ab0f-c5711de822e9">
+    <name>ОшибкаЗагрузкиСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка загрузки строки</value>
+    </synonym>
+    <comment>Необходимо убедиться, что устройство подключено и корректно настроено.</comment>
+  </enumValues>
+  <enumValues uuid="cd5e5baf-2960-4b2c-a55b-9a6e9d36be12">
+    <name>ОшибкаНеизвестныйТовар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загружен штрихкод неизвестного товара</value>
+    </synonym>
+    <comment>Память терминала сбора данных содержит позиции, для которых нет соответствия в информационной базе. Проверьте настройки формата терминала сбора данных и номера таблиц.</comment>
+  </enumValues>
+  <enumValues uuid="42c9b0bd-7d3c-42a7-b08c-444ee94bb982">
+    <name>ОшибкаНетЗаписей</name>
+    <synonym>
+      <key>ru</key>
+      <value>В таблице терминала нет данных</value>
+    </synonym>
+    <comment>Данная ошибка возникает при попытке прочитать запись из пустой таблицы терминала.</comment>
+  </enumValues>
+</mdclass:Enum>

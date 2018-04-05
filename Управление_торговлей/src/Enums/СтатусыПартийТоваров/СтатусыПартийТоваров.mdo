@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06a7c8c3-c837-40d6-b619-26b3c4a5230a">
+  <producedTypes>
+    <refType typeId="ab3b74de-c0b6-4f82-b6f4-3fac62aacdec" valueTypeId="43a0d9c1-a43e-45d6-9a9a-11f4d566290e"/>
+    <listType typeId="06a7c8c3-c837-40d6-b619-26b3c4a5230a" valueTypeId="06a7c8c3-c837-f0d6-b619-26b3c4a5230a"/>
+    <managerType typeId="fc7f97de-15b0-4f45-94bb-7833f347efe0" valueTypeId="bcd753f9-a1cd-466d-88ad-5e395f8264d8"/>
+  </producedTypes>
+  <name>СтатусыПартийТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы партий товаров</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b4850fc4-1434-403f-8f43-5a1228bdacd2">
+    <name>Купленный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Купленный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ef6ff64a-43a2-43dd-b8e9-0acdab584028">
+    <name>НаКомиссию</name>
+    <synonym>
+      <key>ru</key>
+      <value>На комиссию</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3498fd03-f833-4af0-b621-00583826eaef">
+    <name>ВозвратнаяТара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возвратная тара</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="806cf09d-a81e-4981-9741-83e5a661ee84">
+    <name>ПоОрдеру</name>
+    <synonym>
+      <key>ru</key>
+      <value>По ордеру</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="1aa37f84-9052-49e3-a156-10fbc27e1710">
+    <name>ВозвратнаяТараОтложеннаяОтгрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возвратная тара отложенная отгрузка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7e71daee-2705-445b-8aae-311297d44052">
+    <name>КупленныйОтложеннаяОтгрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Купленный отложенная отгрузка</value>
+    </synonym>
+    <comment>Купленный отложенная отгрузка</comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce1158f3-4ba4-4876-a9b7-5f57d85202aa">
+  <producedTypes>
+    <selectionType typeId="b6b5bdda-f116-4e3c-a0e6-c1d5e1efbee2" valueTypeId="260b6aa0-ea8b-495e-853d-83ac99ee62f5"/>
+    <listType typeId="7f45b4d1-cb60-4749-9f6b-7b4b82d2b94f" valueTypeId="2dbcd53e-e616-40f5-a14f-59171ab753be"/>
+    <managerType typeId="1c9eee4c-49e1-439e-a5d6-59c7245f20f2" valueTypeId="8db74283-db13-450e-b23c-1aa9586484eb"/>
+    <recordSetType typeId="6f866a62-9887-4de5-9a5b-5718d25b2a35" valueTypeId="d5cf6f81-857b-47e6-81ee-c04bf28ceb24"/>
+    <recordKeyType typeId="7cc312cc-915a-4b1b-b163-3f57d3649240" valueTypeId="88ae895d-95e7-4009-be5f-8d145f9c9481"/>
+    <recordType typeId="b52ae9a2-f951-498f-b0a7-bd1fa2a2b15d" valueTypeId="2b7fd7a6-7c73-47d1-98ad-ef33e14d7fd5"/>
+    <recordManagerType typeId="8df016de-a029-47eb-a4cb-e72d609761a0" valueTypeId="884d6770-67ed-4ab9-ba7e-3a0e8e44c6d3"/>
+  </producedTypes>
+  <name>СтадииВзаимоотношенийСПокупателями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стадии взаимоотношений с покупателями</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.СтадииВзаимоотношенийСПокупателями.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="60c503ef-79dd-464a-99eb-cca3d6f0212a">
+    <name>Стадия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стадия</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.СтадииВзаимоотношенийСПокупателями</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4081e625-1655-444d-adbb-fd2dd924f0d4">
+    <name>КлассПостоянногоПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Класс постоянного покупателя</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.XYZКлассификация</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="65b967d3-64dc-47b4-9831-1746df5cbeb1">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="79d67d7e-c16e-4d1f-bb37-c4948c3dae70">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

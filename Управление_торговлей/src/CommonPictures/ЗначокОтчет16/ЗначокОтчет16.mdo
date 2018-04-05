@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0e33782-3c82-40f6-a200-b77a1d722497">
+  <name>ЗначокОтчет16</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пиктограмма Отчет</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

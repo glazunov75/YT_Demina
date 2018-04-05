@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cec60262-891f-4a6f-be90-20de9a843ee9">
+  <producedTypes>
+    <refType typeId="b3400a23-9ffb-4013-8e5e-69c5a1b17b02" valueTypeId="15695292-a443-4799-b37a-ab2b507978c5"/>
+    <listType typeId="cec60262-891f-4a6f-be90-20de9a843ee9" valueTypeId="cec60262-891f-fa6f-be90-20de9a843ee9"/>
+    <managerType typeId="a4aff99d-5578-4ed9-96be-dffcb43f5615" valueTypeId="7d5d4628-dd95-47a2-8faa-dde25b5b5c23"/>
+  </producedTypes>
+  <name>ВидыОперацийРезервированиеТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций документа &quot;Резервирование товаров&quot;</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="fd9e7384-9934-4070-9e83-4fe64a3c2fb9">
+    <name>ПоСкладам</name>
+    <synonym>
+      <key>ru</key>
+      <value>по складам</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="d8ddb9a1-e99c-4c70-884e-1fd3a0b973d1">
+    <name>ПоЗаказам</name>
+    <synonym>
+      <key>ru</key>
+      <value>по заказам</value>
+    </synonym>
+    <comment>(Упр)</comment>
+  </enumValues>
+  <enumValues uuid="9381309d-0b1f-4bb9-81ec-420e057c464d">
+    <name>ПоСкладамИЗаказам</name>
+    <synonym>
+      <key>ru</key>
+      <value>по складам и заказам</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+</mdclass:Enum>

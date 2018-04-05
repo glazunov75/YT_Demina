@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14eef38e-4dd6-485e-9c54-f26aebf3a4f4">
+  <producedTypes>
+    <objectType typeId="16d30655-d638-4246-8dcd-8ac23cd466ba" valueTypeId="411a7cdf-ac8a-4e8e-8297-dc03705e8b14"/>
+    <refType typeId="f6640dbe-212b-4a5a-857a-dea7ebd6f950" valueTypeId="8ca038b8-0109-4d05-9850-ca6194ac0622"/>
+    <selectionType typeId="05aa700c-c1fd-4806-a89c-4393e389fb21" valueTypeId="197d0028-0bf1-4167-a492-26158e53b84f"/>
+    <listType typeId="3f441ed6-9d43-4394-9cb1-5da4abc26766" valueTypeId="9e0af2da-cc8a-4a26-b5ad-bdb5e260fd26"/>
+    <managerType typeId="47570ebf-8bb9-4142-a643-ef76e9c9a0f9" valueTypeId="b07ecc0f-a9eb-4ae2-9af5-5ae8f36072bd"/>
+  </producedTypes>
+  <name>СерийныеНомера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Серийные номера</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <inputByString>Catalog.СерийныеНомера.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Номенклатура</owners>
+  <codeLength>20</codeLength>
+  <codeType>String</codeType>
+  <codeSeries>WithinOwnerSubordination</codeSeries>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.СерийныеНомера.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.СерийныеНомера.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="5f665125-0c2c-4b78-8aa1-0bb26b061eca">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="41705cfa-64a0-407d-a82e-9fca80fec078">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e68b1f9-d747-4491-a8ce-05b41bf57903">
+  <name>ИНВ18</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИНВ-18</value>
+  </synonym>
+  <comment>Сличительная ведомость результатов инвентаризации основных средств (унифицированная форма № ИНВ-18)</comment>
+</mdclass:CommonTemplate>

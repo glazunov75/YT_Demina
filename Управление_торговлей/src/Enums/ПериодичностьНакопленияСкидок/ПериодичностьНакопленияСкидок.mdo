@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a4fb2d4-511d-4069-bb16-00bdb39ab3c9">
+  <producedTypes>
+    <refType typeId="9683171f-1732-40dc-b81c-7768852efc39" valueTypeId="bee03af8-286a-4a2b-9714-a5037ca0a866"/>
+    <listType typeId="1464de79-47c3-45d4-a75a-3351b316323c" valueTypeId="4005c93a-6a6c-42e5-a258-2cf447df5b87"/>
+    <managerType typeId="568e5027-3f90-448a-b161-d0f001b26126" valueTypeId="681cd19f-d005-4483-8d25-5cc5679a6145"/>
+  </producedTypes>
+  <name>ПериодичностьНакопленияСкидок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периодичность накопления скидок</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="45e5e7b5-0304-48d7-87ce-bd385a38e2a7">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2f74c607-b277-4ff0-96c6-2cc878841043">
+    <name>Квартал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квартал</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4fcda70e-99e2-4283-8b78-7990242a72f1">
+    <name>Полугодие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полугодие</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c861442f-a976-482e-b64c-36406fe908a3">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2cbc1de6-c6ad-4b81-9605-8cf6cc3c0a0d">
+    <name>ВТечениеВсегоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>В течение всего периода</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

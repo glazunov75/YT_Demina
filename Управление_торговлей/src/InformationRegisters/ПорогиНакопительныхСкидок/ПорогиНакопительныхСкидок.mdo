@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7329043f-c335-483c-97ca-cddcb27fcd27">
+  <producedTypes>
+    <selectionType typeId="35e77775-afd8-4920-88c1-76d8499db71f" valueTypeId="40b851cf-2e6d-427a-a3d3-1ddd399cc838"/>
+    <listType typeId="53dacda7-f5f7-4a54-b259-2a92b7570db9" valueTypeId="abd7990f-a67c-46fb-8815-79dbc16d2faf"/>
+    <managerType typeId="255b7324-1b66-4325-a881-649c00086dc3" valueTypeId="5bdf9506-b202-4855-8a2d-30bcae79b6a1"/>
+    <recordSetType typeId="8bdb5d97-68a4-42d4-bd17-a2c8787ec251" valueTypeId="de4b3bb9-befd-4522-b393-27834f2f6006"/>
+    <recordKeyType typeId="0cc85209-48f0-4132-bebc-d81d695af487" valueTypeId="2cc1d440-0f40-476c-a18b-733caf17fe87"/>
+    <recordType typeId="23618467-0560-469a-85bb-fbb774f75963" valueTypeId="21b4e9b7-2b4d-4cdb-a923-1a2f10c92330"/>
+    <recordManagerType typeId="4bc06dea-8c27-4633-93db-1bd3f6a9edbb" valueTypeId="8d0a9366-2fa6-478d-a088-0504cb6be3ea"/>
+  </producedTypes>
+  <name>ПорогиНакопительныхСкидок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пороги накопительных скидок</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="285143fa-4f07-4fee-befd-6c36f35595c6">
+    <name>ЗначениеПорога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение порога</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВидыДисконтныхКарт</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="45394c8b-18a0-4c09-8f77-15760fe24fe9">
+    <name>НижняяГраница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нижняя граница</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

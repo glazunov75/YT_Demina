@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d742ed80-220b-4fdd-b4b3-0f98db681896">
+  <producedTypes>
+    <refType typeId="27bf8c20-ea01-40f9-b168-4002de6810f3" valueTypeId="450b5685-a578-44d6-bc4f-94ff94ae3112"/>
+    <listType typeId="e1be6d44-abba-4afc-ab6c-d1b86722089d" valueTypeId="208a3d9e-4b08-4646-a423-5006570390de"/>
+    <managerType typeId="85f85b4e-f56a-4066-980b-aacabe5e6444" valueTypeId="bcbb2542-75dc-4279-affc-b9f8e3c51c6a"/>
+  </producedTypes>
+  <name>ТООшибкиСШК</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТООшибки СШК</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="be56fdc4-2baa-4414-ab1b-588ab8b51b94">
+    <name>ОшибкаНеизвестныйШтрихкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Считанный штрихкод не может быть обработан</value>
+    </synonym>
+    <comment>Необходимо убедиться, что данный штрихкод зарегистрирован в информационной базе и может быть обработан в данной форме.</comment>
+  </enumValues>
+</mdclass:Enum>

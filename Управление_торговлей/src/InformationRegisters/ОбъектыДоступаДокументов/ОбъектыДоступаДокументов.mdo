@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7bb5588-1fb3-4691-ac77-c2ad7072de86">
+  <producedTypes>
+    <selectionType typeId="30c418cb-7526-4a2e-a498-667c061e1ac5" valueTypeId="e63ed4f2-abec-4e79-831b-b827bd6d099b"/>
+    <listType typeId="dbdf72ca-fbae-4534-b598-ab09d383baf6" valueTypeId="5ec28289-b234-432d-b9b5-89e51e24599f"/>
+    <managerType typeId="21e83216-3080-4916-851c-b52afc45cce6" valueTypeId="4553aa92-5fae-4853-9815-490e64a85485"/>
+    <recordSetType typeId="74553337-b8f0-49ca-9c47-246eabe9db2e" valueTypeId="75d925ed-a2cd-4dec-ac2d-2fade67bd39a"/>
+    <recordKeyType typeId="6a14b15b-a410-482f-a8a6-9d1ee7b65212" valueTypeId="aa2535dc-49f1-4608-bf6f-fad7ca31d81f"/>
+    <recordType typeId="8ae78723-7dae-46c3-947f-704242b08122" valueTypeId="5f2988f2-15e2-41b4-ba70-dad46c508a15"/>
+    <recordManagerType typeId="9e8849e9-52a5-42e2-8c2a-a884cf60759c" valueTypeId="137733f1-6802-481c-a019-0c4dde1be131"/>
+  </producedTypes>
+  <name>ОбъектыДоступаДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты доступа документов</value>
+  </synonym>
+  <comment></comment>
+  <defaultListForm>InformationRegister.ОбъектыДоступаДокументов.Form.ФормаСписка</defaultListForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dimensions uuid="b61502d6-b9ca-4a54-bda4-fe621bc3ae7b">
+    <name>ДокументСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ ссылка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="44759999-5477-4402-b0a0-40316ec00a9e">
+    <name>ОбъектДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект доступа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="1fb9f942-256d-4a92-adb6-c5dc7df15100">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

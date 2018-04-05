@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d3e09e2-9dad-4ce6-ab35-c79fe62c6056">
+  <name>СвойстваИКатегорииОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства и категории объектов</value>
+  </synonym>
+  <comment></comment>
+  <content>CommonPicture.Категории</content>
+  <content>Catalog.ЗначенияСвойствОбъектов</content>
+  <content>Catalog.КатегорииОбъектов</content>
+  <content>Catalog.Помещения</content>
+  <content>DataProcessor.ЗначенияСвойствОбъекта</content>
+  <content>DataProcessor.КатегорииОбъекта</content>
+  <content>InformationRegister.ЗначенияСвойствОбъектов</content>
+  <content>InformationRegister.КатегорииОбъектов</content>
+  <content>InformationRegister.НазначенияСвойствОбъектов</content>
+  <content>ChartOfCharacteristicTypes.НазначенияСвойствКатегорийОбъектов</content>
+  <content>ChartOfCharacteristicTypes.СвойстваОбъектов</content>
+  <parentSubsystem>Subsystem.УниверсальныеМеханизмы</parentSubsystem>
+</mdclass:Subsystem>

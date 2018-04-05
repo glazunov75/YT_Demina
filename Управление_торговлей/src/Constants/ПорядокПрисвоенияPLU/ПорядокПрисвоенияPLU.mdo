@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a31ab63-8efb-4287-8282-dc85a28e046a">
+  <producedTypes>
+    <managerType typeId="a32d6bd6-bb3c-4ba3-9c79-40b8a4963cca" valueTypeId="77e02607-3918-40ee-b37d-b60ab8ac417d"/>
+    <valueManagerType typeId="568aef12-0c79-4d09-9d64-7bc668271a46" valueTypeId="f9231a06-2ceb-49e4-9b45-3071222abdfa"/>
+  </producedTypes>
+  <name>ПорядокПрисвоенияPLU</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порядок присвоения PLU</value>
+  </synonym>
+  <comment>Данная константа содержит текущий порядок присвоения номеров PLU</comment>
+  <type>
+    <types>EnumRef.ПорядокПрисвоенияPLU</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

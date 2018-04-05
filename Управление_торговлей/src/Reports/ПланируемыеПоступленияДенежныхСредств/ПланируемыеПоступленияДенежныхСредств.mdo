@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ac5c0ef-e282-45bd-a36d-cf50fab7deed">
+  <producedTypes>
+    <objectType typeId="4b7f3ce0-c037-47ef-b197-f6afb837b483" valueTypeId="8c205a7a-b37e-450f-b967-5048a6d70bf3"/>
+    <managerType typeId="2778de68-2943-42da-ab8d-8715edb20ede" valueTypeId="7ddd90e5-7b7d-4fc8-8b11-f309c07c9256"/>
+  </producedTypes>
+  <name>ПланируемыеПоступленияДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планируемые поступления денежных средств</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.ПланируемыеПоступленияДенежныхСредств.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="138f6cb3-979c-4e8c-8c2f-092296fbff4e">
+    <name>ОбщийОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общий отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.ОтчетОстаткиИОбороты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cf37f8a9-155b-4e12-8195-6940d68ee082">
+    <name>УниверсальныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.УниверсальныйОтчет</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="7832b93a-b671-4210-bb5b-68bcce0360f2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a1b86e2b-a352-4eb4-9fc8-e5df91ca4cb6">
+    <name>ПараметрыОтчетовПланируемыеПоступленияДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры отчетов по регистру</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Report>

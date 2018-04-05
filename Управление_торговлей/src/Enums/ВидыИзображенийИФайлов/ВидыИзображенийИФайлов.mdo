@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac6f9839-c75e-4ddc-acdf-76cc28f40282">
+  <producedTypes>
+    <refType typeId="c5d9631e-3f3e-4258-bbc4-7555f1ea1ff1" valueTypeId="91e6b1c5-7c86-403b-bb6d-007cf5edb7e9"/>
+    <listType typeId="ac6f9839-c75e-4ddc-acdf-76cc28f40282" valueTypeId="ac6f9839-c75e-fddc-acdf-76cc28f40282"/>
+    <managerType typeId="471652d8-1a10-4546-a3ef-b499972b6b3f" valueTypeId="44718530-f165-49f9-a7db-4a9a822698e2"/>
+  </producedTypes>
+  <name>ВидыИзображенийИФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды изображений и файлов</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e445121b-a6c7-42f9-930f-1bb5773ca409">
+    <name>ОсновноеИзображение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное изображение</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="f6162287-040c-4adb-bad2-6b16c7b350c1">
+    <name>ПрочееИзображение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее изображение</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="eaf671cb-1213-485b-a0d2-6a85cae54cc6">
+    <name>ТекстовыйФайлDOSкодировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текстовый файл DOS кодировки</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+</mdclass:Enum>

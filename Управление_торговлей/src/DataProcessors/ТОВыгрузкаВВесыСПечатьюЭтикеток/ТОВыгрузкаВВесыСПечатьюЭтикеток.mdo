@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a1c2fe1-0ffb-4419-99c1-075989143fe8">
+  <producedTypes>
+    <objectType typeId="4817cfd8-0673-4e65-ad08-f326c03d6b48" valueTypeId="1438fd8d-6d87-4921-b971-cc38a78ba26a"/>
+    <managerType typeId="2bd7528f-3a2a-453d-a394-91678895e0c9" valueTypeId="422e7db7-9373-4e53-bc43-0df094e02e19"/>
+  </producedTypes>
+  <name>ТОВыгрузкаВВесыСПечатьюЭтикеток</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка данных в весы с печатью этикеток</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ТОВыгрузкаВВесыСПечатьюЭтикеток.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="608d3142-6e4e-41ca-b533-8f907b44cb0b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка данных в весы с печатью этикеток</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

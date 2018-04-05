@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d69fd3e3-dc8f-479a-a7eb-02f86c8bee2f">
+  <producedTypes>
+    <selectionType typeId="f1aa270b-eb78-4d1a-a5a8-3c89552f9b89" valueTypeId="3fba1450-f427-4246-8ff0-eb70340b29cf"/>
+    <listType typeId="2b68e727-4602-476e-98db-80518f11254e" valueTypeId="bae4a48f-49db-4d3b-8ddb-bc97fd8fb77c"/>
+    <managerType typeId="a5e43db7-6bc0-4657-b356-8e3737547ed3" valueTypeId="5c1a9852-4af8-4e88-8910-c2223776cb33"/>
+    <recordSetType typeId="a28226f4-4f1d-4cf2-9869-cff3d4a792e8" valueTypeId="e824a4aa-db1e-4cfc-9134-c5f28ee66698"/>
+    <recordKeyType typeId="4e7e0e8e-3240-4ae6-b279-d657d3190853" valueTypeId="40b4ffaf-7c8a-4c61-aed5-3c9081fa735f"/>
+    <recordType typeId="d48fe4d3-497a-4646-a9d6-f90d1ab0508b" valueTypeId="0a5cfc05-b4ba-418a-bc74-e31c83f1ec5a"/>
+    <recordManagerType typeId="1c47cb59-4e0f-4fa6-8d92-d580e617c95d" valueTypeId="98a61024-bc4a-4b7e-a887-d8805fbdef45"/>
+  </producedTypes>
+  <name>ПрефиксыИнформационныхБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Префиксы информационных баз</value>
+  </synonym>
+  <comment></comment>
+  <defaultListForm>InformationRegister.ПрефиксыИнформационныхБаз.Form.ФормаСписка</defaultListForm>
+  <dimensions uuid="4578bffb-061a-47a3-8085-8e76102bd19b">
+    <name>Префикс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Префикс</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d60bfb5d-85b8-4d6c-901b-4cc4d9da0102">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

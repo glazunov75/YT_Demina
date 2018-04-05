@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b5b99f6-a534-4ddf-aac7-0117874eab7f">
+  <producedTypes>
+    <managerType typeId="e2dbe3c6-1277-485b-a62b-91a8d26e8c7a" valueTypeId="60d6bbee-b5ca-4749-aa98-0f9d6e59ba4d"/>
+    <valueManagerType typeId="da2469b2-fd9f-4dcb-8f8a-109abb7e2480" valueTypeId="334eea1d-9fc4-483a-8c51-3999dfb9523a"/>
+  </producedTypes>
+  <name>ИспользоватьСерииНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать серии номенклатуры</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="194a0e1c-4282-408d-919e-33c66f9673f9">
+  <producedTypes>
+    <managerType typeId="ba88978c-eb0c-4ea3-ba55-1425d1f73416" valueTypeId="2b265bdb-654c-4304-88ee-cf99277318a0"/>
+    <valueManagerType typeId="f9f0dcf2-faa0-4f17-87b8-d46fce01fdd5" valueTypeId="db15abeb-8068-4278-a909-731d5cb4d3d3"/>
+  </producedTypes>
+  <name>ВидЭлектроннойПочтыКонтрагента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид электронной почты контрагента</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>CatalogRef.ВидыКонтактнойИнформации</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f64446d-a3a2-495e-a70b-f82e76309296">
+  <producedTypes>
+    <managerType typeId="7d71397f-692f-43bc-a116-492a21e27dd5" valueTypeId="c8584144-fc47-49f2-97fc-84472dff827c"/>
+    <valueManagerType typeId="7a7e6805-1374-4f45-a13e-2a8396e40083" valueTypeId="a033eade-08b5-4439-acba-1a0cb6117014"/>
+  </producedTypes>
+  <name>ПрефиксВнутреннегоШтрихкода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Префикс внутреннего штрихкода</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

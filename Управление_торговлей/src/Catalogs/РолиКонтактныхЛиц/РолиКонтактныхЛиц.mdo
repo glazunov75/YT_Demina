@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fe70b35-eeeb-40c8-9ef9-8dcc2b2be14f">
+  <producedTypes>
+    <objectType typeId="959c0eb2-6803-4f8d-ae8a-16be623e6d9d" valueTypeId="000d7d03-38ae-410e-9ba2-2e97c9fc5dbe"/>
+    <refType typeId="3e85fb43-4447-4e41-8074-ce089f015693" valueTypeId="7a721486-c3e2-482c-873b-42a14254ec8c"/>
+    <selectionType typeId="562af1f2-8a26-4bfa-bc1c-87aa154138df" valueTypeId="e20aed4d-0dea-41c1-b8e8-74d094d54d3f"/>
+    <listType typeId="d9f518c9-fc3d-48c6-8eab-b1ac3d02fe6c" valueTypeId="f95c0a03-c958-4022-8616-272750965c90"/>
+    <managerType typeId="4e858f26-6487-438d-badc-835dbf39ae77" valueTypeId="e6e2767d-3336-4557-a2b3-0b5b7b7f7829"/>
+  </producedTypes>
+  <name>РолиКонтактныхЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли контактных лиц</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <inputByString>Catalog.РолиКонтактныхЛиц.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РолиКонтактныхЛиц.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.РолиКонтактныхЛиц.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.РолиКонтактныхЛиц.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="0a518de5-ec4e-4137-b26b-caa09c686cfc">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2d614a3a-6217-4b3e-9ead-fce85ad76183">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

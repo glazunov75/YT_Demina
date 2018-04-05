@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f18ddad-7951-4800-9b6e-6a0f51afd0ce">
+  <name>Анкетирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анкетирование</value>
+  </synonym>
+  <comment></comment>
+  <content>CommonTemplate.МакетТиповойАнкеты</content>
+  <content>CommonModule.Анкетирование</content>
+  <content>CommonModule.ОбработкаТабличныхЧастей</content>
+  <content>CommonModule.ОбщегоНазначения</content>
+  <content>CommonModule.РаботаСДиалогами</content>
+  <content>CommonModule.ФормированиеПечатныхФорм</content>
+  <content>Catalog.ВариантыОтветовОпросов</content>
+  <content>Catalog.ДокументыУдостоверяющиеЛичность</content>
+  <content>Catalog.РазделыАнкеты</content>
+  <content>Catalog.ТиповыеАнкеты</content>
+  <content>Document.Опрос</content>
+  <content>Document.ФормированиеАнкет</content>
+  <content>Enum.ВидыАнкет</content>
+  <content>Enum.ВидыОбъектовЗагружаемыхИзОпроса</content>
+  <content>Enum.ВидыУсловийОбязательныхОтветов</content>
+  <content>Enum.ОбязательностьЗаполненияОтветаНаВопрос</content>
+  <content>Enum.ПолФизическихЛиц</content>
+  <content>Enum.ТипыОтветаНаВопросАнкеты</content>
+  <content>Report.АнализРезультатовАнкетирования</content>
+  <content>Report.КонтрольОтветовНаРассылку</content>
+  <content>Report.ОтветНаВопрос</content>
+  <content>Report.РезультатыАнкетирования</content>
+  <content>DataProcessor.ЗагрузкаРезультатовАнкетирования</content>
+  <content>InformationRegister.ПланируемаяЗанятостьПомещений</content>
+  <content>InformationRegister.ФИОФизЛиц</content>
+  <content>ChartOfCharacteristicTypes.ВопросыДляАнкетирования</content>
+  <parentSubsystem>Subsystem.УниверсальныеМеханизмы</parentSubsystem>
+</mdclass:Subsystem>

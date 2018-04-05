@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0523c29f-2765-4c77-937d-534ec3674441">
+  <producedTypes>
+    <refType typeId="b1c936da-b11a-4032-ad4a-3bd527e31fb1" valueTypeId="0a856e09-535e-4764-bad1-ed1ad117326f"/>
+    <listType typeId="0523c29f-2765-4c77-937d-534ec3674441" valueTypeId="0523c29f-2765-fc77-937d-534ec3674441"/>
+    <managerType typeId="7662aefb-c0a1-4539-b3d8-7cf4eb4ee9e6" valueTypeId="a5cbcf3a-bce3-4a50-b728-03a30c7d0b1e"/>
+  </producedTypes>
+  <name>ТоварТара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товар / тара</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4dbe7ee6-44cd-40a2-a963-b28586b56113">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <comment>Объединяет в себе товары (купленные и принятые), материалы и продукцию</comment>
+  </enumValues>
+  <enumValues uuid="c08debea-1f3b-4965-af2f-8edbea5d401b">
+    <name>Тара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тара</value>
+    </synonym>
+    <comment>Возвратная тара (собственная и полученная у поставщиков)</comment>
+  </enumValues>
+</mdclass:Enum>

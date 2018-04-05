@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="226d27ee-40b6-4436-a56f-c32f4138bbaf">
+  <producedTypes>
+    <objectType typeId="b9fffd82-6fb8-471e-97cf-87d07e971de6" valueTypeId="2e366560-89c2-47ae-bf5e-0e0a166ae9f9"/>
+    <refType typeId="de57208e-30ca-40a7-b895-84ffdfe3e7da" valueTypeId="d217703c-d1f3-45ca-a9be-027055d5bb9f"/>
+    <selectionType typeId="cdf83f3f-780e-4283-aa9b-17b78c603b63" valueTypeId="11e2dce8-fb6c-498c-aa53-9d728a383f2b"/>
+    <listType typeId="ee8d3ee3-400a-4000-9bac-694f5b629660" valueTypeId="4b118bab-6ba0-4e52-98e0-a676ae745e50"/>
+    <managerType typeId="da9495ce-ded8-469f-9cec-c1a0e0f3b7a2" valueTypeId="aa863bec-f7c5-4230-b5d2-587b478ffd62"/>
+    <routePointRef typeId="48483ff2-d177-4550-a2d4-1af435783e30" valueTypeId="616672ce-5a72-467a-9241-0419d55eda42"/>
+  </producedTypes>
+  <name>ПереоценкаТоваровАТТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переоценка товаров в АТТ</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <inputByString>BusinessProcess.ПереоценкаТоваровАТТ.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <editType>InDialog</editType>
+  <defaultObjectForm>BusinessProcess.ПереоценкаТоваровАТТ.Form.ФормаБизнесПроцесса</defaultObjectForm>
+  <defaultListForm>BusinessProcess.ПереоценкаТоваровАТТ.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>BusinessProcess.ПереоценкаТоваровАТТ.Form.ФормаВыбора</defaultChoiceForm>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <task>Task.ЗадачиПользователя</task>
+  <attributes uuid="6dbfe3f6-9e21-40a4-856c-21f56e52c685">
+    <name>ДатаЗавершения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата завершения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b29b4170-04e2-482f-8dfc-cb0ba68be7fa">
+    <name>ДатаСтарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата старта</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b4668d14-9f54-4c7a-b05f-dbcd62efc15a">
+    <name>ЗавершенПринудительно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершен принудительно</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="6f29fd18-73e2-4598-921f-151fa2766769">
+    <name>Инициатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инициатор</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="31fa45ef-717e-41aa-a3b5-1524ad6ec24a">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="ee5b32aa-223c-49de-8766-c212bfd44e06">
+    <name>Настройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.НастройкиБизнесПроцессов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="7fb0553c-5f03-458a-b2dd-a46f0e6f5027">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="be56ef65-4525-40ae-9b17-5793719e093e">
+    <name>УстановкаЦенНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка цен номенклатуры</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.УстановкаЦенНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="9cb832e6-7100-431a-b23e-4a12935ece3a">
+    <name>ФормаБизнесПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма бизнес процесса</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a0a242fb-0631-4cfa-a41d-e8c0d7aea670">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f65f4140-6e0a-4e52-b034-5292e4a92022">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:BusinessProcess>

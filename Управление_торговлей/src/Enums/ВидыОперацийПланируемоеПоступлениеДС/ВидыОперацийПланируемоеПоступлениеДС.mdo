@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="118bf650-8af1-4b7d-9672-1691dc1fc2be">
+  <producedTypes>
+    <refType typeId="df62924a-f8d8-4484-a5fa-bc804c3ed3aa" valueTypeId="3b0bb559-b3a5-4c31-86b9-bbfc55261d87"/>
+    <listType typeId="c8ec46f2-8969-4472-b6ed-3b60eb504ef5" valueTypeId="d1173b46-3128-45e9-a0c7-0a87b69d41a2"/>
+    <managerType typeId="fe8d8f92-8707-4951-a3e5-220559109a30" valueTypeId="29855d79-2eae-4cc4-809b-f68b6ca3a72b"/>
+  </producedTypes>
+  <name>ВидыОперацийПланируемоеПоступлениеДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций планируемое поступление денежных средств</value>
+  </synonym>
+  <comment>(упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ea390062-b179-41b1-8969-918de86603e8">
+    <name>ОплатаПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата от покупателя</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="c39618aa-29bb-480a-b969-a5e6bd5cbf36">
+    <name>ВозвратДенежныхСредствПоставщиком</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат денежных средств поставщиком</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="1c766084-d906-4b3f-9c1e-b0825aa9c895">
+    <name>РасчетыПоКредитамИЗаймам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты по кредитам и займам</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="582ac094-b3cc-4cf8-a61c-573a9ce14de6">
+    <name>ПриходДенежныхСредствРозничнаяВыручка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прием розничной выручки</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="741f19c0-7ce9-4bfe-a7a5-cba284b779a1">
+    <name>ПрочееПоступлениеДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее поступление денежных средств</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="93c7d4f3-f4db-4d3d-a558-ac6ed3ff0675">
+    <name>ПрочиеРасчетыСКонтрагентами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочие расчеты с контрагентами</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

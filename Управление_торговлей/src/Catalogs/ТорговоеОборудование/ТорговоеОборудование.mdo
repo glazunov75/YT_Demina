@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c4182be-f341-48c5-86d1-405ced4af203">
+  <producedTypes>
+    <objectType typeId="09a00aea-df1b-486e-a3da-b618d84f26f2" valueTypeId="ff3aa056-b5d7-4053-beb5-aa5b0352ca59"/>
+    <refType typeId="71e93637-130b-4ff8-ae00-fe0cb4fd1f36" valueTypeId="ead54b26-7a18-4529-aa76-58584de983c3"/>
+    <selectionType typeId="4017aeab-f227-4850-a2bc-f44aa0c06b3d" valueTypeId="4ed3cf6a-bb90-4f8d-be73-75072b9de291"/>
+    <listType typeId="86e56b42-f070-41a2-836b-664fecc9cd8d" valueTypeId="4cdd8557-2704-4c39-898c-a58387d007ca"/>
+    <managerType typeId="a2878630-5bae-4dde-acd9-9e53242c0fe0" valueTypeId="1bdd43ba-51c2-44e1-bb08-83b3cf85c645"/>
+  </producedTypes>
+  <name>ТорговоеОборудование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Торговое оборудование</value>
+  </synonym>
+  <comment>Торговое оборудование, которое может быть подключено.</comment>
+  <inputByString>Catalog.ТорговоеОборудование.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТорговоеОборудование.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТорговоеОборудование.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ТорговоеОборудование.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ТорговоеОборудование.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="e50692ce-6d93-4c25-89c4-12bdda17682d">
+    <name>ОбработкаОбслуживания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка обслуживания</value>
+    </synonym>
+    <comment>Используемая обработка обслуживания торгового оборудования.</comment>
+    <type>
+      <types>CatalogRef.ОбработкиОбслуживанияТО</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="0454e8a2-dcf8-4aec-a608-def3d7c06744">
+    <name>Модель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель</value>
+    </synonym>
+    <comment>Модель торгового оборудования.</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="52a15d88-c59a-4c5a-a011-81c5155a6033">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="73088c8d-1736-43b5-a311-85b5fd11a44d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment>Форма списка элементов справочника.</comment>
+    <formType>Ordinary</formType>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f5e68b21-5943-44c2-801d-034f77d923ba">
+    <name>ФормаСпискаПоддерживаемогоОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка поддерживаемого оборудования</value>
+    </synonym>
+    <comment>Данная форма предназначена для работы со списком поддерживаемого торгового оборудования.</comment>
+    <formType>Ordinary</formType>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="685d2716-6278-4ad2-a7fe-151755a35b5b">
+    <name>СписокОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список оборудования</value>
+    </synonym>
+    <comment>Макет списка торгового оборудования, поддерживаемого доступным набором обработок обслуживания торгового оборудования.</comment>
+  </templates>
+</mdclass:Catalog>

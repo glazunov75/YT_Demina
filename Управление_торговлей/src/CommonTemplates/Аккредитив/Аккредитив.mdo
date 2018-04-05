@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d010da8b-fb43-45b6-9086-2576229c1ea9">
+  <name>Аккредитив</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аккредитив</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonTemplate>

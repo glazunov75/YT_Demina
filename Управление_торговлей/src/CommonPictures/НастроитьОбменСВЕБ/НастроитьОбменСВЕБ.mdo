@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8cce3276-dba5-4213-be71-7652ee750d26">
+  <name>НастроитьОбменСВЕБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настроить обмен с ВЕБ</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>13</x>
+    <y>2</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

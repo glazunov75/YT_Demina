@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f100bab5-f8dd-4293-866c-5ccecef2c150">
+  <producedTypes>
+    <objectType typeId="2ff82c3b-5c18-4dbd-a8d9-7639313cf1cd" valueTypeId="33241a81-3bc6-41fe-8892-97c228eccdf4"/>
+    <managerType typeId="7b9f9824-e216-4efd-b254-fb00f31fe8bf" valueTypeId="e5c4f91c-ceff-4fe9-8488-6b6dbf9af53c"/>
+  </producedTypes>
+  <name>ДокументыЭлектронногоОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы электронного обмена</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ДокументыЭлектронногоОбмена.Form.Форма</defaultForm>
+  <attributes uuid="a9620c6b-c976-42fa-85e4-e4c11cc559aa">
+    <name>ТаблицаДокументовВходящиеЗаказы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица документов входящие заказы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentJournalList.ЭлектронныеДокументыЗаказыВходящие</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a13d9834-ea56-418b-a259-ed0c5fdcb555">
+    <name>ТаблицаДокументовИсходящиеЗаказы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица документов исходящие заказы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentJournalList.ЭлектронныеДокументыЗаказыИсходящие</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="32c13d78-90d6-4b47-8e9d-5582b9d80d9b">
+    <name>ТаблицаДокументовВходящиеНакладные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица документов входящие накладные</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentJournalList.ЭлектронныеДокументыНакладныеВходящие</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f00d024d-2db2-488d-b81a-1c9af5e2ee0e">
+    <name>ТаблицаДокументовИсходящиеНакладные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица документов исходящие накладные</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentJournalList.ЭлектронныеДокументыНакладныеИсходящие</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c3540347-a392-4259-be54-78b4a0b9e190">
+    <name>ТаблицаДокументовВходящиеТовары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица документов входящие товары</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentJournalList.ЭлектронныеДокументыТоварыВходящие</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5972d9cf-5549-4909-8946-3d7e21cce22f">
+    <name>ТаблицаДокументовИсходящиеТовары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица документов исходящие товары</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentJournalList.ЭлектронныеДокументыТоварыИсходящие</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1f98f494-10d2-475f-93a2-f89f16f7a7c8">
+    <name>ТаблицаВходящихИзвещений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица входящих извещений</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentList.ВходящееИзвещение</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c0bbdf08-5f9d-492f-bfdf-651ac135d5f6">
+    <name>ТаблицаИсходящихИзвещений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица исходящих извещений</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentList.ИсходящееИзвещение</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cea9eb74-e1aa-4502-8660-60cb71acbab9">
+    <name>ТаблицаДокументовВходящиеСчетаФактуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица документов входящие счета-фактуры</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentJournalList.ЭлектронныеДокументыСчетаФактурыВходящие</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8031b3a2-7098-46ef-83e0-78d6ced3e4d8">
+    <name>ТаблицаДокументовИсходящиеСчетаФактуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица документов исходящие счета-фактуры</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentJournalList.ЭлектронныеДокументыСчетаФактурыИсходящие</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="138bcdaf-4f44-4ea5-a11e-32d9c3fdef0e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="041000aa-7275-4ca0-abea-65fc3d2f007e">
+    <name>Настройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

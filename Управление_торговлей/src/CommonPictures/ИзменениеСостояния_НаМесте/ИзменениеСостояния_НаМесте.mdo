@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f888766-fc63-41de-95c7-3d725dc02cff">
+  <name>ИзменениеСостояния_НаМесте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение состояния  на месте</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>8</x>
+    <y>11</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

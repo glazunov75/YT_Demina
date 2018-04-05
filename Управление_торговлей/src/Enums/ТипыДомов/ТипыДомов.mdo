@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="616c2ca2-18bd-49e5-a3f4-e6907c9d6c40">
+  <producedTypes>
+    <refType typeId="b0c6414f-f84e-4bf3-9794-6c26f7021ec9" valueTypeId="149c8812-d102-4283-9b95-1145dd98c019"/>
+    <listType typeId="40fbd4d8-3c3d-4876-9c59-cf10cc968ade" valueTypeId="30ac3c5d-d2f4-4b40-a420-3c708024756c"/>
+    <managerType typeId="f7128c9e-a1df-4ea9-baa9-225e4ab566f8" valueTypeId="d7309ddc-13d9-4ef9-97da-cf15ea8d6468"/>
+  </producedTypes>
+  <name>ТипыДомов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы домов</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c8121486-0810-4400-858a-fa6f5fe80fd7">
+    <name>Дом</name>
+    <synonym>
+      <key>ru</key>
+      <value>дом</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c641371b-8ad3-42aa-91f9-1e9708d73584">
+    <name>Владение</name>
+    <synonym>
+      <key>ru</key>
+      <value>владение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

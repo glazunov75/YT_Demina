@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8d04f1b-0a8b-480f-9573-b491d15aa73d">
+  <producedTypes>
+    <objectType typeId="15f60c0d-4ed3-454d-9b1b-dab5ed4c4f1e" valueTypeId="6e67f632-8b5d-4c24-9b74-a425c6950407"/>
+    <managerType typeId="04dba64b-da79-400f-b110-293777b6b65e" valueTypeId="fbe81d6c-1bfc-40fd-82d8-e091a38db4e2"/>
+  </producedTypes>
+  <name>ОтчетПоКредитнойЛинии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по кредитной линии</value>
+  </synonym>
+  <comment>Отчет для контроля кредитной линии</comment>
+  <defaultForm>Report.ОтчетПоКредитнойЛинии.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="0f24f2b2-7812-4dce-b618-2cb5b3cdf247">
+    <name>УниверсальныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.УниверсальныйОтчет</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d40d8eff-825e-4d2c-bed9-b7ea98b8edef">
+    <name>ВидКредитныхЛиний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид кредитных линий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="bdfdceed-c02d-47b6-a6ea-892494c58e34">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

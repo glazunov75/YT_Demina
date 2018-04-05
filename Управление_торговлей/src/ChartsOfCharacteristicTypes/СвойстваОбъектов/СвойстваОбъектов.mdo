@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9905c644-bfc0-45c8-8309-1c001815953c">
+  <producedTypes>
+    <objectType typeId="580fea2e-9959-45c9-b16d-86d5a14af9de" valueTypeId="db1ad0e7-5f02-4a6f-aa36-2b28ac4421b1"/>
+    <refType typeId="3efec2c1-671c-4e39-aed6-c2efd71822a7" valueTypeId="8e15f2f1-86b1-46d4-9fa4-a13dcd14e83f"/>
+    <selectionType typeId="0dbdc4dd-32f5-44dc-90b8-82bd91d8685e" valueTypeId="821506ac-8b53-4e64-b9d2-99096c8c4562"/>
+    <listType typeId="84ca00aa-3a84-4384-b468-ac457c1c1cc1" valueTypeId="858583ba-c1e0-4397-93fe-9634cd03f166"/>
+    <managerType typeId="eb6718fc-d131-4643-86c5-89f63f5916c0" valueTypeId="f6cfa024-6d37-4cb5-a8d6-2eabdd5cc170"/>
+    <containerType typeId="80cf2ad7-41e4-4bc6-af1e-9372f6bfa619" valueTypeId="cff57dad-2a5d-4a71-aa3f-8df9baf9d348"/>
+  </producedTypes>
+  <name>СвойстваОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства объектов</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <inputByString>ChartOfCharacteristicTypes.СвойстваОбъектов.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.СвойстваОбъектов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <characteristicExtValues>Catalog.ЗначенияСвойствОбъектов</characteristicExtValues>
+  <type>
+    <types>CatalogRef.Организации</types>
+    <types>CatalogRef.Пользователи</types>
+    <types>CatalogRef.Подразделения</types>
+    <types>CatalogRef.КлассификаторЕдиницИзмерения</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>Boolean</types>
+    <types>CatalogRef.КлассификаторСтранМира</types>
+    <types>CatalogRef.Валюты</types>
+    <types>CatalogRef.КонтактныеЛица</types>
+    <types>CatalogRef.Склады</types>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>CatalogRef.КонтактныеЛицаКонтрагентов</types>
+    <types>CatalogRef.НоменклатурныеГруппы</types>
+    <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>3</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+    <dateQualifiers/>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCharacteristicTypes.СвойстваОбъектов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>ChartOfCharacteristicTypes.СвойстваОбъектов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>ChartOfCharacteristicTypes.СвойстваОбъектов.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="d87ee2fc-6bce-4a1c-9740-1b64e7becebe">
+    <name>НазначениеСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение свойства</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.НазначенияСвойствКатегорийОбъектов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="a3adeefe-3ba3-4512-b461-1a470a33094b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="447c7e6c-676c-430e-a05b-7a0e63013192">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a95c42f4-22db-4d7b-b2ad-cbcdaa776d43">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCharacteristicTypes>

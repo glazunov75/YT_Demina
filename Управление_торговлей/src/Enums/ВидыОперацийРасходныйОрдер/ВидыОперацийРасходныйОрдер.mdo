@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f0f069a-5370-4494-917d-7f966787013a">
+  <producedTypes>
+    <refType typeId="18203f72-bb34-4467-8027-7711d358439c" valueTypeId="35ca764d-06b4-4da0-9b0c-26e264268b25"/>
+    <listType typeId="8f0f069a-5370-4494-917d-7f966787013a" valueTypeId="8f0f069a-5370-f494-917d-7f966787013a"/>
+    <managerType typeId="48cd085e-b18d-4005-869c-23d232b9829e" valueTypeId="2ead4de6-55e2-46b3-ad46-22c812a2f03c"/>
+  </producedTypes>
+  <name>ВидыОперацийРасходныйОрдер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций документа &quot;Расходный ордер&quot;</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="72523115-8409-4062-9485-3331e79edade">
+    <name>ВозвратПоПриходномуОрдеру</name>
+    <synonym>
+      <key>ru</key>
+      <value>возврат по приходному ордеру</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="46da2e5b-dcf4-45a6-9ed5-79d0d3620933">
+    <name>РасходПоНакладной</name>
+    <synonym>
+      <key>ru</key>
+      <value>расход по накладной</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d5a5cc9d-fad5-4138-a491-76a264299db6">
+    <name>ВозвратПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>возврат поставщику</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="02e3c19d-2fe6-4390-8dc0-394fd0223ad1">
+    <name>Перемещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>перемещение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

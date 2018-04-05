@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff1ce706-d324-4463-8a63-a206cd6d8ff1">
+  <name>ПиктограммаФайла_BAT</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пиктограмма файла BAT</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>14</x>
+  </transparentPixel>
+</mdclass:CommonPicture>

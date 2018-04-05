@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78f629f3-05ad-4570-b222-3e3c376b18a8">
+  <producedTypes>
+    <objectType typeId="ce7d8190-cb9e-4c50-b91f-b8c33bb3e3d0" valueTypeId="b84ff496-c31b-4fe3-8eb1-f218f4d9d115"/>
+    <managerType typeId="307274e2-d6f6-46ed-81ad-4f0108c6df68" valueTypeId="453e5c6c-a3a0-4010-9140-cfacfef3e5a1"/>
+  </producedTypes>
+  <name>ЖурналУчетаСчетовФактур1137</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал учета счетов-фактур по Постановлению № 1137</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.ЖурналУчетаСчетовФактур1137.Form.ФормаОтчета</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="210a3fd2-74d1-44b7-94cc-e0973d347589">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="35c470c9-ff6a-4c91-ae9c-33cde2d3cbf8">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="02db30da-0728-477e-aa7a-6061b41d4f41">
+    <name>ГруппироватьПоКонтрагентам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группировать по контрагентам</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5d0400e5-c36e-41a9-bd24-f5967792f095">
+    <name>КонтрагентДляОтбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент для отбора</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="20fc19c6-eb73-431a-bfad-d1e98a0623ca">
+    <name>ОтбиратьПоКонтрагенту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбирать по контрагенту</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1e6725d0-3316-4e23-aecd-10f6c0703c4c">
+    <name>СформироватьОтчетПоСтандартнойФорме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сформировать отчет по стандартной форме</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="54d58023-2519-4a2f-9e2b-3f51a8264c70">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="11916124-ff06-4883-9229-8896263fae5e">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="41a1f91d-0d03-4f40-9073-1be1f5e0f10f">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Report>

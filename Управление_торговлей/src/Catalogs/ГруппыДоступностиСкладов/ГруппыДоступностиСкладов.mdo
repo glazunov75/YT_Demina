@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1444b431-e9ec-4f67-aeca-27294d8c7588">
+  <producedTypes>
+    <objectType typeId="a5fe5aff-0dd3-422c-b64f-535a087f0c97" valueTypeId="52a14d9b-6f7f-4b6d-a460-8bbc78060d7c"/>
+    <refType typeId="7e616a73-29e6-4c4b-ada8-039629b2f628" valueTypeId="dddf8d57-9b8c-49d0-933b-1548ca9f45f2"/>
+    <selectionType typeId="c1114ff0-3ebc-4d67-b28b-dadadf3cd6e3" valueTypeId="326364b2-cbd8-4a76-b243-713886abc49b"/>
+    <listType typeId="9b5b1f94-f0bd-4fbc-a268-497550eb1549" valueTypeId="50fa0e56-2c3a-46a2-8f70-aea1917a7ede"/>
+    <managerType typeId="d76afb93-42b4-4dea-8081-062dfe6723df" valueTypeId="659288e2-8792-4e8b-845e-690e2482262c"/>
+  </producedTypes>
+  <name>ГруппыДоступностиСкладов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы доступности складов</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>Catalog.ГруппыДоступностиСкладов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ГруппыДоступностиСкладов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ГруппыДоступностиСкладов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ГруппыДоступностиСкладов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ГруппыДоступностиСкладов.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="0e6db3e2-337d-4a3d-be04-2fbb553e3b5e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a2d3e3e9-afdd-4f71-ac3d-fe9ea18a38c9">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="184ea94c-2ad9-4f03-b6de-d098f15b0c8e">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4cf6ec10-e30f-4a91-bca2-c63df4124c9c">
+  <producedTypes>
+    <objectType typeId="53374c8d-e1ea-4b7b-9c4f-e3cebeaed0b2" valueTypeId="9d8c631f-a24f-4284-af2c-c544d4a87595"/>
+    <managerType typeId="09a8ac4f-e0fe-4ed7-bb80-7553522c4feb" valueTypeId="2b6347b5-f106-432e-8c75-e360417fdef2"/>
+  </producedTypes>
+  <name>УдалениеПисемЭлектроннойПочты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удаление писем электронной почты</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.УдалениеПисемЭлектроннойПочты.Form.Форма</defaultForm>
+  <attributes uuid="3cafd04e-7379-41e4-8f0a-04e5cd282c22">
+    <name>УчетнаяЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="b38841bb-c6c5-4aea-a250-7a7c014b6929">
+    <producedTypes>
+      <objectType typeId="3169b21d-c81c-42ab-a435-e487121c4447" valueTypeId="5f764392-45ab-412e-84c2-83ec4910c6b4"/>
+      <rowType typeId="88a527af-d877-477d-a64a-f6de88b28635" valueTypeId="422d41db-0823-4bdd-937b-643bdee3ce47"/>
+    </producedTypes>
+    <name>ОбъектыДляУдаления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объекты для удаления</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="8fd6f385-7a40-4f64-87e6-b511ca807aae">
+      <name>Использование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Использование</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="94f48359-5da8-45a2-8237-a272ebfcd734">
+      <name>ДатаСоздания</name>
+      <synonym>
+        <key>ru</key>
+        <value>ДатаСоздания</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7fa89051-be23-4c97-b4a1-07fb1e9e8cb8">
+      <name>ДатаОтправленияПолучения</name>
+      <synonym>
+        <key>ru</key>
+        <value>ДатаОтправленияПолучения</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="81275d1f-b632-42ff-9424-38a70157c6fb">
+      <name>Получатели</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получатели</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="a0acc745-157a-4f86-a577-4e476eed36e5">
+      <name>Отправитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отправитель</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="a7dbab80-8334-4d8f-8113-5dc066daeb46">
+      <name>ЭлектронноеПисьмо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Электронное письмо</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>DocumentRef.ЭлектронноеПисьмо</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e4220920-0fc9-441b-820c-a9ba6327207a">
+      <name>НеРассмотрено</name>
+      <synonym>
+        <key>ru</key>
+        <value>Не рассмотрено</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d8c95401-a0c8-413a-bd80-1cc76a305866">
+      <name>СтатусПисьма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус письма</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef.СтатусыПисем</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c49c3608-d64c-4218-9b2e-340c0c462f90">
+      <name>СостояниеПотомкаПисьма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Состояние потомка письма</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef.СостоянияПотомковЭлектронныхПисем</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4fa763e7-7fee-4b31-a65a-b1c987ea62ce">
+      <name>ДатаТранспорта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата транспорта</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="45296f00-0a1e-4fa0-8044-0b828d5fca8b">
+      <name>ДатаОтправления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата отправления</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="14adfbff-e6ef-46cb-bca9-4abc41dd6491">
+    <producedTypes>
+      <objectType typeId="a00fe3dd-8520-462e-b04e-c8aa431bfe51" valueTypeId="bcc66b5a-6d5c-4e7b-a3ea-7fbd5073c191"/>
+      <rowType typeId="1420d1b1-c1d6-4fe2-b720-dba82de65103" valueTypeId="356ee1a6-725b-4542-978b-441bf05521d1"/>
+    </producedTypes>
+    <name>НайденныеСсылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Найденные ссылки</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="213dedb1-6ed9-44d5-aab1-4bb34f98b20a">
+      <name>ПометкаУдаления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка удаления</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="362ecd5a-e9e1-496e-bad9-6ef478cb530b">
+      <name>Данные</name>
+      <synonym>
+        <key>ru</key>
+        <value>Данные</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>AnyRef</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a63bf559-f457-4ecd-a2dd-983aa2ece636">
+      <name>Ссылка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ссылка</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>DocumentRef.ЭлектронноеПисьмо</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="edbcc3a6-9b5d-4fe8-b16a-7390813f4db5">
+      <name>Метаданные</name>
+      <synonym>
+        <key>ru</key>
+        <value>Метаданные</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="7156c45a-b8c8-4956-b35e-147852ce2a9a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

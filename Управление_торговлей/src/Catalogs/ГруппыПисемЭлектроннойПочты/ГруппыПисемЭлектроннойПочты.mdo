@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea39ca88-41d6-47c9-91de-9e88ad3e0396">
+  <producedTypes>
+    <objectType typeId="6e06c569-008f-43c8-a64d-0ab7bb390479" valueTypeId="fbd7039a-ee87-47e4-913b-1f02c302ff27"/>
+    <refType typeId="1f487bd0-6be3-4aab-83ee-39bd32507cd9" valueTypeId="35846dc3-6827-4abe-bf30-1a92c83bfdee"/>
+    <selectionType typeId="80fcc557-3042-4021-8ad0-dc9fdcc2a09b" valueTypeId="75bd8c55-ce44-4cca-81ab-b84c6464b2d9"/>
+    <listType typeId="32aaaa3c-c464-45bb-8d12-7d1816a53758" valueTypeId="a3187484-8fdf-40be-a646-27ea155b5f87"/>
+    <managerType typeId="beb39d07-cdc9-4469-bf70-b1ed12be575e" valueTypeId="052d5118-13ec-4fa4-8e46-c7701a83c97e"/>
+  </producedTypes>
+  <name>ГруппыПисемЭлектроннойПочты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы писем электронной почты</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>Catalog.ГруппыПисемЭлектроннойПочты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ГруппыПисемЭлектроннойПочты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.УчетныеЗаписиЭлектроннойПочты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ГруппыПисемЭлектроннойПочты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ГруппыПисемЭлектроннойПочты.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ГруппыПисемЭлектроннойПочты.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="72f879e0-372d-4c36-b520-0b2b6a012d14">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="8cf87ff3-9f9b-40c0-98fd-054f27f0a8f6">
+    <name>ИспользоватьПредметыПисем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать предметы писем</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="3f327f60-64d5-4d49-b2a3-9a8d2a599d6e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="19e7c3ad-4e26-4fac-85c3-2c14c606b755">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f01fb345-4cf1-4615-aa3e-568a2c0aea47">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

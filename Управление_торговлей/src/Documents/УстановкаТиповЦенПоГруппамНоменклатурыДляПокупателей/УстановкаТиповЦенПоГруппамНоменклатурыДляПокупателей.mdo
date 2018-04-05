@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12589b3e-f04b-44ce-8fd1-ee66078cb910">
+  <producedTypes>
+    <objectType typeId="c4b113a4-f296-4a85-9620-5f212ee04bd3" valueTypeId="d732c968-c15c-4440-a8c6-3c54a3ea1753"/>
+    <refType typeId="413a791b-ef77-417d-8533-e42d9c273b25" valueTypeId="dfb14a0b-f544-42c9-b48c-a59e456b498f"/>
+    <selectionType typeId="a53ba859-4210-4519-8980-b263b767a183" valueTypeId="70cbde11-f6bb-4133-97c2-4cdd3eed3472"/>
+    <listType typeId="644091fe-5d44-449d-a016-c34c2bb007a2" valueTypeId="27f3e5db-0cb1-42b9-879b-fa89f344c97d"/>
+    <managerType typeId="b71d19d0-63a2-4ca0-9ff6-2059cf9677ad" valueTypeId="eec31b90-c861-4bc1-bc00-60c091343d75"/>
+  </producedTypes>
+  <name>УстановкаТиповЦенПоГруппамНоменклатурыДляПокупателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка типов цен по группам номенклатуры для покупателей</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <inputByString>Document.УстановкаТиповЦенПоГруппамНоменклатурыДляПокупателей.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УстановкаТиповЦенПоГруппамНоменклатурыДляПокупателей.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.УстановкаТиповЦенПоГруппамНоменклатурыДляПокупателей.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.УстановкаТиповЦенПоГруппамНоменклатурыДляПокупателей.Form.ФормаВыбора</defaultChoiceForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <registerRecords>InformationRegister.ТипыЦенПоГруппамНоменклатурыДляПокупателей</registerRecords>
+  <attributes uuid="26e00411-bfff-4f24-9480-ce72680fd7f7">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="e4a338d5-658c-408c-a74f-e24f2a91e3a3">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="2556c9b1-5125-4f15-b868-dd92d273c82b">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="59e96862-a3a3-44c4-9616-3ad77b0254b2">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="79940858-6b52-4558-b0a1-1afc6cba00b8">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="9c53cb9a-2bec-48dd-9bca-6db2ddd1b20a">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ВидыОперацийУстановкаТиповЦенПоГруппамНоменклатурыДляПокупателей</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="435c0f84-26ea-46d6-9ff2-29b489d5517d">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f9a5ca69-9a88-450a-a3a0-ab7c4e07fcb8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9402927e-b4f3-438d-9054-197bb6199f31">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="4760170f-b3a7-481b-a0fb-7f57d208f78f">
+    <producedTypes>
+      <objectType typeId="e4265d84-df6e-4b0f-a7be-11e596035a80" valueTypeId="f366959a-fe9a-41af-a712-a109a4131749"/>
+      <rowType typeId="36ffcd85-525d-4802-a688-678c1e09e97b" valueTypeId="1250a75c-94ac-49a8-b2ee-2a4c09d61cbc"/>
+    </producedTypes>
+    <name>НоменклатурныеЦеновыеГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатурные или ценовые группы</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="fbafb2eb-065a-4aac-bf67-a819060f6649">
+      <name>НоменклатурнаяЦеноваяГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатурная или ценовая группа</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЦеновыеГруппы</types>
+        <types>CatalogRef.НоменклатурныеГруппы</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bef2323c-8d7f-4e44-91eb-6afe13205b81">
+      <name>ТипЦен</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип цен</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ТипыЦенНоменклатуры</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

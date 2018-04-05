@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be197833-42a9-4275-93fb-1ef556ef6013">
+  <producedTypes>
+    <refType typeId="193665ac-76c0-46b0-bf04-b7604ce4834e" valueTypeId="7dcc00d2-303a-4063-9232-f7c93fab1aa0"/>
+    <listType typeId="717d658f-63fd-435a-982d-9ed3599f09e3" valueTypeId="55eb30cc-9f33-4828-b30c-1cd63ff40081"/>
+    <managerType typeId="a7eaf44e-3806-482e-a36a-f1695482076a" valueTypeId="b3473bed-72ff-4037-93ef-a4c40b4de032"/>
+  </producedTypes>
+  <name>ПараметрыРаспределенияПокупателейПоСтадиямВзаимоотношений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры распределения покупателей по стадиям взаимоотношений</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1d7d3c8d-3f62-4f59-b540-f5690cbb8b11">
+    <name>СуммаВыручки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма выручки</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="5326a873-7d5e-45e6-b449-d4a8e462d88b">
+    <name>СуммаВаловойПрибыли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма валовой прибыли</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="de0d518e-6695-47d2-9c52-ed891db3e977">
+    <name>КоличествоПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество продаж</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ff7fe71b-2036-4384-9c38-2fd3d113598c">
+    <name>КоличествоПроданныхТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество проданных товаров</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="bb15475c-7bc1-4c9c-8b79-2292ce2af9ab">
+    <name>ИнтервалыМеждуРасходнымиДокументами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервалы между расходными документами</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

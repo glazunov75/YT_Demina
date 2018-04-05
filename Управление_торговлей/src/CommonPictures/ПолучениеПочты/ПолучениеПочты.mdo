@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2bd09bde-9f3d-4810-a625-5c46b82f7d58">
+  <name>ПолучениеПочты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение почты</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>2</x>
+    <y>2</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

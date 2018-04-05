@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce687d3d-c1c9-44b5-aec6-f1a35eb97589">
+  <producedTypes>
+    <refType typeId="628c1026-19d0-4dd4-8058-6df5a6a5f198" valueTypeId="7063c225-e9e8-44c8-a48d-08e34cee220b"/>
+    <listType typeId="7bd0a9bd-2a0a-4685-921b-df568c8613a2" valueTypeId="5734fee7-a03b-41a2-943a-62ad45120a7e"/>
+    <managerType typeId="8e3a45d1-e744-44af-ab12-2e74aeeb049e" valueTypeId="bd18ff5e-b3b5-40c5-822f-74f78d35b437"/>
+  </producedTypes>
+  <name>ЧастиЖурналаУчетаСчетовФактур</name>
+  <synonym>
+    <key>ru</key>
+    <value>Части журнала учета счетов-фактур</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7c5e4bac-8c48-495f-a0a9-65423d806ea5">
+    <name>ПолученныеСчетаФактуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полученные счета-фактуры</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="75566aa0-3b7e-4c48-b475-a8db32806462">
+    <name>ВыставленныеСчетаФактуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выставленные счета-фактуры</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

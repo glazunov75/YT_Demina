@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c00c4d89-baf9-43d0-bed6-faaf190bff0e">
+  <producedTypes>
+    <refType typeId="6642fe3e-fb38-4ac9-850f-70341761d229" valueTypeId="875cb8ab-78a9-413c-9176-105fc0b606bf"/>
+    <listType typeId="45a7e658-d63a-46ae-a31f-ae4b2b968e0b" valueTypeId="ee8b3f0c-f323-44b7-a5f9-9444acd0618a"/>
+    <managerType typeId="cfcbecfb-ebc7-4cc8-bf9f-12ac7333b98a" valueTypeId="d084e183-fc28-4e61-a092-bd8d0bb99fb9"/>
+  </producedTypes>
+  <name>ВидПриемаРозничнойВыручки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид приема розничной выручки</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f974030f-71c1-4c02-a6b8-35b71c55c04b">
+    <name>ИзКассы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Из кассы</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f5839a2f-1bd6-4428-807b-764818004178">
+    <name>ИзНТТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Из НТТ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

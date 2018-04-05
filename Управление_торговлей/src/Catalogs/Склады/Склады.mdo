@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c99983ef-6d61-4309-8c45-0ca81be73a41">
+  <producedTypes>
+    <objectType typeId="850dd2ba-f7e4-494c-a8de-825f705a2f8f" valueTypeId="b3bf4901-2235-4b27-9b57-f94182cc3b18"/>
+    <refType typeId="6896b257-d719-4862-b17d-45711cc3c5d0" valueTypeId="ceff17aa-3d35-497d-b7f5-5fe4baf01672"/>
+    <selectionType typeId="0ba7d4fd-25f1-4fd6-8ebf-6b5f02b5e1fc" valueTypeId="a1a10fb1-e01e-4dfe-a456-fef2268041c3"/>
+    <listType typeId="31f19acc-e610-499b-b340-ee0c55c72247" valueTypeId="5fbaf25d-4154-4d38-b373-5b32386be45d"/>
+    <managerType typeId="9bb9ee6e-78cc-428f-86b2-53af0af8a9e1" valueTypeId="3b22e4ef-39e9-47fe-8911-e0bbfc91d9c5"/>
+  </producedTypes>
+  <name>Склады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склады (места хранения)</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <inputByString>Catalog.Склады.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Склады.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Склады.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.Склады.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.Склады.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Склады.Form.ФормаВыбора</defaultChoiceForm>
+  <defaultFolderChoiceForm>Catalog.Склады.Form.ФормаВыбораГруппы</defaultFolderChoiceForm>
+  <attributes uuid="159e4a1a-7442-40c8-916d-7bdffcfa2c9a">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment>(Общ) Любая дополнительная информация</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="2e10d59d-62a9-4409-b9b9-d5a7aa645a85">
+    <name>ТипЦенРозничнойТорговли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип цен розничной торговли</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.ТипыЦенНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="6984b223-cf70-4431-a245-e73cbb86b4ea">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <comment>(Упр)</comment>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="e91f147c-79e3-40f3-b3ff-5938d30e2df7">
+    <name>ВидСклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид склада</value>
+    </synonym>
+    <comment>(Общ) Вид склада: оптовый, розничный, НТТ</comment>
+    <type>
+      <types>EnumRef.ВидыСкладов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="89e86829-f0f8-4d6b-b777-81744a615dea">
+    <name>НомерСекции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер секции</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="fc13a25a-a9a4-49d5-9cda-be27d961a922">
+    <name>РасчетРозничныхЦенПоТорговойНаценке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет розничных цен по торговой наценке</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="1a226347-0b3b-422c-9e9a-3b5c4e08ae88">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c40e7846-0d35-416d-a9d2-0813582c0b4f">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3fe9c6d1-f76a-4bfe-afb5-05adcdc2e54d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5228d8e3-6251-42e5-999e-3ad2b4e92c56">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1b9b6fad-fc56-4894-8139-87099001c185">
+    <name>ФормаВыбораГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

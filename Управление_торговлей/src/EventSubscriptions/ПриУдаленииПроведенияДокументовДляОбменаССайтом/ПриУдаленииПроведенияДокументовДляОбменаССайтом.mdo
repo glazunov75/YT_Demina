@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4992de6e-94d3-4048-ac11-16ee029f5d8c">
+  <name>ПриУдаленииПроведенияДокументовДляОбменаССайтом</name>
+  <synonym>
+    <key>ru</key>
+    <value>При удалении проведения документов для обмена с сайтом</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>DocumentObject.ЗаказПокупателя</types>
+    <types>DocumentObject.ПеремещениеТоваров</types>
+    <types>DocumentObject.КорректировкаВнутреннегоЗаказа</types>
+    <types>DocumentObject.ПоступлениеТоваровУслугВНТТ</types>
+    <types>DocumentObject.РеализацияТоваровУслуг</types>
+    <types>DocumentObject.ВозвратТоваровОтПокупателя</types>
+    <types>DocumentObject.ВозвратТоваровПоставщику</types>
+    <types>DocumentObject.КорректировкаКачестваТоваров</types>
+    <types>DocumentObject.КорректировкаЗаказаПокупателя</types>
+    <types>DocumentObject.ПоступлениеТоваровУслуг</types>
+    <types>DocumentObject.ВозвратТоваровПоставщикуИзНТТ</types>
+    <types>DocumentObject.ЗакрытиеВнутреннихЗаказов</types>
+    <types>DocumentObject.КомплектацияНоменклатуры</types>
+    <types>DocumentObject.ОприходованиеТоваров</types>
+    <types>DocumentObject.ТребованиеНакладная</types>
+    <types>DocumentObject.КорректировкаЗаписейРегистров</types>
+    <types>DocumentObject.ВнутреннийЗаказ</types>
+    <types>DocumentObject.ЧекККМ</types>
+    <types>DocumentObject.ОтчетОРозничныхПродажах</types>
+    <types>DocumentObject.АвансовыйОтчет</types>
+    <types>DocumentObject.РезервированиеТоваров</types>
+    <types>DocumentObject.КорректировкаСерийИХарактеристикТоваров</types>
+    <types>DocumentObject.СписаниеТоваров</types>
+    <types>DocumentObject.ЗакрытиеЗаказовПокупателей</types>
+    <types>DocumentObject.РасходныйОрдерНаТовары</types>
+    <types>DocumentObject.ПриходныйОрдерНаТовары</types>
+    <types>DocumentObject.УстановкаЦенНоменклатуры</types>
+  </source>
+  <event>UndoPosting</event>
+  <handler>CommonModule.ПроцедурыОбменаССайтом.ПриУдаленииПроведенияДокументовДляОбменаССайтомОбработкаУдаленияПроведения</handler>
+</mdclass:EventSubscription>

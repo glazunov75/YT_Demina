@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="469af4ea-37ed-4abe-8216-876997a015ed">
+  <producedTypes>
+    <objectType typeId="b6a36be0-d97a-4fac-9921-58d95f62a82d" valueTypeId="518daf79-b38d-4d95-bb3d-1d8119faf161"/>
+    <refType typeId="3433241d-9150-4a35-a4b7-9e6833dd3763" valueTypeId="aee828c4-ace3-44c2-862e-d90ecf03d82c"/>
+    <selectionType typeId="74add3bb-cfce-4aa3-b996-a0cd2c985aef" valueTypeId="42bc5a9a-47a5-4a83-abcc-36197d847e63"/>
+    <listType typeId="33f6bc5d-05ed-45f5-900a-be2f86a0fe5e" valueTypeId="7bdb3d49-225a-4ded-8772-fe0db1f7473a"/>
+    <managerType typeId="b67f5c9b-7d57-4cd9-a8b0-2855f4833c1c" valueTypeId="e7e56eb6-1b5c-4b98-8ea5-ca9539719610"/>
+  </producedTypes>
+  <name>ИсточникиИнформацииПриОбращенииПокупателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники информации при обращении покупателей</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <inputByString>Catalog.ИсточникиИнформацииПриОбращенииПокупателей.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ИсточникиИнформацииПриОбращенииПокупателей.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ИсточникиИнформацииПриОбращенииПокупателей.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ИсточникиИнформацииПриОбращенииПокупателей.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="d071d444-f791-4fd2-825d-999d58dc29a7">
+    <name>ПериодАктуальностиИнформацииПослеСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период актуальности информации после события</value>
+    </synonym>
+    <comment>в днях</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="828cd353-d35d-4510-a807-095376cf57bd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3af53877-97f9-4123-a2ae-165df9ced0a5">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

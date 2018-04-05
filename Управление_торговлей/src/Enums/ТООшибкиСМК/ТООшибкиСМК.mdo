@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36750230-6baf-44a4-96b0-a8cec574605a">
+  <producedTypes>
+    <refType typeId="4e982cd0-7250-4aa2-ac79-364f2f12a9fc" valueTypeId="c8443856-31d5-409d-82d3-4f6c4e836735"/>
+    <listType typeId="c219b193-1148-46ae-b2b5-7df763901dfe" valueTypeId="f210541c-e21f-4418-8230-0a005d90e9e1"/>
+    <managerType typeId="73cc53c6-c336-4680-b44a-f6caf539e6a9" valueTypeId="f7990115-ea8f-41d5-97aa-ae768e550b53"/>
+  </producedTypes>
+  <name>ТООшибкиСМК</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТООшибки СМК</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="357f5ab4-a593-4a5f-ae97-ea27f2af58d0">
+    <name>ОшибкаНеизвестнаяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Считанная карта не может быть обработана</value>
+    </synonym>
+    <comment>Необходимо убедиться, что данная карта зарегистрирована в информационной базе и может быть обработана в данной форме.</comment>
+  </enumValues>
+</mdclass:Enum>

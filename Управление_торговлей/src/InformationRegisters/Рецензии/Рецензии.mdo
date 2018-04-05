@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09d3bc4d-170e-414d-860e-3a92f551f90a">
+  <producedTypes>
+    <selectionType typeId="d4a38868-2b0c-4bb7-a5c3-5fd50780774c" valueTypeId="c450dd91-40f7-4f82-8c80-b69486895448"/>
+    <listType typeId="f78def7b-b0e7-4040-9c40-89439503efe9" valueTypeId="cf41cb89-291d-4148-9509-1204dd868f0a"/>
+    <managerType typeId="127f989f-40e9-4b36-8707-f9ce3cd73ea2" valueTypeId="0b668af9-6a27-42d0-be83-786aaa1a0473"/>
+    <recordSetType typeId="71380ced-89f5-4374-b861-d7e6514369b0" valueTypeId="39672556-3f92-4452-89a0-af216671013c"/>
+    <recordKeyType typeId="70f7fbdc-0383-4fec-b430-4fbc0c5056cc" valueTypeId="2a4b60db-99a0-41c7-bffe-41798c88fd79"/>
+    <recordType typeId="be620cb8-3326-45be-81be-c3fc5320a65a" valueTypeId="91a4cc11-623c-40cf-a043-6476a65324fb"/>
+    <recordManagerType typeId="b0df4ab5-3007-4c19-b593-69f4fd020803" valueTypeId="c5f1ca92-3820-4ffe-a21f-81e40e785ca5"/>
+  </producedTypes>
+  <name>Рецензии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рецензии</value>
+  </synonym>
+  <comment></comment>
+  <defaultListForm>InformationRegister.Рецензии.Form.ФормаСписка</defaultListForm>
+  <resources uuid="cf7918ee-e556-4c9e-a0b5-0263c5b3eb03">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.РезультатыБизнесПроцессаСогласование</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="dded5284-b467-4c85-abe0-5901d0c0780b">
+    <name>Рецензия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рецензия</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>400</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a6cd0eb9-7983-4861-af79-ec6981313624">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>TaskRef.ЗадачиПользователя</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6a982759-8296-4a07-a321-eda772704a1e">
+    <name>БизнесПроцесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес процесс</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>BusinessProcessRef.СогласованиеЗаказаПокупателя</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a16e3713-fa0b-47a8-9945-06861b132dc6">
+    <name>ТочкаМаршрута</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка маршрута</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>BusinessProcessRoutePointRef.СогласованиеЗаказаПокупателя</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c283ef7b-5e19-4524-8555-4101d08f8ce1">
+    <name>НомерЦикла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер цикла</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="408034a5-14ea-4dc8-9ddd-cc81e540df9f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

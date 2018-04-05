@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dafd6eaf-2ea2-49d2-91a3-6a581987cd6a">
+  <producedTypes>
+    <selectionType typeId="2d2e57a8-7169-4edb-add4-f513a2b762eb" valueTypeId="ea8acc8f-ce64-49b7-8fcc-7e66ffeefd8d"/>
+    <listType typeId="9ba63892-c512-4913-97f5-9e9164b30ae8" valueTypeId="e36a44b0-bc70-42c0-81b5-bac5ddb599fc"/>
+    <managerType typeId="74081012-3e3b-4c81-b19c-2f453aeb1580" valueTypeId="1ded74b8-8a48-438e-aca1-eeb1e6531970"/>
+    <recordSetType typeId="e76ba86d-5026-41f8-9f5b-f5a095e5909d" valueTypeId="af6de45e-0c26-4cf4-b7e7-802254a74415"/>
+    <recordKeyType typeId="ebf7c2bc-b1d3-4c06-ad69-00e4f7b8c819" valueTypeId="1c22d428-79f6-4964-93c3-40c6d739cf63"/>
+    <recordType typeId="08dcda4b-7937-4cfd-8ea8-b9376bd8a14b" valueTypeId="a59a80d4-714d-4385-af56-fdd1673270b9"/>
+    <recordManagerType typeId="edef43e2-8bb2-4106-aae4-989008079da1" valueTypeId="c5ea6ba3-2169-44f5-a6ff-8dafc9934adb"/>
+  </producedTypes>
+  <name>СоставГруппРассылкиЭлектроннойПочты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав групп рассылки электронной почты</value>
+  </synonym>
+  <comment></comment>
+  <defaultListForm>InformationRegister.СоставГруппРассылкиЭлектроннойПочты.Form.ФормаСписка</defaultListForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dimensions uuid="77e7ac43-10fb-448f-b668-e6c53e182ae3">
+    <name>ГруппаРассылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа рассылки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ГруппыПочтовойРассылки</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4d45827f-321c-4600-8c32-cbec94e41075">
+    <name>ОбъектРассылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект рассылки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.Контрагенты</types>
+      <types>CatalogRef.КонтактныеЛица</types>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="36bb45a9-7826-477c-8cbb-7f3cd71fee7e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

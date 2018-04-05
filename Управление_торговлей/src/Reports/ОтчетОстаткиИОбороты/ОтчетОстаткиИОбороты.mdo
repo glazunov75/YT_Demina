@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a041a6f-e14a-4625-9422-f1a2160bcaeb">
+  <producedTypes>
+    <objectType typeId="e1b13e83-3d63-4513-9e7b-3eaeb027af64" valueTypeId="589c953c-215a-4a44-afc9-90d6632e738a"/>
+    <managerType typeId="cd9685ae-14bf-4ea2-800e-20016a4367b4" valueTypeId="8ab3720d-27f4-4729-967d-d6c069941c8d"/>
+  </producedTypes>
+  <name>ОтчетОстаткиИОбороты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки и обороты</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.ОтчетОстаткиИОбороты.Form.ФормаОсновная</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="a45f68aa-1ce6-4fde-947a-3e5c407a9cc7">
+    <name>ИмяРегистра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя регистра</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b46c8450-cc7a-45ec-94b1-12f3adaf13ab">
+    <name>ДатаНач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата Нач</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f7b07902-7470-48d4-8a37-79988587602e">
+    <name>ДатаКон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата Кон</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b7828f49-2d40-4e21-867c-930ffffc3cc3">
+    <name>ПостроительОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Построитель отчета</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportBuilder</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d6b6a39e-7ea5-4eee-bb55-e6d56a811048">
+    <name>ИспользоватьСвойстваИКатегории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать свойства и категории</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8222b624-1522-47b6-922f-34ccd1b2f6ec">
+    <name>СохраненныеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохраненные настройки</value>
+    </synonym>
+    <comment></comment>
+    <type/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9f957e08-37e9-4b44-8162-fc6904b0465d">
+    <name>РаскрашиватьИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раскрашивать измерения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9c05d73f-d500-4aac-bc44-c4b6b5e290df">
+    <name>ВыводитьПоказателиВСтроку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить показатели в строку</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2772d78d-f5bc-4028-98ed-e22f857aca2d">
+    <name>ВыводитьДополнительныеПоляВОтдельнойКолонке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить дополнительные поля в отдельной колонке</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a1a54d83-440d-4234-8c87-5b14e3c59fba">
+    <name>ВыводитьИтогиПоВсемУровням</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить итоги по всем уровням</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="862537a1-7c68-4ae2-84c7-2c4e22eaa88d">
+    <name>ПоказыватьЗаголовок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать заголовок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="e01baaac-532e-40e0-b8af-bf9e55819421">
+    <producedTypes>
+      <objectType typeId="ae2f4a8f-97da-4f6a-bf3d-699d4a0e7f87" valueTypeId="bf700cb5-f2a9-4a2b-b55a-18173001be86"/>
+      <rowType typeId="bb0fcb6c-2206-43e8-a1e1-abde8834ceb6" valueTypeId="0e725d8c-8fc3-4eab-a1cb-afda4cec5c64"/>
+    </producedTypes>
+    <name>Показатели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатели</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="1537422a-3b8e-4097-bcd9-b9703b5d4a87">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ac3c4199-0d82-43f0-9f19-60e70d4811de">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="df6b1d16-1f27-4490-9b60-c0a3a9a9ef88">
+      <name>Использование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Использование</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="9c86004a-4000-4200-a3b3-49028716745c">
+    <name>ФормаНастройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c1944073-36a5-403a-a7c3-c44d81c9defc">
+    <name>ФормаОсновная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма основная</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="f7fce763-f174-4567-9114-13ff6264b7d3">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Report>

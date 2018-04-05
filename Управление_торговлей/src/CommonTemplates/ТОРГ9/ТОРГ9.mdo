@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ee3f870-cc19-41b0-bcdb-3ea69ca08ac0">
+  <name>ТОРГ9</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТОРГ-9</value>
+  </synonym>
+  <comment>Упаковочный ярлык (унифицированная форма ТОРГ-9)</comment>
+</mdclass:CommonTemplate>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37221900-1fef-49b1-b504-3d52c2fc0699">
+  <producedTypes>
+    <refType typeId="f850a3c2-a7a6-4e12-a8f1-034e91217abf" valueTypeId="f4387274-754b-44fd-a3b0-f7ca75731f9d"/>
+    <listType typeId="37221900-1fef-49b1-b504-3d52c2fc0699" valueTypeId="37221900-1fef-f9b1-b504-3d52c2fc0699"/>
+    <managerType typeId="af244c4e-2e19-4f45-8ebd-55a032e22e8d" valueTypeId="c4940d38-6dfb-406f-988a-37d236c71337"/>
+  </producedTypes>
+  <name>ВидыСобытий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды событий</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bffe1eb7-df85-4442-a029-82b6c4e69ff9">
+    <name>ТелефонныйЗвонок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефонный звонок</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f1796541-7647-48e4-a106-b5f1ddecba03">
+    <name>ЛичнаяВстреча</name>
+    <synonym>
+      <key>ru</key>
+      <value>Личная встреча</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b93ea7b2-8644-482d-b0a1-415d7304d32f">
+    <name>ЭлектронноеПисьмо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронное письмо</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="eb40c507-794a-49a9-ab46-8adcd733171b">
+    <name>ПочтовоеПисьмо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почтовое письмо</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="6e58cfdc-173f-46c0-b3dc-89b27ea8acf5">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

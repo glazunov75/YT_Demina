@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1cc14942-bd0a-467e-b2c6-9ec1c61b7ec7">
+  <producedTypes>
+    <objectType typeId="80fa434d-1d20-4ba6-8c79-2483f4e72dad" valueTypeId="9106c1c7-ad84-4fc2-8350-2b7db6060526"/>
+    <managerType typeId="b5061072-0d1c-4631-bd59-53b27c85d99b" valueTypeId="9c48968a-53a1-4c84-85b9-2c9e1e3a4ce5"/>
+  </producedTypes>
+  <name>ПанельФункций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель функций</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ПанельФункций.Form.ПанельФункций</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="9b8d2a28-0a9f-48f2-8d92-dc5f15156d67">
+    <name>Справка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ee874ccd-02ce-4890-b50e-aef640c35201">
+    <name>ПанельФункций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Панель функций</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="468fc2be-cecd-4053-be89-c0d7ba8aacfa">
+    <name>НачалоРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало работы</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="470e37d5-41bb-4512-bd54-dc71e2e38368">
+    <name>Ценообразование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ценообразование</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="33a27f58-d047-432b-a562-98fe61fc5b03">
+    <name>Закупки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закупки</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cb5ff3be-cd5f-45ec-8643-e7464b7b4e53">
+    <name>Поступление_комиссия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление комиссия</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="24fb9ae7-f324-48cd-8f51-dd2020508872">
+    <name>Заказы_поставщикам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказы поставщикам</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7c1e8046-d146-45ef-a7f9-5b05831647fd">
+    <name>Управление_продажами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление продажами</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3d9bac61-9ec9-41d8-a124-90acdc4ea8d0">
+    <name>Передача_комиссия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передача комиссия</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7583f788-5540-47ff-90d3-abc2be395a6c">
+    <name>Заказы_покупателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказы покупателей</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3f779faa-e8df-4aaa-af74-18f02b281da3">
+    <name>Розница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Розница</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="98077e32-6a18-48d4-b305-ce73618e3e63">
+    <name>Затраты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Затраты</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="909bedcc-05ad-4f3e-9f63-29501c0281fd">
+    <name>Управление_взаимоотношениями</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление взаимоотношениями</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ea79a426-2292-4a8c-af5b-937dceccad6a">
+    <name>Управление_взаиморасчетами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление взаиморасчетами</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="524581be-f742-4bc6-b991-a7f3d091165f">
+    <name>Управление_запасами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление запасами</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5128f7f0-d3c3-40b8-98a7-913776a1a696">
+    <name>Инвентаризация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инвентаризация</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2a4ebd48-6aac-4701-af76-13d336eddee3">
+    <name>Учет_тары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учет возвратной тары</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="87fd5796-e623-4d44-bfe2-06d12b814b1a">
+    <name>Банк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банк</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a9ddf390-aa5d-4581-9582-4d8f5101a4e5">
+    <name>Касса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="daa49821-1d3c-4201-a095-7e6ceda43bde">
+    <name>Планирование_денсредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планирование денсредств</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="010c724d-d5b9-4091-97ef-e3886d51002d">
+    <name>Планирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планирование закупок и продаж</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="053f6183-7b2d-497e-8dd4-65709f95ef6c">
+    <name>Книга_Продаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Книга продаж</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="42796330-702a-427f-a4c1-33512e509da9">
+    <name>Книга_Покупок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Книга покупок</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7ae5a6d0-2951-495d-b54f-1f0cec4e2e16">
+    <name>Анкетирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анкетирование</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dd0a0964-5607-40fe-8e75-ae8299c3f37c">
+    <name>ОбменДанными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен данными</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9e6f6524-150f-4519-a74f-0838254a42aa">
+    <name>Сервисные_возможности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервисные возможности</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a9dc9c1a-f054-4c03-9071-fe3a1bf2b456">
+    <name>Основной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

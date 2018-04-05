@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9355d0e1-3eaa-44eb-8eb6-a6ed4af396c6">
+  <producedTypes>
+    <objectType typeId="3bb8fc23-9455-4081-b77d-96dfd494720a" valueTypeId="d5eb5dcf-7b82-4968-8335-8e644d06ac24"/>
+    <refType typeId="c8379dfe-ee82-4858-ae73-84a19bf30856" valueTypeId="67cffbd8-95eb-4645-9f61-1cf5fcf854f1"/>
+    <selectionType typeId="42d91062-6a70-4766-9af8-fa86de92e7f8" valueTypeId="b3f4820c-a5df-4585-8606-88cc45eda041"/>
+    <listType typeId="88c16a1b-c580-4b81-bfa4-ca90dc9682d9" valueTypeId="af44450a-cbdf-42a3-8872-f18db3ecead1"/>
+    <managerType typeId="f1c8af3d-5a4a-49ca-a7b0-972f9f709e43" valueTypeId="8f96f7ed-706c-4d48-9645-4f576192abdd"/>
+  </producedTypes>
+  <name>СвойстваНоменклатурыЭлектронногоОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства номенклатуры электронного обмена</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>Catalog.СвойстваНоменклатурыЭлектронногоОбмена.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СвойстваНоменклатурыЭлектронногоОбмена.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>40</codeLength>
+  <descriptionLength>80</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="cb06d2f0-815a-4608-98ef-0d33254c73b2">
+      <name>ВесБрутто</name>
+      <description>Вес брутто</description>
+      <code xsi:type="core:StringValue">
+        <value>ВесБрутто                               </value>
+      </code>
+    </items>
+    <items id="c1baac2e-0c00-46e7-bd2d-5faca9823f76">
+      <name>ВесНетто</name>
+      <description>Вес нетто</description>
+      <code xsi:type="core:StringValue">
+        <value>ВесНетто                                </value>
+      </code>
+    </items>
+    <items id="e0df86b7-d97d-4ff2-abf1-abe6c8c811b6">
+      <name>ВысотаСлояТовара</name>
+      <description>Высота слоя товара</description>
+      <code xsi:type="core:StringValue">
+        <value>ВысотаСлояТовара                        </value>
+      </code>
+    </items>
+    <items id="5f1bd0c7-d08d-443c-9c33-eb9905ea5c58">
+      <name>ВысотаТовара</name>
+      <description>Высота товара</description>
+      <code xsi:type="core:StringValue">
+        <value>ВысотаТовара                            </value>
+      </code>
+    </items>
+    <items id="74485c16-4da9-4e17-b15f-a9dfd018b194">
+      <name>ГлубинаТовара</name>
+      <description>Глубина товара</description>
+      <code xsi:type="core:StringValue">
+        <value>ГлубинаТовара                           </value>
+      </code>
+    </items>
+    <items id="fccf28f4-262e-480c-a5bd-29b1633a7110">
+      <name>КоличествоВСлоеНаЕвропалете</name>
+      <description>Количество в слое на европалете</description>
+      <code xsi:type="core:StringValue">
+        <value>КоличествоВСлоеНаЕвропалете             </value>
+      </code>
+    </items>
+    <items id="2cf1779d-311d-4398-849d-0e0442b80644">
+      <name>КоличествоЕдиницОбъектаВерхнегоУровня</name>
+      <description>Количество единиц объекта верхнего уровня</description>
+      <code xsi:type="core:StringValue">
+        <value>КоличествоЕдиницОбъектаВерхнегоУровня   </value>
+      </code>
+    </items>
+    <items id="b615ffb4-6e6b-4284-a962-4ee85dd9b92e">
+      <name>Кратность</name>
+      <description>Кратность</description>
+      <code xsi:type="core:StringValue">
+        <value>Кратность                               </value>
+      </code>
+    </items>
+    <items id="b2c2b601-7522-437a-a47c-61ff987f91d5">
+      <name>МинКоличествоДляЗаказа</name>
+      <description>Мин количество для заказа</description>
+      <code xsi:type="core:StringValue">
+        <value>МинКоличествоДляЗаказа                  </value>
+      </code>
+    </items>
+    <items id="9d0d0de9-41a6-475e-a093-4787f53e9abb">
+      <name>ОбъемТовара</name>
+      <description>Объем товара</description>
+      <code xsi:type="core:StringValue">
+        <value>ОбъемТовара                             </value>
+      </code>
+    </items>
+    <items id="d53a6904-3a7a-4dae-92dc-18a621d8d6b5">
+      <name>ОКВЭД</name>
+      <description>ОКВЭД</description>
+      <code xsi:type="core:StringValue">
+        <value>ОКВЭД                                   </value>
+      </code>
+    </items>
+    <items id="2f4c0eb4-7913-4300-9b81-148ed5cace0b">
+      <name>ОКП</name>
+      <description>ОКП</description>
+      <code xsi:type="core:StringValue">
+        <value>ОКП                                     </value>
+      </code>
+    </items>
+    <items id="ea9a7d11-bfe5-4c81-afb4-9f727b9198ce">
+      <name>Производитель</name>
+      <description>Производитель</description>
+      <code xsi:type="core:StringValue">
+        <value>Производитель                           </value>
+      </code>
+    </items>
+    <items id="11312794-3ac4-4553-85fb-2738a6089163">
+      <name>СрокХранения</name>
+      <description>Срок хранения</description>
+      <code xsi:type="core:StringValue">
+        <value>СрокХранения                            </value>
+      </code>
+    </items>
+    <items id="bd30a8ec-2b60-4f64-8d3f-72b1b57c219c">
+      <name>ТемператураХранения</name>
+      <description>Температура хранения</description>
+      <code xsi:type="core:StringValue">
+        <value>ТемператураХранения                     </value>
+      </code>
+    </items>
+    <items id="0fc397bc-a6f7-42ad-9c8f-5d0aa3102971">
+      <name>ТорговаяМарка</name>
+      <description>Торговая марка</description>
+      <code xsi:type="core:StringValue">
+        <value>ТорговаяМарка                           </value>
+      </code>
+    </items>
+    <items id="1d3bdf97-8a30-4dd1-8773-98444d2769aa">
+      <name>ШиринаТовара</name>
+      <description>Ширина товара</description>
+      <code xsi:type="core:StringValue">
+        <value>ШиринаТовара                            </value>
+      </code>
+    </items>
+  </predefined>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.СвойстваНоменклатурыЭлектронногоОбмена.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="254071c6-09d8-4bec-a61c-e3af8dc1634e">
+    <name>СвойствоНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойство номенклатуры</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.СвойстваОбъектов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="9c9aca53-c959-470d-af00-1cfc613a41ed">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c267e97-c502-4c5e-a32a-ccf971f05aa4">
+  <name>ТерминалСбораДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Терминал сбора данных</value>
+  </synonym>
+  <comment>Изображение терминала сбора данных</comment>
+  <transparentPixel>
+    <y>8</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8879818c-e483-4fd5-a42b-1a216b0af303">
+  <producedTypes>
+    <refType typeId="86965dd0-2afd-4b47-9361-859ab4a647a3" valueTypeId="21c2d067-9561-4b3f-9ca7-8488833dac43"/>
+    <listType typeId="9756832c-435d-4b6e-b191-a8f5b8a061b9" valueTypeId="445c9164-b6f6-4c35-8bd1-eecdc71b002e"/>
+    <managerType typeId="be0b5f31-2d33-460a-a66a-d311f6190336" valueTypeId="ca233f9d-3f81-4f33-9554-54ab3511ad4d"/>
+  </producedTypes>
+  <name>ВидыОперацийИсправленияПоступленияРеализации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций исправления поступления/реализации</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="44bc0499-3ef2-4f28-bd25-9294c1bb688c">
+    <name>ИсправлениеОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исправление в первичных документах</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="11f78a35-cf86-445b-a2f5-007f6d8affae">
+    <name>СогласованноеИзменение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировка по согласованию сторон</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

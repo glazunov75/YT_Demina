@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="660ea9d0-54a7-45fb-87d1-e912af2fb63a">
+  <producedTypes>
+    <selectionType typeId="d4e824ea-181c-4583-ad13-e12b27a869bf" valueTypeId="82e46cdf-8751-41be-9e89-53b010178761"/>
+    <listType typeId="7fc8c8e0-0eac-4bcf-af5b-3fd06627c370" valueTypeId="70ec6a2f-06fa-4a21-868b-a58ad033d458"/>
+    <managerType typeId="5b8f8102-29e4-4200-87f6-a1162f0c1eec" valueTypeId="849f6de3-0d6e-4654-95cc-e4a89e660ee1"/>
+    <recordSetType typeId="7ce8bbde-8f84-491a-bcf2-3a012cf5a2c7" valueTypeId="63d2f059-cfb2-4aa1-99b2-5367209ae031"/>
+    <recordKeyType typeId="0318b4d0-6e82-4aee-9482-14a777ae807b" valueTypeId="5b74066a-0f67-4a01-9f78-7a85cbdc78ae"/>
+    <recordType typeId="2759d296-354e-4b5a-a2fe-0c4dfa61988d" valueTypeId="ff9e8346-b649-46d5-8251-cd9f44d1b7f9"/>
+    <recordManagerType typeId="f8d29809-80ce-4f40-83b3-9fd6c0ff900b" valueTypeId="d3a5fa52-d3ab-4608-98e7-ae3363ee07c5"/>
+  </producedTypes>
+  <name>ИдентификаторыЭлектронногоОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификаторы для электронного обмена</value>
+  </synonym>
+  <comment></comment>
+  <resources uuid="7106a816-4195-4459-adf0-0e12679f5f10">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>80</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="68ed1fce-a0ec-4f21-9d41-c89bf5074a78">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+      <types>CatalogRef.Склады</types>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

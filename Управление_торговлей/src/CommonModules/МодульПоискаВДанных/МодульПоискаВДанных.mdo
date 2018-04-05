@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4258a4c7-aeb9-4e3c-834b-ccd9f66fa555">
+  <name>МодульПоискаВДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модуль поиска в данных</value>
+  </synonym>
+  <comment></comment>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

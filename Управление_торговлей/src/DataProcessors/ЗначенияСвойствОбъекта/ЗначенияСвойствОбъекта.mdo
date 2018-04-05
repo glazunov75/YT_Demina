@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc694664-2aae-46e4-89c8-bee3c110fab5">
+  <producedTypes>
+    <objectType typeId="2bda4061-8c2b-4cf1-87a7-a061ae04964c" valueTypeId="a9480a7c-c971-403d-9c30-5ce369f596c9"/>
+    <managerType typeId="7249709d-6700-429b-96bd-1dd7b8cabd7e" valueTypeId="1aaddbfb-7771-4f2a-99a3-a482e6a8c07a"/>
+  </producedTypes>
+  <name>ЗначенияСвойствОбъекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения свойств объекта</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ЗначенияСвойствОбъекта.Form.ЗначенияСвойствОбъекта</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <attributes uuid="f767d414-1543-4e2c-b3ed-04405dd2730c">
+    <name>НазначениеСвойств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение свойств</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueList</types>
+      <types>ChartOfCharacteristicTypesRef.НазначенияСвойствКатегорийОбъектов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c2f6fef4-e459-4293-9518-20a04e66dffd">
+    <name>ОбъектОтбораЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект отбора значений</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef</types>
+      <types>CatalogRef</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a00e3439-384e-45a1-80e1-44dd1c6a5343">
+    <name>ОбъектОтбораНазначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект отбора назначений</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Characteristic.НазначенияСвойствКатегорийОбъектов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="884803a4-8799-4e1c-91a9-427488654992">
+    <producedTypes>
+      <objectType typeId="aadb4c37-30be-4167-b289-e5d89a66803b" valueTypeId="8d10e42d-6c1a-42d8-b1df-a77981d165ed"/>
+      <rowType typeId="c8163d88-dbcf-4739-a014-c165103957f3" valueTypeId="68b486c4-39fc-40ab-8e95-59030917a79d"/>
+    </producedTypes>
+    <name>СвойстваИЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойства и значения</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="636c211f-87a4-4931-9dad-d31c1b021a75">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Characteristic.СвойстваОбъектов</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4dea1a54-00f7-4353-9aae-88ee5c0b8551">
+      <name>ПометкаУдаления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка удаления</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e0877f6f-47da-46ac-a15f-ba2e7044b72d">
+      <name>Свойство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Свойство</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.СвойстваОбъектов</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="024b1668-e5a8-453e-837b-aace1906d835">
+    <name>ЗначенияСвойствОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значения свойств объекта</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

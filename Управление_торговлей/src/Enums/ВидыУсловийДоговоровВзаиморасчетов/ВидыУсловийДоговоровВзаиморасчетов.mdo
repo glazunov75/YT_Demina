@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed0e16cd-6978-409a-be69-4e673217a9a7">
+  <producedTypes>
+    <refType typeId="92f9e66c-799b-422f-b80f-e55ee6b49a5a" valueTypeId="41d432fe-7998-4807-9c2e-af069ddfc6c8"/>
+    <listType typeId="5a3e6c96-82e3-42bc-9af2-c410424325bc" valueTypeId="5dca5bf8-3947-4b54-b725-030c075a3f67"/>
+    <managerType typeId="0bb9ce33-dddb-4c0d-aac7-a9ec8f32c42b" valueTypeId="1234a54a-3ab1-4bd1-b2fb-e3f88329ba24"/>
+  </producedTypes>
+  <name>ВидыУсловийДоговоровВзаиморасчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды условий договоров взаиморасчетов</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="aec21882-e58f-46ae-8c5e-ebc47e2c78af">
+    <name>БезДополнительныхУсловий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без дополнительных условий</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="594a9383-45bc-42af-ad06-c25e0e5b705a">
+    <name>СДополнительнымиУсловиями</name>
+    <synonym>
+      <key>ru</key>
+      <value>С дополнительными условиями</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

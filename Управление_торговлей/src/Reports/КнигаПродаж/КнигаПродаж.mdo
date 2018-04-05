@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9a25344-205a-422f-885a-6591f82e33fe">
+  <producedTypes>
+    <objectType typeId="843e9b98-3291-4994-acb1-fa55cb9132d2" valueTypeId="40f7d127-ae00-4e3e-a9eb-86f14e474b4f"/>
+    <managerType typeId="7fc66923-ddcf-48ab-88a9-059e0ad312c6" valueTypeId="d271f969-e373-4f58-833c-b24719476920"/>
+  </producedTypes>
+  <name>КнигаПродаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Книга продаж</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.КнигаПродаж.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="dc70e391-6392-4e60-b7c5-50f1591c0b62">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="476ffcb5-4465-4fde-bb7c-fbcd5d2d9a3d">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9a0627b5-61d9-4de4-8986-5fd8d0bd8829">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="30257d63-aa30-4a62-865b-13cabf312b47">
+    <name>ФормироватьДополнительныеЛисты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формировать дополнительные листы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d4d3310e-f61c-4eb4-95fd-938ec2e97788">
+    <name>ДополнительныеЛистыЗаТекущийПериод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные листы за текущий период</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3941a64a-f66a-4fc1-833e-ae7b710697d3">
+    <name>СкрытьКолонкиПоСтавке20</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрыть колонки по ставке20</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="65355df3-c7f8-4bec-abf8-ef42897f850c">
+    <name>СформироватьОтчетПоСтандартнойФорме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сформировать отчет по стандартной форме</value>
+    </synonym>
+    <comment>Выбранный режим формирования отчета соответствует правилам ведения журнала учета выданных счетов-фактур и книги продаж. Для использования дополнительных возможностей отчета снимите установленный флажок &quot;Сформировать отчет по стандартной форме&quot;.</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="73e0a8f2-8acc-4af5-a2cb-a3ff63223d21">
+    <name>ГруппироватьПоКонтрагентам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группировать по контрагентам</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3196e9ca-f288-4622-b370-123e41653c1a">
+    <name>ОтбиратьПоКонтрагенту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбирать по контрагенту</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="18fafafb-bc38-445b-97e6-41c3d46c2b11">
+    <name>КонтрагентДляОтбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент для отбора</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="21af94bd-f6bf-40a7-b978-6d3f78b707f6">
+    <name>ВыводитьТолькоДопЛисты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить только доп. листы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="b2705500-4365-4990-b558-dac279ccc2f7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="22317c3d-713f-49ba-941d-6ebc0aa844c5">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="32dbff08-4a27-4384-b928-65b218bb78c2">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="115f73dd-3f9b-4313-a1b1-e7c9007f12f0">
+    <name>ДополнительныйЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительный лист</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="c5e5e6b5-a533-4e3a-83b1-d0b5a9efdd66">
+    <name>Макет451</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет451</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Report>

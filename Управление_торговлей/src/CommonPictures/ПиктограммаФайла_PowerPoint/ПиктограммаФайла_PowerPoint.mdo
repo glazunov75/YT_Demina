@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cff7fad2-29ad-497b-9347-1c700b5b5fa5">
+  <name>ПиктограммаФайла_PowerPoint</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пиктограмма файла PowerPoint</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>2</x>
+    <y>13</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

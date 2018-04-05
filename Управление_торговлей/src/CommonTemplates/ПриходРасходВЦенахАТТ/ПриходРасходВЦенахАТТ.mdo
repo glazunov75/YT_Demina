@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4295c7cb-2876-4f51-938e-b8b9b5b3ff89">
+  <name>ПриходРасходВЦенахАТТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приход или расход в ценах АТТ</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonTemplate>

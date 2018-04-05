@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3950771e-82b5-4f1a-ae56-d67744966d0f">
+  <producedTypes>
+    <selectionType typeId="0c52b601-fbd6-499e-8788-3234e53a92d0" valueTypeId="765b9ed5-f869-47d6-8deb-8dd4443e871c"/>
+    <listType typeId="e6df79c9-cb1c-4cb7-88b6-5eeb061bfa95" valueTypeId="caa0565f-fd7a-4364-bf0d-21d11e52d5eb"/>
+    <managerType typeId="397d9606-080e-4a91-ac71-1829ae80e87c" valueTypeId="867af654-2c6c-4e6c-81a1-75c640675700"/>
+    <recordSetType typeId="6868f8b1-0104-4662-b672-c41f4c68cb53" valueTypeId="6ad96779-e268-4051-8353-c74304495135"/>
+    <recordKeyType typeId="85b1ab03-ce90-4da3-bb38-6c0e597c276c" valueTypeId="d79ebfb1-df84-44b5-8ef5-1e6c861b10c5"/>
+    <recordType typeId="99331a51-84fa-41c1-82f0-79ec1e3c7d5b" valueTypeId="84db1cd7-1079-4704-b86d-6a54739d49a4"/>
+    <recordManagerType typeId="ac35c013-f9d4-4384-8c10-8eb72c34ca9b" valueTypeId="ca655bce-30d6-4cde-9455-0b1cc20b473d"/>
+  </producedTypes>
+  <name>ИсторияКонтактныхЛицКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>История контактных лиц контрагентов</value>
+  </synonym>
+  <comment></comment>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <resources uuid="d1022ca9-0f92-48d8-aa2d-13789259571c">
+    <name>ДатаУвольнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата увольнения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="c63c9879-a9c5-4ed8-82c1-afeb2c4fe160">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="463b5327-3a4d-425a-ada8-4a9280bc705f">
+    <name>КонтактноеЛицоКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо контрагента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.КонтактныеЛицаКонтрагентов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c0374615-4210-4e96-9200-80ecf2452c5a">
+    <name>КонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.КонтактныеЛица</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

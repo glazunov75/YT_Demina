@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c1e16f1-3484-4dfd-a700-943857f2e899">
+  <producedTypes>
+    <refType typeId="66ff53ea-0622-419a-89e6-edd3e0afc028" valueTypeId="8142a8c7-26f6-482c-ad78-b621dc3eea47"/>
+    <listType typeId="1da133d3-d0d9-42d2-8618-5e5c61e43864" valueTypeId="b5fb3cf5-8769-46c5-8174-dd8c38933bae"/>
+    <managerType typeId="0c06b06e-8187-418d-b15e-03888936b368" valueTypeId="abccc047-6d29-42e0-938e-343cec8565ab"/>
+  </producedTypes>
+  <name>ПорядокПрисвоенияPLU</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порядок присвоения PLU</value>
+  </synonym>
+  <comment>Значения перечисления соответствуют способам назначения PLU новым товарным позициям, подлежащим выгрузке в ККМ Offline</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f2034099-f59a-4f44-a8bb-cbdebd42dbdd">
+    <name>ПоПорядку</name>
+    <synonym>
+      <key>ru</key>
+      <value>По порядку</value>
+    </synonym>
+    <comment>Новой позиции назначается код, превосходящий максимальное заданное значение на 1</comment>
+  </enumValues>
+  <enumValues uuid="60320b6a-7f69-42c0-8fa4-b36b16e5e057">
+    <name>ПоКодуНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>По коду номенклатуры</value>
+    </synonym>
+    <comment>Новой позиции назначается код, совпадающий с кодом номенклатуры в соответствующей позиции</comment>
+  </enumValues>
+</mdclass:Enum>

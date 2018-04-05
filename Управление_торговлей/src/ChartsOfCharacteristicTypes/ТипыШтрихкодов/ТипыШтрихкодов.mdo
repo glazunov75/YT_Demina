@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9917540a-8c0d-48bf-8a07-f203a356d042">
+  <producedTypes>
+    <objectType typeId="65cf47a2-5b86-4810-92fe-121a3b1f35fb" valueTypeId="4a07947e-a7b9-44e3-a5c5-7c838def16fa"/>
+    <refType typeId="b5df2f5a-8056-416c-8c3c-4c3c3299f016" valueTypeId="c8201c0f-ee02-4af4-9526-b608bdcd0a78"/>
+    <selectionType typeId="3255cdbb-059a-4d6b-ba8f-dfebc4b6f41d" valueTypeId="a0abe2fc-46a3-4b53-8c05-c2e5987a3473"/>
+    <listType typeId="0d282505-dc36-4790-a4be-c2f2e97eab7c" valueTypeId="e4999716-7f27-41d0-b095-e435fe1a1625"/>
+    <managerType typeId="fc2e0ddd-8b4b-420d-935e-3be2357ba9ba" valueTypeId="b42200b5-bfbb-42e4-a0f1-510a2073b8aa"/>
+    <containerType typeId="43ac5dbf-1215-47da-b568-5635e58b9e26" valueTypeId="af4e0eb5-1d37-4ee6-8fd2-630ca49cca6b"/>
+  </producedTypes>
+  <name>ТипыШтрихкодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы штрихкодов</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <inputByString>ChartOfCharacteristicTypes.ТипыШтрихкодов.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ТипыШтрихкодов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>200</length>
+    </stringQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="ddc03064-37b8-4688-9401-07ac8346e621">
+      <name>Code128</name>
+      <description>Code128</description>
+      <code>000000004</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="f673c0e8-fae1-4b66-bbe1-012b9f51487b">
+      <name>Code39</name>
+      <description>Code39</description>
+      <code>000000003</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="692c0975-7c6c-4f09-8137-96393bae890c">
+      <name>EAN128</name>
+      <description>EAN128</description>
+      <code>000000002</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="39fddca4-7cc4-49d4-a09d-9fe5517b4df6">
+      <name>EAN13</name>
+      <description>EAN13</description>
+      <code>000000001</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>13</length>
+          <fixed>true</fixed>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="52707714-e6da-40b1-bb9e-a70d03e5d651">
+      <name>EAN8</name>
+      <description>EAN8</description>
+      <code>000000000</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>8</length>
+          <fixed>true</fixed>
+        </stringQualifiers>
+      </type>
+    </items>
+  </predefined>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCharacteristicTypes.ТипыШтрихкодов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>ChartOfCharacteristicTypes.ТипыШтрихкодов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>ChartOfCharacteristicTypes.ТипыШтрихкодов.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="fe45ddd0-ce19-4631-982f-a31ada411fdb">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a0d1c76a-a590-4b38-956e-383e6b9a526c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="aafbe596-04aa-4d25-b5a1-ba92146e0cdc">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCharacteristicTypes>

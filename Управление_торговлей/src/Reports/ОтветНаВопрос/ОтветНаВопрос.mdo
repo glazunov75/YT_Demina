@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08de03c0-f6cd-4965-bf52-daacf1bb5754">
+  <producedTypes>
+    <objectType typeId="a328801f-4d43-4027-8950-e4e7551dea15" valueTypeId="ec4e7970-779e-4b0f-87c9-d5635903a752"/>
+    <managerType typeId="61eb0213-df61-4dab-b0f7-e15a16539a11" valueTypeId="ae79be77-0f01-4d08-a228-4f091fd666cb"/>
+  </producedTypes>
+  <name>ОтветНаВопрос</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответ на вопрос</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.ОтветНаВопрос.Form.Форма</defaultForm>
+  <attributes uuid="7b4998a9-5776-4af3-9985-8f4aab2c9341">
+    <name>ОбщийОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общий отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.ОтчетСписокКроссТаблица</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d95c93be-158d-47ea-b182-bbeabc63c48c">
+    <name>ОтчетДиаграмма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет диаграмма</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.ОтчетДиаграмма</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3e1d53f9-a6b7-4f7a-8eef-37203ba1cc14">
+    <name>ВариантОтображения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант отображения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ВариантыОтображенияОтчетов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="82f45246-7e68-420a-9064-5b30b6c857ad">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

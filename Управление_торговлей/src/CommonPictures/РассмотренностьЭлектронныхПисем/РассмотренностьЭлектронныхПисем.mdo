@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9995fe0f-2400-4055-b3c4-799bd2597645">
+  <name>РассмотренностьЭлектронныхПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассмотренность электронных писем</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>20</x>
+    <y>3</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

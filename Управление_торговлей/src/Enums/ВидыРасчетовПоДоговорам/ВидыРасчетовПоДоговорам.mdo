@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80b03b9e-9167-4212-b16c-1136fef7962d">
+  <producedTypes>
+    <refType typeId="35f3074c-d08e-468b-99dc-8d7ccc83e02e" valueTypeId="cce51dd2-cbd7-4bd3-a038-407519a5915f"/>
+    <listType typeId="bde0ca70-a0d6-4448-b5c6-9a3fa34698bd" valueTypeId="dc61019b-9187-4c6e-80cd-aa604d565bff"/>
+    <managerType typeId="e537a138-b18b-4e84-bfc5-1f0e96963db9" valueTypeId="e192e0d2-41eb-4a4a-be9c-9b29bff6aa4a"/>
+  </producedTypes>
+  <name>ВидыРасчетовПоДоговорам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды расчетов по договорам</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d2191624-b07f-4cd0-ba0d-b206ee49cd1a">
+    <name>РасчетыВВалютеРегламентированногоУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты в валюте регламентированного учета</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="8c52e818-4643-4b72-8831-7b0633c279f0">
+    <name>РасчетыВУсловныхЕдиницах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты в условных единицах</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="5fc9c029-4a73-4640-9191-3bf1cc3a676b">
+    <name>РасчетыВИностраннойВалюте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты в иностранной валюте</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

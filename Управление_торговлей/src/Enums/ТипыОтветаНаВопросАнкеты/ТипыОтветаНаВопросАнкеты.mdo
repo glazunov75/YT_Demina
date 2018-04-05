@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abc9ecda-8149-40ab-96fe-6201c32a8cb2">
+  <producedTypes>
+    <refType typeId="b2b71efb-6439-49eb-96c4-02e9a4596977" valueTypeId="a952c486-fefe-409c-8a27-ad9928a479cc"/>
+    <listType typeId="9e8f7139-f638-46be-8a79-e854f2e5baae" valueTypeId="7f01cb01-cfb4-4a30-8b99-f1a16440d96a"/>
+    <managerType typeId="fbedb229-0562-4fd3-add1-efb8e24d3312" valueTypeId="3d63e5c3-b7fe-491f-bc29-f3898e1621e3"/>
+  </producedTypes>
+  <name>ТипыОтветаНаВопросАнкеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы ответа на вопрос анкеты</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a064a5ea-5ae6-4cd1-be7d-4486a4c1346b">
+    <name>Строка</name>
+    <synonym>
+      <key>ru</key>
+      <value>строки</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="10048417-02c3-42dc-be5d-4d6a4cdae40c">
+    <name>Число</name>
+    <synonym>
+      <key>ru</key>
+      <value>числа</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="450dadc7-c6a5-4566-a7cc-3cfcc9845208">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>даты</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c1eca68f-829d-4de8-b331-73e3519d0b49">
+    <name>Булево</name>
+    <synonym>
+      <key>ru</key>
+      <value>да/нет</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="8ab363d7-df22-4320-99db-ab87d7b29021">
+    <name>ОдинИзВариантовОтвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>одного из вариантов</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="bd424b2e-f99a-41df-b33e-8b38be9198a3">
+    <name>НесколькоВариантовОтвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>нескольких вариантов из списка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="498be2fb-6d91-46d0-9aba-d781c4746b75">
+    <name>УдалитьАдрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>адреса</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d57c4754-74ef-4af3-bc40-725eed27c043">
+    <name>УдалитьТелефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>телефонного номера</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="96f72b63-e9bb-4fa1-85bd-a1e6841386fe">
+    <name>УдалитьАдресЭлектроннойПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>адреса электронной почты</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="be9b41b0-1f07-43e1-8d86-f13183ebcc90">
+    <name>УдалитьВебСтраница</name>
+    <synonym>
+      <key>ru</key>
+      <value>ссылки на веб-страницу</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="48d18d7b-de3f-4972-aeaa-592efc3448a3">
+    <name>УдалитьДругое</name>
+    <synonym>
+      <key>ru</key>
+      <value>другой контактной информации</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3c7c8272-3933-4c30-b74f-5b1cfb056de9">
+    <name>Табличный</name>
+    <synonym>
+      <key>ru</key>
+      <value>таблицы</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="cb88c336-5887-41d6-8cc1-9cbbf8a9047c">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>текста</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="6f34fcb4-737e-42ad-b2b3-f6298868d1da">
+    <name>Ссылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>ссылки</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d52eda4e-3fc3-4c66-8eeb-0cee30019910">
+    <name>КонтактнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>контактной информации</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

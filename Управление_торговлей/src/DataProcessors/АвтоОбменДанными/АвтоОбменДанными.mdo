@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40cc8f65-3fd1-4269-aac4-44aa369f8eaf">
+  <producedTypes>
+    <objectType typeId="079365cd-c26d-43ce-8eef-9811c3715edd" valueTypeId="4653e306-8541-4773-9710-16997ff2aa91"/>
+    <managerType typeId="0c5100b0-9bee-475e-859f-39d3b78f8b36" valueTypeId="939ee3fd-c2f9-4549-8ccc-bc9f9a1b0bf8"/>
+  </producedTypes>
+  <name>АвтоОбменДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Авто обмен данными</value>
+  </synonym>
+  <comment></comment>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <tabularSections uuid="1e0d58cd-fe8b-4bd2-866a-2108737d56f7">
+    <producedTypes>
+      <objectType typeId="537e6c12-6817-40a3-a050-d7a9a6261349" valueTypeId="b8497179-a36f-4eb8-8b8a-29ebf9834dad"/>
+      <rowType typeId="68d6d498-1f2e-4098-a7e4-99332093ebae" valueTypeId="aa24be25-c912-44c8-8e56-e5980ab07a41"/>
+    </producedTypes>
+    <name>НастройкиДляОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки для обмена</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="ae4745cd-8286-40e4-b988-ca51e6960a49">
+      <name>Ссылка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ссылка</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.НастройкиВыполненияОбмена</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1102bf37-f7a5-4dfa-ae11-9328203cbc8a">
+      <name>ДоступностьКаталогаПроверки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Доступность каталога проверки</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d6d1e644-a01d-4524-8330-29317a551709">
+      <name>КаталогПроверкиДоступности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Каталог проверки доступности</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1823dee4-797b-41a6-9a9e-43adadbb6f2a">
+      <name>ВыполнятьОбменПриПоявленииФайла</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выполнять обмен при появлении файла</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+</mdclass:DataProcessor>

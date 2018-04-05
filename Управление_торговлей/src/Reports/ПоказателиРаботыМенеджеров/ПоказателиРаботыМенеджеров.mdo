@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5bdcd09-1f05-4a0f-91be-edd8dada391e">
+  <producedTypes>
+    <objectType typeId="726f175d-050f-4f10-b370-c60b5a15f49b" valueTypeId="d74862c8-784d-428e-a609-75e362d73634"/>
+    <managerType typeId="62e1fee2-5809-454d-8e3e-32b9e2d3788a" valueTypeId="08082813-8584-4a8c-9f4a-d892dd524f87"/>
+  </producedTypes>
+  <name>ПоказателиРаботыМенеджеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели работы менеджеров</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.ПоказателиРаботыМенеджеров.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="2e1fc6ac-4c7e-46e1-82ef-e08ec41b281f">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c1a84ccd-5c57-4b37-9185-88842c20c5cc">
+    <name>ДатаКонца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата конца</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9bb7ded3-c51a-48b9-a5f2-f0cfa5caf0d4">
+    <name>ПоказыватьПокупателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать покупателей</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3b04c0ce-5023-43bf-840f-b1ab43bfdfc3">
+    <name>РаскрашиватьГруппировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раскрашивать группировки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fbb7f62e-83cb-4a91-9db9-8ee7498793dd">
+    <name>ПоказыватьЗаголовок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать заголовок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8e6bc837-8b0d-4c89-8412-26b66d6da07f">
+    <name>НастройкиДиаграммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки диаграммы</value>
+    </synonym>
+    <comment></comment>
+    <type/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a3439979-abe6-409f-8924-855627d72d0d">
+    <name>ОтборМенеджер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор менеджер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Filter</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="fb971c08-0853-49b8-8e51-ca3f23e488b6">
+    <producedTypes>
+      <objectType typeId="1bda6297-2c3d-4811-8ba7-87ecbb8a2c11" valueTypeId="85be1001-bc2e-4658-9083-b542e08f369c"/>
+      <rowType typeId="1e56870c-56af-49e5-a2f4-c652f224db11" valueTypeId="268b12b1-7ddc-4fa2-937c-2b8eedb78e48"/>
+    </producedTypes>
+    <name>ПоказателиОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатели отчета</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="75e27983-9817-4663-a89e-aa160284b514">
+      <name>ИмяПоказателя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя показателя</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="233abdcd-9d14-46ab-9479-91c3b17a4967">
+      <name>ПредставлениеПоказателя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление показателя</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a3e03aec-58bb-46b3-a5bf-63ade66431ea">
+      <name>ИспользованиеПоказателя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Использование показателя</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="49bcf50e-b06a-45cd-bae7-19b4808b5410">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5e7010d9-45b0-425b-8ea2-c8b226e6a0be">
+    <name>ФормаДополнительно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма дополнительно</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bd28d067-335b-4a43-996e-844f5fcea31e">
+    <name>ФормаНастройкиДиаграммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки диаграммы</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d0c4e35e-5090-42fc-b70e-918426f179ff">
+    <name>ФормаРасшифровок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма расшифровок</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="61439039-f406-4803-b7ed-1cafbd0843e5">
+    <name>Отчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="aae34041-ba4c-401a-899b-4a8b181d4dbc">
+    <name>Расшифровка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расшифровка</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Report>

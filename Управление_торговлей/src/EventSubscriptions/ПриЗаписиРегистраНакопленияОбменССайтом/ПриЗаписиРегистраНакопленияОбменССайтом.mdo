@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b9cf9fc-571b-41bc-a135-6ff215f70ba2">
+  <name>ПриЗаписиРегистраНакопленияОбменССайтом</name>
+  <synonym>
+    <key>ru</key>
+    <value>При записи регистра накопления обмен с WEB - сайтом</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>AccumulationRegisterRecordSet.ВзаиморасчетыСКонтрагентами</types>
+    <types>AccumulationRegisterRecordSet.ТоварыВРезервеНаСкладах</types>
+    <types>AccumulationRegisterRecordSet.ТоварыВРознице</types>
+    <types>AccumulationRegisterRecordSet.ЗаказыПокупателей</types>
+    <types>AccumulationRegisterRecordSet.ТоварыКПередачеСоСкладов</types>
+    <types>AccumulationRegisterRecordSet.ТоварыВНТТ</types>
+    <types>AccumulationRegisterRecordSet.ТоварыНаСкладах</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ПроцедурыОбменаССайтом.ПриЗаписиРегистраНакопленияОбменССайтомПриЗаписи</handler>
+</mdclass:EventSubscription>

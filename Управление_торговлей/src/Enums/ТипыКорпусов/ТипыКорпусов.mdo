@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="505a7ffc-53d7-430f-b7cb-1eaad4c17e85">
+  <producedTypes>
+    <refType typeId="db3a3e83-67ea-4245-9eb6-43bec18d4f04" valueTypeId="134f6e8e-c10a-4b28-8f36-1df572ec7f15"/>
+    <listType typeId="2e642dd3-97aa-48d0-91aa-f311a35b8526" valueTypeId="78a74bc3-8579-46e0-8b7f-957cf2610a94"/>
+    <managerType typeId="ab42d1c7-5adb-4ded-9c15-c9d8c4d88646" valueTypeId="d1e27f8a-3057-4f8e-9951-f8fcad662462"/>
+  </producedTypes>
+  <name>ТипыКорпусов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы корпусов</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7b42ed02-d47a-46b4-890d-ca32bcde1d4b">
+    <name>Корпус</name>
+    <synonym>
+      <key>ru</key>
+      <value>корпус</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b5cb9c2d-4468-4e69-8b9d-1f8cdd894475">
+    <name>Строение</name>
+    <synonym>
+      <key>ru</key>
+      <value>строение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

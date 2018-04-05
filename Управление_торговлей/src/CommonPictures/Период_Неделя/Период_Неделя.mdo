@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a24eae6-a2bc-45bb-a90a-c1d621ed74b2">
+  <name>Период_Неделя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Период  неделя</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>14</x>
+    <y>9</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

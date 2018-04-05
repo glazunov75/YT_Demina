@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6616462-aabd-4e76-ab61-2b75aa22f74c">
+  <name>М7</name>
+  <synonym>
+    <key>ru</key>
+    <value>М-7</value>
+  </synonym>
+  <comment>Акт о приемке материалов (унифицированная форма М-7)</comment>
+</mdclass:CommonTemplate>

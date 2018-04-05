@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0cc71bd3-cc8e-4790-9f09-2a822dc73884">
+  <producedTypes>
+    <selectionType typeId="a95eff23-5f5d-4ea5-8548-c1f0b18d7a19" valueTypeId="7bdb8fc2-c4b1-487e-94f4-47350a6d8612"/>
+    <listType typeId="130cba86-6930-4833-b805-8562dfd777d4" valueTypeId="29a7e946-3701-4e99-9ee8-9c901558938c"/>
+    <managerType typeId="1365428a-7c55-418b-9476-57659e1380e9" valueTypeId="071bc226-029f-4c75-b344-d41234a32507"/>
+    <recordSetType typeId="10467fb2-36b2-4f85-a611-2dd0653f5ae8" valueTypeId="d7770819-8015-4be9-b600-21cdc6fb45bd"/>
+    <recordKeyType typeId="e8db2c36-315e-43dc-a1d3-7aa87d730bf8" valueTypeId="60d2b3d1-cc42-4214-8c97-35a512cae949"/>
+    <recordType typeId="dc0a29b4-1378-4f34-bd06-e5f16c8afe1f" valueTypeId="b93fec42-7780-474e-932b-f8016236338a"/>
+    <recordManagerType typeId="e7a760ff-b2ed-4606-8095-c76d681ac4e6" valueTypeId="2892fa65-29c3-41e1-9bc3-542f4067f784"/>
+  </producedTypes>
+  <name>КодыВесовогоТовара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коды весового товара</value>
+  </synonym>
+  <comment></comment>
+  <defaultListForm>InformationRegister.КодыВесовогоТовара.Form.ФормаСписка</defaultListForm>
+  <resources uuid="85b05483-494f-417c-9160-fa9860218c2a">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="9235e20c-1835-4480-9d0d-caf30183e44a">
+    <name>ХарактеристикаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика номенклатуры</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7860d224-09eb-4cc1-a275-488d1755da79">
+    <name>Качество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Качество</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Качество</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="45f00bae-5f52-44f1-adab-8b0158bce701">
+    <name>СерияНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серия номенклатуры</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СерииНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="eed8ccb8-307e-49f3-a15f-54b2d06edd5f">
+    <name>Код</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="b57084f3-de52-4240-a268-f5573d455454">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8030bb8a-a26b-4c6d-9fa0-c809217641f6">
+    <name>ФормаЗаполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма заполнения</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

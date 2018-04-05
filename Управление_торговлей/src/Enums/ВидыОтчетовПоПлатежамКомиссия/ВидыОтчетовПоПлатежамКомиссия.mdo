@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fcffc87-a46d-4329-89a1-a449e008a1e5">
+  <producedTypes>
+    <refType typeId="d4abf0fa-e7bc-46ed-8a1f-2ab608995f05" valueTypeId="32ccd432-edfa-492e-a827-9d1d62582c93"/>
+    <listType typeId="4c55c00c-458d-4ffa-bb90-bade2d07497e" valueTypeId="74507c5d-2b96-4739-b576-00d35e0e6414"/>
+    <managerType typeId="8b77dfdb-708b-401d-b2b4-9ad4f0606635" valueTypeId="a3b9d72f-f2aa-4a09-a8b0-58c19a2c9d4b"/>
+  </producedTypes>
+  <name>ВидыОтчетовПоПлатежамКомиссия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды отчетов по платежам(комиссия)</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b2424cfe-0d9b-42f0-8053-a31b990bba82">
+    <name>Аванс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аванс</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="55864d96-2a60-4d8c-b8cc-35e77c3e8cde">
+    <name>Оплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f5b17beb-2c42-4057-86c5-4078477c5849">
+    <name>ЗачетАванса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зачет аванса</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

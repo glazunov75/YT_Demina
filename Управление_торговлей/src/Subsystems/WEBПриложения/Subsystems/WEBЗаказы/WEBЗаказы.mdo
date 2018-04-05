@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad0feb4e-8a2d-40d2-a937-69f2e03248f8">
+  <name>WEBЗаказы</name>
+  <synonym>
+    <key>ru</key>
+    <value>WEB-приложение &quot;Управление заказами&quot;</value>
+  </synonym>
+  <comment></comment>
+  <content>Role.ИнтернетПользовательУправленияЗаказами</content>
+  <content>CommonModule.WEBПриложения</content>
+  <content>CommonModule.ЗаполнениеДокументов</content>
+  <content>Constant.ИспользоватьWEBЗаказы</content>
+  <content>InformationRegister.НоменклатураНеиспользуемаяВВебУправленииЗаказами</content>
+  <content>InformationRegister.УчетныеЗаписиИнтернетПользователей</content>
+  <parentSubsystem>Subsystem.WEBПриложения</parentSubsystem>
+</mdclass:Subsystem>

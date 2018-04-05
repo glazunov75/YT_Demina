@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4b16389-43ee-4a73-8ffb-72d657a98762">
+  <producedTypes>
+    <selectionType typeId="22528379-13b7-47ae-b4ac-3cc7d553b9e8" valueTypeId="bd92de0b-3837-405b-ae48-ece442d90b5f"/>
+    <listType typeId="3b5c93cf-0a33-4b35-850b-378d7dcdf110" valueTypeId="c2a8771a-5800-4cd4-94c1-cf80b0a8922a"/>
+    <managerType typeId="1bcd9ea6-c926-4576-8846-5a0d107bb732" valueTypeId="5c9f8f6a-00f6-414a-8116-a153eacaafc4"/>
+    <recordSetType typeId="d56a1c69-fc9e-41bb-98f8-a6f248e6aec3" valueTypeId="10cd6f52-457b-4cf2-8376-1b2b9055617d"/>
+    <recordKeyType typeId="eb25f7e8-0156-4ff7-9101-28674313ae67" valueTypeId="2ea4fc70-26bb-4ae2-9942-60d4f63d3d33"/>
+    <recordType typeId="095dafcd-b653-4770-a203-38c626e675e5" valueTypeId="16e6ae43-bf77-4392-92f8-8df870d36725"/>
+  </producedTypes>
+  <name>ТоварыВНТТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары в НТТ</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <resources uuid="5083fc24-9045-40b0-a669-faf8ef81b0a7">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="61d6a5fa-a619-422f-919e-5523eadde2c6">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="9df48d03-8d8f-4e57-a0a7-65489eb63f41">
+    <name>ТоварТара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар тара</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ТоварТара</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="e1ea7949-003b-46d5-bef8-02d412da0245">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="ae6afa11-abab-4982-83c1-f06e2518121a">
+    <name>ХарактеристикаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика номенклатуры</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="2ebcc49e-88e6-4301-9970-da31412c06c9">
+    <name>СерияНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серия номенклатуры</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СерииНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="a801e48a-fce8-4f09-8caa-d2b06418be99">
+    <name>ЦенаВРознице</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена в рознице</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd09e9d0-958b-4dfb-91b9-abf1685efdd0">
+  <producedTypes>
+    <objectType typeId="1d0297ab-1ab7-426d-8804-aec8aea2d251" valueTypeId="4ecf7b4a-00db-4ae8-a018-baa4fbc0ef14"/>
+    <refType typeId="8170d1ab-b9d2-4691-82d1-f094cac54e5e" valueTypeId="5206cbb1-d6e1-4b1b-a7ac-19f2ee2116fb"/>
+    <selectionType typeId="bfae3b50-9924-44ca-8f3f-601309a37abd" valueTypeId="7c545fa1-560f-43e6-aee3-ac6e017e516b"/>
+    <listType typeId="7dc4025c-37e9-4e19-b0dc-58de4aca3bdb" valueTypeId="1332aa61-8d11-4e71-8fac-1cfd9b699ff5"/>
+    <managerType typeId="7a6c721d-324e-4030-9b58-309fd0d3ad3a" valueTypeId="8deafc81-2f3d-4f3c-a41e-bb9cb5ecac01"/>
+  </producedTypes>
+  <name>ЗадачиПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи пользователя</value>
+  </synonym>
+  <comment>Общие рабочие поручения и персональные задания</comment>
+  <inputByString>Task.ЗадачиПользователя.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <taskNumberAutoPrefix>DontUse</taskNumberAutoPrefix>
+  <descriptionLength>100</descriptionLength>
+  <mainAddressingAttribute>Task.ЗадачиПользователя.AddressingAttribute.Исполнитель</mainAddressingAttribute>
+  <currentPerformer>SessionParameter.ТекущийПользователь</currentPerformer>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <defaultObjectForm>Task.ЗадачиПользователя.Form.ФормаЗадачи</defaultObjectForm>
+  <defaultListForm>Task.ЗадачиПользователя.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="9f27ed48-a61f-4f15-a536-be9d30f0a1b9">
+    <name>СрокИсполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок исполнения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="9d87ec57-9346-4629-8db9-36b06173d964">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="8b0eca0f-2f98-4870-871c-50294e1b81dc">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.ЗаказПокупателя</types>
+      <types>DocumentRef.ЗаказПоставщику</types>
+      <types>DocumentRef.ВнутреннийЗаказ</types>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+      <types>CatalogRef.Контрагенты</types>
+      <types>DocumentRef.ИнвентаризацияТоваровНаСкладе</types>
+      <types>CatalogRef.КонтактныеЛица</types>
+      <types>DocumentRef.Событие</types>
+      <types>DocumentRef.ПереоценкаТоваровВРознице</types>
+      <types>DocumentRef.УстановкаЦенНоменклатуры</types>
+      <types>CatalogRef.ЛичныеКонтакты</types>
+      <types>DocumentRef.СчетНаОплатуПоставщика</types>
+      <types>DocumentRef.СчетНаОплатуПокупателю</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="896f5c5b-b79a-4971-b45d-49ef3883cf5e">
+    <name>Инициатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инициатор</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="0cafa17e-b0b0-40ef-887b-79eb51d7e6cc">
+    <name>Оповещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оповещение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="8d1284ca-49f7-402c-864d-b981fd63a937">
+    <name>СрокОповещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок оповещения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="9f29c766-d197-4d13-ade7-1bef2ccd0811">
+    <name>ПамятнаяДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Памятная дата</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a5ab5933-14a4-49f7-8d60-a8e5c2998bec">
+    <name>ДатаИсполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата исполнения</value>
+    </synonym>
+    <comment>Дата выполнения задачи</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="fce3d68b-945c-4c14-b276-afaa31543acc">
+    <name>РабочаяФормаСпискаЗадачПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочая форма списка задач пользователя</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="db33d6dd-6856-4d4c-b1cf-576eda19ca7f">
+    <name>ФормаЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма задачи</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e380184a-f7cc-47b6-9be6-dc1f3eaf96d1">
+    <name>ФормаОповещенияОЗадачах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма оповещения о задачах</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e353988d-15a0-450f-bd5d-deab7fda0617">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c089305c-39a3-4197-b8b0-2bc0371d32c4">
+    <name>ПереоценкаТоваровАТТВыполнениеЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переоценка товаров АТТ выполнение задачи</value>
+    </synonym>
+    <comment>Форма выполнения задачи бизнес процесса &quot;Переоценка товаров АТТ&quot;</comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5a431254-c856-4805-8626-b904be9dc8e9">
+    <name>ПереоценкаТоваровРозницаВыполнениеЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переоценка товаров розница выполнение задачи</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="39e81dc9-502b-42af-8270-977719cb8c60">
+    <name>СогласованиеЗаказаПокупателяВыполнениеЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласование заказа покупателя выполнение задачи</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <addressingAttributes uuid="aff6631c-f111-4c28-b050-823031cf6257">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </addressingAttributes>
+</mdclass:Task>

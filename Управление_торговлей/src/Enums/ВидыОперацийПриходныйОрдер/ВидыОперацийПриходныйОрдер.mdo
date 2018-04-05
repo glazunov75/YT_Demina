@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e2326bd-d5f8-44f4-ad8a-9cd5d294774c">
+  <producedTypes>
+    <refType typeId="62170bef-f826-4480-a8ec-d86e40f38ef1" valueTypeId="6a855dd9-6042-4696-9813-487a9ef1bec7"/>
+    <listType typeId="6e2326bd-d5f8-44f4-ad8a-9cd5d294774c" valueTypeId="6e2326bd-d5f8-f4f4-ad8a-9cd5d294774c"/>
+    <managerType typeId="2c517cb3-de28-4e39-9eea-8ee28b50c851" valueTypeId="128052bb-e845-47a8-9fd0-74f260701066"/>
+  </producedTypes>
+  <name>ВидыОперацийПриходныйОрдер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций документа &quot;Приходный ордер&quot;</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ca538f10-5d2f-4994-bb8d-0d9d4c5a66d3">
+    <name>ОтПоставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>от поставщика</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="22b8d44c-2d60-492e-bccd-2dcdc0cd05a8">
+    <name>ОтПодотчетника</name>
+    <synonym>
+      <key>ru</key>
+      <value>от подотчетника</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="be786035-5625-4c73-83e0-674286cbebe5">
+    <name>ОтПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>от покупателя</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="55fe33a9-a0d1-466f-b04c-faafbe8da6fc">
+    <name>Перемещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>перемещение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

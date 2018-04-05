@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e723488d-8593-4c46-aff5-4421dce4581f">
+  <name>ПереместитьВниз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переместить вниз</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>12</x>
+    <y>3</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

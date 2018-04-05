@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1c89edc-7598-4d20-be0d-658cee59f7f4">
+  <producedTypes>
+    <refType typeId="06a23995-ffea-4e95-b641-c2b2ea363c27" valueTypeId="0753a4f2-7df0-4106-add8-61ee290e4d1a"/>
+    <listType typeId="e1c89edc-7598-4d20-be0d-658cee59f7f4" valueTypeId="e1c89edc-7598-fd20-be0d-658cee59f7f4"/>
+    <managerType typeId="2c5facb1-731e-4450-9187-b53336c5c445" valueTypeId="337e9196-501b-4387-9f63-963ee3988653"/>
+  </producedTypes>
+  <name>ВидыОперацийПоступлениеДопРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций поступление доп расходов</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c5cce245-ed7a-4c5e-9b3e-38a764650f51">
+    <name>УслугаСтороннейОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>услуга сторонней организации</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="097f766a-c450-4ab4-97ee-a6afabaaf803">
+    <name>ВнутреннийРасход</name>
+    <synonym>
+      <key>ru</key>
+      <value>внутренний расход</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+</mdclass:Enum>

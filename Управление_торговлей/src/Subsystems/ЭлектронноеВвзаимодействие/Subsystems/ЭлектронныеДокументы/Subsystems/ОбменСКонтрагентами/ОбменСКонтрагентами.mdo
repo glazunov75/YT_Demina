@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee0edf7e-2388-4fc9-93d3-f5ee4d46dbc5">
+  <name>ОбменСКонтрагентами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с контрагентами</value>
+  </synonym>
+  <comment></comment>
+  <content>CommonForm.СопоставлениеДанныхПоНоменклатуре</content>
+  <content>CommonCommand.ВыгрузитьДокументВФайл</content>
+  <content>CommonCommand.ЗагрузитьДокументИзФайла</content>
+  <content>CommonCommand.ЗагрузитьПерезаполнитьДокументИзФайла</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Enum.ВерсииРегламентаОбмена1С</content>
+  <content>Enum.ВидыОперацийЭД</content>
+  <content>InformationRegister.СостоянияОбменовЭДЧерезОператоровЭДО</content>
+  <content>InformationRegister.УчастникиОбменовЭДЧерезОператоровЭДО</content>
+  <content>Document.ПроизвольныйЭД</content>
+  <content>XDTOPackage.CML402</content>
+  <content>XDTOPackage.KORSFAKT</content>
+  <content>XDTOPackage.SFAKT</content>
+  <content>XDTOPackage.АктТитулЗаказчика</content>
+  <content>XDTOPackage.АктТитулИсполнителя</content>
+  <content>XDTOPackage.Извещение</content>
+  <content>XDTOPackage.КарточкаПередаваемыхДанныхТакском</content>
+  <content>XDTOPackage.Контакты</content>
+  <content>XDTOPackage.СоглашениеОбИзмененииСтоимостиОтправитель</content>
+  <content>XDTOPackage.СоглашениеОбИзмененииСтоимостиПолучатель</content>
+  <content>XDTOPackage.Подтверждение</content>
+  <content>XDTOPackage.ПодтверждениеДатыОтправки</content>
+  <content>XDTOPackage.ПодтверждениеДатыПолучения</content>
+  <content>XDTOPackage.Торг12ТитулПокупателя</content>
+  <content>XDTOPackage.Торг12ТитулПродавца</content>
+  <content>XDTOPackage.ТранспортнаяИнформацияТакском</content>
+  <content>XDTOPackage.УведомлениеОбУточненииЭД</content>
+  <content>XDTOPackage.УниверсальныйФайлДопДанных</content>
+  <content>XDTOPackage.АктТитулИсполнителяФНС</content>
+  <content>XDTOPackage.АктТитулЗаказчикаФНС</content>
+  <content>CommonCommand.ВыгрузитьКаталогВФайл</content>
+  <content>XDTOPackage.CML206</content>
+  <content>Enum.ВерсииФорматаПакетаЭД</content>
+  <parentSubsystem>Subsystem.ЭлектронноеВвзаимодействие.Subsystem.ЭлектронныеДокументы</parentSubsystem>
+</mdclass:Subsystem>

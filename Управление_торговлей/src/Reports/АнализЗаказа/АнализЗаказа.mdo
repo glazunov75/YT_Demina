@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25153117-8d23-4f2b-96cd-976119b2e4cf">
+  <producedTypes>
+    <objectType typeId="41fc4d5a-648d-421f-8800-afa23d5bc851" valueTypeId="7e429960-ca8b-4cc3-9e8d-b5f7d87cceaf"/>
+    <managerType typeId="a75acd6a-1fcf-4fd5-be77-c80a30ed2208" valueTypeId="8d135b7c-d64d-458b-80a3-9dfd016fc1ac"/>
+  </producedTypes>
+  <name>АнализЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ заказа</value>
+  </synonym>
+  <comment>Анализ заказа покупателя, поставщику</comment>
+  <defaultForm>Report.АнализЗаказа.Form.ФормаГлавная</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="5df4ff58-6228-4b9a-b2a7-f68e64209913">
+    <name>ДатаАнализа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата анализа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d9eaf2eb-b29b-4052-b664-1a02bf84607a">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.ЗаказПокупателя</types>
+      <types>DocumentRef.ЗаказПоставщику</types>
+      <types>DocumentRef.ВнутреннийЗаказ</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f68bbf04-f72a-497f-9ab7-08bb63332c27">
+    <name>ФормаГлавная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма главная</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="20ca29aa-bc3c-40b6-8097-84f2ef73f8b1">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="ed38328b-576c-4c53-9437-e67be12c1ebd">
+    <name>МакетЗаказПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет заказ поставщику</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="d63841ae-974b-494c-8dca-e3fe9ec6f966">
+    <name>МакетВнутреннийЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет внутренний заказ</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Report>

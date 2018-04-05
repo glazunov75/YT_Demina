@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="165b82ee-4eed-4a24-adfb-47bb7b9d19df">
+  <name>ПиктограммаФайла_EPF</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пиктограмма файла EPF</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>14</x>
+    <y>6</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

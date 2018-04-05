@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b0618e7-628f-4618-b9aa-c645e087db57">
+  <producedTypes>
+    <refType typeId="3f06ed7d-fb5a-429c-9012-3645f8f21ddb" valueTypeId="0b33c6b0-ef03-4da5-ab78-6e3e8ec81277"/>
+    <listType typeId="dde99ef1-7702-4e9f-a143-173570f16204" valueTypeId="8c769c8f-2ba9-48a2-80e7-28057e43936f"/>
+    <managerType typeId="67495c0d-8035-412e-8605-8eca240254ad" valueTypeId="3a293c5f-4cbd-49ec-a8a7-c5f4233dd72b"/>
+  </producedTypes>
+  <name>ОбязательностьЗаполненияОтветаНаВопрос</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обязательность заполнения ответа на вопрос</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b569a05c-9371-4f8e-857f-bc1a3db306ec">
+    <name>НеОбязателенКЗаполнению</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не обязателен к заполнению</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4e620ac6-fd0d-40b8-b536-ad369bb463af">
+    <name>ОбязателенКЗаполнению</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязателен к заполнению</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="08a3e1f2-79cb-40be-875e-f6d400b4ac5f">
+    <name>УсловноОбязателенКЗаполнению</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условно обязателен к заполнению</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="55399107-d191-412f-a564-9d88e20a7c41">
+    <name>УсловноНеЗаполнять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условно не заполнять</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

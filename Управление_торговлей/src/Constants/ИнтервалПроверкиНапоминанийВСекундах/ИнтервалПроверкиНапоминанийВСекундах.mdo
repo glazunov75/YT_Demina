@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a08880f3-8ef3-41fc-af54-6724481c6c5a">
+  <producedTypes>
+    <managerType typeId="ae2e9d97-19fa-4f49-bb76-620f6316b1fe" valueTypeId="67f771a2-8d42-478c-b500-66bd82b80163"/>
+    <valueManagerType typeId="a08880f3-8ef3-41fc-af54-6724481c6c5a" valueTypeId="a08880f3-8ef3-f1fc-af54-6724481c6c5a"/>
+  </producedTypes>
+  <name>ИнтервалПроверкиНапоминанийВСекундах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интервал проверки напоминаний в секундах</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

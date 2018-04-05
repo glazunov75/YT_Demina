@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c86b95a-c811-4005-8a84-c60ddbaed809">
+  <producedTypes>
+    <refType typeId="e8c37233-80fc-4d7e-87b1-acb57dc8fc4f" valueTypeId="cc66ed4a-e883-4856-940e-280a3b4d7786"/>
+    <listType typeId="08535efe-9a45-47c9-8f17-8be375757d29" valueTypeId="bb297150-5909-4f38-9fe6-5a77996e5c6c"/>
+    <managerType typeId="f5b67e57-bdc6-421a-af8a-17a6842460cb" valueTypeId="741d46d7-cc63-4122-946e-be9e06a06e37"/>
+  </producedTypes>
+  <name>ВидыДействийФильтровЭлектронныхПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды действий фильтров электронных писем</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="32381d20-d82d-4d89-935e-df3e01982ba1">
+    <name>ПоместитьПисьмоВПапку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поместить письмо в папку ...</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="74db9399-f517-4350-9337-a80a18f3fd2c">
+    <name>УстановитьПисьмуФлагРассмотрено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установить письму флаг &quot;Рассмотрено&quot;</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="805121e8-3837-4bbe-80f3-1e099772ee1f">
+    <name>ПродолжитьДальнейшуюОбработкуПравил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжить дальнейшую обработку правил</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9066edd4-e68d-48f1-86de-7a5fb77f2200">
+    <name>УстановитьПисьмуОформление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установить письму оформление...</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

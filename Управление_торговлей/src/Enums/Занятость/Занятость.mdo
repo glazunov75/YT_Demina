@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9c720c5-5eba-4cf4-96ae-e0a7c5ab36ed">
+  <producedTypes>
+    <refType typeId="c4527f5e-33e8-40b1-9373-14ef0104a510" valueTypeId="82f92c2a-b4fb-4753-8288-f3eb83a1658b"/>
+    <listType typeId="6e2b74da-b097-4561-a896-d6f219c7df89" valueTypeId="221a6ecd-c4f1-4eef-b799-2d682333c415"/>
+    <managerType typeId="68e9af1a-86a5-43b4-bfcf-b793ffe8661e" valueTypeId="5c09d95c-d5aa-40b0-957f-953c7c5c08a5"/>
+  </producedTypes>
+  <name>Занятость</name>
+  <synonym>
+    <key>ru</key>
+    <value>Занятость</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c5bf079b-c87c-42bc-b98a-7e9189dfc40b">
+    <name>Свободно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свободно</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e35d594d-9b80-4241-ba03-50451ef2b0ca">
+    <name>Занято</name>
+    <synonym>
+      <key>ru</key>
+      <value>Занято</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="51424fa1-1355-4bf2-bc4f-ce1761bd7adb">
+    <name>Недоступно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Недоступно</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a54579cd-b2b2-434c-ab6d-274648943f03">
+  <name>ОбменДаннымиРТ8_1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными с РТ 8 (нажата)</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

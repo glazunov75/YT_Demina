@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9053532a-ef8f-4451-9408-2643a240b484">
+  <name>СоответствиеСкладовИУзловОбменаТорговляБухгалтерия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие складов и узлов обмена торговля бухгалтерия</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+</mdclass:SessionParameter>

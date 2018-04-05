@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e23a2f78-37ff-4c3c-8b59-17ffc01db5c8">
+  <name>ФормаВыбораКонтрагентаДоговораЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма выбора контрагента-договора-заказа</value>
+  </synonym>
+  <comment></comment>
+  <formType>Ordinary</formType>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

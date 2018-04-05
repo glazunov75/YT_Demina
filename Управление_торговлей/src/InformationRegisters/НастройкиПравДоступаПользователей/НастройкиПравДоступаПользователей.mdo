@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da569d52-6cc0-4fd1-97ac-e9212ec84cf5">
+  <producedTypes>
+    <selectionType typeId="ef45c91e-d9e2-40ab-8720-bcc3601567fa" valueTypeId="e650a19b-a1a1-4e4d-88d1-56793809be32"/>
+    <listType typeId="929d0955-08c0-439d-9067-a0182f33745d" valueTypeId="dcb72282-71c5-4d89-8c09-0d80ba88214d"/>
+    <managerType typeId="3669e990-1d2d-45cd-8317-a122b3ba2cc9" valueTypeId="7a696b97-1046-47fd-a473-fa31e034e430"/>
+    <recordSetType typeId="2606f2f0-f7e2-4a20-8ba0-94085a2dd1e3" valueTypeId="d12b3016-41b7-45e9-84e7-b3c4208a18c2"/>
+    <recordKeyType typeId="f3616a0c-4208-43d7-8980-b1d6c932c20b" valueTypeId="b26b5b5d-a67b-42ff-bd03-a85003cd6879"/>
+    <recordType typeId="ffab510f-f754-49ff-9962-105a5c7e7fd2" valueTypeId="4a253db9-ec66-4b96-af7a-946ac627c39b"/>
+    <recordManagerType typeId="9e7cb7ad-c882-4fc3-9c19-36d0640e83f7" valueTypeId="68a38a30-ea92-4890-b4b5-f1e5d3aa85e1"/>
+  </producedTypes>
+  <name>НастройкиПравДоступаПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки прав доступа пользователей</value>
+  </synonym>
+  <comment></comment>
+  <resources uuid="806cb821-43a6-4306-bf5c-3b0d4b57f105">
+    <name>Запись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="9d73f1a1-61a9-4795-9746-18f8a6808fc4">
+    <name>ВидНаследованияПравДоступаИерархическихСправочников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид наследования прав доступа иерархических справочников</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ВидыНаследованияПравДоступаИерархическихСправочников</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="28a4587a-5ab6-4911-8551-dd3f080612f0">
+    <name>ОбъектДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект доступа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+      <types>CatalogRef.ГруппыДоступаККонтрагентам</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="84ac05e8-a8f2-46f2-b334-78bd8c068c55">
+    <name>ВидОбъектаДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид объекта доступа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ВидыОбъектовДоступа</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1e36a21e-3695-4270-b012-1918950d49d8">
+    <name>ОбластьДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Область данных</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ОбластиДанныхОбъектовДоступа</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9e63fead-3ce0-43cb-9acf-8c8a644c921c">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ГруппыПользователей</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="05b1a010-ef05-409e-b9c4-f5c294adf7d0">
+    <name>ВладелецПравДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец прав доступа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+      <types>CatalogRef.ГруппыДоступаККонтрагентам</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ff26e16-8e86-435b-a9e8-707256f58ac2">
+  <name>ФормаПараметрыВходящегоДокументаОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма параметры входящего документа обмена</value>
+  </synonym>
+  <comment></comment>
+  <formType>Ordinary</formType>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="050c9429-aab3-4d35-819f-9deb8f1a2d81">
+  <producedTypes>
+    <selectionType typeId="7f2d8bea-97cb-4992-ae89-16f71d382200" valueTypeId="6d820e6d-8f01-4afb-ac83-148675f7bf7a"/>
+    <listType typeId="beb9c4dd-8f93-4e29-97c7-4a4f1cbeef36" valueTypeId="ab830c68-ff5f-4dcf-adbb-44b1f3d22882"/>
+    <managerType typeId="e76bf2c2-32db-4962-90b3-d4c0ab2f2f3e" valueTypeId="2e739d28-cc14-4df9-bb39-50b553767d9b"/>
+    <recordSetType typeId="c36f4c84-d17b-4f59-9b9d-f240150217b6" valueTypeId="3449f2c5-6ed4-4b5d-b107-4bea78f388b7"/>
+    <recordKeyType typeId="52e0cc36-e148-4052-ab44-2cee0faba33b" valueTypeId="fc96dc54-3a47-4d4c-8d12-aea77f42b4bc"/>
+    <recordType typeId="e7de9001-55ba-4e0f-99ff-28572f229805" valueTypeId="cf60a115-a65c-47c4-b0af-aa02716c9492"/>
+    <recordManagerType typeId="6f001300-38f5-4e29-bc39-c4c2f65d21fc" valueTypeId="bdf99195-abbd-4a8c-9163-cd2202c36e1b"/>
+  </producedTypes>
+  <name>НазначенияСвойствОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначения свойств объектов</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dimensions uuid="e2b17ed2-31b8-432a-a39e-ae7994e70d39">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>Characteristic.НазначенияСвойствКатегорийОбъектов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1f133860-0eac-4de6-92ec-ace57cf77c8f">
+    <name>Свойство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойство</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.СвойстваОбъектов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

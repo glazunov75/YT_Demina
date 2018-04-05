@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cee69784-81e1-429a-bf37-cf94282a5f23">
+  <producedTypes>
+    <refType typeId="7da2575a-1659-45a3-b3a5-49687e0e0f58" valueTypeId="16b5db98-531c-46a6-946d-13dfb60811d8"/>
+    <listType typeId="b93581cd-1dbd-45d7-9b29-497bc3441238" valueTypeId="3fdec69b-dabc-462d-8482-8f5a0beb3fb1"/>
+    <managerType typeId="8fe6c99d-ef71-4c6b-ae0f-6328f48842b6" valueTypeId="3b5461c7-7e55-4812-8d31-873cfce5413f"/>
+  </producedTypes>
+  <name>СтатусыПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы писем</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5e59ddb2-fe4a-45d8-a5a1-c8268f62a15c">
+    <name>Полученное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полученное</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2aa8eac3-cf72-460a-8a1c-a862be808099">
+    <name>Отправленное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправленное</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="a9a2e199-f5d3-4475-952d-d6c974d97f8c">
+    <name>Исходящее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходящее</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="28264933-93bd-4bc8-b79f-c6192817a8f5">
+    <name>Сохраненное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохраненное</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

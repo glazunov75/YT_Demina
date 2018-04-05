@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="213d0ebb-3e6b-4821-a39c-11983e641014">
+  <producedTypes>
+    <objectType typeId="0a006a36-ad25-4f2f-a3b9-eddb403ef373" valueTypeId="cbaaccf7-9ca1-4645-bbd9-8182664f936e"/>
+    <managerType typeId="ca28cf60-25f2-4ffb-8fb5-4ec72643d571" valueTypeId="92ce5e90-1c29-4cce-940f-02242f3846bb"/>
+  </producedTypes>
+  <name>КурсыВалютРБК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Курсы валют РБК</value>
+  </synonym>
+  <comment>Загрузка курсов валют с сайта РБК</comment>
+  <defaultForm>DataProcessor.КурсыВалютРБК.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="07433213-6184-4307-a5b1-a5e036c37623">
+    <name>НачДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нач дата</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="24ef8db0-a4ac-4101-a59a-571af29be089">
+    <name>КонДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кон дата</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="7d3e5d86-c40e-4bcb-a7b5-6e764c391c9f">
+    <producedTypes>
+      <objectType typeId="f7426eb4-d74a-4c27-a989-204fbc1c320a" valueTypeId="d5ecf9e1-33d0-4508-b59f-56595a13d9a9"/>
+      <rowType typeId="f4c94afe-d122-45e0-861f-81eef163eab4" valueTypeId="cfaa9b06-9fbc-436b-8c3b-d5ba3aabcea6"/>
+    </producedTypes>
+    <name>СписокВалют</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список валют</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="283d0fa8-d8cb-4cbd-9f80-05be83c4bba1">
+      <name>Валюта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Валюта</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Валюты</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="03d2ae8f-6230-417e-a93f-43f3f9a2c00c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

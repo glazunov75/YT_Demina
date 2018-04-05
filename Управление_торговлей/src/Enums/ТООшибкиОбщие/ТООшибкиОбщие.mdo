@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88825be9-2a7d-4bfc-8332-bb6d8991bbe7">
+  <producedTypes>
+    <refType typeId="bc6ce2f3-05e7-48bf-82d8-9d42871bd240" valueTypeId="25cadd80-018f-463b-a802-6e9f6f0480a4"/>
+    <listType typeId="d2390965-1b65-4ba5-96e1-7d772892dfae" valueTypeId="6ba3f0a0-1090-4f8c-9655-97957d23ed8f"/>
+    <managerType typeId="23026327-bb74-46d0-8e9b-422e9b71d17f" valueTypeId="1a409292-4d26-4667-90b1-cbe23e921e55"/>
+  </producedTypes>
+  <name>ТООшибкиОбщие</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТООшибки общие</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="807ff898-f22e-4188-b4f7-adb939001a71">
+    <name>ОшибкаЗагрузкиДрайвера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не удалось загрузить драйвер торгового оборудования</value>
+    </synonym>
+    <comment>Необходимо проверить корректность установки драйвера.</comment>
+  </enumValues>
+  <enumValues uuid="b167d6ea-4fc1-4a45-9e46-50292be0a26f">
+    <name>ОшибкаЗагрузкиОбработкиОбслуживания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка загрузки обработки обслуживания</value>
+    </synonym>
+    <comment>Проверьте корректность указания обработки обслуживания и ее версию.</comment>
+  </enumValues>
+  <enumValues uuid="04a04893-53cf-4489-9f50-e305e8d22115">
+    <name>ОшибкаНеизвестно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неизвестная ошибка</value>
+    </synonym>
+    <comment>Была обнаружена ошибка, обработка которой не предусмотрена.</comment>
+  </enumValues>
+  <enumValues uuid="796eed86-f3e3-4587-82cc-d8d9daed734d">
+    <name>ОшибкаНетПрав</name>
+    <synonym>
+      <key>ru</key>
+      <value>У текущего пользователя нет прав на использование торгового оборудования</value>
+    </synonym>
+    <comment>Необходимо обратиться к администратору информационной базы.</comment>
+  </enumValues>
+  <enumValues uuid="b8446ab6-9783-46fd-8399-54fb6d42ec3b">
+    <name>ОшибкаПараметровНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключаемое оборудование не было корректно настроено</value>
+    </synonym>
+    <comment>Для корректной работы устройства необходимо задать параметры его работы. Сделать это можно при помощи формы &quot;Настройка параметров&quot; модели торгового оборудования в обработке &quot;Подключение и настройка торгового оборудования&quot;.</comment>
+  </enumValues>
+  <enumValues uuid="e98c8e90-f0f2-4e06-ba02-d530dbf8f546">
+    <name>ОшибкаПриПодключении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка при подключении устройства</value>
+    </synonym>
+    <comment>Необходимо убедиться, что устройство правильно настроено и соответствующий порт не занят другим приложением.</comment>
+  </enumValues>
+  <enumValues uuid="8015ebb0-6621-46b5-a686-1554865b356a">
+    <name>ОшибкаТестНеПройден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест устройства не был пройден</value>
+    </synonym>
+    <comment>Автоматический тест устройства не пройден.</comment>
+  </enumValues>
+</mdclass:Enum>

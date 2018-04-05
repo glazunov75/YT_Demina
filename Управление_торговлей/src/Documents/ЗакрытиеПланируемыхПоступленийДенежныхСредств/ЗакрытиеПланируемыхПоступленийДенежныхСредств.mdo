@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50b95343-c092-43d5-980a-c641f7169483">
+  <producedTypes>
+    <objectType typeId="82a21c49-da03-4c8a-ba44-a8737c899671" valueTypeId="38306d40-ffba-44a0-9cde-65aece48ed23"/>
+    <refType typeId="f2ade6e6-4d04-4346-8add-4dc7b0925b8c" valueTypeId="b324b781-b3ec-4466-9694-f97b94ed12cb"/>
+    <selectionType typeId="d34efc7b-4470-4cfa-ba18-09ae9fbcc1d5" valueTypeId="3e6986a6-f6a2-4247-8a9a-18b9bf1e69d3"/>
+    <listType typeId="06baacc6-3b04-4148-ab09-c50ea56a9f87" valueTypeId="433a8c06-0a50-4fcf-86a2-56cddc4149a3"/>
+    <managerType typeId="b2604235-a63c-4f8b-8d08-b13ff23b5e2b" valueTypeId="68cf2db3-bcfb-41ce-8125-49e2d88d6139"/>
+  </producedTypes>
+  <name>ЗакрытиеПланируемыхПоступленийДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрытие планируемых поступлений денежных средств</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>Document.ЗакрытиеПланируемыхПоступленийДенежныхСредств.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗакрытиеПланируемыхПоступленийДенежныхСредств.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ЗакрытиеПланируемыхПоступленийДенежныхСредств.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.ЗакрытиеПланируемыхПоступленийДенежныхСредств.Form.ФормаВыбора</defaultChoiceForm>
+  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <registerRecords>AccumulationRegister.ПланируемыеПоступленияДенежныхСредств</registerRecords>
+  <registerRecords>AccumulationRegister.РасчетыСКонтрагентами</registerRecords>
+  <registerRecords>AccumulationRegister.РазмещениеЗаявокНаРасходованиеСредств</registerRecords>
+  <attributes uuid="11b9942a-cb39-4a74-b08c-ee4cf749703b">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="2ce4ba8e-9ed9-4487-8183-8573be3a5b6c">
+    <name>ОтборЦФО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор по ЦФО</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="608a8a41-791b-423e-8f0c-25b1f85b0690">
+    <name>ЦФО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЦФО</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="817753ab-72a7-4ff8-b36a-efe0d40d0295">
+    <name>ОтборОтветственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор ответственный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="ea9e8703-ef8e-4c42-8831-f6cca4457205">
+    <name>ОтветственныйПоступление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный за поступление</value>
+    </synonym>
+    <comment>Ответственный для отбора планируемых поступлений</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="3705f05e-c8af-4c24-ad0f-3cf2d7fbccff">
+    <name>ОтборКонтрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор по контрагенту</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="2c9b43ac-893e-4f67-bdb2-085837cb625a">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="e15e4b5e-a10c-4080-8fc9-f5ada0c8e698">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.СостоянияОбъектов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="8fb5c20c-6f8d-4148-8be5-e33a3c2a8939">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment>Любая дополнительная информация</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b37f2c9c-e687-42e0-b539-cbdeff434b0f">
+    <name>ОтборДатаНач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала отбора</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="5381c5f8-b147-4555-aa59-debe3b4a05b0">
+    <name>ОтборДатаКон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата конца отбора</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="0803bdd9-83f3-4d7b-ba51-359d2dce6793">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="611e915f-ab58-402e-b99b-774782bebd30">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="704e9c15-9890-4422-8338-96a07d3798f0">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="184a03f0-87cd-42f7-b2e1-cbb7adc1ac7d">
+    <producedTypes>
+      <objectType typeId="2886cc6a-0ad4-44b7-a23b-433aec1f207f" valueTypeId="0809faf1-e8a8-4df5-9178-15c3ff1e1d59"/>
+      <rowType typeId="260dc3d4-30e6-4173-a0f4-e0088d6a45f3" valueTypeId="f1ee618d-05c9-4d83-90e2-c7cb0f696f81"/>
+    </producedTypes>
+    <name>ПланируемыеПоступленияДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планируемые поступления ДС</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="c2a1592f-31dd-4c56-a286-28563fd3384b">
+      <name>ДокументПланирования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ планирования</value>
+      </synonym>
+      <comment>(упр)</comment>
+      <type>
+        <types>DocumentRef.ПланируемоеПоступлениеДенежныхСредств</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1a0372ff-2c9b-4d4f-b734-ac95861c0304">
+      <name>ОстатокПоступление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Остаток по запланированному поступлению</value>
+      </synonym>
+      <comment>(упр) остаток в валюте поступления</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="26c6692e-a6bc-4159-a3b3-cf867d20db97">
+      <name>ВалютаПоступление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Валюта поступления</value>
+      </synonym>
+      <comment>(упр)</comment>
+      <type>
+        <types>CatalogRef.Валюты</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a17d9598-b8b1-4861-b5de-12c83e949e34">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ab7ecc81-ecbb-4c03-a529-862f2a5da912">
+      <name>Ответственный</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ответственный</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1a30a7c6-ff93-432d-bcf2-32a1190178b3">
+      <name>ОстатокРазмещение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Остаток по размещению</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

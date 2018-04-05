@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2cd61551-b94b-4ac9-b513-b38f8034a070">
+  <producedTypes>
+    <managerType typeId="8202b96b-e9be-47b9-90ae-fe4388d68236" valueTypeId="637117d2-336e-434f-8b33-2263685f6a77"/>
+    <valueManagerType typeId="8d0c9f87-fda2-4fc1-a555-b135f297053e" valueTypeId="9dc6f0ca-54a6-4b1f-901e-d1ca0a415800"/>
+  </producedTypes>
+  <name>ИспользоватьВидыРаспределенияПоПроектам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать виды распределения по проектам</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

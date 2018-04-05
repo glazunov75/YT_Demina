@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93cfb28b-03c0-458b-87e3-c8661898bf5c">
+  <name>УправлениеЗатратами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление затратами</value>
+  </synonym>
+  <comment>Управление затратами и расчет себестоимости</comment>
+  <content>CommonPicture.СправкаЗатрат</content>
+  <content>CommonModule.ЗаполнениеДокументов</content>
+  <content>CommonModule.КорректировкаСтоимости</content>
+  <content>CommonModule.ОбработкаТабличныхЧастей</content>
+  <content>CommonModule.ОбщегоНазначения</content>
+  <content>CommonModule.РаботаСДиалогами</content>
+  <content>CommonModule.УправлениеЗапасамиПартионныйУчет</content>
+  <content>CommonModule.ФормированиеПечатныхФорм</content>
+  <content>Constant.ВалютаУправленческогоУчета</content>
+  <content>Constant.ИспользоватьВидыРаспределенияПоПроектам</content>
+  <content>Catalog.ВидыРаспределенияПоПроектам</content>
+  <content>Catalog.Качество</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Подразделения</content>
+  <content>Catalog.СтатьиЗатрат</content>
+  <content>Document.АвансовыйОтчет</content>
+  <content>Document.ВнутреннийЗаказ</content>
+  <content>Document.ЗаказПокупателя</content>
+  <content>Document.КорректировкаВнутреннегоЗаказа</content>
+  <content>Document.КорректировкаКачестваТоваров</content>
+  <content>Document.ОтчетКомиссионераОПродажах</content>
+  <content>Document.ПлатежныйОрдерПоступлениеДенежныхСредств</content>
+  <content>Document.ПоступлениеДопРасходов</content>
+  <content>Document.ПоступлениеТоваровУслуг</content>
+  <content>Document.ПрочиеЗатраты</content>
+  <content>Document.ТребованиеНакладная</content>
+  <content>Document.УстановкаДолейРаспределенияПоПроектам</content>
+  <content>Enum.ВидыЗатрат</content>
+  <content>Enum.ХарактерЗатрат</content>
+  <content>Report.Затраты</content>
+  <content>InformationRegister.РаспределениеПоПроектам</content>
+  <content>InformationRegister.СписанныеТовары</content>
+  <content>InformationRegister.УчетнаяПолитика</content>
+  <content>AccumulationRegister.Затраты</content>
+</mdclass:Subsystem>

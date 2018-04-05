@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96de4e4c-4521-4d1b-8d52-5852d8bda7d2" thisNode="73f1017e-951a-48e9-8cb0-ebc235396c39">
+  <producedTypes>
+    <objectType typeId="009d81f3-d0d8-4a94-98b6-98f056808cd9" valueTypeId="7f598064-7b3e-4763-a1ce-e039c16fb257"/>
+    <refType typeId="23253ced-d803-4d8d-a15a-09f55e5f1f85" valueTypeId="e686c705-d9cc-4db7-b43c-cf371de95332"/>
+    <selectionType typeId="6a346ea0-2817-43a1-8e96-6c8034a13574" valueTypeId="65dee0b7-d588-4229-914e-d1dbd2676f94"/>
+    <listType typeId="674b2c51-d2b1-44f9-b2d2-23dca245af91" valueTypeId="6bb08093-fa06-4e06-bc9a-900dcb1be95c"/>
+    <managerType typeId="e87ac32e-9ebb-44aa-a72c-482571f294f3" valueTypeId="5c2b9a9a-c3f1-4a22-b4f8-71ca00be04c3"/>
+  </producedTypes>
+  <name>ОбменУправлениеТорговлей103БухгалтерияПредприятия30</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен Управление торговлей, ред. 10.3 - Бухгалтерия предприятия, ред. 3.0</value>
+  </synonym>
+  <comment>Обмен данными между &quot;Управление торговлей&quot; и &quot;Бухгалтерия предприятия&quot;</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ОбменУправлениеТорговлей103БухгалтерияПредприятия30.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ОбменУправлениеТорговлей103БухгалтерияПредприятия30.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <name>ThisNode</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>ReceivedNo</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>SentNo</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Description</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <content>
+    <mdObject>Document.ОтчетКомитентуОПродажах</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ПлатежныйОрдерСписаниеДенежныхСредств</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВидыВзаиморасчетов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.АдресныеСокращения</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.АвансовыйОтчет</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ПриходныйКассовыйОрдер</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВидыОплатЧекаККМ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.КонтактныеЛицаКонтрагентов</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ПеремещениеТоваров</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СоответствияОбъектовИнформационныхБаз</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Номенклатура</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ВозвратТоваровОтПокупателя</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.КорректировкаДолга</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ПлатежноеТребованиеВыставленное</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.БанковскиеСчета</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ПоступлениеДопРасходов</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.КорректировкаРеализации</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Банки</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.АккредитивПереданный</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ТребованиеНакладная</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.РолиКонтактныхЛиц</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ГТДИмпорт</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ОтчетОРозничныхПродажах</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПаспортныеДанныеФизЛиц</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ПоступлениеТоваровУслуг</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Пользователи</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ОприходованиеТоваров</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ПлатежныйОрдерПоступлениеДенежныхСредств</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.РеализацияТоваровУслуг</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КурсыВалют</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ИнкассовоеПоручениеПереданное</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ДокументыУдостоверяющиеЛичность</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.СчетНаОплатуПокупателю</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.АккредитивПолученный</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ТипыЦенНоменклатуры</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ДоговорыКонтрагентов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ОтветственныеЛицаОрганизации</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ВозвратТоваровПоставщику</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ИнкассовоеПоручениеПолученное</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ПоступлениеТоваровУслугВНТТ</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ВозвратТоваровПоставщикуИзНТТ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ФизическиеЛица</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.КомплектацияНоменклатуры</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.РасходныйКассовыйОрдер</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.КорректировкаПоступления</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.СписаниеТоваров</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СтатьиЗатрат</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ПлатежноеПоручениеИсходящее</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Организации</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ПереоценкаТоваровВРознице</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.КлассификаторЕдиницИзмерения</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Контрагенты</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.КонтактныеЛица</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ФИОФизЛиц</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ЗаказПокупателя</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Валюты</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Склады</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.НоменклатурныеГруппы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СтатьиДвиженияДенежныхСредств</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ОтчетКомиссионераОПродажах</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.Доверенность</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.КлассификаторСтранМира</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВидыКонтактнойИнформации</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.СчетФактураПолученный</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.НомераГТД</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КонтактнаяИнформация</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ПлатежноеПоручениеВходящее</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ДолжностиОрганизаций</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.СчетФактураВыданный</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ДокументРасчетовСКонтрагентом</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ПлатежноеТребованиеПолученное</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ИнвентаризацияТоваровНаСкладе</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.ОбменУправлениеТорговлей103БухгалтерияПредприятия30.Form.ФормаУзла</defaultObjectForm>
+  <attributes uuid="f8cdf3b0-5cdf-4cda-b06d-4ef3c5603092">
+    <name>ПередаватьТолькоДокументыОтраженныеВБухгалтерскомУчете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передавать только документы, отраженные в бухгалтерском учете</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="806928b5-8ab5-42b6-a79a-7251a0006ad5">
+    <name>ВыгружатьАналитикуПоСкладам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать аналитику по складам</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="813a3895-3e7b-4cff-84fd-67e2f27167c8">
+    <name>ВариантПереносаСебестоимостиСписанияВБухгалтериюПредприятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перенос себестоимости списания (себестоимость партий)</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ВариантыПереносаСебестоимостиСписанияВБухгалтериюПредприятия</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВариантыПереносаСебестоимостиСписанияВБухгалтериюПредприятия.EnumValue.НеПереносить</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="78d888d5-ef97-4e00-abb7-67b01b57c74c">
+    <name>ДатаНачалаВыгрузкиДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальная дата для выгрузки документов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="16f6d63e-54bf-430c-a86e-d9e397c83be9">
+    <name>УдалитьИспользоватьИнформациюОМестеСозданияОбъектовПриВыгрузкеИЗагрузкеДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить использовать информацию о месте создания объектов при выгрузке и загрузке данных</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="70f9cd0a-1e17-4709-a0d7-3cebc763754c">
+    <name>ВыгрузкаДокументовЗаказПокупателяСчетНаОплатуПокупателю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка документов заказ покупателя, счет на оплату покупателю:</value>
+    </synonym>
+    <comment>Выгрузка документов заказ покупателя, счет на оплату покупателю:</comment>
+    <type>
+      <types>EnumRef.ВыгрузкаДокументовЗаказПокупателяСчетНаОплатуПокупателю</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВыгрузкаДокументовЗаказПокупателяСчетНаОплатуПокупателю.EnumValue.НеВыгружать</value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="7e74249e-c629-45ab-b34e-14cb000fc5fe">
+    <name>ИспользоватьОтборПоОрганизациям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передавать данные только по выбранным организациям</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b25d12e2-5e6a-4362-8844-e352825e16c9">
+    <name>ИспользоватьОтборПоСкладам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передавать данные только по выбранным складам</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="3843daf9-b2fa-4692-a4bf-3026006f658d">
+    <name>ИспользоватьОтборПоПодразделениям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передавать данные только по выбранным подразделениям</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="c7bb7369-7e21-4b37-8c52-e0827e130aa8">
+    <name>РежимВыгрузкиПриНеобходимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим выгрузки при необходимости</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.РежимыВыгрузкиОбъектовОбмена</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.РежимыВыгрузкиОбъектовОбмена.EnumValue.ВыгружатьПриНеобходимости</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="9bdcab44-df89-4007-9b93-d359ae4c36f2">
+    <name>ПодразделениеПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <tabularSections uuid="2269d86c-123f-4b4a-a93a-3a39afe876e7">
+    <producedTypes>
+      <objectType typeId="63af0ffe-8d30-453f-9aff-fd2afaaa1cb3" valueTypeId="c7ddb2d2-a70e-4337-95ba-b26d3a64352e"/>
+      <rowType typeId="b62a99a3-df34-4411-b366-bc02eeb0af04" valueTypeId="86eb8698-8db9-432a-8efc-5e15da31bece"/>
+    </producedTypes>
+    <name>Организации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="06ca6c52-c425-4ac5-ad3b-aa89abb22140">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Организации</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="680f4a3f-0521-4254-9e66-a94be673f3eb">
+    <producedTypes>
+      <objectType typeId="3d8b8829-c9ea-42df-a22b-1e4291eb94f2" valueTypeId="9e4bcf51-2770-48ec-a929-4ac34bdeeeda"/>
+      <rowType typeId="dee67206-9951-4651-a9a8-63994ec018f3" valueTypeId="1d271543-7921-4f6f-b25c-ea0520b3bb1e"/>
+    </producedTypes>
+    <name>Склады</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склады</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="c44c6bdb-41ba-4b3b-a698-2cd770482406">
+      <name>Склад</name>
+      <synonym>
+        <key>ru</key>
+        <value>Склад</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Склады</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="47c62e14-971b-4f19-8986-998de4dbc645">
+    <producedTypes>
+      <objectType typeId="fefe1e45-1214-4ff2-8350-8d9f87c4b66f" valueTypeId="e3e22e81-9c99-48f0-a0ab-480c42fb9ffa"/>
+      <rowType typeId="da1034cb-9230-4242-bd3b-714a2cbc54a3" valueTypeId="c0b12e86-b3a2-40f6-b074-98f9bf6ec6ab"/>
+    </producedTypes>
+    <name>Подразделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделения</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="b3a25d39-8139-4100-a57f-1d4e5316bc55">
+      <name>Подразделение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подразделение</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Подразделения</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="1f56647a-c98c-4e90-9cf7-a68a5ca22a18">
+    <producedTypes>
+      <objectType typeId="126700f4-d441-4105-b63f-3a45f015ad37" valueTypeId="fc89bf80-bf5f-402f-b661-8a398f86c988"/>
+      <rowType typeId="d71ad8e8-5b69-4ef2-b2ff-f2bc7e28fbc6" valueTypeId="cd356838-3367-475d-a8eb-1272ef8ddfd8"/>
+    </producedTypes>
+    <name>Кассы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кассы</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="23cae6c4-28b3-4074-b574-aaf1465a82e2">
+      <name>Касса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Касса</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Кассы</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="33be6224-c960-45be-bd2d-bc9ea6599014">
+    <name>ФормаНастройкиЗначенийПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки значений по умолчанию</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bd0cf5fb-4b8a-4137-bac3-1f6ee173f10a">
+    <name>ФормаНастройкиЗначенийПоУмолчаниюБазыКорреспондента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки значений по умолчанию базы корреспондента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="08e6d04a-3fbb-4403-9a69-29b9d0ec63e4">
+    <name>ФормаНастройкиУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки узла</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="20939650-e9e2-4fa7-bca3-d7d344c446ff">
+    <name>ФормаНастройкиУзлаБазыКорреспондента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки узла базы корреспондента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="aa73b83c-173a-452a-a374-dd16605767d5">
+    <name>ФормаНастройкиУзлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки узлов</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dcdb84f5-aade-4aa5-9244-d8a8a63cfa52">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="30e163ea-d4d3-41c7-92c7-fdac0f6a109c">
+    <name>ПодробнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробная информация</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="fc2b9cc9-dbb4-430c-a18f-4e890ea2318b">
+    <name>ПравилаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила обмена с &quot;Бухгалтерия предприятия&quot; 3.0</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="483de761-cdd3-424b-8576-fec2bde47511">
+    <name>ПравилаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила регистрации для обмена с &quot;Бухгалтерия предприятия&quot; 3.0</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="a62c07ec-6c3d-49dc-926e-7f12d73103f1">
+    <name>ПодробнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробная информация</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+</mdclass:ExchangePlan>

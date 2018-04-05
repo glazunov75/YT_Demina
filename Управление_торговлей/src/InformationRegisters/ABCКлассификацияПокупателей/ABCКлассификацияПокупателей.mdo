@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3d8f9b0-e63d-4940-9197-4678319e62f2">
+  <producedTypes>
+    <selectionType typeId="9dedfef1-277e-4cf4-bb32-6ce116ed65b5" valueTypeId="6265bb37-925f-423e-9c2f-add76c4279b8"/>
+    <listType typeId="717f1a5c-7809-4af8-861e-c8b5a548c9ae" valueTypeId="35b8c179-8b05-4bf1-a16e-d569cdd44a95"/>
+    <managerType typeId="a8c95b4a-d653-48fe-8120-fc4b0ffaa818" valueTypeId="4b64be2f-4b1a-4149-9e7d-779bc080a1f3"/>
+    <recordSetType typeId="9a3e3eac-ec99-419c-b418-f2dc8dd8b223" valueTypeId="c39c51b3-89d7-4f33-b722-f4f8425cb863"/>
+    <recordKeyType typeId="5ac33050-249b-4ad8-9983-0b3c3b81b55b" valueTypeId="432b4405-83bc-4597-b8f0-c27482ddf900"/>
+    <recordType typeId="9b3c1850-690c-408a-8d35-8f8f7d675140" valueTypeId="6ba34920-4793-4c20-a5db-edd23dcf9613"/>
+    <recordManagerType typeId="a85b449e-2fbf-4998-95ed-96b1f228bc8f" valueTypeId="a9c09dbc-85ec-445c-be77-2f2baa2f569f"/>
+  </producedTypes>
+  <name>ABCКлассификацияПокупателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>ABC-классификация покупателей</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <defaultListForm>InformationRegister.ABCКлассификацияПокупателей.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="88137e95-5b69-4baf-bf9c-c32eea47e179">
+    <name>ABCКлассПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>ABC-Класс покупателя</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ABCКлассификация</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c2013551-26de-446d-93f1-e10651f003ea">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="53c940f6-eb09-4ffe-af36-d8d1800710cf">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

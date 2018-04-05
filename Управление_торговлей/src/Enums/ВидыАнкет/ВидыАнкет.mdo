@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e9b3c2b-a1f5-4438-b026-6c86a9ea72f1">
+  <producedTypes>
+    <refType typeId="c3636918-3d42-4258-827c-13fd82e27245" valueTypeId="4d310cf5-a93c-4900-9fbd-29d007f428d6"/>
+    <listType typeId="09cbb790-992f-407a-9b59-c60b74872a8f" valueTypeId="88902e1c-2ec3-4d1f-b8cf-89b7f30ab8f7"/>
+    <managerType typeId="ba8cfb68-b9ec-4c13-93c9-3066f2ab2e39" valueTypeId="91f75d3f-a813-420c-8b51-ecbc97adfe23"/>
+  </producedTypes>
+  <name>ВидыАнкет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды анкет</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6b7ca2ca-b282-4332-9fd8-2bd9eb7d8f70">
+    <name>Опрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опрос</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="0ba86304-c5f5-439f-ac90-fdd047673b70">
+    <name>Тестирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестирование</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

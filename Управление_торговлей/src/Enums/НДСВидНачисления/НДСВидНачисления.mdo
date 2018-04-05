@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="511a1044-b7be-4e8f-8863-5434f40ff4e9">
+  <producedTypes>
+    <refType typeId="f0fca7f5-5cec-4aa6-971f-c8f79d42a583" valueTypeId="cb0eb1f8-1f22-4741-88b2-611e5dd4fa4b"/>
+    <listType typeId="ed4fce72-8b02-4a25-ae19-3f4c5395e15a" valueTypeId="72777dcd-06c4-4740-a940-0d65139ea24c"/>
+    <managerType typeId="0f6bdf90-babc-40e9-a97a-444cafb53ba2" valueTypeId="bd40f3f0-52f3-4311-994d-c2cb33475476"/>
+  </producedTypes>
+  <name>НДСВидНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>НДС вид начисления</value>
+  </synonym>
+  <comment>Вид начисления НДС (реализация, налоговый агент, НДС с авансов)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3a2ffdcf-ab9b-4ef7-b6a7-9d33357b2fc2">
+    <name>РеализацияСНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализация с НДС</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="71d03e82-dcdb-4315-a233-d291b6f34460">
+    <name>РеализацияЕНВД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализация ЕНВД</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="1fabbb44-4e4b-44e2-afe2-df4d890e3488">
+    <name>РеализацияБезНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализация без НДС</value>
+    </synonym>
+    <comment>Реализация без НДС (не ЕНВД)</comment>
+  </enumValues>
+  <enumValues uuid="5b87c7d4-1d8e-4fce-bcae-f1748db249a7">
+    <name>Реализация0</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализация со ставкой 0%</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="587eef14-f4a9-4f2a-b57b-0ee61acc54b0">
+    <name>НДСсАвансов</name>
+    <synonym>
+      <key>ru</key>
+      <value>НДС с авансов</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d75124fe-0c65-4d09-aaf3-62117c370f75">
+    <name>НДСНачисленКУплате</name>
+    <synonym>
+      <key>ru</key>
+      <value>НДС начислен к уплате</value>
+    </synonym>
+    <comment>НДС начислен к уплате (налоговый агент, внутренняя реализация)</comment>
+  </enumValues>
+  <enumValues uuid="92710146-1ff5-45d4-8e9f-f61eea6e93ee">
+    <name>НДСВосстановлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>НДС восстановлен</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

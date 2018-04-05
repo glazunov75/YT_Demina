@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd296193-b879-4d5e-9139-dfc7b6a94001">
+  <producedTypes>
+    <objectType typeId="17e7fb2b-7da5-4d81-b382-213225dc517b" valueTypeId="d1a89da8-76bf-46b4-b03a-7f5e0995096b"/>
+    <managerType typeId="4b06b7ae-96bb-4ffd-aaf6-439f1f8b4e1a" valueTypeId="aaced8cb-d95a-4499-ba5f-63f3df4a8e55"/>
+  </producedTypes>
+  <name>ВедомостьТоварыВНТТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведомость по товарам в НТТ</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <defaultForm>Report.ВедомостьТоварыВНТТ.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="10840ca0-3e6a-4aab-ba22-226c1daee04a">
+    <name>УниверсальныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.УниверсальныйОтчет</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="829e0153-10fd-47d3-88c9-9378473f647d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

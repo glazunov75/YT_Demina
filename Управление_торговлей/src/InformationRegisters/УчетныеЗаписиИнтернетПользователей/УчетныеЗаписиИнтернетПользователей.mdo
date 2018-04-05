@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54d45257-d31d-4dd6-bbbc-e381dbae3813">
+  <producedTypes>
+    <selectionType typeId="20e75ab3-eff4-47cf-aa5e-6a4aa0f9b1af" valueTypeId="75a04633-7fb5-420b-99fe-67b4b78fdae3"/>
+    <listType typeId="a321b7dc-caa3-4b69-bc19-0d2eb3a5a599" valueTypeId="577d6487-b846-4610-b4dc-86c8ce88f53b"/>
+    <managerType typeId="a8101eec-d2d8-435f-9cae-a9fca6a8f402" valueTypeId="44b17a2e-5936-441c-9354-ea1332fe1efc"/>
+    <recordSetType typeId="bf1d7f14-303a-4648-ac0f-9b7302a12316" valueTypeId="d50fd8ed-334f-4a01-b45f-034a258bab78"/>
+    <recordKeyType typeId="078cc2f9-8c8f-4389-a77d-875d13c435b8" valueTypeId="69bf0c40-8443-47cf-94f3-20a1b74e7497"/>
+    <recordType typeId="a8d59fce-8480-47ff-b669-ee773c47cd5e" valueTypeId="a28d3241-ff57-4d06-9f0f-ea383f57c65b"/>
+    <recordManagerType typeId="be7f5363-77c6-4ce4-91b9-7fa9f960ed20" valueTypeId="532836e0-bda6-40db-a907-ccbfb4c128e9"/>
+  </producedTypes>
+  <name>УчетныеЗаписиИнтернетПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетные записи интернет-пользователей</value>
+  </synonym>
+  <comment></comment>
+  <defaultListForm>InformationRegister.УчетныеЗаписиИнтернетПользователей.Form.ФормаСписка</defaultListForm>
+  <resources uuid="3c51e577-066b-47e4-a75a-56f52cdd6378">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="dcac1194-72ee-4fd1-bcdb-9b4f62b45d69">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9ed98547-96a7-45ef-8de1-6fe04217bc50">
+    <name>Логин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="2707905b-6195-4264-aeac-da6678fd0a42">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

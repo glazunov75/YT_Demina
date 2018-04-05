@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="645b7e73-642a-4392-83e3-539587588508">
+  <name>ОбменДаннымиРИБ_1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными РИБ (нажата)</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

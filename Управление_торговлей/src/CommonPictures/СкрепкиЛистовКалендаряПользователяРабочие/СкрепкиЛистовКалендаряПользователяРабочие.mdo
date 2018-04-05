@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90cb939b-f292-48c8-9eac-298c8fdfd229">
+  <name>СкрепкиЛистовКалендаряПользователяРабочие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Скрепки листов календаря пользователя рабочие</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

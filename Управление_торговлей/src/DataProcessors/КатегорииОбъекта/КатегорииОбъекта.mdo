@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5f6c151-8dbe-4654-93d0-0a0245c73095">
+  <producedTypes>
+    <objectType typeId="7ff83f67-1fbb-4709-8b31-c7e46528aefd" valueTypeId="9ebccd39-067a-4362-8413-39ef2a530907"/>
+    <managerType typeId="47934cca-851c-4fc5-a370-b60938cf6819" valueTypeId="0e9b7769-a427-41a6-a4f5-cbf9e5ecf300"/>
+  </producedTypes>
+  <name>КатегорииОбъекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории объекта</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.КатегорииОбъекта.Form.КатегорииОбъекта</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="fd7dc6fa-6b9c-48b7-b820-e4336870cefa">
+    <name>НазначениеКатегорий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение категорий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueList</types>
+      <types>ChartOfCharacteristicTypesRef.НазначенияСвойствКатегорийОбъектов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f196d964-8f2b-49cd-811a-a6f56f8c153a">
+    <name>ОбъектОтбораКатегорий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект отбора категорий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef</types>
+      <types>CatalogRef</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="f1caaf82-6e2f-4ef4-a9c2-15909945831a">
+    <producedTypes>
+      <objectType typeId="b328e350-b5f4-4ec3-9949-94e82e17ee9e" valueTypeId="78981ed2-2005-4943-9f21-06b88d31fc1e"/>
+      <rowType typeId="97d52632-8a55-4122-b285-1f84e5dd5a22" valueTypeId="e8429bb5-3c38-473b-bd36-f0623ab81d4f"/>
+    </producedTypes>
+    <name>КатегорииОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категории объекта</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="ced889b7-c669-4dab-8299-6ad9375bcffa">
+      <name>ПометкаУдаления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка удаления</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b67fc9ad-7167-4552-b679-b07cb21651fe">
+      <name>Категория</name>
+      <synonym>
+        <key>ru</key>
+        <value>Категория</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.КатегорииОбъектов</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="497afc18-4c14-4fb5-8954-f2142d2aa3f4">
+      <name>Принадлежность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Принадлежность</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="80eac873-1a4e-40c5-bf7c-0a4896774607">
+    <name>КатегорииОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категории объекта</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

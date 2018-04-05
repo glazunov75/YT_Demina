@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2ba17ca-35d6-4ba9-be8c-cbd7bfa58b14">
+  <producedTypes>
+    <objectType typeId="5f628128-6cef-4bf8-8b11-99e0670fb725" valueTypeId="a8b8f881-e35d-4620-bcaf-1ec868316ff9"/>
+    <refType typeId="f69b798f-68a0-4434-97a4-d3d2375e14b2" valueTypeId="61f8e99c-7ed3-4cec-8f64-1af30240a314"/>
+    <selectionType typeId="1af73537-dc7d-427f-9db7-413a61afabbd" valueTypeId="b9c4e014-f54e-4617-95d7-b773ed817751"/>
+    <listType typeId="a54232ad-ea0c-4d52-b60a-bfb1161264cd" valueTypeId="517bd2af-4279-42a4-8673-d14708ee0f8d"/>
+    <managerType typeId="a415df03-6f25-4ebf-8846-7937318e8a4f" valueTypeId="cfab7d4a-3d0d-4ebc-8599-5119bd8b49ae"/>
+  </producedTypes>
+  <name>ПрофилиРаспределенияПоПериодам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Профили распределения по периодам</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <inputByString>Catalog.ПрофилиРаспределенияПоПериодам.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПрофилиРаспределенияПоПериодам.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПрофилиРаспределенияПоПериодам.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ПрофилиРаспределенияПоПериодам.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ПрофилиРаспределенияПоПериодам.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="c6387e62-75af-40d0-88e8-6f543a783a70">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.Периодичность</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="49ca52a5-4765-44c5-9d27-f6756fc5c324">
+    <name>Подпериод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подпериод</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.Периодичность</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <tabularSections uuid="f423234d-53e4-431d-9270-1b998f5c7c3d">
+    <producedTypes>
+      <objectType typeId="de890188-5cbf-4072-bdfd-05450eb1f509" valueTypeId="e5ce894d-5c7e-4dc0-add6-3644c91315cc"/>
+      <rowType typeId="b790cad6-aa34-4833-adb8-73c425ee6c96" valueTypeId="56b7e5e9-1d31-4939-9101-fc2526368ebc"/>
+    </producedTypes>
+    <name>Распределение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распределение</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="fa5b413c-b258-407a-b79d-04b89ac70fca">
+      <name>НомерПодпериода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер подпериода</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7a1dd0f5-236c-4de7-b84d-f3c20fc1c6e2">
+      <name>ДоляПодпериода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Доля подпериода</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="e400f08a-9f15-4b6d-8cb5-40b8284fc804">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1056fc49-8959-4663-95ba-7d353db087f7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="87711725-89f6-4276-a7f1-a48a0b0cae74">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

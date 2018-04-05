@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27d3539f-e5a1-45a8-88c4-45d95b3a7a27">
+  <producedTypes>
+    <refType typeId="67e11ffc-030b-4070-b491-7b5151129ff9" valueTypeId="6c7b587c-cad3-4ea8-8ada-6ad063d23aba"/>
+    <listType typeId="27d3539f-e5a1-45a8-88c4-45d95b3a7a27" valueTypeId="27d3539f-e5a1-f5a8-88c4-45d95b3a7a27"/>
+    <managerType typeId="0e4c9b0a-50f1-4728-af84-a5fad4805233" valueTypeId="bf8aeca1-aab5-4b27-a2fb-b92e7406de5a"/>
+  </producedTypes>
+  <name>Периодичность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периодичность</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0571dd2c-5285-452e-b4b7-6a76000acff3">
+    <name>День</name>
+    <synonym>
+      <key>ru</key>
+      <value>День</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="bb12b7d3-0c42-4a59-853d-585eaf456f8f">
+    <name>Неделя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неделя</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="8c4e1b6b-a2f4-4e75-8c42-0f5595722072">
+    <name>Декада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декада</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="bfc49763-8761-4252-9f4e-a0b4f7661741">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="51c797f5-3298-4453-91ad-3a3b2d6ac35d">
+    <name>Квартал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квартал</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4f31faac-a367-4f02-8ede-fe552ffc8ad1">
+    <name>Полугодие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полугодие</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="688fbe8c-4893-41f7-b5b3-8e9ddb24aca1">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

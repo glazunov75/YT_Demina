@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="520c912d-ba2a-4295-aa0f-ff95482870e9">
+  <producedTypes>
+    <selectionType typeId="3b6d38e0-c83d-49db-a875-571c21951cd2" valueTypeId="34c4a5f7-2fc7-4297-890e-f1f9bfd9866a"/>
+    <listType typeId="f764d9ee-b698-4b5e-8eac-c9b177c2b33a" valueTypeId="c8fb547b-3007-441d-811f-90d88e892237"/>
+    <managerType typeId="18911d87-1aff-450d-ad98-7097a6639b6a" valueTypeId="0d5ef759-be1e-4587-8fae-feb9aa318e6f"/>
+    <recordSetType typeId="1534329b-3bf8-4890-8714-469d3eb6b28d" valueTypeId="8d0d464e-a102-4b55-a016-9e9591fea052"/>
+    <recordKeyType typeId="ec948eb1-1f04-40f3-9071-46e2a43472bd" valueTypeId="689067b4-e768-4cfc-baaa-4e18509462e9"/>
+    <recordType typeId="e69728f5-5b9d-4baf-a9d5-2cc63b014213" valueTypeId="0e29121d-e2c9-4c4d-8cd1-a0fc7299a661"/>
+    <recordManagerType typeId="37eb2d78-4bf4-4439-9fbf-30137edce597" valueTypeId="8ef297c2-f4c4-4423-8edd-6f0397b72cb4"/>
+  </producedTypes>
+  <name>ПаспортныеДанныеФизЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Паспортные данные физического лица</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ПаспортныеДанныеФизЛиц.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ПаспортныеДанныеФизЛиц.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <resources uuid="abab115c-75e9-4573-8e37-a3a51634c52c">
+    <name>ДокументВид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид документа</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.ДокументыУдостоверяющиеЛичность</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="dfe78d96-d75c-4830-bc8e-3a5534d69996">
+    <name>ДокументСерия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серия документа</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>14</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2dd5a2c2-86bc-4f6e-b2b9-de48bffb56a8">
+    <name>ДокументНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер документа</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>14</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="77fbf5b7-9d63-4726-adcb-720d73735d85">
+    <name>ДокументДатаВыдачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выдачи документа</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a48ba32e-759a-4845-879a-42ed21e38f2b">
+    <name>ДокументКемВыдан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кем выдан документ</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5963c493-62eb-410f-8b75-9aa584c736ad">
+    <name>ДокументКодПодразделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код подразделения в документе</value>
+    </synonym>
+    <comment>(Регл)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="465b31cc-1b5c-4900-b775-53a3f6001fe0">
+    <name>ДатаРегистрацииПоМестуЖительства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата регистрации по месту жительства</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9094672b-ce80-4279-814d-2276b9bd2126">
+    <name>ФизЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.КонтактныеЛица</types>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="7351ed87-313f-4e01-a77d-e4c5225535d5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="74603a0a-ead7-4b95-9134-749cf2c39092">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

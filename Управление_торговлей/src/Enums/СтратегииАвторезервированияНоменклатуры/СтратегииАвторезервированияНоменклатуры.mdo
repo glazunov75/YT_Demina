@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c2bd563-6976-452e-a94f-8533c6538b30">
+  <producedTypes>
+    <refType typeId="068a7956-dfda-4215-8095-ba02da13a978" valueTypeId="bab5d8aa-b0d2-4549-9190-c244777f7457"/>
+    <listType typeId="eb5f22c3-dec0-4214-ae5e-07b1078495cd" valueTypeId="f32e2012-ba0b-4403-b076-e12e2ce37e61"/>
+    <managerType typeId="f5751263-c1b3-4805-bea5-8fb10c0c9f47" valueTypeId="3c750199-704f-46b0-b8cd-c2a8b7d4bbe1"/>
+  </producedTypes>
+  <name>СтратегииАвторезервированияНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стратегии авторезервирования номенклатуры</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7b88ef98-903d-470f-8f11-ce7f34599f51">
+    <name>СначалаНаСкладахПотомВЗаказахПоставщикам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сначала на складах потом в заказах поставщикам</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4839d7e6-5edc-452e-895c-c6acbf69c27a">
+    <name>СначалаВЗаказахПоставщикамПотомНаСкладах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сначала в заказах поставщикам потом на складах</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

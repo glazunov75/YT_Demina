@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="574b39c6-b7cf-4588-9d26-e4f3e3462f02">
+  <producedTypes>
+    <objectType typeId="9896114f-3807-4d50-9f62-34c0b1717bfc" valueTypeId="d63a762d-fd79-4c19-a323-5f10c117e69e"/>
+    <managerType typeId="4412ced5-99f9-4034-bbde-5bc798930bf6" valueTypeId="9eaee219-bb54-4cc6-b2bd-8221143e238a"/>
+  </producedTypes>
+  <name>Диаграмма</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диаграмма</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.Диаграмма.Form.Форма</defaultForm>
+  <attributes uuid="d39525da-840f-4921-8764-c44f99939398">
+    <name>ТаблицаИсходныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица исходных данных</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="73632be9-6c41-4e8e-9f16-30b0d499190e">
+    <name>ИмяДиаграммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя диаграммы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ffdd4090-6d76-42d3-ab61-6bc15b4d73af">
+    <name>ВидПодписиКруговойДиаграммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид подписи круговой диаграммы</value>
+    </synonym>
+    <comment></comment>
+    <type/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4cdbf5f5-b969-4e6b-9849-a7ac42c225ad">
+    <name>КоличествоОграничения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество ограничения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="234209a7-8b90-4587-a5bc-737cfc0d75b0">
+    <name>ОграничениеСерий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничение серий</value>
+    </synonym>
+    <comment></comment>
+    <type/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8155966f-4d5f-457e-9a02-c566ec8cc09d">
+    <name>ТекущийТипДиаграммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущий тип диаграммы</value>
+    </synonym>
+    <comment></comment>
+    <type/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0d294182-4815-486b-a8e1-c6a7cfa817d3">
+    <name>Легенда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Легенда</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8563810c-9203-412e-8dbc-0e3acedade82">
+    <name>РежимПробелов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим пробелов</value>
+    </synonym>
+    <comment></comment>
+    <type/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7b7ffba7-4570-4845-a96c-54223f4d7ae9">
+    <name>БазовоеЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовое значение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5b2f7e47-d033-4180-9cd5-e902c90ded87">
+    <name>АвтоматическоеРаздвижениеСекторов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматическое раздвижение секторов</value>
+    </synonym>
+    <comment></comment>
+    <type/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="90ff1f33-0a8a-4684-9922-37200c49ca76">
+    <name>Окантовка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окантовка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="07d6699b-51a3-4dec-954f-4ade5f411f51">
+    <name>Свет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="58896608-6eba-4c01-9588-de79fbadd364">
+    <name>Градиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Градиент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="739b038f-7cbc-4ca1-9ec8-a1b3ee634047">
+    <name>Ориентация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ориентация</value>
+    </synonym>
+    <comment></comment>
+    <type/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="81c9aeeb-f39f-4fbd-9851-003447a676c0">
+    <name>СерииВСтроках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серии в строках</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9654fcf2-82f8-4019-b78c-f507f1790ad4">
+    <name>ВертикальныеМетки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вертикальные метки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="b8993200-54b9-4b15-bc69-60695c9c2ef8">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="027d2b35-f55f-4360-a331-0d366034b2f0">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="194d6d7e-a808-4103-8f9c-a78e032eb474">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Report>

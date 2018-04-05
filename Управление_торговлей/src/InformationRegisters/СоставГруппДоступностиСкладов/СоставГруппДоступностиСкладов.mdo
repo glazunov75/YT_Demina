@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41643bd5-dd76-4374-bf9a-8a03ae912eb8">
+  <producedTypes>
+    <selectionType typeId="4aea1d2d-3e59-4314-91b1-ea54849a73ce" valueTypeId="cb433bb3-863c-4ee8-a4ff-8de220b4aade"/>
+    <listType typeId="61f185f6-6e49-4dba-809e-69508f63e312" valueTypeId="68c6e0cf-7542-4865-8c35-6c68c462885a"/>
+    <managerType typeId="66515bdc-33e9-4b18-b7c2-9765fe9f7655" valueTypeId="1bd29f22-8f8b-4066-86fd-81aee2b88edd"/>
+    <recordSetType typeId="8153e8a7-a1c3-425f-9854-a48ab3990947" valueTypeId="79d10f22-7e92-4b08-8a8a-7cfcc1240c07"/>
+    <recordKeyType typeId="e6ce9687-9ed8-40cd-9221-2b7c1a59aa2a" valueTypeId="c53ecb06-e063-4cab-9a7f-a3460d7ecb27"/>
+    <recordType typeId="9b1dd81e-2d44-4fa1-bf58-bfbf043debdc" valueTypeId="d0b47b23-e3f2-4764-8ac3-12e20cc04497"/>
+    <recordManagerType typeId="8b4ac496-c008-49f9-940b-0ceb770d6396" valueTypeId="8a29e6d3-fddb-4cff-b015-02b2675eee67"/>
+  </producedTypes>
+  <name>СоставГруппДоступностиСкладов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав групп доступности складов</value>
+  </synonym>
+  <comment></comment>
+  <dimensions uuid="e22dcb6a-3c7a-4d81-8c3f-679f8c073949">
+    <name>ГруппаДоступности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа доступности</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ГруппыДоступностиСкладов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b5d6e215-cf39-4776-aace-05c9b2b378d0">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e940ce2-1581-419a-b7a4-81d1842d9ee7">
+  <producedTypes>
+    <refType typeId="68dbf8cf-82c4-4ee6-bed6-67756a3af88e" valueTypeId="1e5ac28c-5aa5-41d7-93a0-3e79acceb8f7"/>
+    <listType typeId="d97f32be-c034-42c7-ac0b-fd41d7db1f56" valueTypeId="00c3c283-b975-44e0-92c0-01c995468cbd"/>
+    <managerType typeId="9a00901c-29aa-43a7-8c39-c6fd26babcfb" valueTypeId="5523ac64-80ac-4a31-a4c9-94ed65d58dc9"/>
+  </producedTypes>
+  <name>ВидыОперацийПоступлениеТоваровУслугВНТТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций документа &quot;Поступление товаров и услуг в НТТ&quot;</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="708a8e99-cda4-40b5-9824-e50e5ef43aa1">
+    <name>ОтПоставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>от поставщика</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="4dc97f6e-72b6-47be-8d1e-f41b732cf259">
+    <name>ВнутреннееПеремещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>внутреннее перемещение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

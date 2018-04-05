@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7893f9a-6c60-4bf6-af81-922d9f32b308">
+  <producedTypes>
+    <objectType typeId="738504b4-a9f6-46c8-9a00-469e272a76e3" valueTypeId="738b3c29-de2f-4941-b595-e13807748874"/>
+    <managerType typeId="c6cbc509-9346-474d-8fae-f4c9922f0477" valueTypeId="ac7c30c0-583e-4d69-bf38-d23fd1c9cba9"/>
+  </producedTypes>
+  <name>КонтрольОтветовНаРассылку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль ответов на рассылку</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.КонтрольОтветовНаРассылку.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="94fdd1dc-28a9-471c-9960-850ffe65e58e">
+    <name>ДокументРассылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ рассылки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.ФормированиеАнкет</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5e4e9352-5a99-4b5f-928a-3a710d30807b">
+    <name>УниверсальныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.УниверсальныйОтчет</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="fd693c75-6ba0-4386-82f7-91a30fe2eb6d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

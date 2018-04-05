@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21404418-c510-45cd-a8bb-0e93b842a7f2">
+  <producedTypes>
+    <refType typeId="73016d0e-f93e-4941-85ad-c7d2a2041f32" valueTypeId="2dca40f8-cfb6-4ffd-9eba-c15ff8368d73"/>
+    <listType typeId="b32d51ef-bd65-44be-ab14-b18177b22acf" valueTypeId="e0445734-8232-4c9e-bdd5-1f3a0b6d2dc6"/>
+    <managerType typeId="3bf7ba6e-b3ce-441a-9eca-985b928278ac" valueTypeId="c5cf1f32-b7cb-4536-b2f7-7be4ebd209e8"/>
+  </producedTypes>
+  <name>ВидыПоступленияТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды поступления товаров</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="33a8ac89-f65f-4889-b240-6b6159d2af02">
+    <name>НаСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>На склад</value>
+    </synonym>
+    <comment>(Общ) Поступление на склад</comment>
+  </enumValues>
+  <enumValues uuid="3f1bfd42-b403-4698-9c31-b8688f067a2a">
+    <name>ПоОрдеру</name>
+    <synonym>
+      <key>ru</key>
+      <value>По ордеру</value>
+    </synonym>
+    <comment>(Упр) Поступление по приходному ордеру</comment>
+  </enumValues>
+</mdclass:Enum>

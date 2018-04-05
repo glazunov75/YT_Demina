@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6e6c653-10d2-4b2f-bf31-21637a21c3be">
+  <producedTypes>
+    <objectType typeId="4f12490e-1b58-4bbc-8528-e85af42a19d4" valueTypeId="f8037bfb-a50a-4391-a3fb-7901201b07bb"/>
+    <managerType typeId="ea92c6fc-e763-4859-8c27-2760512c0de7" valueTypeId="145730c0-eb54-4c43-858d-73f9ecf6e885"/>
+  </producedTypes>
+  <name>ТОВыгрузкаТСД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка данных в терминал сбора данных</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ТОВыгрузкаТСД.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="f05d58a2-32c7-4a83-a76a-bf0805b645da">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка данных в ТСД</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

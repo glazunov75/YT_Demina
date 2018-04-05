@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9dd2f44b-b879-4db9-81f2-9da701152d0f">
+  <producedTypes>
+    <objectType typeId="0441bc33-b9ba-4b2c-9244-9e20ba67178f" valueTypeId="aa27095b-4797-42a8-96f9-e3b220e3f231"/>
+    <managerType typeId="aa266601-2a49-4c04-b76a-4133baffd227" valueTypeId="7bd742a5-4a6b-4660-b312-dfa52c36fef6"/>
+  </producedTypes>
+  <name>СтоимостнаяОценкаСкладаВЦенахНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоимостная оценка склада в ценах номенклатуры</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.СтоимостнаяОценкаСкладаВЦенахНоменклатуры.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="8545c84c-7d0e-4708-b9e5-ef12a94874e1">
+    <name>Режим</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6dd38da8-8fba-440e-997d-f7315d1d9e81">
+    <name>ТипЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип цен</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ТипыЦенНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="82478018-4acd-49f4-8014-3755218b5048">
+    <name>УниверсальныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.УниверсальныйОтчет</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="cbdf2bac-f967-4687-9db6-cfa6831350b9">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

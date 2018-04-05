@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8821d3c7-ba38-4859-8337-0102b650491b">
+  <producedTypes>
+    <refType typeId="2447a9da-c655-4fcd-a4b9-968f3e4eb61f" valueTypeId="cc93bece-f5c5-4e3d-a7ec-a7e53350ebc1"/>
+    <listType typeId="240e4f5e-5990-4dc5-9032-6223952a5704" valueTypeId="5841dc55-709e-4fa0-8dd2-c4f9ccbc5c31"/>
+    <managerType typeId="c4b3fcdc-6c12-4ed5-9dff-73d0ce2e8dad" valueTypeId="6d4694b5-8477-4a5d-b981-19be02d2c938"/>
+  </producedTypes>
+  <name>ВидыЗатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды затрат</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d3faec99-3958-46c2-9d5c-c46bce5d33a2">
+    <name>Материальные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материальные</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="afde75dd-bcaa-46d8-b5fd-74e7b42d1b4c">
+    <name>Прочие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочие</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+</mdclass:Enum>

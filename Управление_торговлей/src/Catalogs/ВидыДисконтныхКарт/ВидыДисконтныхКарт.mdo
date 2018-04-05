@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="acf4068b-3c5a-4f83-bf0c-f348f1da6b1c">
+  <producedTypes>
+    <objectType typeId="228935a2-3907-4f88-a4a0-68e5c1bc4149" valueTypeId="fd3d11aa-4d04-4243-a05c-1ce110fef9df"/>
+    <refType typeId="58a6e3b7-82e4-411a-bbbd-300bd1b57a67" valueTypeId="20f177f7-3ed3-4328-9205-0301bd1fb5d8"/>
+    <selectionType typeId="bf6fbf09-d48e-4b15-bdf9-3b588a232318" valueTypeId="1fdb7832-dcc2-4c09-91b0-3f5053415b9b"/>
+    <listType typeId="0a92908b-7d1e-4fe2-bc43-3ba297a1bcf2" valueTypeId="425eed55-ca5e-4c1b-b6e7-e3efa83156b0"/>
+    <managerType typeId="cbf1686d-965e-422f-b266-3705b3c4b10d" valueTypeId="897943c6-1309-40ec-a7ce-a598be122aef"/>
+  </producedTypes>
+  <name>ВидыДисконтныхКарт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды дисконтных карт</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>Catalog.ВидыДисконтныхКарт.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыДисконтныхКарт.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ВидыДисконтныхКарт.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ВидыДисконтныхКарт.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="74938ff7-bffb-4cd7-ba6a-5488bd4ecd31">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="54486ea1-345c-43eb-bf80-40c05afb1ae8">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

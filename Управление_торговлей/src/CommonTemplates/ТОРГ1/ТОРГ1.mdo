@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a21f4988-674e-4a72-976c-f4f617921ce0">
+  <name>ТОРГ1</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТОРГ-1</value>
+  </synonym>
+  <comment>Акт о приемке товаров (унифицированная форма № ТОРГ-1)</comment>
+</mdclass:CommonTemplate>

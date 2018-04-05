@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="682d7f49-28f3-4208-a4ce-6519914225a9">
+  <name>ПравилаОбмена_УТ_БПКОРП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правила обмена УТ в БП КОРП</value>
+  </synonym>
+  <comment></comment>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

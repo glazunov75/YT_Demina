@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5da65662-a4f4-4fb2-8b5b-69bddf6ef7f4">
+  <producedTypes>
+    <objectType typeId="616b1dc5-aab3-4638-affb-17176dc07d64" valueTypeId="ae0e0562-4a12-4d03-8a72-d5c6a21633b6"/>
+    <managerType typeId="6c76b0a1-54fe-4d24-ad3a-d3366ae4c158" valueTypeId="7c45a49a-03f4-4fcd-82e9-b0bf8d098312"/>
+  </producedTypes>
+  <name>ПечатьЭтикеток</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать этикеток</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ПечатьЭтикеток.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="b2ef87e0-5229-443f-a714-47d4c35a5d36">
+    <name>ВнешняяТаблицаТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешняя таблица товаров</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1525ccfc-d208-4dd2-aefc-9240ad0f13b9">
+    <name>ВнешнийЭлементНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний элемент номенклатуры</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2551b9c2-7095-448d-a0de-e775a3b8dcaa">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

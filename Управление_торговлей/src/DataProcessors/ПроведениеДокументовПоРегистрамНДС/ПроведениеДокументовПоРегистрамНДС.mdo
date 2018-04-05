@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="461a04f1-83aa-432b-bc95-8df395ed978f">
+  <producedTypes>
+    <objectType typeId="86dccde6-fdcd-44ab-aad8-cc91028c4f4c" valueTypeId="a68f41e3-1e14-4788-a118-97ad4b8d09a2"/>
+    <managerType typeId="cd5dfe46-c65d-45c4-b01b-004c3b2c0061" valueTypeId="21e3ecd6-aad4-44f8-94a0-92a3bcc5a05c"/>
+  </producedTypes>
+  <name>ПроведениеДокументовПоРегистрамНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проведение документов по регистрам НДС</value>
+  </synonym>
+  <comment>(Регл)</comment>
+  <defaultForm>DataProcessor.ПроведениеДокументовПоРегистрамНДС.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="c3995dd0-c1fc-4fdd-9393-ac2b50b0e197">
+    <name>ДатаНач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала интервала</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3a272007-587c-401f-b250-47cced000b12">
+    <name>ДатаКон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания интервала</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fec0ca77-0b51-4e7f-a517-c8c95c9add49">
+    <name>ПроводитьДокументыВыбранногоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проводить документы выбранного периода</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="4f433b98-1a52-4af1-a6a0-5fc51e63ebca">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

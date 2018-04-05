@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad34deba-313a-4930-a4d1-fcf2d1daf3dd">
+  <producedTypes>
+    <refType typeId="5614cd82-e35b-4c26-b343-2bd133547d6a" valueTypeId="a02b2134-b51a-493a-ad81-be4ea13bdda8"/>
+    <listType typeId="7843693f-c4c0-4b59-b6ea-bc3d4beeb0d7" valueTypeId="7771d34a-995c-49ff-84b5-2ab77774a5ed"/>
+    <managerType typeId="1899e890-8281-4398-9d05-d1d222f22bcc" valueTypeId="35baba3d-1e57-4901-b597-941ab71b95ce"/>
+  </producedTypes>
+  <name>ТСДПоляДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поля терминала сбора данных</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9110e42c-7028-4ca5-97b2-b31760fb19e1">
+    <name>ШтрихКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ec3e4fb7-3889-452e-b47a-82522adb35ca">
+    <name>НоменклатураНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование номенклатуры</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="cf4bdce8-b4d9-4c80-ac04-7a394900cb8e">
+    <name>НоменклатураАртикул</name>
+    <synonym>
+      <key>ru</key>
+      <value>Артикул номенклатуры</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="8d0095e6-de6b-41c0-9bc7-75bc028daa61">
+    <name>НоменклатураХарактеристика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика номенклатуры</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="a22beecf-fdf4-4c3d-9bc6-aea817b3fcf9">
+    <name>НоменклатураСерия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серия номенклатуры</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="130b9190-2094-4cbc-9d5e-98b28ef9a529">
+    <name>НоменклатураИзмерение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения номенклатуры</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="061b3cd7-d6a0-476e-ad8e-b1d1aa5ffad1">
+    <name>НоменклатураКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код номенклатуры</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="08fd8f29-e21f-4b9b-b778-a96ab74b61fe">
+    <name>НоменклатураЦена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена номенклатуры</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="32075685-724a-4e7b-b816-a5ddd0d5e53c">
+    <name>КоличествоНаСкладе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество на складе</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ebe8dd6b-728a-4c1e-877d-09a65e754231">
+    <name>Качество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Качество</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

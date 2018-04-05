@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ff02a16-870d-47b5-98c9-a7c4c9878ecd">
+  <producedTypes>
+    <objectType typeId="1181a454-b030-4c29-b797-a4b324b64e4b" valueTypeId="e8c7e778-4a22-4d25-92ea-ffd8a533921a"/>
+    <managerType typeId="6ce6cf1e-bbc6-4847-a575-f1347e2c58f4" valueTypeId="d1005e4b-c09c-4d3d-96f2-11305489e0bf"/>
+  </producedTypes>
+  <name>ВедомостьВзаиморасчетыСКонтрагентами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведомость по взаиморасчетам с контрагентами</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.ВедомостьВзаиморасчетыСКонтрагентами.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="109764be-6465-45f5-86c1-444f9cdd3785">
+    <name>УниверсальныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.УниверсальныйОтчет</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="189ed67f-1240-407f-912d-162bf020596d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

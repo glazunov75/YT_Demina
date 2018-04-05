@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6421a75d-aec7-4530-bf92-aec00fc20a36">
+  <producedTypes>
+    <managerType typeId="21582f8f-82fa-4c3e-801a-be7fc114a7f6" valueTypeId="890db0d7-ce87-4d03-bd65-b674a5bc3baa"/>
+    <valueManagerType typeId="3660b489-8e16-488b-8c12-028de5207c55" valueTypeId="1a3c8b78-b024-44ca-b202-ee15d831a4a0"/>
+  </producedTypes>
+  <name>ИспользоватьВнутренниеЗаказы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать внутренние заказы</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

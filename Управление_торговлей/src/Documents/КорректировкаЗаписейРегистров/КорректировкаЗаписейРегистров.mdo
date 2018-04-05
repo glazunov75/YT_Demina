@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="178f9051-98dd-4a0e-9867-c2e1398679e1">
+  <producedTypes>
+    <objectType typeId="80f037b3-c9c5-49f2-b500-83b623e0fa99" valueTypeId="42383e26-f00c-424e-9040-e198f9430167"/>
+    <refType typeId="7fd00d45-6350-42fd-9c1b-0f2acaf0905a" valueTypeId="ee381bc7-f540-475a-933c-3f0495b0dbd0"/>
+    <selectionType typeId="86b02bbb-dda9-43cb-9f63-0381b6e0591f" valueTypeId="a4b2669a-c3b7-44c5-b130-dc6e1001135a"/>
+    <listType typeId="47fa4d5c-4729-4472-af6c-de78d8c298de" valueTypeId="00f42dcd-ad2f-4c3f-8309-a0a41da47fde"/>
+    <managerType typeId="2eef03b8-b514-499d-a09b-68a3a95b8aa4" valueTypeId="e8433878-8fbe-41bb-b2ee-e7787ace7f59"/>
+  </producedTypes>
+  <name>КорректировкаЗаписейРегистров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Корректировка записей регистров</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <inputByString>Document.КорректировкаЗаписейРегистров.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.КорректировкаЗаписейРегистров.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.КорректировкаЗаписейРегистров.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.КорректировкаЗаписейРегистров.Form.ФормаВыбора</defaultChoiceForm>
+  <posting>Deny</posting>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <registerRecords>InformationRegister.ПредметыЭлектронныхПисем</registerRecords>
+  <registerRecords>AccumulationRegister.ПланыПродаж</registerRecords>
+  <registerRecords>AccumulationRegister.РазмещениеЗаказовПокупателей</registerRecords>
+  <registerRecords>AccumulationRegister.ЗаказыПоставщикам</registerRecords>
+  <registerRecords>AccumulationRegister.НДСНачисленный</registerRecords>
+  <registerRecords>AccumulationRegister.ПланыЗакупок</registerRecords>
+  <registerRecords>InformationRegister.ЛимитыВозвратнойТары</registerRecords>
+  <registerRecords>AccumulationRegister.ТоварыВРознице</registerRecords>
+  <registerRecords>AccumulationRegister.ВнутренниеЗаказы</registerRecords>
+  <registerRecords>AccumulationRegister.ЗаказыПокупателей</registerRecords>
+  <registerRecords>InformationRegister.СписанныеТовары</registerRecords>
+  <registerRecords>AccumulationRegister.НДСсАвансов</registerRecords>
+  <registerRecords>InformationRegister.ИсточникИнформацииПриОбращении</registerRecords>
+  <registerRecords>AccumulationRegister.ТоварыПолученные</registerRecords>
+  <registerRecords>InformationRegister.СкидкиНоменклатурыНатуральные</registerRecords>
+  <registerRecords>AccumulationRegister.НДСВключенныйВСтоимость</registerRecords>
+  <registerRecords>AccumulationRegister.ТоварыКПередачеОрганизаций</registerRecords>
+  <registerRecords>InformationRegister.УсловияПоставокПоДоговорамКонтрагентовОбщие</registerRecords>
+  <registerRecords>AccumulationRegister.ДенежныеСредстваКПолучению</registerRecords>
+  <registerRecords>AccumulationRegister.ТоварыКПеремещениюВНТТ</registerRecords>
+  <registerRecords>AccumulationRegister.НДСПредъявленныйРеализация0</registerRecords>
+  <registerRecords>AccumulationRegister.ПланируемыеПоступленияДенежныхСредств</registerRecords>
+  <registerRecords>InformationRegister.СкидкиНаценкиНоменклатуры</registerRecords>
+  <registerRecords>InformationRegister.ПричиныЗакрытияЗаказов</registerRecords>
+  <registerRecords>AccumulationRegister.ВзаиморасчетыСПодотчетнымиЛицами</registerRecords>
+  <registerRecords>AccumulationRegister.НДСПредъявленный</registerRecords>
+  <registerRecords>AccumulationRegister.Закупки</registerRecords>
+  <registerRecords>InformationRegister.СкидкиНаценкиПоЦеновымГруппам</registerRecords>
+  <registerRecords>InformationRegister.ПорогиНакопительныхСкидок</registerRecords>
+  <registerRecords>InformationRegister.ЦеныНоменклатуры</registerRecords>
+  <registerRecords>AccumulationRegister.ПартииТоваровПереданные</registerRecords>
+  <registerRecords>AccumulationRegister.НДСКосвенныеРасходы</registerRecords>
+  <registerRecords>AccumulationRegister.ДопРасходыНаПриобретениеТоваров</registerRecords>
+  <registerRecords>AccumulationRegister.ПродажиПоДисконтнымКартам</registerRecords>
+  <registerRecords>InformationRegister.ЦеныНоменклатурыКонтрагентов</registerRecords>
+  <registerRecords>AccumulationRegister.ДвиженияДенежныхСредств</registerRecords>
+  <registerRecords>InformationRegister.ВремяДействияСкидок</registerRecords>
+  <registerRecords>InformationRegister.ДиапазоныЦенДляНаценки</registerRecords>
+  <registerRecords>AccumulationRegister.НДСРасчетыСПокупателями</registerRecords>
+  <registerRecords>AccumulationRegister.ТоварыПереданные</registerRecords>
+  <registerRecords>InformationRegister.КалендарныеПотребностиВНоменклатуре</registerRecords>
+  <registerRecords>AccumulationRegister.Продажи</registerRecords>
+  <registerRecords>AccumulationRegister.ЗаявкиНаРасходованиеСредств</registerRecords>
+  <registerRecords>AccumulationRegister.НДСЗаписиКнигиПокупок</registerRecords>
+  <registerRecords>AccumulationRegister.РасчетыСКонтрагентами</registerRecords>
+  <registerRecords>AccumulationRegister.ВзаиморасчетыСКонтрагентами</registerRecords>
+  <registerRecords>AccumulationRegister.ДенежныеСредстваКомитента</registerRecords>
+  <registerRecords>AccumulationRegister.НДСУчетРаспределенныхОплатПокупателей</registerRecords>
+  <registerRecords>AccumulationRegister.НДСУчетРаспределенныхОплатПоставщикам</registerRecords>
+  <registerRecords>AccumulationRegister.НДСПартииТоваров</registerRecords>
+  <registerRecords>AccumulationRegister.ВзаиморасчетыСКонтрагентамиПоДокументамРасчетов</registerRecords>
+  <registerRecords>AccumulationRegister.РозничнаяВыручка</registerRecords>
+  <registerRecords>InformationRegister.ABCКлассификацияПокупателей</registerRecords>
+  <registerRecords>AccumulationRegister.ДенежныеСредстваКСписанию</registerRecords>
+  <registerRecords>AccumulationRegister.НДСРасчетыСПоставщиками</registerRecords>
+  <registerRecords>AccumulationRegister.НДСРеализация0</registerRecords>
+  <registerRecords>AccumulationRegister.ДенежныеСредства</registerRecords>
+  <registerRecords>AccumulationRegister.ТоварыОрганизаций</registerRecords>
+  <registerRecords>AccumulationRegister.ПродажиСебестоимость</registerRecords>
+  <registerRecords>InformationRegister.ЗначенияТочкиЗаказа</registerRecords>
+  <registerRecords>AccumulationRegister.РеализованныеТовары</registerRecords>
+  <registerRecords>InformationRegister.УсловияПоставокПоДоговорамКонтрагентовПоНоменклатуре</registerRecords>
+  <registerRecords>AccumulationRegister.ПредоставленныеСкидки</registerRecords>
+  <registerRecords>InformationRegister.ТипыЦенПоГруппамНоменклатурыДляПокупателей</registerRecords>
+  <registerRecords>InformationRegister.СтадииВзаимоотношенийСПокупателями</registerRecords>
+  <registerRecords>AccumulationRegister.ТоварыВРезервеНаСкладах</registerRecords>
+  <registerRecords>AccumulationRegister.ТоварыНаСкладах</registerRecords>
+  <registerRecords>InformationRegister.ЦеныАТТ</registerRecords>
+  <registerRecords>AccumulationRegister.ТоварыВНТТ</registerRecords>
+  <registerRecords>AccumulationRegister.РазмещениеЗаявокНаРасходованиеСредств</registerRecords>
+  <registerRecords>AccumulationRegister.ДенежныеСредстваВРезерве</registerRecords>
+  <registerRecords>AccumulationRegister.ДенежныеСредстваКомиссионера</registerRecords>
+  <registerRecords>AccumulationRegister.ТоварыКПолучениюНаСклады</registerRecords>
+  <registerRecords>AccumulationRegister.Затраты</registerRecords>
+  <registerRecords>AccumulationRegister.НДСЗаписиКнигиПродаж</registerRecords>
+  <registerRecords>InformationRegister.НаценкиПоУсловиямПродаж</registerRecords>
+  <registerRecords>InformationRegister.СпецПредложения</registerRecords>
+  <registerRecords>AccumulationRegister.ТоварыКПередачеСоСкладов</registerRecords>
+  <registerRecords>AccumulationRegister.ПартииТоваровНаСкладах</registerRecords>
+  <attributes uuid="5edfaa2c-54d3-4f88-88a9-e214ee43255d">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="424efa9b-c569-4bff-b505-f444047e471d">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="da089766-af43-4280-9f90-fd07ae5519f8">
+    <name>ИспользоватьЗаполнениеДвижений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать заполнение движений</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="6fceba74-a847-4175-a4e3-002936168880">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="df7f7953-c027-4398-a68d-b816bb3e0eff">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c115a0dc-0f97-443f-8ce5-06c27056df82">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="27041a1f-6a66-455f-93b9-512da5d43a32">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="014f1acf-9b41-42bf-a782-5fc499ab02a5">
+    <producedTypes>
+      <objectType typeId="d957e42f-0191-4cf4-bff8-5a29ed99cb38" valueTypeId="1a044d0e-1a0d-449d-8790-d54fa786d024"/>
+      <rowType typeId="670f378e-ea30-4fa2-88a3-a804c621ab8a" valueTypeId="c60cff1f-b822-4125-beb1-54720b5bfeec"/>
+    </producedTypes>
+    <name>ТаблицаРегистровНакопления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица регистров накопления</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <attributes uuid="8b7e76e5-cfa5-4af6-a50a-1c71c2a477c5">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <comment>(Общ)</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5d71a8d6-aa98-4c40-a63c-4af869a61fb9">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <comment>(Общ)</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="8ba92ef3-4b73-40fb-88af-ed1dcde77510">
+    <producedTypes>
+      <objectType typeId="fc677483-4619-4b07-b24d-4045ba064c44" valueTypeId="de68faf2-8b48-4867-a6e1-ebe54bc0fe3f"/>
+      <rowType typeId="3d1035b8-b59a-47b7-9f80-bd2f5727dcbf" valueTypeId="7ecf8b3f-4b75-40f1-aa08-627098499539"/>
+    </producedTypes>
+    <name>ТаблицаРегистровСведений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица регистров сведений</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <attributes uuid="51ff4632-d5a7-464c-930c-966e72c3bb6b">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <comment>(Общ)</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="251596a8-7f6b-4f66-95e2-3305f0c40e82">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <comment>(Общ)</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="189fb66f-6fe8-4c38-9f69-5f334e91524c">
+    <producedTypes>
+      <objectType typeId="5210f95c-8fca-47a7-a254-b71be3e18261" valueTypeId="7b9a58a0-3c1f-46ff-a060-a0109f8e4230"/>
+      <rowType typeId="15386e13-ce10-46fc-8561-9ed64afaec47" valueTypeId="16400956-d458-4f0d-a7ab-370e769aef10"/>
+    </producedTypes>
+    <name>ЗаполнениеДвижений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение движений</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="dc87854e-1769-46b7-a43e-df9bccb4584f">
+      <name>Действие</name>
+      <synonym>
+        <key>ru</key>
+        <value>Действие</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ВнешниеОбработки</types>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a256633a-4786-4c47-882d-21925a531e63">
+      <name>Документ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>DocumentRef</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ae5b01ec-e15d-41b1-9abc-db4f5a1ce92e">
+      <name>Примечание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Примечание</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

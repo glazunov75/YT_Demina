@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ddf81eb-a2ff-4790-b80e-a15efd8c62f8">
+  <name>ПроцедурыПоискаПоСтроке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процедуры поиска по строке</value>
+  </synonym>
+  <comment></comment>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

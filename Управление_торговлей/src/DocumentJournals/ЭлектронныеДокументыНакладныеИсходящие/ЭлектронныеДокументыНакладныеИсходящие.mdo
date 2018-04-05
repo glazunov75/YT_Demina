@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fca4617-dbba-4eef-b129-216f4d07d58d">
+  <producedTypes>
+    <selectionType typeId="6695f9f7-e41e-4695-85a9-afce4f88439e" valueTypeId="fe4590a4-be11-4ac9-90df-3b033cfdb771"/>
+    <listType typeId="1bb81919-b400-49e2-ad19-bf47df57b673" valueTypeId="59cc57eb-9aa2-4443-a54e-1084bc5dbae0"/>
+    <managerType typeId="999cd473-934b-4aa3-b00a-020b84ba0ebf" valueTypeId="096ac753-e834-4a09-a906-2fe7af1bdfbe"/>
+  </producedTypes>
+  <name>ЭлектронныеДокументыНакладныеИсходящие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронные документы накладные исходящие</value>
+  </synonym>
+  <comment></comment>
+  <registeredDocuments>Document.ИсходящаяЭлектроннаяНакладная</registeredDocuments>
+  <registeredDocuments>Document.ИсходящийРеджектАкцептНакладной</registeredDocuments>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <columns uuid="78e7ca5b-cd28-46f6-82ce-3232ef4479d3">
+    <name>ДатаОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отправки</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ИсходящаяЭлектроннаяНакладная.Attribute.ДатаОтправки</references>
+    <references>Document.ИсходящийРеджектАкцептНакладной.Attribute.ДатаОтправки</references>
+  </columns>
+  <columns uuid="158e5931-1e8c-4e83-8203-7c2d7c188c8d">
+    <name>ОбработанОтправлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработан/отправлен</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ИсходящаяЭлектроннаяНакладная.Attribute.Отправлен</references>
+    <references>Document.ИсходящийРеджектАкцептНакладной.Attribute.Отправлен</references>
+  </columns>
+  <columns uuid="0013c973-0f42-4014-b2c4-5e3c220d927a">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ИсходящаяЭлектроннаяНакладная.Attribute.Организация</references>
+    <references>Document.ИсходящийРеджектАкцептНакладной.Attribute.Организация</references>
+  </columns>
+  <columns uuid="be1c454d-a285-4231-9b60-39c23047f4cf">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ИсходящаяЭлектроннаяНакладная.Attribute.Контрагент</references>
+    <references>Document.ИсходящийРеджектАкцептНакладной.Attribute.Контрагент</references>
+  </columns>
+</mdclass:DocumentJournal>

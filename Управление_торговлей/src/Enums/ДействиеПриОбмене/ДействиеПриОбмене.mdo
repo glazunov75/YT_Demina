@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c843d12-fb66-47b7-932f-46eabcc10805">
+  <producedTypes>
+    <refType typeId="a8cf57f7-c645-450c-94e7-1e66d7d9fa07" valueTypeId="c5fc3755-1c34-452d-8989-2750c722abe5"/>
+    <listType typeId="f13db5f8-d1ed-4aaa-9f30-c7a935920ef9" valueTypeId="ccd50d20-9621-4dd4-8248-cf247cafa6d8"/>
+    <managerType typeId="f41ba5ef-a4d0-4a6f-8496-5daf651e44c6" valueTypeId="e557693b-774e-40f0-a73a-89c503ec0343"/>
+  </producedTypes>
+  <name>ДействиеПриОбмене</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действие при обмене</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3cc467be-d72c-4d8d-be21-3c75a468c8a3">
+    <name>ЗагрузкаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка данных</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="df23b7c7-2538-449b-8723-f597c7112180">
+    <name>ОтложенныеДвижения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложенные движения</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f735f908-d50a-483e-94ab-8f7f41a7c3fa">
+    <name>ВыгрузкаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка данных</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

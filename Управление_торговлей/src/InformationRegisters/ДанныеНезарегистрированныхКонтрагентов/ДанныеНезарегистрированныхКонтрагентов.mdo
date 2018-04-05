@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fcb10bb-8785-4359-bc85-620359964184">
+  <producedTypes>
+    <selectionType typeId="79a95650-95e2-49dc-9ac1-5f7b1ac9fd0d" valueTypeId="7ca36547-58fd-438e-9ed3-cabb0420fb60"/>
+    <listType typeId="9bc45ddd-05e0-4ad3-8da8-9adf960e1be8" valueTypeId="eecd8c6c-a376-4d9c-8073-940717b86c80"/>
+    <managerType typeId="3f5cea15-1036-4aef-b83a-6054d029dd58" valueTypeId="7b0220f3-5488-4c1f-97b3-c267af75df82"/>
+    <recordSetType typeId="63e20539-270a-45a6-a057-dadab4d9424e" valueTypeId="ed5b0757-3679-4a84-bf4f-fb9fd138bcff"/>
+    <recordKeyType typeId="8f08766b-c2eb-4c21-874d-abb465552828" valueTypeId="fe6d3482-d55d-4f92-a163-f87f0600c866"/>
+    <recordType typeId="3a8bab1f-c16c-4f98-b5c1-92e267ad61c2" valueTypeId="77982d9f-49d2-468e-add7-3e313dfa9fd1"/>
+    <recordManagerType typeId="a3f1d99a-da56-4e84-b84a-7dbdfbe85d1e" valueTypeId="faefb596-82c7-4390-aef0-3c25d2b96e69"/>
+  </producedTypes>
+  <name>ДанныеНезарегистрированныхКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные незарегистрированных контрагентов</value>
+  </synonym>
+  <comment></comment>
+  <defaultListForm>InformationRegister.ДанныеНезарегистрированныхКонтрагентов.Form.ФормаСписка</defaultListForm>
+  <resources uuid="a14e84ff-e8d3-4e94-b443-8553306158ba">
+    <name>АдресЭлектроннойПочтыКонтактногоЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес электронной почты контактного лица</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6715c233-27be-4ee0-b62f-40492d8fc980">
+    <name>АдресЭлектроннойПочтыКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес электронной почты контрагента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="27b57277-c934-4dcb-a085-2023a0528418">
+    <name>ВидАдресаКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид адреса контрагента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВидыКонтактнойИнформации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1392de23-c342-4658-8e1f-d96ae920891a">
+    <name>ВидТелефонаКонтактногоЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид телефона контактного лица</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВидыКонтактнойИнформации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7c5de1e4-8c50-4994-a6a8-8e8d9b74260d">
+    <name>ВидТелефонаКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид телефона контрагента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВидыКонтактнойИнформации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2fc842f2-25ea-49ca-8c6c-6f18e4aaf382">
+    <name>ВидЭлектроннойПочтыКонтактногоЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид электронной почты контактного лица</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВидыКонтактнойИнформации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8336abb7-2802-47b2-a221-58782e567209">
+    <name>ВидЭлектроннойПочтыКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид электронной почты контрагента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВидыКонтактнойИнформации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="04dee9c3-c405-4691-91db-7ba461d3a934">
+    <name>ГородКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Город контрагента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a18b7493-1f78-4c07-ad2d-b3ad5f3ad624">
+    <name>ДобавочныйНомерТелефонаКонтактногоЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавочный номер телефона контактного лица</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="92740cf3-a56a-4e78-a118-d49293d795a9">
+    <name>ДобавочныйНомерТелефонаКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавочный номер телефона контрагента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d6e2dae7-affd-433e-90a5-38932230963c">
+    <name>ДолжностьКонтактногоЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность контактного лица</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7ec64851-2676-47ae-b7e2-6a83131cdc27">
+    <name>ДомКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дом контрагента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c63ce6af-7375-4400-9202-b630872276ae">
+    <name>ДополнительноеОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительное описание</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="70fc96fd-1b20-441f-9208-38ec295245fa">
+    <name>КодГородаТелефонаКонтактногоЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код города телефона контактного лица</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4bccc18c-69ef-4a31-aa6c-d86371b805d4">
+    <name>КодГородаТелефонаКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код города телефона контрагента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cbe86daa-0715-4e55-b171-489c2084334b">
+    <name>КорпусКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корпус контрагента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4714f1c8-ccbc-4dfa-88db-b6de42e56f66">
+    <name>НаименованиеКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование контрагента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="04f9a551-82c7-4a47-81c6-ff2d385c65fb">
+    <name>НаименованиеКонтрагентаПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование контрагента полное</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7f72b166-cec8-4d5a-b041-dca4979b2843">
+    <name>НомерТелефонаКонтактногоЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер телефона контактного лица</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4309e0b6-4a54-4816-8614-ee685e60014d">
+    <name>НомерТелефонаКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер телефона контрагента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cb47a0a2-8285-419e-896e-001de53c2f79">
+    <name>ОсновнойВидДеятельностиКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной вид деятельности контрагента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВидыДеятельностиКонтрагентов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1f36a03d-dcf4-45ac-9631-39fc0ea260f6">
+    <name>УлицаКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Улица контрагента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b2e75e51-d38f-45ef-b1bc-6e65bf4454e7">
+    <name>ФИОКонтактногоЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО Контактного лица</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7a2153cd-d0ef-4af9-8b03-b1243684ee12">
+    <name>ЮрФизЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юр физ лицо</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ЮрФизЛицо</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6f5d2778-fda2-408a-9864-a6832e3cc332">
+    <name>Покупатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупатель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3e4bd00d-40ab-4842-9ac8-6800f25e4eac">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="70b38e53-3da4-4362-9603-e995b6f511c4">
+    <name>ФамилияКонтактногоЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия контактного лица</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9b71b26d-51c4-4c9f-b5ee-1bfb5324bda0">
+    <name>ИмяКонтактногоЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя контактного лица</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e714c0e2-8341-4d54-bb3c-dacaa3705bff">
+    <name>ОтчествоКонтактногоЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчество контактного лица</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="aa106784-87a9-41d2-9860-c0fdec6daae3">
+    <name>ОКОПФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОКОПФ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.КлассификаторОКОПФ</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8302a9ca-a4ea-4092-aa8b-d6adc377e459">
+    <name>ИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="55796aff-5aef-4d48-930b-f3d3d427e3a5">
+    <name>КПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>КПП</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7df82286-cbda-4a0a-a226-8d948c318b01">
+    <name>ОбособленноеПодразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обособленное подразделение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Обособленное подразделение</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="df340adc-f8d9-4f74-8508-8601a21b90e2">
+    <name>ГоловнойКонтрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Головной контрагент</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+  </resources>
+  <dimensions uuid="f05536b6-f6f8-4661-9036-eac111725488">
+    <name>ОбъектРегистратор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект регистратор</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.Событие</types>
+      <types>DocumentRef.СчетНаОплатуПокупателю</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="794b4421-0616-4af8-9a41-897257f043cf">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

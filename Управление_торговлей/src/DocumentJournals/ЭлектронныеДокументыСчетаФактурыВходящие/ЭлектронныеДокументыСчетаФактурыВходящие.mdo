@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f98177b2-08d0-4654-bfec-21649c944fea">
+  <producedTypes>
+    <selectionType typeId="7b774865-d32c-4a41-9847-e67b5eb08d53" valueTypeId="fab1bce1-b9db-4ff5-aef4-648bd46d0b47"/>
+    <listType typeId="b9aff6c9-00a6-4d7b-bcec-a7ad00fcc4e9" valueTypeId="a1f2a141-2486-4797-b433-767302eac5ba"/>
+    <managerType typeId="ed6b11b0-c834-4eaf-9c79-7c08844f4788" valueTypeId="94bd8ff1-aa82-4d2a-b241-124f380acfad"/>
+  </producedTypes>
+  <name>ЭлектронныеДокументыСчетаФактурыВходящие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронные документы счета-фактуры входящие</value>
+  </synonym>
+  <comment></comment>
+  <registeredDocuments>Document.ВходящийАкцептСчетаФактуры</registeredDocuments>
+  <registeredDocuments>Document.ВходящийРеджектСчетаФактуры</registeredDocuments>
+  <registeredDocuments>Document.ВходящийСчетФактура</registeredDocuments>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <columns uuid="3c4a4033-7825-431c-a4a9-dca9b7c314fc">
+    <name>ДатаОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отправки</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ВходящийРеджектСчетаФактуры.Attribute.ДатаВходящегоДокумента</references>
+    <references>Document.ВходящийСчетФактура.Attribute.ДатаВходящегоДокумента</references>
+    <references>Document.ВходящийАкцептСчетаФактуры.Attribute.ДатаВходящегоДокумента</references>
+  </columns>
+  <columns uuid="8d264d67-170d-43a4-970d-bb9c1e3f3b20">
+    <name>ОбработанОтправлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработан/отправлен</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ВходящийРеджектСчетаФактуры.Attribute.Обработан</references>
+    <references>Document.ВходящийСчетФактура.Attribute.Обработан</references>
+    <references>Document.ВходящийАкцептСчетаФактуры.Attribute.Обработан</references>
+  </columns>
+  <columns uuid="df015a30-6079-4c10-9b65-83a3617fe5ad">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ВходящийРеджектСчетаФактуры.Attribute.Организация</references>
+    <references>Document.ВходящийСчетФактура.Attribute.Организация</references>
+    <references>Document.ВходящийАкцептСчетаФактуры.Attribute.Организация</references>
+  </columns>
+  <columns uuid="de4242c8-6a28-40ef-82fb-1a646115935c">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ВходящийРеджектСчетаФактуры.Attribute.Контрагент</references>
+    <references>Document.ВходящийСчетФактура.Attribute.Контрагент</references>
+    <references>Document.ВходящийАкцептСчетаФактуры.Attribute.Контрагент</references>
+  </columns>
+</mdclass:DocumentJournal>

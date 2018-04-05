@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e13f00ea-3e37-41d3-ac77-e2a10c644cf3">
+  <producedTypes>
+    <objectType typeId="d7a7781f-54b9-4bc9-99ee-e8624b44ee55" valueTypeId="40b30e10-6e2b-4bc7-b3a9-78060b0346b4"/>
+    <managerType typeId="74a14bcf-8396-46cf-bcf1-7c15041a3deb" valueTypeId="9d05737f-07b4-41fc-883e-e0d6669e6ed2"/>
+  </producedTypes>
+  <name>АнализВнутреннихЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ внутренних заказов</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.АнализВнутреннихЗаказов.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="78bfccb6-a4b0-4ea2-a62a-60e47830c22f">
+    <name>УниверсальныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.УниверсальныйОтчет</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8bbcc031-b1be-44c8-84c1-032ed8c47818">
+    <name>СостояниеОтгрузкиПоЗаказу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние отгрузки по заказу</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="aa84364f-8ff8-4535-96b0-df1e4328b404">
+    <name>НеОтгружено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не отгружено</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e18db1cc-2643-4e2f-8d28-aa381e48067c">
+    <name>ОтгруженоЧастично</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгружено частично</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a7439aeb-05ba-4678-91a0-19108262152c">
+    <name>ОтгруженоПолностью</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгружено полностью</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8a1c32a3-4239-47af-b03a-66afc0408324">
+    <name>СостояниеОплатыПоЗаказу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние оплаты по заказу</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="52926091-2da0-4dab-bdce-790fc04be51b">
+    <name>НеОплачено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не оплачено</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7b773803-fc56-4d9c-a3d6-d3ece5fe6651">
+    <name>ОплаченоЧастично</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачено частично</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4928b5ec-c823-48b6-8a8e-131b23123586">
+    <name>ОплаченоПолностью</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачено полностью</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="11780dcc-8bc2-409e-ba9f-885bb92707d3">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

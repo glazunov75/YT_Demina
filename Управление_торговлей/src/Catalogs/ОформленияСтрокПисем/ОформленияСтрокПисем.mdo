@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2972333-e764-40a3-b4d5-5c8cd30ee2e9">
+  <producedTypes>
+    <objectType typeId="840f2e81-a827-414a-946a-7a0ec89c58b6" valueTypeId="d2d1b349-766f-4557-985c-7ae6a99f6032"/>
+    <refType typeId="75489be3-2ff4-4e2a-9406-3dc3d89ac72b" valueTypeId="1a23ff98-96f2-471d-921f-592cde091289"/>
+    <selectionType typeId="9bb61086-0bf3-4e0b-8e72-98a782be5511" valueTypeId="33bad16e-6cd8-46de-9348-6b5466736c37"/>
+    <listType typeId="e257571e-e078-4d26-a4ed-0a396a950217" valueTypeId="64ad06f2-2287-4383-a5c6-c8458a34dc24"/>
+    <managerType typeId="017078b3-702e-4555-a6ae-3cb487c38da5" valueTypeId="27a2daeb-1f9d-4438-b590-f62071cc00da"/>
+  </producedTypes>
+  <name>ОформленияСтрокПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оформления строк писем</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>Catalog.ОформленияСтрокПисем.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ОформленияСтрокПисем.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ОформленияСтрокПисем.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ОформленияСтрокПисем.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ОформленияСтрокПисем.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="bab48b0d-4155-4425-baef-4c82478f543b">
+    <name>Жирный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Жирный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="d43f8d17-b494-472e-878b-05adfe42b035">
+    <name>Зачеркнутый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зачеркнутый</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a3746345-8f7a-4be6-954f-d7c6e49fa0b2">
+    <name>Наклонный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наклонный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="eb8da263-adea-4f0e-bc79-89ee03def5e9">
+    <name>Подчеркнутый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подчеркнутый</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="2ee7c732-d44b-4288-83e5-71f2aacb13bd">
+    <name>ЦветТекста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет текста</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7e6dd0eb-556c-4d41-8c61-72f68eca524a">
+    <name>ЦветФона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет фона</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="335234f6-e86c-4560-b90b-0de22bf7fd69">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7dfa1c3b-aded-4a5b-9d6c-05097d1c985b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

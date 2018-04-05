@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d0bfab2-bd66-4654-8fe0-1c13356cc3f0">
+  <producedTypes>
+    <refType typeId="3ad0704c-51a4-413e-9fc3-7101c351227e" valueTypeId="b5b66075-a8eb-4789-a6d2-adbf09485f13"/>
+    <listType typeId="95c9f4ab-bd5f-40a3-8bd0-a0a1f608d077" valueTypeId="f245f3e2-ea1e-47e3-85f1-6f20229a2570"/>
+    <managerType typeId="79e83cba-f051-491c-8544-a1e1cc09226c" valueTypeId="f3727c4a-fe13-432d-8c03-346e71ef2112"/>
+  </producedTypes>
+  <name>КодыОперацийПартииТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коды операций партии товаров</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="095f084e-b6fd-40d4-be37-98a6492fe39e">
+    <name>ВозвратОтКомиссионера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат от комиссионера</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="5fdbe66d-8267-46fa-855b-fcefd50dda4a">
+    <name>ВозвратОтПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат от покупателя</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="d5d9c206-f0c0-4a19-8980-d8a08e51d751">
+    <name>ВозвратПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат поставщику</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="f17c0bdb-6e3c-4a78-a11b-84b660a47ba5">
+    <name>ВозвратТарыОтКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат тары от контрагента</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="f1972533-fb12-45b5-916f-dbfcb54cf696">
+    <name>Комплектация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплектация</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="31d3907b-e83d-4b8b-9a93-3a32e22e73f5">
+    <name>КорректировкаКачества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировка качества</value>
+    </synonym>
+    <comment>Корректировка качества</comment>
+  </enumValues>
+  <enumValues uuid="27aa2d54-f8c4-4a51-bc2b-f5e5c5e73207">
+    <name>КорректировкаСерийИХарактеристик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировка серий и характеристик</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="31cd0966-0244-4454-bde0-ee02791e737f">
+    <name>Оприходование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оприходование</value>
+    </synonym>
+    <comment>Оприходование</comment>
+  </enumValues>
+  <enumValues uuid="31461e4e-3bf4-4a4d-ae30-c22552470e36">
+    <name>ПередачаНаКомиссию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передача на комиссию</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="2d47c50c-6805-4e96-9be9-1684dd1a80a7">
+    <name>ПередачаТарыКонтрагенту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передача тары контрагенту</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="8730d950-a9d1-418b-8525-0e4992fae3ac">
+    <name>ПеремещениеМеждуСкладами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение между складами</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="b5df51d1-ebba-486f-a7d8-cf6ae6886345">
+    <name>ПереоценкаВРознице</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переоценка в рознице</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="b7d23ccd-1eba-4580-af60-9d9ee03d4524">
+    <name>ПереоценкаПринятыхНаКомиссию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переоценка принятых на комиссию</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="e8ddaa44-94fe-4cb1-8d9c-c41d8cbb9c6b">
+    <name>Поступление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="5b1ad9eb-24a5-4d8c-b41f-a2df7ed8d944">
+    <name>ПоступлениеДопРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление доп. расходов</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="917304fb-7ebd-41c4-8f64-2aade7009728">
+    <name>ПоступлениеНаКомиссию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление на комиссию</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="f75ebf4a-20fb-41cb-b0c6-b663623063af">
+    <name>ПоступлениеПоОрдеру</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление по ордеру</value>
+    </synonym>
+    <comment>(Упр)</comment>
+  </enumValues>
+  <enumValues uuid="44718dd5-9fe4-4079-bd0c-af2d5369cabf">
+    <name>Реализация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализация</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="b0ee6fcd-2a5d-42b5-b4dd-9a753e4ed01d">
+    <name>РеализацияКомиссия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализация комиссионером</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="41547eab-040a-449b-a92e-12cd1f60802f">
+    <name>РеализацияРозница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализация в розницу</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="be838fdf-968e-4ef7-a3d9-b5c7233b8a69">
+    <name>РезервированиеПодЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резервирование под заказ</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="8c56c88e-90ce-4b95-ac78-1b7c5a9384db">
+    <name>СнятиеРезерваПодЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снятие резерва под заказ</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="cb501501-be42-4fbb-afd1-8d96f5ec9aee">
+    <name>СписаниеНаЗатраты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание на затраты</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="45325ba1-57fa-4cdb-a71f-95c1cd981932">
+    <name>СписаниеПоИнвентаризации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание по инвентаризации</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="6e06bae3-bbdd-4001-aee0-93354b0fa696">
+    <name>СписаниеПоОрдеру</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание по ордеру</value>
+    </synonym>
+    <comment>(Упр)</comment>
+  </enumValues>
+  <enumValues uuid="5e57d982-9c80-461c-b51f-ae9690e473ad">
+    <name>ОтложеннаяОтгрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложенная отгрузка</value>
+    </synonym>
+    <comment>Отложенная отгрузка</comment>
+  </enumValues>
+  <enumValues uuid="9cca3ae6-ecec-4ce7-958c-e76ef9b27e23">
+    <name>ВозвратОтПокупателяТекущийМесяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат от покупателя (текущий месяц)</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+</mdclass:Enum>

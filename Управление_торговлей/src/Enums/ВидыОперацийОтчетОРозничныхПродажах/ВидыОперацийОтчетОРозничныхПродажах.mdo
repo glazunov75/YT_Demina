@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9262ebca-43b8-481c-b8a6-83e93d473d6a">
+  <producedTypes>
+    <refType typeId="931d9ac4-8dcb-41ad-9c37-39fa13926704" valueTypeId="2e999cc5-800e-4883-bd1a-a37e58db2d3e"/>
+    <listType typeId="fa325740-5c3a-4454-876b-90e6c082f471" valueTypeId="ac0feb1b-6895-4e94-8ace-d5a741b9b1ab"/>
+    <managerType typeId="ec54328e-60ad-4162-8fb1-eaace601246d" valueTypeId="4c17ca81-762b-4af0-92fa-3545f88dafae"/>
+  </producedTypes>
+  <name>ВидыОперацийОтчетОРозничныхПродажах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций отчет о розничных продажах</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="724baf38-a7b4-45fe-a8fc-f111cc62bc9e">
+    <name>ОтчетККМОПродажах</name>
+    <synonym>
+      <key>ru</key>
+      <value>ККМ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="21f62ab7-da62-4a99-b993-a944e5656501">
+    <name>ОтчетНТТОПродажах</name>
+    <synonym>
+      <key>ru</key>
+      <value>НТТ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

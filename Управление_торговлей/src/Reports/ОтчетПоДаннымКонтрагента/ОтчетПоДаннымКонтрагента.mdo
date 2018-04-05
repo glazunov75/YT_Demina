@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8bf65ae-378e-4cf9-bc9c-185ce9845061">
+  <producedTypes>
+    <objectType typeId="d9f96bd2-748c-4a8d-a10c-ec2451d2dc82" valueTypeId="564cfb5a-7238-47ca-8752-17aba912868c"/>
+    <managerType typeId="8beddfa1-79ba-4ac1-8260-08c58199b834" valueTypeId="c7beaeda-7e21-4cfb-b32f-b1814a34de69"/>
+  </producedTypes>
+  <name>ОтчетПоДаннымКонтрагента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по данным контрагента</value>
+  </synonym>
+  <comment>Отчет по данным контрагента</comment>
+  <defaultForm>Report.ОтчетПоДаннымКонтрагента.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="1f0e7124-8afd-4057-8037-a49bcd18371e">
+    <name>КонтрагентОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент отчета</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2ef53727-2346-49a4-a86a-96dfeb0d38e9">
+    <name>ДатаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отчета</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3178be13-e2be-4072-bc5c-25250a6dae64">
+    <name>ВыводитьДопКонтИнф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить доп конт инф</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c6edcf0f-a1ce-42ef-afdb-2d6d8a0d9208">
+    <name>СписокНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список настроек</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="e891ef8e-e87d-4f93-a95c-3f3374c3f7ca">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5b6203c3-08b6-4a45-8f91-cb2e55a42b5d">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b1b8a0a-f949-4dcc-855e-c01bde031200">
+  <producedTypes>
+    <objectType typeId="b675860e-7d51-4e1b-ba60-c318cf13d7e1" valueTypeId="478f3360-fdaf-4cad-963f-32d97ef25655"/>
+    <refType typeId="53964987-12e0-4fbc-a4be-946b10165144" valueTypeId="48d46155-ea23-4ed6-bdb5-9ce5bd8aefc6"/>
+    <selectionType typeId="305af63b-5512-4316-acce-a7b045853b7e" valueTypeId="74446200-742b-4c36-8d1c-a2f186993853"/>
+    <listType typeId="1e12c030-9a9d-4ec8-b213-7e140d41b93d" valueTypeId="065783ce-c2b6-4ede-a89c-886b4ca82031"/>
+    <managerType typeId="f25bb179-6e29-442f-8995-6f66ec5f1f5e" valueTypeId="3b85d3da-6ab9-421e-98d2-36c996cb5cb5"/>
+  </producedTypes>
+  <name>ХранилищеДополнительнойИнформации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранилище дополнительной информации</value>
+  </synonym>
+  <comment>Хранилище дополнительной информации</comment>
+  <inputByString>Catalog.ХранилищеДополнительнойИнформации.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ХранилищеДополнительнойИнформации.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ХранилищеДополнительнойИнформации.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ХранилищеДополнительнойИнформации.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="973d7ee4-fe69-4700-9a7c-aa65a7d50490">
+    <name>ВидДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид данных</value>
+    </synonym>
+    <comment>Вид данных</comment>
+    <type>
+      <types>EnumRef.ВидыДополнительнойИнформацииОбъектов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="5bde2cdd-d829-45d2-a71a-636be153decf">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <comment>Имя файла</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="961cdcb7-5127-4246-a074-93299e22daf3">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <comment>Объект</comment>
+    <type>
+      <types>DocumentRef.ВходящийЗапросКаталога</types>
+      <types>DocumentRef.ЗаказПокупателя</types>
+      <types>CatalogRef.Организации</types>
+      <types>DocumentRef.ВходящееИзвещение</types>
+      <types>DocumentRef.ИсходящийКаталогТоваров</types>
+      <types>DocumentRef.ИсходящееИзвещение</types>
+      <types>DocumentRef.ИсходящийРеджектАкцептСчетаФактуры</types>
+      <types>DocumentRef.ВходящийАкцептСчетаФактуры</types>
+      <types>DocumentRef.ИсходящийРеджектАкцептЗаказа</types>
+      <types>DocumentRef.ЗаказПоставщику</types>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+      <types>DocumentRef.ВходящийАкцептНакладной</types>
+      <types>CatalogRef.Номенклатура</types>
+      <types>DocumentRef.ВходящийЗапросПрайсЛиста</types>
+      <types>CatalogRef.Контрагенты</types>
+      <types>DocumentRef.ИсходящийРеджектАкцептНакладной</types>
+      <types>DocumentRef.ВходящийСчетФактура</types>
+      <types>CatalogRef.СерииНоменклатуры</types>
+      <types>DocumentRef.ВходящийКаталогТоваров</types>
+      <types>DocumentRef.ПланируемоеПоступлениеДенежныхСредств</types>
+      <types>DocumentRef.ВходящийРеджектЗаказа</types>
+      <types>CatalogRef.Склады</types>
+      <types>CatalogRef.ФизическиеЛица</types>
+      <types>DocumentRef.Событие</types>
+      <types>DocumentRef.СчетФактураВыданный</types>
+      <types>DocumentRef.ЗаявкаНаРасходованиеСредств</types>
+      <types>DocumentRef.ИсходящийПрайсЛист</types>
+      <types>DocumentRef.ИсходящийЗаказ</types>
+      <types>DocumentRef.ИсходящийЗапросКаталога</types>
+      <types>DocumentRef.ВходящийАкцептЗаказа</types>
+      <types>DocumentRef.ПоступлениеТоваровУслуг</types>
+      <types>DocumentRef.ВходящийТоварКРаботе</types>
+      <types>DocumentRef.ИсходящийТоварКРаботе</types>
+      <types>DocumentRef.ВходящийРеджектСчетаФактуры</types>
+      <types>CatalogRef.Проекты</types>
+      <types>DocumentRef.СчетФактураПолученный</types>
+      <types>DocumentRef.ИсходящийСчетФактура</types>
+      <types>DocumentRef.РеализацияТоваровУслуг</types>
+      <types>DocumentRef.АвансовыйОтчет</types>
+      <types>DocumentRef.ВходящийРеджектНакладной</types>
+      <types>DocumentRef.ВходящийПрайсЛист</types>
+      <types>DocumentRef.ИсходящийЗапросПрайсЛиста</types>
+      <types>DocumentRef.ВходящийЗаказ</types>
+      <types>DocumentRef.ЭлектронноеПисьмо</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="9dd953bb-0e54-4282-a21b-9bfb54676c8e">
+    <name>Хранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище</value>
+    </synonym>
+    <comment>Хранилище</comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2e60c112-f0ed-48be-b09a-75a58e52e6c6">
+    <name>ТекстФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст файла</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="0cdb4acb-9034-414f-b259-3ae8adbe3d1e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ab88141d-27bb-48ea-aaed-927a3c9a77ff">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8cde9ea5-9d10-4546-9c9e-1dac3552b4cc">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b67c5446-bfa0-4676-9928-8037bf5537d0">
+    <name>ФормаИзображения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изображение</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b3bd5b18-bfe3-4caa-960f-e6a37900d5b4">
+    <name>ФормаСохраненияФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма сохранения файлов</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7deaea12-f6f5-4022-9e4b-319e69c18e83">
+    <name>ФормаЗапросаПерезаписиФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма запроса перезаписи файлов</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="330cfbe4-e246-425d-9780-dd773dbf2b66">
+    <name>ФормаСпискаФайловИИзображений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка файлов и изображений</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

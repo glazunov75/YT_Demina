@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a09290b-6382-480b-a533-24b347ad6bd7">
+  <producedTypes>
+    <objectType typeId="bda03776-7bd1-4a6a-8c7e-7aa7e9ec00f9" valueTypeId="93c0ae5f-a79b-434d-a426-c59cd864bc64"/>
+    <refType typeId="ea899f71-651d-44ab-8d49-2cd7a5f71e0f" valueTypeId="3214ec8d-20b3-47f3-9224-cb1c0b8fd578"/>
+    <selectionType typeId="a9a19cb7-22a6-4ce1-ad28-3e93e057f3f7" valueTypeId="3e55870b-bfc6-43a7-831d-a2470c4ce35d"/>
+    <listType typeId="edf1c3cf-4a48-4263-a725-5e03db7838f6" valueTypeId="d39fac57-cf3f-4f38-bf97-885c631eefee"/>
+    <managerType typeId="038c2eb7-69dc-4220-b730-ba137f13ff71" valueTypeId="26e6cd54-cea1-454e-b01a-ff1d51c8e94b"/>
+  </producedTypes>
+  <name>ЗначенияСвойствОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения свойств объектов</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <inputByString>Catalog.ЗначенияСвойствОбъектов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЗначенияСвойствОбъектов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>1</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>ChartOfCharacteristicTypes.СвойстваОбъектов</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЗначенияСвойствОбъектов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ЗначенияСвойствОбъектов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ЗначенияСвойствОбъектов.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="1dba8fe7-beb0-481b-95a1-7a7cb329d6f7">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="902ae7b4-1b8d-41a8-a74b-7570513edbdd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2036b1be-72c5-443a-8ace-fe37529a8233">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

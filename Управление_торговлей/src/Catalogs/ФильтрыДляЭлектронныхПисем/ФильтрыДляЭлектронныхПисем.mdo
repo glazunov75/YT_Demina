@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="078c936b-035c-43c4-89c5-79d7600c2863">
+  <producedTypes>
+    <objectType typeId="c9dbe826-0950-42b0-a6fd-dbfb3c7eda55" valueTypeId="7a58aaba-4884-4fe9-80db-78e15c5f5b92"/>
+    <refType typeId="ead63044-4d88-4c0b-8409-2aac7ec8a62c" valueTypeId="d3bf62d1-5258-471c-8c85-7a6f41e09bce"/>
+    <selectionType typeId="d9908e01-7a3b-4895-b41d-0321f0ef39df" valueTypeId="82e34b0d-1026-4086-b7a7-ae0341be46ee"/>
+    <listType typeId="a32e2bac-d8f8-4376-9aa5-84fda1e959a5" valueTypeId="5d3d005c-cb1c-4f57-9cce-528bfd55dbfe"/>
+    <managerType typeId="675d949c-9076-490c-a9ed-3cd29dadd146" valueTypeId="8591f161-df02-4fd9-9727-08bce7c4b776"/>
+  </producedTypes>
+  <name>ФильтрыДляЭлектронныхПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фильтры для электронных писем</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>Catalog.ФильтрыДляЭлектронныхПисем.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ФильтрыДляЭлектронныхПисем.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.УчетныеЗаписиЭлектроннойПочты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ФильтрыДляЭлектронныхПисем.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ФильтрыДляЭлектронныхПисем.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="94a02552-c18a-4114-baff-bec75357ad9c">
+    <name>ОперацияУсловия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операция условия</value>
+    </synonym>
+    <comment>Истина - И, ложь - ИЛИ</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="c0d1e1a0-66a9-492d-b853-ca4e25715828">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="80d1a00f-5c28-43f5-8ab2-7c442f2fa288">
+    <name>Использование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использование</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <tabularSections uuid="d4e08eda-b293-4b3a-8449-fae0d0bf0cfd">
+    <producedTypes>
+      <objectType typeId="55a40abc-d090-4e6d-903b-28cc7426a652" valueTypeId="a276116f-ea6d-449a-8d28-0c0c7f0ca989"/>
+      <rowType typeId="fab1232d-5c7c-426d-80c9-83ccd3f2a3af" valueTypeId="0dc40e95-1a4a-46b5-bc0d-cbcf87434abc"/>
+    </producedTypes>
+    <name>УсловияФильтра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условия фильтра</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="7e7ec953-1405-41f3-8df2-152b958f74b6">
+      <name>ОтрицаниеУсловия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отрицание условия</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="49bfeb1a-1e06-4e14-9df1-82363cce55c0">
+      <name>Условие</name>
+      <synonym>
+        <key>ru</key>
+        <value>Условие</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef.УсловияФильтровЭлектронныхПисем</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="734607a1-c2d3-46e8-8e10-9b96864a2f0d">
+      <name>ЗначениеУсловия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение условия</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="32183764-868c-4c3c-bba2-7abe80c9f15f">
+    <producedTypes>
+      <objectType typeId="7dc1f5e7-9bdb-4ed4-990e-263b153df046" valueTypeId="07116dff-fb81-4a9c-8e97-b5eaefe10175"/>
+      <rowType typeId="ae2ba2c6-d448-4d18-8a92-7dd16de477e4" valueTypeId="415b3568-5e3f-4f6e-a66e-c3780b1bbdb8"/>
+    </producedTypes>
+    <name>ДействияФильтра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действия фильтра</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="f951238e-c034-4bac-8fb7-a9a71650aa21">
+      <name>ДействиеФильтра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Действие фильтра</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef.ВидыДействийФильтровЭлектронныхПисем</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cc266f02-c212-46f4-aa82-dbe85dcade7b">
+      <name>ГруппаПисем</name>
+      <synonym>
+        <key>ru</key>
+        <value>Группа писем</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ГруппыПисемЭлектроннойПочты</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="80ab35a5-c9a7-456f-9b6c-bb7393ad1d0e">
+      <name>Оформление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Оформление</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ОформленияСтрокПисем</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="ee9617ef-c28f-492f-ae1c-de1607ebbad7">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1523a0c0-87ba-499a-9a54-dad8f440b6f6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dc08eae7-394e-4e76-9cef-475c4fac8e69">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

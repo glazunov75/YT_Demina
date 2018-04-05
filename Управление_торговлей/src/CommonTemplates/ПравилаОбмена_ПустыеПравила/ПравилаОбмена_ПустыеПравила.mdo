@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a5a1f65-9b9a-48fa-ab90-ba2cad7cfd3c">
+  <name>ПравилаОбмена_ПустыеПравила</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правила обмена пустые правила</value>
+  </synonym>
+  <comment></comment>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

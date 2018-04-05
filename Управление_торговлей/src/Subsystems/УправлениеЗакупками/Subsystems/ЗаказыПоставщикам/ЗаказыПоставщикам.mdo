@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9987abca-198f-4a4e-b255-5b56677c0d56">
+  <name>ЗаказыПоставщикам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы поставщикам</value>
+  </synonym>
+  <comment></comment>
+  <content>CommonPicture.ЖурналЗаказыПоставщикам</content>
+  <content>CommonPicture.ЗаказПоставщику</content>
+  <content>CommonPicture.ЗаказыПоставщикам</content>
+  <content>CommonModule.УправлениеЗаказами</content>
+  <content>CommonModule.ФормированиеПечатныхФорм</content>
+  <content>Constant.СтратегияАвторезервированияНоменклатурыПоЗаказам</content>
+  <content>CommonForm.ФормаВыбораКонтрагентаДоговораЗаказа</content>
+  <content>CommonForm.ФормаВыбораПараметровАвторезервирования</content>
+  <content>CommonForm.ФормаЦеныИВалюта</content>
+  <content>Catalog.ЕдиницыИзмерения</content>
+  <content>Catalog.ПричиныЗакрытияЗаказов</content>
+  <content>Catalog.Склады</content>
+  <content>Document.ВозвратТоваровОтПокупателя</content>
+  <content>Document.ВозвратТоваровПоставщику</content>
+  <content>Document.ВозвратТоваровПоставщикуИзНТТ</content>
+  <content>Document.ЗаказПоставщику</content>
+  <content>Document.ЗакрытиеЗаказовПоставщикам</content>
+  <content>Document.КорректировкаВнутреннегоЗаказа</content>
+  <content>Document.КорректировкаЗаказаПокупателя</content>
+  <content>Document.КорректировкаЗаказаПоставщику</content>
+  <content>Document.ПоступлениеТоваровУслуг</content>
+  <content>Document.ПоступлениеТоваровУслугВНТТ</content>
+  <content>Document.РазмещениеЗаказа</content>
+  <content>Document.СчетНаОплатуПоставщика</content>
+  <content>Document.ФормированиеПотребностей</content>
+  <content>DocumentJournal.ЗаказыПоставщикам</content>
+  <content>Report.АнализЗаказа</content>
+  <content>Report.АнализЗаказовПокупателей</content>
+  <content>Report.АнализЗаказовПоставщикам</content>
+  <content>Report.АнализПричинЗакрытияЗаказов</content>
+  <content>Report.ВедомостьЗаказыПоставщикам</content>
+  <content>Report.ВыполнениеУсловийПоДоговорамКонтрагентов</content>
+  <content>Report.ТоварныйКалендарь</content>
+  <content>InformationRegister.КалендарныеПотребностиВНоменклатуре</content>
+  <content>InformationRegister.ПричиныЗакрытияЗаказов</content>
+  <content>AccumulationRegister.ЗаказыПоставщикам</content>
+  <content>AccumulationRegister.РазмещениеЗаказовПокупателей</content>
+  <parentSubsystem>Subsystem.УправлениеЗакупками</parentSubsystem>
+</mdclass:Subsystem>

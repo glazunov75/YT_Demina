@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b764262-9119-4b9c-a204-336917cdca83">
+  <producedTypes>
+    <selectionType typeId="5878229d-71af-4a0c-ba4f-244bd1408ce5" valueTypeId="1bb18511-993a-4b83-8f38-dac6719a43da"/>
+    <listType typeId="ccc1f0c4-51c2-415f-b6d3-d6c036567511" valueTypeId="3d14be98-7652-4518-81da-7e850213e68e"/>
+    <managerType typeId="f620c45f-5dcb-4b15-9e35-b87c77ac1893" valueTypeId="2b5b3cc5-cdc1-401a-9028-f734203acbe7"/>
+  </producedTypes>
+  <name>ЗаказыПоставщикам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы поставщикам</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DocumentJournal.ЗаказыПоставщикам.Form.ФормаСписка</defaultForm>
+  <registeredDocuments>Document.ЗаказПоставщику</registeredDocuments>
+  <registeredDocuments>Document.КорректировкаЗаказаПоставщику</registeredDocuments>
+  <registeredDocuments>Document.РазмещениеЗаказа</registeredDocuments>
+  <registeredDocuments>Document.ЗакрытиеЗаказовПоставщикам</registeredDocuments>
+  <columns uuid="ca246878-f6ae-41b4-a211-286b98c78433">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ЗаказПоставщику.Attribute.СуммаДокумента</references>
+    <references>Document.КорректировкаЗаказаПоставщику.Attribute.СуммаДокумента</references>
+  </columns>
+  <columns uuid="5f76e025-e9b8-4730-9a98-ca1e8d278ec7">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ЗаказПоставщику.Attribute.ВалютаДокумента</references>
+  </columns>
+  <columns uuid="46892478-7ded-44b9-b3fb-ef614aab7acf">
+    <name>Информация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.РазмещениеЗаказа.Attribute.Заказ</references>
+    <references>Document.КорректировкаЗаказаПоставщику.Attribute.ЗаказПоставщику</references>
+    <references>Document.ЗаказПоставщику.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="42a8c70b-c6f9-45d6-ba14-6f9cd7f5cdb8">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ЗаказПоставщику.Attribute.Организация</references>
+    <references>Document.КорректировкаЗаказаПоставщику.Attribute.Организация</references>
+  </columns>
+  <columns uuid="01d24e9c-627a-46cc-8e01-8b26e60003be">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ЗаказПоставщику.Attribute.Подразделение</references>
+    <references>Document.РазмещениеЗаказа.Attribute.Подразделение</references>
+    <references>Document.ЗакрытиеЗаказовПоставщикам.Attribute.Подразделение</references>
+  </columns>
+  <columns uuid="95f6aa68-444e-4582-b3c6-909c138d3109">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ЗаказПоставщику.Attribute.Ответственный</references>
+    <references>Document.КорректировкаЗаказаПоставщику.Attribute.Ответственный</references>
+    <references>Document.РазмещениеЗаказа.Attribute.Ответственный</references>
+    <references>Document.ЗакрытиеЗаказовПоставщикам.Attribute.Ответственный</references>
+  </columns>
+  <columns uuid="99a3b2c1-85d1-40f8-acca-3d3c299e388c">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.РазмещениеЗаказа.Attribute.Комментарий</references>
+    <references>Document.КорректировкаЗаказаПоставщику.Attribute.Комментарий</references>
+    <references>Document.ЗакрытиеЗаказовПоставщикам.Attribute.Комментарий</references>
+    <references>Document.ЗаказПоставщику.Attribute.Комментарий</references>
+  </columns>
+  <columns uuid="02305231-8000-4153-bd41-99437f45ea66">
+    <name>ДатаОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата оплаты</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ЗаказПоставщику.Attribute.ДатаОплаты</references>
+  </columns>
+  <columns uuid="68437161-b21b-428b-ac1f-b45fec32daea">
+    <name>ДатаПоступления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата поступления</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.ЗаказПоставщику.Attribute.ДатаПоступления</references>
+  </columns>
+  <forms uuid="3186f4fd-88d3-42ca-a209-79af16f20d4e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

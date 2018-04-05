@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="506c03fc-ffeb-4fdc-9ae3-b0a97f01dcef">
+  <producedTypes>
+    <objectType typeId="a4a4b63e-e5d3-43f6-820f-f0a9d742f6f3" valueTypeId="2d95b3c5-adfb-404f-a1ec-8008c1fe9ea5"/>
+    <refType typeId="f5cca115-4deb-41eb-be35-c5dd6777d13f" valueTypeId="eb51b0eb-9291-4b0a-9a1a-5e0510a182f8"/>
+    <selectionType typeId="e0ae11c4-7cab-4511-85b9-82e194158112" valueTypeId="22f8db32-0a6f-480a-8550-e2409388d68d"/>
+    <listType typeId="81cfbee6-7b54-4bc6-b571-e223c6786040" valueTypeId="e7237010-e7de-4d1c-8b4b-a0e016019a05"/>
+    <managerType typeId="f01ea28a-c2e5-4160-b297-56bcf4afaded" valueTypeId="1cbc6c97-b154-4c5d-bf30-19210cb22e6d"/>
+  </producedTypes>
+  <name>ИзменениеЛимитовВозвратнойТары</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение лимитов возвратной тары</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <inputByString>Document.ИзменениеЛимитовВозвратнойТары.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ИзменениеЛимитовВозвратнойТары.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ИзменениеЛимитовВозвратнойТары.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.ИзменениеЛимитовВозвратнойТары.Form.ФормаВыбора</defaultChoiceForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <registerRecords>InformationRegister.ЛимитыВозвратнойТары</registerRecords>
+  <attributes uuid="09a3e1b0-21f6-44d5-9ac9-f3b5aaafb8c7">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ВидыОперацийИзменениеЛимитовВозвратнойТары</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="05436e66-c971-483b-b754-05f2a5d32202">
+    <name>ДоговорКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор контрагента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="05042157-29b7-42ab-90b5-118eae8041c5">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment>Любая дополнительная информация</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="44bd4a12-813d-49ba-b5a2-325fe2d37bff">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b061f01f-6c31-40fb-aabf-2444cc7b587f">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a63db08e-30ed-47c2-bdc8-331fb5d58f2f">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a0cea93a-23c4-4687-9867-e5d9038531bb">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="f3309afe-d507-4fbb-80b4-615f4241c7bf">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c9c3a99c-9c08-4c0e-94eb-be5e093253e9">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="497c5bb2-ec17-4689-8964-0da7433f8c55">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="325d62aa-8fe7-426b-a140-af44fda323f8">
+    <producedTypes>
+      <objectType typeId="cd505f81-d406-49ff-900f-427c42c6c9bf" valueTypeId="c381dfaf-fec2-4bcd-90fb-56d961a1fe98"/>
+      <rowType typeId="d0700be5-108c-468e-8940-d421ad7ef275" valueTypeId="37b31c9e-8923-490b-8c20-1831d533bf86"/>
+    </producedTypes>
+    <name>ВозвратнаяТара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возвратная тара</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="ba546d6f-d663-4b3d-8861-dec224e44daf">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="14e0222c-07f4-46b8-9135-f6a8599beea2">
+      <name>Лимит</name>
+      <synonym>
+        <key>ru</key>
+        <value>Лимит покупателя/поставщику</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="daae3aa6-5512-4638-bbe2-8c6014db57c6">
+    <name>ИзменениеЛимитовТары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение лимитов тары</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Document>

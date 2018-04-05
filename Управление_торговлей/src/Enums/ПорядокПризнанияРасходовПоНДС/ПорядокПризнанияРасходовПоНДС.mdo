@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31afd0e4-9070-4e95-bf5c-0a25f9a068ac">
+  <producedTypes>
+    <refType typeId="7603636d-e0c1-4aaa-9e05-5eff696dd319" valueTypeId="0d2768e9-9688-482e-8e27-ff31eab1ee0a"/>
+    <listType typeId="bb288fcf-675e-4626-b3cd-3b869cd620a5" valueTypeId="98d2bf1d-aac9-4915-84f0-d0fd35febc4e"/>
+    <managerType typeId="f8d9dd10-2890-4476-aaf8-184d322e1c41" valueTypeId="b1949941-c3d2-4f4d-bd5c-fef06e762613"/>
+  </producedTypes>
+  <name>ПорядокПризнанияРасходовПоНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порядок признания расходов по НДС</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a17b7369-c735-4d87-bc04-6c415f67d1d1">
+    <name>ПоОплатеПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>По оплате поставщику</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="aa2acf7d-a2f0-4dc1-8ca8-d13761ee0228">
+    <name>ВключатьВСтоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включать в стоимость</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

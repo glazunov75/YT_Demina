@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c6a6bed-ef81-49f2-89a6-5e55ac559eff">
+  <name>ОткрытьДокументИзСписка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Открыть документ из списка</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

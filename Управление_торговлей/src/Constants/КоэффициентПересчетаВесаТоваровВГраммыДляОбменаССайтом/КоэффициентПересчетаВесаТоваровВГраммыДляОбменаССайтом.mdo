@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58383954-8516-49db-b815-7d416a224cc1">
+  <producedTypes>
+    <managerType typeId="6f0d694f-e1af-4249-b99c-b104a56abc9e" valueTypeId="a24ddc82-d31d-4d9f-9fee-e09696057959"/>
+    <valueManagerType typeId="ae65bc8c-8c3b-43eb-a7b9-384eeac1e527" valueTypeId="9a40224d-bb78-4567-bfdf-c44d28c54bed"/>
+  </producedTypes>
+  <name>КоэффициентПересчетаВесаТоваровВГраммыДляОбменаССайтом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коэффициент пересчета веса товаров в граммы для обмена с сайтом</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <scale>3</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e20b02b9-484c-46f2-a142-d94468c15bc8">
+  <name>ОбменУправлениеТорговлей103БухгалтерияПредприятия30ЗарегистрироватьИзменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен управление торговлей103 бухгалтерия предприятия30 зарегистрировать изменение</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>CatalogObject.КонтактныеЛицаКонтрагентов</types>
+    <types>CatalogObject.СтатьиЗатрат</types>
+    <types>CatalogObject.БанковскиеСчета</types>
+    <types>CatalogObject.Организации</types>
+    <types>CatalogObject.НомераГТД</types>
+    <types>CatalogObject.СтатьиДвиженияДенежныхСредств</types>
+    <types>CatalogObject.Банки</types>
+    <types>CatalogObject.АдресныеСокращения</types>
+    <types>CatalogObject.Номенклатура</types>
+    <types>CatalogObject.Валюты</types>
+    <types>CatalogObject.ТипыЦенНоменклатуры</types>
+    <types>CatalogObject.Пользователи</types>
+    <types>CatalogObject.Склады</types>
+    <types>CatalogObject.ДолжностиОрганизаций</types>
+    <types>CatalogObject.ДоговорыКонтрагентов</types>
+    <types>CatalogObject.КонтактныеЛица</types>
+    <types>CatalogObject.РолиКонтактныхЛиц</types>
+    <types>CatalogObject.ВидыОплатЧекаККМ</types>
+    <types>CatalogObject.ВидыКонтактнойИнформации</types>
+    <types>CatalogObject.ДокументыУдостоверяющиеЛичность</types>
+    <types>CatalogObject.КлассификаторЕдиницИзмерения</types>
+    <types>CatalogObject.НоменклатурныеГруппы</types>
+    <types>CatalogObject.ВидыВзаиморасчетов</types>
+    <types>CatalogObject.КлассификаторСтранМира</types>
+    <types>CatalogObject.ФизическиеЛица</types>
+    <types>CatalogObject.Контрагенты</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиСобытияУТ.ОбменУправлениеТорговлей103БухгалтерияПредприятия30ЗарегистрироватьИзменениеПередЗаписью</handler>
+</mdclass:EventSubscription>

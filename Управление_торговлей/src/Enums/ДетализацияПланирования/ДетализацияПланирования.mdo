@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="acb328c2-edfe-479f-b1b2-ab0d68148fc7">
+  <producedTypes>
+    <refType typeId="3c213ed2-ccb8-4c90-9f37-436c4de2e067" valueTypeId="93a450ec-7b47-4cad-9099-1e8d0fded25f"/>
+    <listType typeId="35566a0c-f944-4497-8d82-f55fa9057caa" valueTypeId="85c5fcc9-f059-4991-b609-25ae448beb88"/>
+    <managerType typeId="1ca9637d-7ffa-452b-a75a-44e63b156f8a" valueTypeId="80b9156e-f14b-4266-b747-a2644764b6e5"/>
+  </producedTypes>
+  <name>ДетализацияПланирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Детализация планирования</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="02249ba4-2f8a-4f3d-b2cf-fadceb804456">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9cc3aae3-8b86-4ad5-91a4-38c707a0c971">
+    <name>НоменклатурныеГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатурные группы</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

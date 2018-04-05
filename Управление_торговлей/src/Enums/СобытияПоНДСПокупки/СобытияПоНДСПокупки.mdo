@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19032277-ca61-4036-a059-bf5ff2d4f5a7">
+  <producedTypes>
+    <refType typeId="437024bb-f6f6-4c56-a2a0-ac2ad9fc15bb" valueTypeId="1857e251-4b90-4c26-9e55-7e5f2c15c54c"/>
+    <listType typeId="2fa0aff0-c627-40e9-aac0-893290cd4cd6" valueTypeId="95e58d89-ee28-43e0-be4a-07f562b122df"/>
+    <managerType typeId="43baf3d9-b43b-4577-b8c3-7c8d1a28455d" valueTypeId="6bb6dc7a-556e-455e-8559-402dac72c9b5"/>
+  </producedTypes>
+  <name>СобытияПоНДСПокупки</name>
+  <synonym>
+    <key>ru</key>
+    <value>События по НДС (покупки)</value>
+  </synonym>
+  <comment>(Регл)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d35190cf-d65a-4f44-9884-3c5d2a4f93ac">
+    <name>ПредъявленНДСПоставщиком</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предъявлен НДС Поставщиком</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e63e7731-9a20-4c2a-9b0a-c01795b6a94e">
+    <name>УплаченНДСНаТаможне</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уплачен НДС на таможне</value>
+    </synonym>
+    <comment>факт уплаты таможенного НДС при импорте товаров (по ГТД)</comment>
+  </enumValues>
+  <enumValues uuid="1ceb25c9-b875-4ed6-856a-b59108d06294">
+    <name>ПолученСчетФактура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получен счет-фактура от поставщика</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9c7cd5f5-5d52-479d-8cce-02bbe8e1acd0">
+    <name>НДСОплачен</name>
+    <synonym>
+      <key>ru</key>
+      <value>НДС оплачен поставщику</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ecde06e0-4a03-4791-913f-17affaea90c6">
+    <name>ПереданНДСНаСтроительство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передан НДС на строительство</value>
+    </synonym>
+    <comment>Событие обозначающее передачу ТМЦ на строительство основных средств</comment>
+  </enumValues>
+  <enumValues uuid="4564449b-dfd6-45cb-b3e1-eb403b63ad52">
+    <name>ОСВведеноВЭксплуатацию</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОС введено в эксплуатацию</value>
+    </synonym>
+    <comment>факт ввода ОС, к которому относится НДС, в эксплуатацию</comment>
+  </enumValues>
+  <enumValues uuid="92b7129e-999e-4bcc-aa45-1c062c86db61">
+    <name>НДСВключенВСтоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>НДС включен в стоимость</value>
+    </synonym>
+    <comment>регистрируется факт включения НДС в стоимость приобретенной ценности</comment>
+  </enumValues>
+  <enumValues uuid="c9d21162-171a-4844-b29d-3c810c6229a7">
+    <name>ПредполагаетсяСтавка0</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предполагается ставка 0%</value>
+    </synonym>
+    <comment>для регистрации факта, что этот НДС связан с предполагаемым применения ставки НДС 0% при реализации и не подлежит вычету</comment>
+  </enumValues>
+  <enumValues uuid="f08644fe-b408-49eb-8bf7-35e11f1bcd18">
+    <name>ПодтвержденаСтавка0</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждена ставка 0%</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="bebfede7-b671-4ec0-bd2d-e7c32ac54ebd">
+    <name>НеПодтвержденаСтавка0</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не подтверждена ставка 0%</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="cc070855-d246-4281-a1bb-54adb7dd22b1">
+    <name>ВосстановленНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Восстановлен НДС</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="955b7581-bf9d-4aa5-89b9-557e0fbe6b67">
+    <name>ПредъявленНДСКВычету</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предъявлен НДС к вычету</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9afee380-4091-4b84-acb2-9137ce8dafd9">
+    <name>ПредъявленНДСКВычету0</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предъявлен НДС к вычету 0%</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="970a0271-aa5e-49af-bbed-f67bb595a793">
+    <name>Возврат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

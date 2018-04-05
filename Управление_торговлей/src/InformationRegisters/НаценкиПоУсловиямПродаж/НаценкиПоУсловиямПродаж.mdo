@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eadade72-8070-4f39-84f8-31f9c9bb5dcb">
+  <producedTypes>
+    <selectionType typeId="019ecd12-e162-43f8-ac74-3c78d0e801d4" valueTypeId="ee0b98ad-8426-4d81-9eed-17feeec0a41a"/>
+    <listType typeId="36608bd8-f0be-4ef2-af9d-82d7b99abdfb" valueTypeId="22839828-e442-409c-9fd8-2d174f1bd02b"/>
+    <managerType typeId="3928392d-7123-4ab8-a87e-8fa67cd63119" valueTypeId="00c26c5f-7a9c-43ba-a80f-c0616a43f1ff"/>
+    <recordSetType typeId="27f19996-c18e-4374-93b2-0a5e3ef7c75f" valueTypeId="1c403218-f9da-457f-99d3-da11c8fe7c64"/>
+    <recordKeyType typeId="258b1e44-91fc-43cc-8a9f-2a98143692a9" valueTypeId="d53506b3-6d26-4ae0-a296-fdc3fc9c3829"/>
+    <recordType typeId="595dce45-ddc9-4ef1-af83-2222feeb763c" valueTypeId="16146958-ac19-47e4-bca9-24a097d9bf53"/>
+    <recordManagerType typeId="a0fa0c72-44d7-4ed0-9272-7beaf91eaae8" valueTypeId="8a2750ce-4d66-437e-a10c-4501dfd0bf05"/>
+  </producedTypes>
+  <name>НаценкиПоУсловиямПродаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наценки по условиям продаж</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="27ab3e9a-6931-4b32-bf47-8320f2d2b7e0">
+    <name>ПроцентНаценки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент наценки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c2f459cb-c6ce-418c-ad69-9ffec1f0ff5d">
+    <name>УсловиеПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условие продаж</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.УсловияПродаж</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="823b9d1b-ae75-4b14-bd86-98405e83ba6d">
+    <name>НоменклатурнаяЦеноваяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатурная или ценовая группа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ЦеновыеГруппы</types>
+      <types>CatalogRef.НоменклатурныеГруппы</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

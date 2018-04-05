@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba2683b8-7689-48a2-8b70-ee3ccbdc508f">
+  <producedTypes>
+    <objectType typeId="6604748e-1baa-4129-9973-6290aca24db1" valueTypeId="ac6217c8-b166-4706-ae73-df821b461625"/>
+    <managerType typeId="d7e53b69-7fb0-434c-8a19-2478b6aebfe7" valueTypeId="68af5ae4-dc7b-4af6-ae1b-b67d7d03b7c4"/>
+  </producedTypes>
+  <name>ПланыПродаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планы продаж</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.ПланыПродаж.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="5e092a43-30a9-42a3-bc33-ab0f9c322a02">
+    <name>ТипЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип цен</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ТипыЦенНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a4646df0-ffc2-4dfe-8d39-d0d706e5615a">
+    <name>УниверсальныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.УниверсальныйОтчет</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="e15a1e27-e064-4f46-a217-2fe4a517515c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

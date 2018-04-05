@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de50eaff-b33e-4793-a306-76f847de4149">
+  <name>НастройкаОтправкиОтчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка отправки отчета</value>
+  </synonym>
+  <comment></comment>
+  <formType>Ordinary</formType>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

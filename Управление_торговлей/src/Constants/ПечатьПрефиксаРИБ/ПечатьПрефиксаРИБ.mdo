@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7895ba48-6eba-4569-ae82-c49efd6eeb19">
+  <producedTypes>
+    <managerType typeId="ca621e36-5df9-4931-85d8-4e61333cec04" valueTypeId="b46051db-c62f-4173-b939-bc4f3dfe67c0"/>
+    <valueManagerType typeId="99b7684c-297e-45e6-8a14-db5a61dd7296" valueTypeId="edaaf63b-0236-4c48-a83d-c82eebd8d9fb"/>
+  </producedTypes>
+  <name>ПечатьПрефиксаРИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать префикса РИБ</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

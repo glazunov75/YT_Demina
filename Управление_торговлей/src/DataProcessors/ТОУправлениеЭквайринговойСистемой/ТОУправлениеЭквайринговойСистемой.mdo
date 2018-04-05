@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b395bb9f-70de-478f-8ff0-87baa28b35db">
+  <producedTypes>
+    <objectType typeId="4df85139-b260-45a6-a338-39093aaf95a5" valueTypeId="09f2d530-06f6-4d88-a344-8017fa76442b"/>
+    <managerType typeId="7da54b75-188a-4da5-b0da-36556a797ca9" valueTypeId="408ecf2a-7d93-4132-8de7-81127e4c3cca"/>
+  </producedTypes>
+  <name>ТОУправлениеЭквайринговойСистемой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление эквайринговой системой</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ТОУправлениеЭквайринговойСистемой.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="552d26af-04c0-4257-bf20-4d564003a4f7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

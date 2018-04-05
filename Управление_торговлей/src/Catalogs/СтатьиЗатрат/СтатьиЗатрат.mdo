@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b05b3b73-daf8-4e90-aff8-282b3bedc23c">
+  <producedTypes>
+    <objectType typeId="058f96c8-90f1-4bd8-9d77-7c421cc013b4" valueTypeId="0ecb86b2-5130-4ac9-b373-9f1b97e79f38"/>
+    <refType typeId="bed6a229-852d-4e34-ba92-f2351d5ce7a5" valueTypeId="3060807f-a8f5-4906-acd0-450270ee8abb"/>
+    <selectionType typeId="e9e2ae9e-2900-4b10-86a6-ebef289dad48" valueTypeId="90215c09-8a60-468a-8b7c-a3a26fa573ca"/>
+    <listType typeId="cbef321f-02db-41b7-948a-e5643e67b058" valueTypeId="c1b0358b-ddf2-4a06-9a26-c84399a7f321"/>
+    <managerType typeId="c789c024-1ee1-49e4-836c-3d94fd30d73a" valueTypeId="e884184f-0588-46e5-a6b5-e0a3ee3c528e"/>
+  </producedTypes>
+  <name>СтатьиЗатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи затрат</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <inputByString>Catalog.СтатьиЗатрат.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтатьиЗатрат.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СтатьиЗатрат.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.СтатьиЗатрат.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.СтатьиЗатрат.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.СтатьиЗатрат.Form.ФормаВыбора</defaultChoiceForm>
+  <defaultFolderChoiceForm>Catalog.СтатьиЗатрат.Form.ФормаВыбораГруппы</defaultFolderChoiceForm>
+  <attributes uuid="e8276e8e-8e09-416b-85b8-11132fbf8812">
+    <name>ВидЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид затрат</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>EnumRef.ВидыЗатрат</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="74584e3f-62ef-4395-aeb5-c26d9025a745">
+    <name>ХарактерЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характер затрат</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>EnumRef.ХарактерЗатрат</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a203b349-3bcd-4f6d-b9d2-61da6726c526">
+    <name>УдалитьВидРасходовНУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид расходов (НУ)</value>
+    </synonym>
+    <comment>(Регл)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="5ad72311-3b41-4a3f-afb3-c6e4f1126527">
+    <name>ОтнесениеРасходовКДеятельностиЕНВД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отнесение расходов к деятельности, облагаемой ЕНВД</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ОтнесениеРасходовКДеятельностиЕНВД</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="72626250-fdd5-428d-b09f-06eec81e879d">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="81d64b15-9b69-439b-91e4-5222ec5f792b">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="db586e47-d501-4b17-8fd4-4272fb5b09be">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ab86223c-2bf1-4c3e-b9ad-b9b9c70646bd">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9f0c2a6e-f3ff-4bd9-827b-585cd4f0daf0">
+    <name>ФормаВыбораГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

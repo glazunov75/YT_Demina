@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33aa6502-85f4-41a3-b427-ebafd5543947">
+  <name>ПлатежныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Платежные документы</value>
+  </synonym>
+  <comment></comment>
+  <content>CommonPicture.БанковскиеДокументы</content>
+  <content>CommonPicture.ЖурналКассовыеОрдера</content>
+  <content>CommonPicture.КассовыеДокументы</content>
+  <content>CommonPicture.ПлатежноеПоручениеВходящее</content>
+  <content>CommonPicture.ПлатежноеПоручениеИсходящее</content>
+  <content>CommonPicture.ПриходныйКассовыйОрдер</content>
+  <content>CommonPicture.РасходныйКассовыйОрдер</content>
+  <content>Role.Кассир</content>
+  <content>CommonTemplate.Аккредитив</content>
+  <content>CommonTemplate.ИнкассовоеПоручение</content>
+  <content>CommonTemplate.КО1</content>
+  <content>CommonTemplate.КО2</content>
+  <content>CommonTemplate.ПлатежноеПоручение</content>
+  <content>CommonTemplate.ПлатежноеТребование</content>
+  <content>CommonModule.РаботаСДиалогами</content>
+  <content>CommonModule.ФормированиеПечатныхФорм</content>
+  <content>Catalog.ДоговорыЭквайринга</content>
+  <content>Enum.ВидыАккредитивов</content>
+  <content>Enum.ВидыОперацийПКО</content>
+  <content>Enum.ВидыОперацийРКО</content>
+  <content>DataProcessor.ЗагрузкаБанков</content>
+  <parentSubsystem>Subsystem.УправлениеДенежнымиСредствами</parentSubsystem>
+</mdclass:Subsystem>

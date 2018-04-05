@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="440f9b63-bbae-454c-aa45-6c31dcbfaabb">
+  <name>ПриЗаписиРегистраСведенийОбменССайтом</name>
+  <synonym>
+    <key>ru</key>
+    <value>При записи регистра сведений обмен с WEB - сайтом</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>InformationRegisterRecordSet.Штрихкоды</types>
+    <types>InformationRegisterRecordSet.ЦеныНоменклатуры</types>
+    <types>InformationRegisterRecordSet.ЗначенияСвойствОбъектов</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ПроцедурыОбменаССайтом.ПриЗаписиРегистраСведенийОбменССайтомПриЗаписи</handler>
+</mdclass:EventSubscription>

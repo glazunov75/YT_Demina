@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c84a6ff9-d4bf-41b5-9dc4-02fe2c033e1a">
+  <producedTypes>
+    <refType typeId="0d3beb1c-5893-486e-bda7-a50e358a64eb" valueTypeId="9d5bd1d4-b9e6-4650-aa82-3fd825037c26"/>
+    <listType typeId="91d1c83f-bfee-4e7f-8331-73d09787eaaa" valueTypeId="9b523f8f-4219-410f-a743-7015c3de6015"/>
+    <managerType typeId="e34e284e-d540-4012-9419-8993a5f99a9a" valueTypeId="4abf3a1b-2947-4317-b058-b94938dc1a0b"/>
+  </producedTypes>
+  <name>ВидыАгентскихДоговоров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды агентских договоров</value>
+  </synonym>
+  <comment>Виды договоров, согласно которым организация выступает в качестве налогового агента</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a6b80449-6eaa-4775-a184-e11c42eb44a8">
+    <name>Аренда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аренда (абзац 1 п.3 ст. 161 НК РФ)</value>
+    </synonym>
+    <comment>Договор аренды муниципального имущества</comment>
+  </enumValues>
+  <enumValues uuid="ce1b1992-deb6-4f7e-a551-8f27ef1cbd14">
+    <name>РеализацияИмущества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализация имущества (абзац 2 п. 3 ст.161 НК РФ)</value>
+    </synonym>
+    <comment>Договор покупки государственного или муниципального имущества</comment>
+  </enumValues>
+  <enumValues uuid="36b5ab99-edb1-49a6-ac69-5901af4f65ac">
+    <name>Нерезидент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нерезидент (п.2 ст.161 НК РФ)</value>
+    </synonym>
+    <comment>Договор с контрагентом (иностранной компанией) не являющимся плательщиком НДС</comment>
+  </enumValues>
+</mdclass:Enum>

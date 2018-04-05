@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="100682bb-a4fc-4372-875b-fe1d1d98e3a4">
+  <producedTypes>
+    <objectType typeId="de7ae086-4ed8-475e-8c03-6a4756a25123" valueTypeId="5c35b0dd-bffe-4b96-bf0f-a3fce33c783e"/>
+    <managerType typeId="89afe685-2856-4eb9-95de-47eca76191a1" valueTypeId="9f9a0885-7560-4ef4-ad9b-14fac16031d8"/>
+  </producedTypes>
+  <name>ВедомостьПоНДСсАвансов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведомость по НДС с авансов</value>
+  </synonym>
+  <comment>(Регл)</comment>
+  <defaultForm>Report.ВедомостьПоНДСсАвансов.Form.Форма</defaultForm>
+  <attributes uuid="b79816e3-edaf-4e6e-8dbf-ecd4a579705f">
+    <name>УниверсальныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.УниверсальныйОтчет</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="1380fdd2-81b8-4b29-93c7-2a5f8bda95db">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

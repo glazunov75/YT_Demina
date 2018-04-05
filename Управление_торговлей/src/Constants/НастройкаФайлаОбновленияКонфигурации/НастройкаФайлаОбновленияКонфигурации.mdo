@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f710e8fd-e7c5-4e12-931d-ef23ca1fcef4">
+  <producedTypes>
+    <managerType typeId="e6bcf8a2-3ec0-4540-8246-138d4084fad4" valueTypeId="3b8ae31a-9ba1-44f7-87e0-9e5def008fb9"/>
+    <valueManagerType typeId="44857799-42c6-44cc-8d2d-637b450141a4" valueTypeId="f7eb0c5c-b0f9-4569-bcb3-d5856f8658d9"/>
+  </producedTypes>
+  <name>НастройкаФайлаОбновленияКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка файла обновления конфигурации</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

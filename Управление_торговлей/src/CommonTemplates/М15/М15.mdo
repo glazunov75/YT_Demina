@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="361949f7-d721-4520-a588-2141d66099dc">
+  <name>М15</name>
+  <synonym>
+    <key>ru</key>
+    <value>М-15</value>
+  </synonym>
+  <comment>Накладная на отпуск материалов на сторону (унифицированная форма № М-15)</comment>
+</mdclass:CommonTemplate>

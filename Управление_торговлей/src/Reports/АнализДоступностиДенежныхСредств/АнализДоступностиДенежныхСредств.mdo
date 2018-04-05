@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="100766ba-9fed-48a8-9b07-d0832a0cd9fe">
+  <producedTypes>
+    <objectType typeId="7d1a9fdb-a5c9-4962-8307-77f29df29ea1" valueTypeId="c2494d5d-9e44-4a71-af5f-a7c2ed37f523"/>
+    <managerType typeId="c07d2cea-bea8-4cba-bc9f-128cf46a685b" valueTypeId="37b15c86-c48d-4fa5-bc85-0eba642ca360"/>
+  </producedTypes>
+  <name>АнализДоступностиДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ доступности денежных средств</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.АнализДоступностиДенежныхСредств.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="772921c2-84e8-4b71-a72e-1623249551bc">
+    <name>УниверсальныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.УниверсальныйОтчет</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="d3ae2128-f99f-4cdf-a924-7d814d6da00b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

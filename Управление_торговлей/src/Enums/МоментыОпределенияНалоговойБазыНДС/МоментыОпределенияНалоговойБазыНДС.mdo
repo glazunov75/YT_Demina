@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2dc5a3b-2889-4197-ae4b-fd268f424159">
+  <producedTypes>
+    <refType typeId="ad481588-a01f-4fe1-8aa2-6ff3cc1a201f" valueTypeId="ae98050a-fb47-4423-8656-ce68de253cb7"/>
+    <listType typeId="ed757b4f-d9a1-4507-8804-5499d79a07af" valueTypeId="5560eca8-4af6-44d4-ac3c-13d50f0138d7"/>
+    <managerType typeId="3f839b8d-5323-416c-96ec-c7c82fdfa1bd" valueTypeId="eeaae100-32f3-4dd9-b5c8-aa4c4a7ddc37"/>
+  </producedTypes>
+  <name>МоментыОпределенияНалоговойБазыНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Моменты определения налоговой базы НДС</value>
+  </synonym>
+  <comment>(Регл)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2dcbed64-f638-44f5-823f-598b1c4ec2fd">
+    <name>ПоОтгрузке</name>
+    <synonym>
+      <key>ru</key>
+      <value>По отгрузке</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="205a0959-b91f-4ce1-aa08-459e6d0f9b60">
+    <name>ПоОплате</name>
+    <synonym>
+      <key>ru</key>
+      <value>По оплате</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="999307be-fed8-4800-b971-d5b26b2661b6">
+  <name>УправлениеПроектами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление проектами</value>
+  </synonym>
+  <comment></comment>
+  <content>CommonModule.ЗаполнениеДокументов</content>
+  <content>CommonModule.ОбщегоНазначения</content>
+  <content>CommonModule.УправлениеПроектами</content>
+  <content>Constant.ВалютаУправленческогоУчета</content>
+  <content>Constant.ИспользоватьВидыРаспределенияПоПроектам</content>
+  <content>Catalog.ВидыРаспределенияПоПроектам</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Проекты</content>
+  <content>Document.ОтчетОРозничныхПродажах</content>
+  <content>Document.УстановкаДолейРаспределенияПоПроектам</content>
+  <content>InformationRegister.РаспределениеПоПроектам</content>
+  <content>InformationRegister.УстановкаВидовРаспределенияДляСтатейДДС</content>
+  <content>InformationRegister.УстановкаПроектовДляНоменклатуры</content>
+  <content>InformationRegister.УчетнаяПолитика</content>
+  <content>AccumulationRegister.Закупки</content>
+  <content>AccumulationRegister.Продажи</content>
+</mdclass:Subsystem>

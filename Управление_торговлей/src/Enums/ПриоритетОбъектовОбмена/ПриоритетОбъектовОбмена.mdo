@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b19c7bab-9b7e-4549-97ad-5adc58fa615e">
+  <producedTypes>
+    <refType typeId="f887ddc7-b486-4c76-b154-afe1270498b1" valueTypeId="f8bbada9-4a14-4959-85d1-9f938b35e0a9"/>
+    <listType typeId="b08da7c3-cb1d-41a3-9687-628bb5b290fe" valueTypeId="dfa30877-890c-45ff-8704-967785e3e1b6"/>
+    <managerType typeId="a6cc7734-f33c-4c91-8523-802cc9cbb062" valueTypeId="4894c80c-173a-427b-b9e0-9aae6e48a6f4"/>
+  </producedTypes>
+  <name>ПриоритетОбъектовОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приоритет объектов обмена</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="49be3bcf-544b-4f7c-8d50-cd9f7dc736f8">
+    <name>ПриоритетПоступившегоПриОбменеОбъектаНиже</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет объекта обмена ниже</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="56e3a70c-5d3a-4476-95ba-cc0ee29002a4">
+    <name>ПриоритетПоступившегоПриОбменеОбъектаСовпадает</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет объекта обмена совпадает</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="983de54b-5b3c-436d-bbfd-9636d686378b">
+    <name>ПриоритетПоступившегоПриОбменеОбъектаВыше</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет объекта обмена выше</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

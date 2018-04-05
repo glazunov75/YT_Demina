@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f50c729d-d37c-412f-b74d-efcf424d02cc">
+  <producedTypes>
+    <refType typeId="c43e2ec3-850e-4c8d-9e5d-821ab55964b9" valueTypeId="79fd98df-5665-4652-8507-266cbeea1e68"/>
+    <listType typeId="721657e1-4d82-42f2-881b-77cee586b808" valueTypeId="c774cf38-094a-4c82-9b4a-c38a93a4fae1"/>
+    <managerType typeId="e216d71d-69c3-420e-9610-416087711e2b" valueTypeId="cb318e62-76ba-4738-a001-082d7b9050d8"/>
+  </producedTypes>
+  <name>ВидыПеречисленийВБюджет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды перечислений в бюджет</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e4406f35-3250-4f9f-9f57-18cb6c5310ac">
+    <name>НалоговыйПлатеж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Налоговый платеж</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2585d1fd-febf-45fc-b284-cc9d1f2232ae">
+    <name>ТаможенныйПлатеж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таможенный платеж</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="83529111-ce60-4e01-a264-8429338ad712">
+    <name>ИнойПлатеж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иной платеж</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

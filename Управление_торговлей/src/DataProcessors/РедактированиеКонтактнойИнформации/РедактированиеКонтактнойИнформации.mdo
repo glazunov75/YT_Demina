@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a96c7295-53db-472b-92f8-b2cbf150aef0">
+  <producedTypes>
+    <objectType typeId="7732caa5-4aff-4dec-a882-dcc1eddc5b3e" valueTypeId="9b775907-3274-4f8b-a608-2026feb860ba"/>
+    <managerType typeId="a437c8ff-a681-4872-bd40-1027ecc5df84" valueTypeId="f6f30b74-bf9e-4ea2-9dfb-1f65c4862b68"/>
+  </producedTypes>
+  <name>РедактированиеКонтактнойИнформации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактирование контактной информации</value>
+  </synonym>
+  <comment></comment>
+  <attributes uuid="15a1eb2f-e6d1-40c2-ac86-7bfcc00aa1be">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.Контрагенты</types>
+      <types>CatalogRef.КонтактныеЛица</types>
+      <types>CatalogRef.ФизическиеЛица</types>
+      <types>CatalogRef.КонтактныеЛицаКонтрагентов</types>
+      <types>CatalogRef.ЛичныеКонтакты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4d8bf145-5497-4471-b891-98daaa0c70b4">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ТипыКонтактнойИнформации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b113dd33-1d41-46a9-9dcd-cd53719f9704">
+    <name>Вид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВидыКонтактнойИнформации</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8d8eb1ac-bd91-467e-a0e8-f3fc4716324f">
+    <name>Представление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9945f331-8c6f-4725-9591-111e4c5f8fbc">
+    <name>Поле1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле1</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="eb343825-56d7-4cd0-9049-b4db167241b5">
+    <name>Поле2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле2</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8e32c32f-0830-416f-a1d8-d2509cdd03c5">
+    <name>Поле3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле3</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a809e16e-9bea-4054-9dce-05fec15a7bda">
+    <name>Поле4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле4</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8fa85174-fef8-41f7-841e-9ff94810bbcc">
+    <name>Поле5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле5</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="26991f68-8c53-41bc-9b49-9c82e857a092">
+    <name>Поле6</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле6</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d76097e4-fddd-4726-bcad-235c9578ff55">
+    <name>Поле7</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле7</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b463e2aa-61c8-4189-b82e-9c7c2a6681ed">
+    <name>Поле8</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле8</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ec8964d3-c035-400e-b491-a75c9a3a5457">
+    <name>Поле9</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле9</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3b5fa7f2-8b91-416d-9e2e-0b4067fb850e">
+    <name>Поле10</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле10</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="127e755b-08b3-4e9c-a94a-e1259fba3ef7">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f8a824f5-5d14-4acf-a467-253f5efd5ab8">
+    <name>ЗаписыватьВРегистр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Записывать в регистр</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3fbc0d10-12ed-4b7a-b8b6-cc1b64f519c0">
+    <name>ДоступностьОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступность объекта</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="120fa453-18b6-4995-9484-bc5269aca5e7">
+    <name>ТипДома</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип дома</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ТипыДомов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d9cf07b2-96bf-4994-8d43-82e593b131fd">
+    <name>ТипКорпуса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип корпуса</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ТипыКорпусов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="56727f21-5a24-484b-8405-6a15e53bb8ab">
+    <name>ТипКвартиры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип квартиры</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ТипыКвартир</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="3d3ba688-6221-436f-b93b-59c936263230">
+    <name>ФормаЗаписиАдреса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи адреса</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a6b0194a-68c2-449b-8632-653d71908f17">
+    <name>ФормаЗаписиТелефона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи телефона</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ed8ef4d5-f6cb-4b55-bebf-b254b96b161b">
+    <name>ФормаЗаписиАдресаЭП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи адреса ЭП</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ae29e7f8-6980-43a6-bdc6-e838a804c7f3">
+    <name>ФормаЗаписиВебСтраницы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи веб страницы</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d98e34ea-9170-47e9-baba-56e383b367e9">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

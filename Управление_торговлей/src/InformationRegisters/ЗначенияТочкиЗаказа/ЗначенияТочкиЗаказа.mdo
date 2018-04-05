@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf8f5031-c4e0-4227-947a-f68a2e746974">
+  <producedTypes>
+    <selectionType typeId="b7d103fa-6913-4cce-b9fa-05b1c88b8dee" valueTypeId="0fc48e81-7cae-4385-a071-aae664e3cc16"/>
+    <listType typeId="c5cb2484-3b22-4027-b796-f05867c1d793" valueTypeId="aa9a42de-ccf0-458f-8478-5e936f2ecc81"/>
+    <managerType typeId="5f7615f7-caa2-4f1d-b170-753d7593599a" valueTypeId="27cdfab7-72f3-460e-9ecb-79706e019d9a"/>
+    <recordSetType typeId="30a333c3-71ca-453e-b2c3-79652594af22" valueTypeId="2d192d3b-fd31-4ce2-bee8-2395b7d6b6ba"/>
+    <recordKeyType typeId="1876b3a9-4850-4194-96df-6ccf0ca6d135" valueTypeId="b0583053-87bb-443c-bc63-3130c3b86454"/>
+    <recordType typeId="96b83527-913b-4c0d-8b7a-cc6743e4cc3e" valueTypeId="da197f71-9eab-428b-ac82-05e213cd70b4"/>
+    <recordManagerType typeId="2954484a-95b4-4e5d-a8fc-60ed194a7888" valueTypeId="0083350d-05d5-4b96-93ad-d9290cc5b80f"/>
+  </producedTypes>
+  <name>ЗначенияТочкиЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения точки заказа</value>
+  </synonym>
+  <comment></comment>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="2a52922c-8b2c-4edf-bec7-41c314cbb812">
+    <name>СпособОпределенияЗначенияТочкиЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ определения значения точки заказа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.СпособыОпределенияЗначенияТочкиЗаказа</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="33abb788-e8ce-422e-9aa8-582c7b0edaea">
+    <name>ЗначениеТочкиЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение точки заказа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cbc27336-b53c-4bc3-b4ba-e7294a4cb70e">
+    <name>МинимальныйСтраховойЗапас</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальный страховой запас</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a415c31c-e4f4-4b95-a8c7-a58e83bdeec1">
+    <name>ПроцентнаяСтавкаЗначенияТочкиЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процентная ставка значения точки заказа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="21efa3b3-f5a9-43ba-8520-d2b3d4b3e00f">
+    <name>ПроцентнаяСтавкаМинимальногоСтраховогоЗапаса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процентная ставка минимального страхового запаса</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bfbeb579-23e9-4057-a210-8532b224d473">
+    <name>ДатаНач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9104a9e9-720e-4d12-a1f4-e38f55d8654a">
+    <name>ДатаКон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="106d30d8-096b-47f6-a9a0-d3cf5762b581">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="cce1ed68-ba98-4c98-8f8e-58edba8742a1">
+    <name>ХарактеристикаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика номенклатуры</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="06937a50-d298-4d72-8e65-35c1d65f2df6">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

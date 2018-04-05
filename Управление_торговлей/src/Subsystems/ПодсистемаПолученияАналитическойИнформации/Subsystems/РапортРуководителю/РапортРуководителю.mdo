@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1824cf20-c9c2-49b7-8ea6-b53d4f8cc650">
+  <name>РапортРуководителю</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рапорт руководителю</value>
+  </synonym>
+  <comment></comment>
+  <content>CommonPicture.РапортРуководителю</content>
+  <content>CommonModule.РаботаСДиалогами</content>
+  <content>Constant.РапортРуководителюВремяАвтопубликации</content>
+  <content>Report.РапортРуководителю</content>
+  <content>Report.СтруктураОборотныхСредств</content>
+  <parentSubsystem>Subsystem.ПодсистемаПолученияАналитическойИнформации</parentSubsystem>
+</mdclass:Subsystem>

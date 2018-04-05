@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cea003d5-6fd9-4e11-b313-5201b1932a16">
+  <producedTypes>
+    <refType typeId="7966782c-3a5a-49ed-9ff1-616b596728fa" valueTypeId="fe53b1b6-41ef-4323-95a9-51b97b20fd5a"/>
+    <listType typeId="2f14b22e-adf4-4e6d-b5ca-aa91070d0822" valueTypeId="7122a24a-724c-48d6-8ad3-bc7c1e13553c"/>
+    <managerType typeId="5e8c780a-85ae-4fda-bef0-f02bd1a18cad" valueTypeId="6ce45961-af55-4364-b648-caef06c3b048"/>
+  </producedTypes>
+  <name>СостояниеОбъектаСогласования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние объекта согласования</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="76e8a7d6-f900-4a70-b80e-940f65fce48c">
+    <name>Согласован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласован</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="a92efcb0-7f25-4a39-ad6e-2578ee964019">
+    <name>НеСогласован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не согласован</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="8cdb5a34-9750-4cd0-b62e-e0446fdeae1e">
+    <name>НаСогласовании</name>
+    <synonym>
+      <key>ru</key>
+      <value>На согласовании</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

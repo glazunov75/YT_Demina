@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11335a53-9d1e-477e-a3c6-ba8cfb44944f">
+  <producedTypes>
+    <objectType typeId="c5c1eeda-3a90-4286-bb56-896a5c197cfd" valueTypeId="1a6256c7-34bc-4995-aedf-b75c642e7a6d"/>
+    <managerType typeId="faa07c8d-c61f-4669-a3bf-44d86beff893" valueTypeId="94ec94e1-3314-43c0-9293-af263c51a56a"/>
+  </producedTypes>
+  <name>КалендарныйПланЗакупок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Календарный план закупок</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.КалендарныйПланЗакупок.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="93bff433-f1b8-4931-99ac-203e47fb1a81">
+    <name>ПорядокОтображенияДерева</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок отображения дерева</value>
+    </synonym>
+    <comment>Истина - Контрагент->Номенклатура, Ложь - Номенклатура->Контрагент</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="69e49d18-dca7-4888-91b2-4b0eb375dd75">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a20c3b64-00d0-428b-8b87-7aeee769c514">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="55a8a33f-2cfd-4273-af71-3dc75b60a98a">
+    <name>СохраненныеНастройкиПомощника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохраненные настройки помощника</value>
+    </synonym>
+    <comment></comment>
+    <type/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fa945350-cb7c-46af-ab9d-f46c2fdab3d6">
+    <name>ОтборыДерева</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отборы дерева</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Filter</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="57023111-2613-45f2-ab35-55c8ab33bd33">
+    <name>ТаблицаПотребности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица потребности</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fd62c2b5-4427-4604-beec-bea47c52d2b9">
+    <name>ТаблицаОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица объектов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fab6e226-a0ed-42d3-b106-d329059f80bc">
+    <name>ТаблицаНоменклатурыОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица номенклатуры объектов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="01de9bc5-e132-450c-8625-4a50166cb33d">
+    <name>ТаблицаПотребностиПоЗаказамПокупателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица потребности по заказам покупателей</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d9851f31-7f1b-48d3-a275-8211dfc5798e">
+    <name>ОтборыДереваЗаказов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отборы дерева заказов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Filter</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="a883a67a-d542-4478-909c-e7bc6e27a049">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="09a11085-4227-4ace-b24e-e86cb4c70dac">
+    <name>ФормаОтбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cb77a637-05e0-4faf-be5c-0108b65b674b">
+    <name>ФормаПомощника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма помощника</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c7c64927-1f37-480a-a592-294bdda86032">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1729cfed-7e78-46cb-b7c3-2a51bdd0cdb3">
+    <name>ФормаНастройкиСоответствийЗаказовПокупателейИПоставщиков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки соответствий заказов покупателей и поставщиков</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ca2a2298-6120-4698-aea1-388fa9aa604b">
+    <name>ФормаОтбораЗаказов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отбора заказов</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c7b619df-f008-4e9d-a925-b5079b289c40">
+    <name>ФормаОтображенияЗаказовПоставщикам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отображения заказов поставщикам</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

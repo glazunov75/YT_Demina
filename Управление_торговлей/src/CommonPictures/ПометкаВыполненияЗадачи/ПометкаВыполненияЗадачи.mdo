@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e9a5416-e607-4607-8237-4c76edea4d1b">
+  <name>ПометкаВыполненияЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пометка выполнения задачи</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>12</x>
+    <y>1</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

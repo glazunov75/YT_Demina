@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ea8cd8b-2344-473d-ae2e-14580159d275">
+  <producedTypes>
+    <refType typeId="88366af7-be7f-4fe3-8115-2fe6cfff3667" valueTypeId="4036b25a-16e5-44f1-a2e7-2448aa31ffa2"/>
+    <listType typeId="4ea8cd8b-2344-473d-ae2e-14580159d275" valueTypeId="4ea8cd8b-2344-f73d-ae2e-14580159d275"/>
+    <managerType typeId="3b9f6b6a-6ea3-43d4-8187-14c20e9337c7" valueTypeId="ca745589-e3c7-4d54-9705-77ffa1216476"/>
+  </producedTypes>
+  <name>ВедениеВзаиморасчетовПоДоговорам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведение взаиморасчетов по договорам</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e5defd78-a0bb-44e2-b2b1-d5b1f146b172">
+    <name>ПоДоговоруВЦелом</name>
+    <synonym>
+      <key>ru</key>
+      <value>По договору в целом</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="19bdd048-c6b6-4750-9e3d-cdf95f4b29ec">
+    <name>УдалитьПоРасчетнымДокументам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить по расчетным документам</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="12ef2756-d973-4d66-a7d2-fe2c38614ea9">
+    <name>ПоЗаказам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По заказам</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="cb715490-a271-4574-9c2e-afd63c317b0a">
+    <name>ПоСчетам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По счетам</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+</mdclass:Enum>

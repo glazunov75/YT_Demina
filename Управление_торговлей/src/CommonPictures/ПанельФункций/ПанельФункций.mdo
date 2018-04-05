@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02d31579-f20f-4b9f-808e-802b0eabc809">
+  <name>ПанельФункций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель функций</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>15</x>
+    <y>5</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

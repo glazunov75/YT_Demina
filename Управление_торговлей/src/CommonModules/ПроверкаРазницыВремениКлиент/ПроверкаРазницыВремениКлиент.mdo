@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f52579a-f75a-4e0a-a83c-48df6f19e27e">
+  <name>ПроверкаРазницыВремениКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка разницы времени клиент</value>
+  </synonym>
+  <comment></comment>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

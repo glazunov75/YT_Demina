@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2014fd9-162d-4227-93fb-2235e5567089">
+  <producedTypes>
+    <objectType typeId="c72fcc21-8958-405a-ba18-d14ae5acc489" valueTypeId="4f217973-b7eb-455a-8f0f-d92ec0435ee8"/>
+    <refType typeId="c46b097e-ca3b-4c5e-a0c0-ee58a65049ba" valueTypeId="a619bc34-1fbc-454c-a0e3-92ac3242fc9e"/>
+    <selectionType typeId="917c1916-cd0a-439b-8b9c-8b9bfa9b098f" valueTypeId="d7cf8bb0-f68d-4687-b9cb-e0e8c2668000"/>
+    <listType typeId="83cff371-3e59-4356-941c-81907d54395e" valueTypeId="4e05fb50-1a69-4882-b11c-4e5d9c0986aa"/>
+    <managerType typeId="f41d761e-d5a3-4bf8-ad32-caff405f1e9d" valueTypeId="2714b4ea-475e-4c9c-9fdb-215f30be280b"/>
+  </producedTypes>
+  <name>ВложенияЭлектронныхПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вложения электронных писем</value>
+  </synonym>
+  <comment>Вложения электронных писем</comment>
+  <inputByString>Catalog.ВложенияЭлектронныхПисем.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВложенияЭлектронныхПисем.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВложенияЭлектронныхПисем.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ВложенияЭлектронныхПисем.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="4f7a8407-6b58-4103-b0ee-92251ed055cb">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <comment>Объект</comment>
+    <type>
+      <types>DocumentRef.ЭлектронноеПисьмо</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="cb461803-4d14-439b-bc3e-43a5d513fb63">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <comment>Имя файла</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a99add4b-2efa-4ff8-8f74-0879563f949d">
+    <name>Хранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище</value>
+    </synonym>
+    <comment>Хранилище</comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3db9686d-1b26-4ff6-ab48-31406ca1bea2">
+    <name>ИДФайлаПочтовогоПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДФайла почтового письма</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="82b985a2-41e1-443e-afa4-d75b5765347c">
+    <name>Предмет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предмет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="f37e6810-ea49-48a3-a2c3-c96152c56ee1">
+    <name>ТекстФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст файла</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="9d50a5ac-b86a-4ece-acd8-32298a97e8b4">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="71b28a1f-4b7b-4298-bb77-bb3ac303de15">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5e81652d-37eb-482c-9881-a8ba074e52e2">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e1fff3fd-4434-48fb-a7e6-b0eff2742d88">
+    <name>ФормаСохраненияФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма сохранения файлов</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e1adc87c-3365-4d5a-bdb0-80fd37f098ee">
+    <name>ФормаЗапросаПерезаписиФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма запроса перезаписи файлов</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cedec99f-2b47-4d60-8e4f-7db6930d9ab3">
+    <name>ФормаСпискаФайловИИзображений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка файлов и изображений</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

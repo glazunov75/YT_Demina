@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0fa78c5a-2bbe-4d60-a06e-44e6c9070dc9">
+  <producedTypes>
+    <managerType typeId="8af21e4a-63a0-4d20-b1c0-7d2957a2ad3d" valueTypeId="9e2fdc22-e221-41d0-b26f-1cc17701da02"/>
+    <valueManagerType typeId="f471b74d-10cb-4b03-ab20-0eee81292c90" valueTypeId="0f725072-6375-4822-984d-382af264ed53"/>
+  </producedTypes>
+  <name>ОтдельнаяНумерацияСчетовФактурНаАванс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отдельная нумерация счетов фактур на аванс</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <defaultForm>CommonForm.НастройкаПараметровУчета</defaultForm>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

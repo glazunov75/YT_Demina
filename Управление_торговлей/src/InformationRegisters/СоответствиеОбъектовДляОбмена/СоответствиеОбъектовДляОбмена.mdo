@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20d1e046-b199-47d7-a9e3-50148c2c5468">
+  <producedTypes>
+    <selectionType typeId="081d84a4-454e-4097-b6c1-8a2977b6ebf6" valueTypeId="d60533ec-a50e-4866-a75d-40f2f8626b40"/>
+    <listType typeId="4e1ab16a-4d85-47b3-9b83-d615bc4330fa" valueTypeId="9cc8cfc5-4c50-4c65-9654-cafce13398e8"/>
+    <managerType typeId="206be1a6-b49a-424a-aecc-b55b13ba0613" valueTypeId="e2ecd810-964e-4ba8-b2bb-79d5236ee60f"/>
+    <recordSetType typeId="a65ff24c-e44f-4869-825c-429cd1eb0368" valueTypeId="976d0646-3569-4635-a0b6-2269d8fee9ca"/>
+    <recordKeyType typeId="129f3b28-a2cf-4924-b971-eaf65daed93c" valueTypeId="ead27f4c-29ef-4dc9-9285-344631f0722f"/>
+    <recordType typeId="1442f2d3-e9e6-4968-bbc1-68a1e14ee42d" valueTypeId="a565f769-7325-4d25-a6d0-cfb0233f0fa6"/>
+    <recordManagerType typeId="20ca6551-4f36-4cff-9614-e17b3264e94b" valueTypeId="2714c7de-c72c-4879-85da-02ac8e1952c4"/>
+  </producedTypes>
+  <name>СоответствиеОбъектовДляОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие объектов для обмена</value>
+  </synonym>
+  <comment></comment>
+  <defaultListForm>InformationRegister.СоответствиеОбъектовДляОбмена.Form.ФормаСписка</defaultListForm>
+  <resources uuid="65892f05-e40f-4582-873c-29e4a90fb713">
+    <name>ИмяТипаПриемника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя типа приемника</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="a79448cf-8b8e-4459-97da-9a35f9766115">
+    <name>УзелОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел обмена</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ExchangePlanRef</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="78c6eab1-1970-43eb-93ed-318cb1be2e9a">
+    <name>СобственнаяСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собственная ссылка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="20011223-13b6-48d3-82ed-e73841beead2">
+    <name>СсылкаВДругойИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка в другой ИБ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="2b46b6f7-0a41-41fc-b4fc-dda993a072aa">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

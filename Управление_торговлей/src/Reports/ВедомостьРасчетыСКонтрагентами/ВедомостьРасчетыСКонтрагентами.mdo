@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="795199a2-2f69-4bde-84ad-93d113b284c8">
+  <producedTypes>
+    <objectType typeId="13e133a7-d4f6-4819-84b9-5f77e8f7c4ee" valueTypeId="23267b66-26f7-46a2-a15b-1ef58c1d36b3"/>
+    <managerType typeId="7609f213-17ab-44f0-ad91-f1bb3bd5e746" valueTypeId="05ef10b5-09da-430d-81b9-0548b91d83d4"/>
+  </producedTypes>
+  <name>ВедомостьРасчетыСКонтрагентами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведомость по расчетам с контрагентами</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.ВедомостьРасчетыСКонтрагентами.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="5a99abe9-627d-4030-ad5c-da33660fe998">
+    <name>УниверсальныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.УниверсальныйОтчет</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="40b2b36c-a60b-473a-b8db-16d0207cb745">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

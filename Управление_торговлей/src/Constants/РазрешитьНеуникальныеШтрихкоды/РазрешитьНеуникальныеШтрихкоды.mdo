@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f1f600a-1323-478e-a861-786fead1849c">
+  <producedTypes>
+    <managerType typeId="b8620bbb-dcc6-4a47-a082-c1cd0f939341" valueTypeId="26cd62e4-2ddc-46f4-b2a6-ab8122323bd0"/>
+    <valueManagerType typeId="73a98cd9-eabb-4706-9aba-34f6959c26c1" valueTypeId="97915182-b44e-4fc4-a8a4-a422c8d47ac0"/>
+  </producedTypes>
+  <name>РазрешитьНеуникальныеШтрихкоды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разрешить неуникальные штрихкоды</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

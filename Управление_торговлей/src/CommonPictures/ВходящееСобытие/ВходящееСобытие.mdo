@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b77e7d50-29c5-4bd6-85bc-9116d378f055">
+  <name>ВходящееСобытие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Входящее событие</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>13</x>
+    <y>2</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

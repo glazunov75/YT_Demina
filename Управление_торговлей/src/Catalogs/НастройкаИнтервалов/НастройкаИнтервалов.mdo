@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55fe71bf-3e50-4b90-828b-5ac63e2831f5">
+  <producedTypes>
+    <objectType typeId="912da656-5d19-4a1e-8fcd-ee8dad5379a2" valueTypeId="fb9bd42a-122f-401e-ac57-894e10ce53b5"/>
+    <refType typeId="5f3e27ed-23ff-4943-8cbc-7f200dd06327" valueTypeId="2c13fa98-00e2-4b12-9e52-2cca2401cae1"/>
+    <selectionType typeId="97454369-1dfc-4fb5-8816-752f1aa53125" valueTypeId="d5d75c6b-9534-4004-9775-ce0a79687e4c"/>
+    <listType typeId="759642c6-aa04-496b-b788-3a9eb0b1c995" valueTypeId="1d218d3f-4647-4374-bb22-7af06901a6e0"/>
+    <managerType typeId="ffd1ce93-d66c-42f2-91e0-1d3e39331ce4" valueTypeId="04cd14df-0137-4ed6-8b59-59893b8077c0"/>
+  </producedTypes>
+  <name>НастройкаИнтервалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка интервалов</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <inputByString>Catalog.НастройкаИнтервалов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>40</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НастройкаИнтервалов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.НастройкаИнтервалов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.НастройкаИнтервалов.Form.ФормаВыбора</defaultChoiceForm>
+  <tabularSections uuid="92c58d39-bd68-4ee9-9df5-ce230496d2ee">
+    <producedTypes>
+      <objectType typeId="8437e6c9-8353-499c-a6e6-554c287a62dd" valueTypeId="74bbf368-3971-41f9-b5c5-b3a62a59724a"/>
+      <rowType typeId="d0194ffd-b572-42f9-a2bb-565b671aad87" valueTypeId="b925cdd9-ed5c-4ba8-ac26-0261ef3807eb"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="efa46f12-1c98-4af3-b347-b94d1c5849f4">
+      <name>НачалоИнтервала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Начало интервала</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2678005a-5e9c-4f5c-842e-053bca5cb627">
+      <name>КонецИнтервала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Конец интервала</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="029d8dfb-ffc8-4b63-9b4b-2c60aa03fb33">
+      <name>Подпись</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подпись</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>40</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="91eaec22-034d-47ee-a18f-6caaebd3eaf7">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dea5cdce-04a7-4071-b0a5-15f0d015950e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b9f0d053-ce8f-4ee1-91df-8b4ac77409af">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

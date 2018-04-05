@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a61b2dfa-3b29-4a26-96d5-47db954182eb">
+  <producedTypes>
+    <selectionType typeId="98588919-b228-4d88-93be-334890ddbe7b" valueTypeId="248df63a-d992-428e-a988-f17d44dd2ef4"/>
+    <listType typeId="bb8d12ee-6cff-41c4-8860-5e2a89812384" valueTypeId="e85c1e44-9565-4beb-a22f-6cb4b7306a87"/>
+    <managerType typeId="8b8001e9-f385-411d-b31f-1dc7ad2997da" valueTypeId="0865d8eb-7f28-402a-9fa1-6dd188cde60e"/>
+    <recordSetType typeId="b4921242-f9e4-4ef5-981b-38961596e1b8" valueTypeId="4cfb5763-3064-45ef-946b-e120393ee1fd"/>
+    <recordKeyType typeId="9a802907-ca5f-4594-89e7-55ed054a5323" valueTypeId="961800d1-45d8-48f2-b7d4-0f86197356ee"/>
+    <recordType typeId="7804ac69-ec12-4621-9d90-12ba7ff9cf69" valueTypeId="757d6cec-67e6-4d86-a5a0-6955ba524ed6"/>
+    <recordManagerType typeId="71d4fc46-a469-4ad2-9aa8-f5003ffc8d9f" valueTypeId="b08330bc-1abb-4712-af5b-323a214d1f8a"/>
+  </producedTypes>
+  <name>УслугиЕНВД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Услуги, облагаемые ЕНВД</value>
+  </synonym>
+  <comment>(Регл)</comment>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <resources uuid="1b967d4b-836e-4c8f-9b16-fc5bc3f76d40">
+    <name>ОблагаетсяЕНВД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Облагается ЕНВД</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4f51dd71-9ba7-46ab-9c40-ae1ea5e5d7a2">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="795eebfb-e1cd-4e44-98c5-fc168ac8fdd3">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

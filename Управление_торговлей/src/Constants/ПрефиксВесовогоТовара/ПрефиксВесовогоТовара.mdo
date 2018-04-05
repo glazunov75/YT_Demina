@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5cdf24d-d685-46f7-aea4-3e956410d1a5">
+  <producedTypes>
+    <managerType typeId="daf8dbc6-c87d-4b5e-b1c4-63beee92bed2" valueTypeId="b7a96425-d5ad-4461-8e45-77ec5512557e"/>
+    <valueManagerType typeId="af1e99d4-6e22-4b7b-a852-4186dcf8d5b8" valueTypeId="89d8242e-097d-4e9f-9c0d-e44f20d7066f"/>
+  </producedTypes>
+  <name>ПрефиксВесовогоТовара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Префикс весового товара</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>1</length>
+      <fixed>true</fixed>
+    </stringQualifiers>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

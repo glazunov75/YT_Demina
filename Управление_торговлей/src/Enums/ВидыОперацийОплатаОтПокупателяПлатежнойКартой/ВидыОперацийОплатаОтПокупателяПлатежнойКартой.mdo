@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a17e08d-c1df-4d03-94c3-c0b05387146d">
+  <producedTypes>
+    <refType typeId="50321833-42dc-41e1-b318-9b844e08e4f9" valueTypeId="0045d48b-f07a-40b7-aa1e-43c57da43cc4"/>
+    <listType typeId="302aeb5f-c680-411b-9231-28dd5bd5af62" valueTypeId="04b78a0f-0948-4caa-8ad7-9b5d17a115fb"/>
+    <managerType typeId="47d73017-0365-49a7-a020-2cbe67cda446" valueTypeId="cd33d7dc-9db9-46e8-b88c-1b4f17dc41de"/>
+  </producedTypes>
+  <name>ВидыОперацийОплатаОтПокупателяПлатежнойКартой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций документа &quot;Оплата от покупателя платежной картой&quot;</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0534815e-e4c2-440e-a66b-e85ec379c79c">
+    <name>ОплатаПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата от покупателя</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="a0d63ad4-41b6-4026-8eef-4b9452fcea71">
+    <name>ВозвратДенежныхСредствПокупателю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат денежных средств покупателю</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+</mdclass:Enum>

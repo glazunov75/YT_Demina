@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72bca7ff-b655-49c1-8530-0345e80258cf">
+  <producedTypes>
+    <objectType typeId="c3238c14-f49f-4a56-8f0f-afd0a816ecc1" valueTypeId="554de3a5-439b-4ff5-aa49-4d1cb171cae5"/>
+    <managerType typeId="10046cb6-b217-49b2-8f72-edeee6f7f8b7" valueTypeId="18b08745-2b81-426b-b170-e834a2cfef69"/>
+  </producedTypes>
+  <name>КонсольОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Консоль отчетов</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.КонсольОтчетов.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="f3d80cb8-7e01-4e83-890a-00bfba7fd198">
+    <name>ПостроительОтчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Построитель отчетов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportBuilder</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ae2e428b-2e16-4ba2-bd9b-6a054b77807d">
+    <name>ВыбТипДиаграммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выб тип диаграммы</value>
+    </synonym>
+    <comment></comment>
+    <type/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="becb0b27-c47b-49bc-8331-3464a75ef4a0">
+    <name>ДеревоЗапросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дерево запросов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueTree</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5075b138-7241-4ade-a2d6-b8a9820bd220">
+    <name>ВыбТипСводДиаграммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выб тип свод диаграммы</value>
+    </synonym>
+    <comment></comment>
+    <type/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="a1a66cd8-cfe4-4adc-a87c-37ae5a383f6c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b604d69a-c236-4715-857d-36ef19b1864a">
+    <name>ФормаВыбораСтрокиДереваЗапросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора строки дерева запросов</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f12990ba-87e7-418b-98a4-8ef7ae685c39">
+    <name>ФормаРедактированияЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования запроса</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b135617b-263a-495b-b1a1-9bb5dd1a62b6">
+    <name>ФормаВыбораОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора отчета</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a0dd1a1b-bf04-4501-8cff-1e7fc1b94724">
+    <name>ФормаРедактированияМакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования макета</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7e2338f4-110d-440c-a0d4-690cf9a50732">
+    <name>ФормаСохраненияНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма сохранения настроек</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="68304e47-558e-4b7c-ba03-4311f563333c">
+    <name>МакетЗаголовка</name>
+    <synonym>
+      <key>ru</key>
+      <value>МакетЗаголовка</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:DataProcessor>

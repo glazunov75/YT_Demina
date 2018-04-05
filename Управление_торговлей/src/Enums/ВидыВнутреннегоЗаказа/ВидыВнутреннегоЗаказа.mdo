@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2ae1048-8650-4d8a-a7a6-ba053b70f90d">
+  <producedTypes>
+    <refType typeId="043e3e96-0b46-40ef-a06f-789b7f4ed5ef" valueTypeId="92a12a4b-1e69-4413-85fa-d8e3692faa86"/>
+    <listType typeId="e617c3a3-7cb6-4712-8789-bea1861ff6ab" valueTypeId="80610b98-b180-40ea-a121-b684ad0bea3c"/>
+    <managerType typeId="6698203e-53e1-4a99-8013-c14effb42af2" valueTypeId="9fbe72f7-4154-4809-83eb-83707dbd130e"/>
+  </producedTypes>
+  <name>ВидыВнутреннегоЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды внутреннего заказа</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ba56cba8-4fe8-47cc-8aa6-c1955158ce24">
+    <name>НаСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>На склад</value>
+    </synonym>
+    <comment>(общ)</comment>
+  </enumValues>
+  <enumValues uuid="dbb4d886-81c9-491f-93d4-06c86aac94f4">
+    <name>ВПодразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>В подразделение</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba89c911-642a-42ff-aa74-b519d382f9a2">
+  <producedTypes>
+    <refType typeId="a96aaa02-7002-4bac-94a0-f12b837cf275" valueTypeId="8638397e-81d9-4e93-86a2-63c912d1b347"/>
+    <listType typeId="bc0c3f58-66f8-4f49-b116-f339fa99112e" valueTypeId="08441ca9-e08d-4301-9a0c-6655d25a6cdd"/>
+    <managerType typeId="eb995bbc-97ab-4bbf-8ea5-326dd95a956e" valueTypeId="556d6bb7-1240-48aa-a41b-c1237386d3f4"/>
+  </producedTypes>
+  <name>ВидыОперацийВводНачОстатковНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций по вводу нач. остатков для НДС</value>
+  </synonym>
+  <comment>Виды операций по вводу начальных остатков для подсистемы учета НДС</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ff8c2121-6242-40ec-9e5d-b5ef6c7c5964">
+    <name>НДСПоПриобретеннымЦенностям</name>
+    <synonym>
+      <key>ru</key>
+      <value>НДС по приобретенным ценностям</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="545d7496-25c5-4a33-8330-7d7597077435">
+    <name>НДСпоАвансамПолученным</name>
+    <synonym>
+      <key>ru</key>
+      <value>НДС по авансам полученным</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="86402be0-bdb5-49d4-b62b-cc2bee6d7769">
+    <name>НДСНеПолученныйОтПокупателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>НДС неполученный от покупателей</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

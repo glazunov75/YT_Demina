@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1df4d470-09e7-49df-a837-5633a2e12c77">
+  <name>ПередУдалениемСправочникаДляОбменаТорговляБухгалтерияКОРП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перед удалением справочника для обмена торговля бухгалтерия КОРП</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>CatalogObject.БанковскиеСчета</types>
+    <types>CatalogObject.Организации</types>
+    <types>CatalogObject.Склады</types>
+    <types>CatalogObject.ДоговорыКонтрагентов</types>
+    <types>CatalogObject.КонтактныеЛица</types>
+    <types>CatalogObject.Контрагенты</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.ПроцедурыОбменаТорговляБухгалтерияКОРП.ПередУдалениемСправочникаДляОбменаТорговляБухгалтерияКОРППередУдалением</handler>
+</mdclass:EventSubscription>

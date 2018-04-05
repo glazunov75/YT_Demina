@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd81fb88-122f-4702-9ef2-fb23dfd6ab78">
+  <producedTypes>
+    <refType typeId="7e562e0e-f8ab-4a35-b947-59364a6a2a4d" valueTypeId="a9bf1319-515d-4b3e-902b-3915a5d61c6d"/>
+    <listType typeId="cd81fb88-122f-4702-9ef2-fb23dfd6ab78" valueTypeId="cd81fb88-122f-f702-9ef2-fb23dfd6ab78"/>
+    <managerType typeId="1008f61e-c07c-4c8c-8acf-7cb2f62f1b92" valueTypeId="2335442e-7cab-4ae3-9d17-afbef550360e"/>
+  </producedTypes>
+  <name>ВидыОперацийКорректировкаДолгаПоВозвратнойТаре</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций документа &quot;Корректировка долга по возвратной таре&quot;</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4f87ecc0-30c0-416d-a7f9-327d5490f0df">
+    <name>Поставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>поставщика</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="03b72936-6491-45a0-a404-7cc0e49aadba">
+    <name>УПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>у покупателя</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+</mdclass:Enum>

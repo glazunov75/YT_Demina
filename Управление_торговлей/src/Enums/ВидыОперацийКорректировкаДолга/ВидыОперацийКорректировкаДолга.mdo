@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b24f73d-1d5f-4581-9358-396c18fc3d62">
+  <producedTypes>
+    <refType typeId="541dce6e-3f23-4293-9c0b-1db033cf9234" valueTypeId="b6c2f3a6-6f42-4f13-9a63-f869596b799b"/>
+    <listType typeId="a6323849-6271-4c41-892c-8208bbb0ed22" valueTypeId="2e3f44b9-e21d-4a53-a5dc-37ef773409c0"/>
+    <managerType typeId="54a201ff-7bf7-4082-b956-1293de9a02fc" valueTypeId="77f618a1-f298-46bf-a995-7ac93528a69a"/>
+  </producedTypes>
+  <name>ВидыОперацийКорректировкаДолга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций документа &quot;Корректировка долга по возвратной таре&quot;</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fa064ed8-ad57-424a-b21c-ceb5c0f9a5ec">
+    <name>ПроведениеВзаимозачета</name>
+    <synonym>
+      <key>ru</key>
+      <value>проведение взаимозачета</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="a6240fb7-6655-424a-82ba-4e6425d64315">
+    <name>ПереносЗадолженности</name>
+    <synonym>
+      <key>ru</key>
+      <value>перенос задолженности</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="b4bfe8ff-0680-46b0-aba8-edc71115bbbe">
+    <name>СписаниеЗадолженности</name>
+    <synonym>
+      <key>ru</key>
+      <value>списание задолженности</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

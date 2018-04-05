@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec6e8bf7-2123-4369-9714-b78afe762f8d">
+  <producedTypes>
+    <refType typeId="9ea67052-77f4-4852-9e24-c109be806de3" valueTypeId="21940a3c-3fc9-48d0-9d64-979a2c7d4b32"/>
+    <listType typeId="4eebceb3-c1df-4455-a5e1-b1ce8cd20d8c" valueTypeId="2c263fb2-6cac-4657-8093-5b66bd83c543"/>
+    <managerType typeId="571b1bd2-9aad-41bc-8709-ab60b1443c02" valueTypeId="8ca0fdb8-9d8c-4c5b-b158-8f054b81d6ab"/>
+  </producedTypes>
+  <name>ВидСчетаФактурыПолученного</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид счета-фактуры полученного</value>
+  </synonym>
+  <comment>Вид полученного счета-фактуры</comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8281b6b8-5da7-46ee-8e40-84c001df9013">
+    <name>НаПоступление</name>
+    <synonym>
+      <key>ru</key>
+      <value>На поступление</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ac0acd9e-fbed-4cf3-94bb-fb888d8cc0c4">
+    <name>НаАванс</name>
+    <synonym>
+      <key>ru</key>
+      <value>На аванс</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e8bfb031-6cec-4a58-bae6-f3f4fcbaaf26">
+    <name>Корректировочный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировочный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5be93d7-dadd-4b97-9d3d-5c054f068e13">
+  <name>РаботаСДиалогами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с диалогами</value>
+  </synonym>
+  <comment>Процеды и функции для поддержки решений в интерфейсе пользователя</comment>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

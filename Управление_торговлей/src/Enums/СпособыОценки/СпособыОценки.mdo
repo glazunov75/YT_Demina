@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99677b87-048f-488a-a97b-a286bb6d420c">
+  <producedTypes>
+    <refType typeId="6c00267e-681c-443e-b28a-7365e24ad1de" valueTypeId="deecf2a8-1b45-485c-be2a-a4460a8efd90"/>
+    <listType typeId="99677b87-048f-488a-a97b-a286bb6d420c" valueTypeId="99677b87-048f-f88a-a97b-a286bb6d420c"/>
+    <managerType typeId="adc80a34-72c1-444b-b92b-9e1521080818" valueTypeId="beb54ebe-6ec4-4c15-828c-47eb7463bd03"/>
+  </producedTypes>
+  <name>СпособыОценки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы оценки</value>
+  </synonym>
+  <comment>(Регл)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="42321314-bb2f-4d85-970f-785c2b5cc4d2">
+    <name>ПоСредней</name>
+    <synonym>
+      <key>ru</key>
+      <value>По средней</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2e56e4f3-2c9b-486c-8f86-ff7480aba5d9">
+    <name>ФИФО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИФО</value>
+    </synonym>
+    <comment>First input, first output (первым пришел, первым обработан)</comment>
+  </enumValues>
+  <enumValues uuid="ae7ce199-1cbc-4e53-821d-7fefb18bb7b6">
+    <name>ЛИФО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЛИФО</value>
+    </synonym>
+    <comment>Last input, first output (последним пришел, первым обработан)</comment>
+  </enumValues>
+</mdclass:Enum>

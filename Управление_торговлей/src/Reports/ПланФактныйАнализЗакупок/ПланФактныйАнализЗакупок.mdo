@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a217ca5b-3ad6-4e66-9d64-59416f6712ce">
+  <producedTypes>
+    <objectType typeId="90c74a46-fc50-4867-8f88-fabb3a785a93" valueTypeId="92c10218-858b-40c3-8fb9-8451c5adb74e"/>
+    <managerType typeId="8ef9dcd0-5ca1-41a1-b37e-430bb2fe29cf" valueTypeId="81b0e71c-922d-4990-a3a3-9a385d6f7a34"/>
+  </producedTypes>
+  <name>ПланФактныйАнализЗакупок</name>
+  <synonym>
+    <key>ru</key>
+    <value>План - фактный анализ закупок</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.ПланФактныйАнализЗакупок.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <attributes uuid="46f87fd4-4e47-45b3-8573-273577188dd9">
+    <name>УниверсальныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.УниверсальныйОтчет</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="9cb251fa-d335-4133-a1eb-496e14356b05">
+    <producedTypes>
+      <objectType typeId="bc1b7635-66e9-4156-ba1f-6c9003448691" valueTypeId="f81ce8cc-5f35-46ac-97f3-320541d021e9"/>
+      <rowType typeId="4ec608ab-4bc5-42f0-bf75-a7eccc79a939" valueTypeId="c7fb837d-1c97-45ad-91e7-617b65a13873"/>
+    </producedTypes>
+    <name>ДанныеОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные отчета</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="37275399-90ae-4ef8-9f8f-15d0642869b7">
+      <name>ТипДанных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип данных</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="076b7863-1086-4409-b322-cc7be24f6778">
+      <name>ДатаНач</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bc41d15a-276d-44b9-a423-6c5de370cef4">
+      <name>ДатаКон</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата окончания</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="71f60611-0f3e-4840-a706-54ced66216da">
+      <name>Сценарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сценарий</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.СценарииПланирования</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="44842f78-5c54-431a-838d-a7f012f0b1ee">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8be77961-c811-4324-ba83-3f5a3a7e9a99">
+  <producedTypes>
+    <selectionType typeId="bc4a5efa-05fc-4f5d-addb-fbf0628c1327" valueTypeId="04e9ea5d-f759-42f7-8d38-5f6acc17215c"/>
+    <listType typeId="6d9393ca-b90c-477e-aa93-d8673389b346" valueTypeId="4b38f964-bac9-4756-8605-e4aff74db7ea"/>
+    <managerType typeId="70d2872d-a6f5-4a65-a8b8-ed63c6216f6e" valueTypeId="f2876f6b-d63b-4bd6-9d3f-5b30efc81fcc"/>
+    <recordSetType typeId="c818d3a9-5954-4aa1-9c3c-a82ddd2345da" valueTypeId="66059b2d-9dc5-4a1b-9785-3177f9b73e5f"/>
+    <recordKeyType typeId="b9063edd-f207-4e27-bfcf-9f8e051383fc" valueTypeId="30200a0c-b6d8-4a1c-8840-a3485ac75d3b"/>
+    <recordType typeId="830273d6-703a-43c9-b953-3104f23e4811" valueTypeId="142f2e2b-f0eb-41d2-8782-378214b9c6b0"/>
+    <recordManagerType typeId="f114dd4f-5cff-4faa-8381-a546f64e98d9" valueTypeId="f18f3b5c-93dc-424e-8c41-cabe28cd560b"/>
+  </producedTypes>
+  <name>ВремяДействияСкидок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Время действия скидок</value>
+  </synonym>
+  <comment></comment>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="f521c629-3a30-4a6b-981b-029f9d0c8926">
+    <name>ВремяНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время начала</value>
+    </synonym>
+    <comment>(Общ) Время начала действия скидки</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4f90fc0b-0ac1-4860-9ba7-c941907ae968">
+    <name>ВремяОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время окончания</value>
+    </synonym>
+    <comment>(Общ) Время окончания действия скидки</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4f741fb4-5422-4101-814e-4f0ed97bf81a">
+    <name>ДеньНедели</name>
+    <synonym>
+      <key>ru</key>
+      <value>День недели</value>
+    </synonym>
+    <comment>(Общ) День недели</comment>
+    <type>
+      <types>EnumRef.ДниНедели</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

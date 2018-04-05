@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6738a34c-3746-4c1f-8b11-01ce88c34083">
+  <producedTypes>
+    <refType typeId="b2214609-9dad-466c-a75e-fe5cc78f7db1" valueTypeId="f751feaa-f75a-4367-a3f7-5662c000c19d"/>
+    <listType typeId="2ff2926a-6b11-43e3-9bee-069931d1187a" valueTypeId="3a3f5126-f6ef-4ec5-9cca-f89446f17210"/>
+    <managerType typeId="3b10c37b-524a-4810-a9fc-eac7b0952d60" valueTypeId="cc754a43-ffb2-4693-8b26-1332c7fbc20a"/>
+  </producedTypes>
+  <name>ВидыОбъектовСобытия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды объектов события</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c686f844-6005-4a04-82fd-248faeb2937f">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2ad74817-c472-41d4-a26f-08749e92564a">
+    <name>ПрочиеКонтактныеЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочие контактные лица</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

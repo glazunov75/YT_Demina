@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30d2fb8a-bfac-42ba-b880-04dbf30a4b23">
+  <producedTypes>
+    <objectType typeId="f603a1ee-09a3-40f9-a9af-858a3c9cce8f" valueTypeId="7f8b526c-5769-402a-86ea-5a6c2598cce9"/>
+    <managerType typeId="beb3513a-c46c-4d90-ad86-41e42a23d063" valueTypeId="57694afd-fa98-46ce-a8d3-32943f10a2fd"/>
+  </producedTypes>
+  <name>НастройкаПравДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка прав доступа</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.НастройкаПравДоступа.Form.ФормаОбработки</defaultForm>
+  <tabularSections uuid="a404f3db-2fd1-40f8-9c8c-9f6103d4c642">
+    <producedTypes>
+      <objectType typeId="89db85de-2297-4291-bb0a-a5f3d65d399f" valueTypeId="719ae42d-e429-49ce-b5db-cbab4322b5ce"/>
+      <rowType typeId="533debf0-b59c-4cf4-be4f-742d7fcd513f" valueTypeId="2b92c3f1-78c0-4db6-a7b8-1db63d21aaf4"/>
+    </producedTypes>
+    <name>ТаблицаПравДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица прав доступа</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="a4f9ef9b-f547-4dbc-8072-4a971d44bf77">
+      <name>ТипОбъектаДоступа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип объекта доступа</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef</types>
+        <types>CatalogRef</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="24046e7c-f90a-4ae9-b0de-bc4182ef98e7">
+      <name>ОбъектДоступа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект доступа</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef</types>
+        <types>CatalogRef</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="afde7eae-6030-44f9-b7e4-22ec76bbf191">
+      <name>ВладелецПравДоступа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Владелец прав доступа</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef</types>
+        <types>CatalogRef</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="41cb1a0f-03b1-482d-a4dd-b996bbd17687">
+      <name>Пользователь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ГруппыПользователей</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="2bc26e71-4b2e-4ce8-b3a9-0fd8af4a026d">
+      <name>ВидНаследованияПравДоступаИерархическихСправочников</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид наследования прав доступа иерархических справочников</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef.ВидыНаследованияПравДоступаИерархическихСправочников</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a304d9c4-58ab-4b86-b56e-82fe78a1d95e">
+      <name>Запись_1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Запись 1</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="06c82b15-a778-45c9-9ab6-b32d0a3216f7">
+      <name>Запись_2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Запись 2</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3b8e12d6-db9b-4179-b60a-f3822325474d">
+      <name>Запись_3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Запись 3</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="31d5025c-5915-41d4-9f44-04d10dbfa2a8">
+      <name>Запись_4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Запись 4</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5a2e45d5-af55-4a75-9069-59acdc6e1864">
+      <name>Чтение_1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Чтение 1</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ecc3976c-2d7b-4988-b9ea-cc3772dbc1df">
+      <name>Чтение_2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Чтение 2</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5dc48170-cafa-459d-bf2c-c583e8509026">
+      <name>Чтение_3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Чтение 3</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="2481ca60-13c1-468f-bebe-1b0d136c8209">
+      <name>Чтение_4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Чтение 4</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="f18b8ca0-ad63-4fd7-938c-8bb779af1c44">
+    <name>НастройкаПравДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка прав доступа</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6be94d68-ae11-4bbc-94c5-732d0f03475c">
+    <name>ПодборГруппПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор групп пользователей</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="98c71f47-502e-4d51-b0cd-12bc1e1f821f">
+    <name>ФормаОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма обработки</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

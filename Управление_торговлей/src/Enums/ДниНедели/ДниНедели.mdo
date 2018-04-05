@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae1fe592-05eb-4b2f-b0b0-d13dc6153a26">
+  <producedTypes>
+    <refType typeId="f5911bb4-2fb3-444f-94c7-8b40bede4551" valueTypeId="7e3370eb-3f8e-4712-9354-c1bc20470124"/>
+    <listType typeId="6225368e-6bf7-4582-83d1-b0c80e19f33a" valueTypeId="bba35edd-e4cd-4efc-8007-a6aeb77f250a"/>
+    <managerType typeId="833ffb00-9407-4c57-95e5-d8b1e70171c1" valueTypeId="da6b6b5f-a9d1-42cc-b28c-bbeea51bd423"/>
+  </producedTypes>
+  <name>ДниНедели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дни недели</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="22cc8b70-edd8-4b4d-8d3b-24ca742b0efe">
+    <name>Понедельник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Понедельник</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="99f841ba-76f7-4123-96c5-b7c2a856ce6b">
+    <name>Вторник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вторник</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="26fe26a0-b990-4a40-8f46-e25f885d7661">
+    <name>Среда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Среда</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="ff5f1d2f-973c-4cf9-a181-6d58c4c84e8d">
+    <name>Четверг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Четверг</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="852f1c7a-b5c5-464b-a3c2-981e4590a788">
+    <name>Пятница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пятница</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="06ed5fdb-41dc-424e-a3d0-da1a0673ace8">
+    <name>Суббота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Суббота</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="ed497344-ebc8-4047-85d3-0f601f050edf">
+    <name>Воскресенье</name>
+    <synonym>
+      <key>ru</key>
+      <value>Воскресенье</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+</mdclass:Enum>

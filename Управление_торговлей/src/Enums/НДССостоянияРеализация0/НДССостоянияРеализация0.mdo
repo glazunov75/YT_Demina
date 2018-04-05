@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77061dc8-dd3f-4bb8-993b-d544079bfc20">
+  <producedTypes>
+    <refType typeId="51e4d624-2fc4-44cb-a08d-ad03152b21c1" valueTypeId="dc5f2dd4-c644-4729-9969-84c3938b0d5b"/>
+    <listType typeId="00ef48af-b844-45bf-88e2-714d3e77960b" valueTypeId="95eddff0-51d3-4fd6-912c-c7c13179fd24"/>
+    <managerType typeId="cb3463f2-b2d0-4d22-adc8-4acb71f6b7c6" valueTypeId="011edfa7-798b-4dcf-919a-36dd4e4008b8"/>
+  </producedTypes>
+  <name>НДССостоянияРеализация0</name>
+  <synonym>
+    <key>ru</key>
+    <value>НДС состояния по реализации 0%</value>
+  </synonym>
+  <comment>НДС состояния по реализации со ставкой НДС 0%</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6d06365d-e307-4596-b6da-100dd373eefa">
+    <name>ОжидаетсяПодтверждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидается подтверждение 0%</value>
+    </synonym>
+    <comment>Ожидается подтверждение 0%</comment>
+  </enumValues>
+  <enumValues uuid="d3a12ece-d630-42fe-bd2d-379ea11f2b1b">
+    <name>ПодтвержденаРеализация0</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждена реализация 0%</value>
+    </synonym>
+    <comment>Подтверждена реализация 0%</comment>
+  </enumValues>
+  <enumValues uuid="afd56132-ae32-4839-8332-54ebd308c01f">
+    <name>НеПодтвержденаРеализация0</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не подтверждена реализация 0%</value>
+    </synonym>
+    <comment>Не подтверждена реализация 0%</comment>
+  </enumValues>
+</mdclass:Enum>

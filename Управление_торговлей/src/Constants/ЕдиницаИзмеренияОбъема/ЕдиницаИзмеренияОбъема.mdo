@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5837b2a-c2f1-466e-b34c-ba6df9f78bb9">
+  <producedTypes>
+    <managerType typeId="52f222cd-647f-4524-ab64-6859dffef036" valueTypeId="a68f6e77-ee91-44dc-9dae-6b722ad3776c"/>
+    <valueManagerType typeId="8387aecf-bc72-472e-b38f-6acd6c7e84dc" valueTypeId="a04329e3-e7f4-434a-b2c8-7e1aa44da66b"/>
+  </producedTypes>
+  <name>ЕдиницаИзмеренияОбъема</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единица измерения объема</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <type>
+    <types>CatalogRef.КлассификаторЕдиницИзмерения</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

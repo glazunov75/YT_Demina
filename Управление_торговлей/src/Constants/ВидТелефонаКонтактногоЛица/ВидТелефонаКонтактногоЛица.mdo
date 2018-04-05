@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4dfce8ef-0368-488d-97bd-d08510fa37c4">
+  <producedTypes>
+    <managerType typeId="2a2d1203-a7c8-406f-8e0a-3273e1cbda82" valueTypeId="e7e8cb4e-b9f1-41da-8ca0-9699a74e7d0b"/>
+    <valueManagerType typeId="bda0fc5e-7931-47f4-8aa3-37ea3092213a" valueTypeId="70afbcd3-d869-4a81-b0e3-07d01bf8fe80"/>
+  </producedTypes>
+  <name>ВидТелефонаКонтактногоЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид телефона контактного лица</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>CatalogRef.ВидыКонтактнойИнформации</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

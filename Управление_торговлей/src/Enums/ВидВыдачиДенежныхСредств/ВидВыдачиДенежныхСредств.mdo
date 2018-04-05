@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3a72c1d-28f6-45fa-977c-da71ed7f5561">
+  <producedTypes>
+    <refType typeId="9592a027-99d5-435c-a92c-a40d7bb401c7" valueTypeId="bcc97a25-1f07-4f68-9a99-36678b77ce58"/>
+    <listType typeId="5acc5eb5-5075-46aa-92c6-a47dc926b168" valueTypeId="892432ca-4cb7-49f3-9273-2c2d85573b9c"/>
+    <managerType typeId="562f47ea-86f3-46fd-a971-c71fb85c44bb" valueTypeId="517b7425-0fbd-4277-99ae-f260cf5f521c"/>
+  </producedTypes>
+  <name>ВидВыдачиДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид выдачи денежных средств</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f6c840c1-051b-49df-ab26-d3ca75b50fc7">
+    <name>КассеККМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кассе ККМ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f10df7c9-a63f-48df-bba7-4779e0d7f5db">
+    <name>НТТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>НТТ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

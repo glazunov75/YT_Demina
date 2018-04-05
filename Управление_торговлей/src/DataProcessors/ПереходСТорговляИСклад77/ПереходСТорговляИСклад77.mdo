@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2647a70-638b-492e-b845-b9e31c208995">
+  <producedTypes>
+    <objectType typeId="eead28cc-aa8a-49b1-8dd1-d3c8cd2451b3" valueTypeId="b8c2bf72-d2c0-4f60-853c-23124eead8dc"/>
+    <managerType typeId="e7878d50-d91c-49e8-a2bc-d9dc073d7158" valueTypeId="99c4dcf8-34e6-4c3c-8321-04c1d7176563"/>
+  </producedTypes>
+  <name>ПереходСТорговляИСклад77</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переход с 1С:Торговля и склад 7.7</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ПереходСТорговляИСклад77.Form.Форма</defaultForm>
+  <attributes uuid="98dc080c-6a59-42b7-b6f3-9b886cb48b2a">
+    <name>ИмяФайлаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИмяФайлаОбмена</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a761f1de-73d6-4297-85dc-c1e532761a5e">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b6ecd902-1cbc-4388-ae84-f9d3a47c5539">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="461db590-dc59-4b89-9bd0-05a8f0506a58">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

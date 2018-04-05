@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffbf0c43-f27e-442b-9872-fa4c14cf2d78">
+  <name>ФормаВыбораПечатныхФорм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма выбора печатных форм</value>
+  </synonym>
+  <comment></comment>
+  <formType>Ordinary</formType>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9cddb4d-ae49-4160-9f8e-f6765fb6b982">
+  <producedTypes>
+    <selectionType typeId="29fc68f8-5b6d-4458-8247-ee6b265c441a" valueTypeId="481df7e7-aa4a-4d20-a151-97193611d39a"/>
+    <listType typeId="928cd041-6d25-4592-a6b3-548774eeb74e" valueTypeId="9623a98c-40f5-4746-bce2-e0c1e775fea2"/>
+    <managerType typeId="712541e7-c68d-4feb-895e-1a518bc08c69" valueTypeId="d24c1202-7f01-4250-b979-7d219169384c"/>
+    <recordSetType typeId="cf6a3267-4cfa-41ed-a05b-73d4b2abb610" valueTypeId="0392a2ee-6ae3-4e1c-b026-5a52dc85c923"/>
+    <recordKeyType typeId="44083c13-e842-45e4-8755-d4ec5e680207" valueTypeId="efb1fd98-1e0e-4f66-a8a9-993059641a00"/>
+    <recordType typeId="ee2d8c51-b35d-411d-ae8c-fa4df8f00e39" valueTypeId="e5ed9a99-eeeb-4dba-93f1-686e212dcaf1"/>
+    <recordManagerType typeId="d7f7bf98-47c3-4473-a72a-a8c8c3a9e2fc" valueTypeId="68005c5e-8248-4ad5-94a7-ef0af292adf1"/>
+  </producedTypes>
+  <name>ФИОФизЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фамилия, имя, отчество физического лица</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ФИОФизЛиц.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ФИОФизЛиц.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <resources uuid="9b0f1f1a-bba5-4eaf-9094-cfd2dcf0157e">
+    <name>Фамилия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e53d1bdd-4413-4ed0-8be8-81259ebc125b">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ad1c5cb7-a264-4bb3-a015-2c8ad41c89e5">
+    <name>Отчество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчество</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6ddaa7d5-85d6-4816-8882-64a10c387b05">
+    <name>ФизЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="b0d8c808-be7f-46f5-9a48-fc9021a5838f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b086b687-4394-4dba-945b-ab273e034229">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

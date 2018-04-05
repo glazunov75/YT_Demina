@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Sequence xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a85cef45-0daa-4460-bbff-bcb1897867b2">
+  <producedTypes>
+    <recordType typeId="80fde573-3598-43de-bc47-da7478f127a2" valueTypeId="a2225f79-f80e-4972-9aae-9ed81b6694a4"/>
+    <managerType typeId="d2ce4081-7f87-4ffb-aeb7-4105ad27ba06" valueTypeId="496b6da9-2ea8-481e-9294-005c23597157"/>
+    <recordSetType typeId="a2c042bd-c72e-4c88-aff0-d5a9139c04ee" valueTypeId="c96b3daa-e9e5-437d-85f2-2f24c4f51622"/>
+  </producedTypes>
+  <name>ПартионныйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Партионный учет (управленческий)</value>
+  </synonym>
+  <comment></comment>
+  <moveBoundaryOnPosting>DontMove</moveBoundaryOnPosting>
+  <documents>Document.АвансовыйОтчет</documents>
+  <documents>Document.ВозвратТоваровОтПокупателя</documents>
+  <documents>Document.ВозвратТоваровПоставщику</documents>
+  <documents>Document.ЗаказПокупателя</documents>
+  <documents>Document.ЗакрытиеЗаказовПокупателей</documents>
+  <documents>Document.КомплектацияНоменклатуры</documents>
+  <documents>Document.КорректировкаЗаказаПокупателя</documents>
+  <documents>Document.ОтчетОРозничныхПродажах</documents>
+  <documents>Document.ОтчетКомиссионераОПродажах</documents>
+  <documents>Document.ПеремещениеТоваров</documents>
+  <documents>Document.ПереоценкаТоваровПринятыхНаКомиссию</documents>
+  <documents>Document.РасходныйОрдерНаТовары</documents>
+  <documents>Document.РеализацияТоваровУслуг</documents>
+  <documents>Document.СписаниеТоваров</documents>
+  <documents>Document.ТребованиеНакладная</documents>
+  <documents>Document.КорректировкаСерийИХарактеристикТоваров</documents>
+  <documents>Document.КорректировкаКачестваТоваров</documents>
+  <documents>Document.ПоступлениеТоваровУслуг</documents>
+  <documents>Document.РезервированиеТоваров</documents>
+  <documents>Document.ВозвратТоваровПоставщикуИзНТТ</documents>
+  <documents>Document.ПоступлениеТоваровУслугВНТТ</documents>
+  <documents>Document.ПриходныйОрдерНаТовары</documents>
+  <documents>Document.КорректировкаСтоимостиСписанияТоваров</documents>
+  <documents>Document.КорректировкаПоступления</documents>
+  <documents>Document.КорректировкаРеализации</documents>
+  <registerRecords>AccumulationRegister.ПартииТоваровНаСкладах</registerRecords>
+  <registerRecords>AccumulationRegister.ПартииТоваровПереданные</registerRecords>
+</mdclass:Sequence>

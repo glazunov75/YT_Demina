@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbde9ede-beda-4df9-9f7f-7c3dc3d1a28f">
+  <producedTypes>
+    <refType typeId="6aa6a36f-4cde-47ad-abbd-3900e24ebbcf" valueTypeId="804e61ec-c9de-4435-8791-ebfe473fc9a1"/>
+    <listType typeId="ba96a5c1-1ad0-434d-adf1-20182aeddd5d" valueTypeId="ac5115d8-ffe1-4702-91f2-d487c6cd7a85"/>
+    <managerType typeId="5ff55762-58b9-4f44-ba0e-11ba410a8f1c" valueTypeId="2bad4082-467f-47c9-a1ce-a59ec43c1c9b"/>
+  </producedTypes>
+  <name>ВидыСкладов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды складов</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="de3f006c-347a-4f62-b1f2-81a3399b5882">
+    <name>Оптовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оптовый</value>
+    </synonym>
+    <comment>(Общ) Оптовый склад</comment>
+  </enumValues>
+  <enumValues uuid="f020b490-d83e-4318-b075-fb04e22ee888">
+    <name>Розничный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Розничный</value>
+    </synonym>
+    <comment>(Общ) Розничный</comment>
+  </enumValues>
+  <enumValues uuid="cb9aaa27-905b-4e1c-ae58-73d7c90ae75d">
+    <name>НТТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>НТТ</value>
+    </synonym>
+    <comment>(Общ) Неавтоматизированная торговая точка</comment>
+  </enumValues>
+</mdclass:Enum>

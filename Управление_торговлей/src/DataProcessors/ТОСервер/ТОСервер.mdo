@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d2bb7ef-4670-4fd2-8ac6-cfec08d082e2">
+  <producedTypes>
+    <objectType typeId="f99de79e-1904-4a6d-9e4a-73e58845e509" valueTypeId="e7d85c76-d2cb-4a8a-a2c8-657f55b1d5be"/>
+    <managerType typeId="37bb466d-776a-468c-8649-ea3aca144377" valueTypeId="ed401647-cee5-4ae1-827b-7fe42dc186ee"/>
+  </producedTypes>
+  <name>ТОСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Служебная обработка для взаимодействия с торговым оборудованием</value>
+  </synonym>
+  <comment>Механизм взаимодействия с торговым оборудованием.</comment>
+</mdclass:DataProcessor>

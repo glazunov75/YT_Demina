@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34b29c43-550d-4a94-87b9-4ad8ab0c613a">
+  <producedTypes>
+    <objectType typeId="62c4ac54-9f30-4822-817c-93fd6d9358e5" valueTypeId="45e6f538-a01a-4d50-976c-90c3960a5169"/>
+    <refType typeId="2f944e08-d5d7-44a7-8dad-34b3478e7df8" valueTypeId="f5831bbc-9a42-4217-a71f-4e92695996ea"/>
+    <selectionType typeId="245d4ee8-1da7-4376-b849-8c69e753262f" valueTypeId="71181664-6abb-4213-a8bd-807149e030bd"/>
+    <listType typeId="6029075a-4d4a-4057-8f2a-8dadbe395c7f" valueTypeId="cdf307b9-26ad-423e-a536-87e77e0a0af1"/>
+    <managerType typeId="b2821c3e-3d10-4ef6-a8fe-a3ca1e898b25" valueTypeId="5e9b808e-5318-40ec-a7b6-f4d5c1493e56"/>
+  </producedTypes>
+  <name>ВидыРаспределенияПоПроектам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды распределения по проектам</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>Catalog.ВидыРаспределенияПоПроектам.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыРаспределенияПоПроектам.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВидыРаспределенияПоПроектам.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВидыРаспределенияПоПроектам.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ВидыРаспределенияПоПроектам.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="f0999b1d-06fe-4ccf-ae12-6a82f4ed5d49">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="078b4678-8319-4db9-9c92-a93524b9136a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="74fcc70e-dd2e-42d9-95ac-acf605bcbdcd">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

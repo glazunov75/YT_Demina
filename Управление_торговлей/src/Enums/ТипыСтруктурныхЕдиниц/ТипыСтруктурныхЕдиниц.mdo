@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="616ff707-c025-4d9a-b4d1-7984fd999a60">
+  <producedTypes>
+    <refType typeId="8dd6a7a9-b536-4bde-86b1-7c83e4b71781" valueTypeId="f5a6359c-965a-4d33-86aa-6118a52ec372"/>
+    <listType typeId="d86c0564-dd46-4ea3-8baf-245a3b0f5d2a" valueTypeId="409116bd-9991-4554-a996-d786904760d3"/>
+    <managerType typeId="1bf638c4-c854-4c6a-b250-11b30e394c4e" valueTypeId="48f13a5f-063a-4905-aa3d-7fae36e997a1"/>
+  </producedTypes>
+  <name>ТипыСтруктурныхЕдиниц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы структурных единиц</value>
+  </synonym>
+  <comment>(Общ.)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1667d4b9-5417-464f-b26b-1a3b884a296a">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b53c1b12-3d7f-4aa4-be71-0c7b67618e70">
+    <name>Касса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

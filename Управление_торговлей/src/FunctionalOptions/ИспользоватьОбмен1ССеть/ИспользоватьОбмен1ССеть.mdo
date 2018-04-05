@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbc8e22b-96cf-4295-87e1-061a01c7ae32">
+  <name>ИспользоватьОбмен1ССеть</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать обмен через 1С:Сеть</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.ИспользоватьОбмен1ССеть</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

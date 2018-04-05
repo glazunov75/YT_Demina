@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c721641f-efda-4c3c-9f22-3ef07ceb0dbb">
+  <name>ТорговоеОборудование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Торговое оборудование</value>
+  </synonym>
+  <comment></comment>
+  <content>CommonPicture.НовыйПоШтрихкоду</content>
+  <content>CommonPicture.ОтчетККМБезГашения</content>
+  <content>CommonPicture.ОтчетККМСГашением</content>
+  <content>CommonPicture.ТерминалСбораДанных</content>
+  <content>CommonModule.ОбщегоНазначения</content>
+  <content>CommonModule.РаботаСТорговымОборудованием</content>
+  <content>Catalog.ТорговоеОборудование</content>
+  <content>Catalog.ТСДФорматыДанных</content>
+  <content>Enum.ВидыТорговогоОборудования</content>
+  <content>Enum.ТООшибкиККМOffline</content>
+  <content>Enum.ТООшибкиККМOnline</content>
+  <content>Enum.ТООшибкиОбщие</content>
+  <content>Enum.ТООшибкиСМК</content>
+  <content>Enum.ТООшибкиСШК</content>
+  <content>Enum.ТООшибкиТСД</content>
+  <content>Enum.ТООшибкиФР</content>
+  <content>Enum.ТООшибкиЭВ</content>
+  <content>Enum.ТСДПоляДанных</content>
+  <content>DataProcessor.ТОВыгрузкаВВесыСПечатьюЭтикеток</content>
+  <content>DataProcessor.ТОВыгрузкаТСД</content>
+  <content>DataProcessor.ТОЗагрузкаККМOffline</content>
+  <content>DataProcessor.ТОЗаписьДанныхВRFIDМетки</content>
+  <content>DataProcessor.ТОКлиентККМOnline</content>
+  <content>DataProcessor.ТОНастройка</content>
+  <content>DataProcessor.ТОСервер</content>
+  <content>InformationRegister.ТорговоеОборудование</content>
+  <parentSubsystem>Subsystem.УниверсальныеМеханизмы</parentSubsystem>
+</mdclass:Subsystem>

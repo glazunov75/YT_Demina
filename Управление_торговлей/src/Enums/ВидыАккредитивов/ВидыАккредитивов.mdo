@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="acdbcba3-7183-4a22-9ea5-9b9933adc5f4">
+  <producedTypes>
+    <refType typeId="59e6ea59-ea5f-4c54-b74e-46ea03e5f2dd" valueTypeId="32e1d79f-e25f-460a-9850-50bdb04fd6a0"/>
+    <listType typeId="bf226c09-43c3-4018-bb64-c6945dc66c0d" valueTypeId="1bdfb096-677d-4b1e-9361-4af6e9ae6234"/>
+    <managerType typeId="f56bc008-a351-45a6-bd21-0c36fe29f6d9" valueTypeId="757131f9-0df8-4a26-ba65-78483d6acf6d"/>
+  </producedTypes>
+  <name>ВидыАккредитивов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды аккредитивов</value>
+  </synonym>
+  <comment>(упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3a371d22-bb8d-4e49-bc82-8286ee5c2985">
+    <name>ОтзывныйПокрытый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отзывный (покрытый)</value>
+    </synonym>
+    <comment>(упр)</comment>
+  </enumValues>
+  <enumValues uuid="53e34988-c2f8-4ffe-bfb3-9b85fa65757d">
+    <name>ОтзывныйНепокрытый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отзывный (непокрытый)</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="585c4580-0387-4f57-a2e4-143f9e0c4287">
+    <name>БезотзывныйПокрытый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безотзывный (покрытый)</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="a4f114e0-f0b9-4362-944c-9cff6124bd63">
+    <name>БезотзывныйНепокрытый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безотзывный (непокрытый)</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

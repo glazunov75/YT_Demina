@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="febe9000-ba15-466d-9b5d-9e08428fbda2">
+  <producedTypes>
+    <selectionType typeId="23df4432-bd2f-487d-ae70-e9a632c42ba2" valueTypeId="a29ae598-98e6-490b-ac00-f0f78abc5bbb"/>
+    <listType typeId="b70bdef3-72ed-42ec-b547-e2498fe99cbe" valueTypeId="1a7effa8-51de-48ae-b42a-4b6ccb3d2b7c"/>
+    <managerType typeId="a58745eb-4c0d-4858-b1f2-19fe93824e17" valueTypeId="79274f56-2b9c-4a7c-84b8-acd6300b00d2"/>
+  </producedTypes>
+  <name>Ценообразование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ценообразование</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DocumentJournal.Ценообразование.Form.ФормаСписка</defaultForm>
+  <registeredDocuments>Document.УстановкаСкидокНоменклатуры</registeredDocuments>
+  <registeredDocuments>Document.УстановкаЦенНоменклатуры</registeredDocuments>
+  <registeredDocuments>Document.УстановкаЦенНоменклатурыКонтрагентов</registeredDocuments>
+  <registeredDocuments>Document.ОтменаСкидокНоменклатуры</registeredDocuments>
+  <registeredDocuments>Document.УстановкаТиповЦенПоГруппамНоменклатурыДляПокупателей</registeredDocuments>
+  <registeredDocuments>Document.УстановкаПороговНакопительныхСкидок</registeredDocuments>
+  <registeredDocuments>Document.УстановкаНаценокПоУсловиямПродаж</registeredDocuments>
+  <registeredDocuments>Document.УстановкаДиапазоновБазовыхЦен</registeredDocuments>
+  <columns uuid="48ce769c-8dc5-4139-a5ac-e63ea5f3761e">
+    <name>Информация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.УстановкаЦенНоменклатурыКонтрагентов.Attribute.Информация</references>
+    <references>Document.УстановкаЦенНоменклатуры.Attribute.Информация</references>
+    <references>Document.УстановкаСкидокНоменклатуры.Attribute.ВидСкидки</references>
+    <references>Document.УстановкаТиповЦенПоГруппамНоменклатурыДляПокупателей.Attribute.ВидОперации</references>
+    <references>Document.УстановкаДиапазоновБазовыхЦен.Attribute.ТипЦен</references>
+    <references>Document.УстановкаНаценокПоУсловиямПродаж.Attribute.ВидОперации</references>
+  </columns>
+  <columns uuid="ea47dff1-325b-4679-bfd5-d9bc76c9e5cd">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.УстановкаЦенНоменклатурыКонтрагентов.Attribute.Контрагент</references>
+    <references>Document.УстановкаТиповЦенПоГруппамНоменклатурыДляПокупателей.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="10caf7b9-5a0d-4140-89bb-8ba7fdbd25e0">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.УстановкаЦенНоменклатурыКонтрагентов.Attribute.Ответственный</references>
+    <references>Document.УстановкаСкидокНоменклатуры.Attribute.Ответственный</references>
+    <references>Document.УстановкаЦенНоменклатуры.Attribute.Ответственный</references>
+    <references>Document.УстановкаТиповЦенПоГруппамНоменклатурыДляПокупателей.Attribute.Ответственный</references>
+    <references>Document.ОтменаСкидокНоменклатуры.Attribute.Ответственный</references>
+    <references>Document.УстановкаПороговНакопительныхСкидок.Attribute.Ответственный</references>
+    <references>Document.УстановкаДиапазоновБазовыхЦен.Attribute.Ответственный</references>
+    <references>Document.УстановкаНаценокПоУсловиямПродаж.Attribute.Ответственный</references>
+  </columns>
+  <columns uuid="e9a1b13b-1afe-44e9-85cb-407b1a824626">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.УстановкаЦенНоменклатурыКонтрагентов.Attribute.Комментарий</references>
+    <references>Document.УстановкаСкидокНоменклатуры.Attribute.Комментарий</references>
+    <references>Document.УстановкаЦенНоменклатуры.Attribute.Комментарий</references>
+    <references>Document.УстановкаТиповЦенПоГруппамНоменклатурыДляПокупателей.Attribute.Комментарий</references>
+    <references>Document.ОтменаСкидокНоменклатуры.Attribute.Комментарий</references>
+    <references>Document.УстановкаПороговНакопительныхСкидок.Attribute.Комментарий</references>
+    <references>Document.УстановкаДиапазоновБазовыхЦен.Attribute.Комментарий</references>
+    <references>Document.УстановкаНаценокПоУсловиямПродаж.Attribute.Комментарий</references>
+  </columns>
+  <forms uuid="f8347199-5219-4af4-b2c8-549efcea7a09">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

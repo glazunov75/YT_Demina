@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fb22266-e909-4597-b7ad-e5d49fa53939">
+  <producedTypes>
+    <refType typeId="67323a56-3dff-411a-9d41-624c29b5f011" valueTypeId="325e7442-81b3-48db-b341-84b2ee81f689"/>
+    <listType typeId="9fb22266-e909-4597-b7ad-e5d49fa53939" valueTypeId="9fb22266-e909-f597-b7ad-e5d49fa53939"/>
+    <managerType typeId="d6826da8-a5dd-452a-a9bb-8c0effd38714" valueTypeId="cc103299-2744-4139-bd50-47a4b1728b48"/>
+  </producedTypes>
+  <name>ВидыДополнительнойИнформацииОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды дополнительной информации объектов</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ca80e82b-a640-4fcc-9532-9fc04e364c8a">
+    <name>Файл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="77e2c147-b756-4b59-95ee-3e3d4b66dd27">
+    <name>Изображение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изображение</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+</mdclass:Enum>

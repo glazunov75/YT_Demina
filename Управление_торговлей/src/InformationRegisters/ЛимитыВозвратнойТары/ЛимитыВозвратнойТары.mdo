@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3356d76c-5cd3-47b7-99ba-db0945112b14">
+  <producedTypes>
+    <selectionType typeId="daa86c98-e58d-4d78-ba63-32ea1e6caf3d" valueTypeId="e7f5780e-137b-4a52-8e60-ddd1f59d055e"/>
+    <listType typeId="84aa8d54-1240-4973-85d3-50830e158e71" valueTypeId="7b8ff828-df16-43eb-89f7-7ba4cd0302cb"/>
+    <managerType typeId="6bed8c69-5ca1-4e5f-801d-80cf75498c5e" valueTypeId="64b0e569-5503-450f-a858-1081f4160be2"/>
+    <recordSetType typeId="cc3c4c5d-1dc1-42bd-bff7-0b7a61e9c41e" valueTypeId="fea6b30b-dece-41ac-9bbd-3d4254b29d18"/>
+    <recordKeyType typeId="6a24d46f-e360-43ce-b9d9-87732c635ed1" valueTypeId="040bc5e4-4585-4fe6-a9df-246378a3ce4a"/>
+    <recordType typeId="5e1cb8fd-ea0f-414a-ade1-e101daccc783" valueTypeId="6d97ea7c-00f3-4734-ad94-e38c03ca45f2"/>
+    <recordManagerType typeId="b2b96a63-902a-4912-982b-f5a91d162919" valueTypeId="bceecddd-f900-4194-906c-54ec70765e6e"/>
+  </producedTypes>
+  <name>ЛимитыВозвратнойТары</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лимиты возвратной тары</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <defaultListForm>InformationRegister.ЛимитыВозвратнойТары.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="23da0b3c-7cfa-4611-979f-249d469a66f0">
+    <name>ЛимитПоставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимит поставщика</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c633187f-3f94-4169-bfc6-b0ac7a79a3af">
+    <name>ЛимитПокупателю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимит покупателю</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b95790b1-df7c-46c1-889d-7a57f44fd402">
+    <name>ДоговорКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор контрагента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ddd3fbf4-e453-4eda-953b-37ded995e8e6">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="591d5bbd-0cb8-4699-993c-d9fe7dbaa3ea">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимиты возвратной тары</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

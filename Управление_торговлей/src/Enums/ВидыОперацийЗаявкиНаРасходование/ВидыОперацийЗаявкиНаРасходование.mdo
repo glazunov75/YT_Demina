@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8bdb1fe3-8b0b-4ddb-8204-888f753c7739">
+  <producedTypes>
+    <refType typeId="bf1a284a-971e-4d5a-86c5-f3b811b38d08" valueTypeId="df521118-98c1-4341-9b51-460ac127f972"/>
+    <listType typeId="abe911d1-04c9-4d74-a669-4cf43acebb25" valueTypeId="06a512cd-f18b-4041-a668-771c00be4be9"/>
+    <managerType typeId="c0643f08-c70e-4609-bbfc-e175b052c7a4" valueTypeId="9e6d8356-5f93-40cd-a6f8-8dc8a71d7d54"/>
+  </producedTypes>
+  <name>ВидыОперацийЗаявкиНаРасходование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций заявки на расходование</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9533bb7c-79cc-41a6-a72b-941cc1f2f27c">
+    <name>ОплатаПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата поставщику</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3fcec9f1-c53c-4879-825e-aed0c22d8edd">
+    <name>ВозвратДенежныхСредствПокупателю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат денежных средств покупателю</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9809717a-6e63-4e8a-9117-e87fee0220ac">
+    <name>ВыдачаДенежныхСредствПодотчетнику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдача денежных средств подотчетнику</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="38be91a9-8547-478c-9075-f89c427ddc5e">
+    <name>ВыдачаДенежныхСредствКассеККМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдача денежных средств в кассу ККМ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="8b088fdc-4f85-469a-bd3d-8dd02bb8d620">
+    <name>РасчетыПоКредитамИЗаймамСКонтрагентами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты по кредитам и займам с контрагентами</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="bfc9c23c-996d-471b-9544-3ec0d53a58bb">
+    <name>ПеречислениеНалога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перечисление налога</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="0b9a9643-05c3-4cea-afcd-01ee29d0b9fb">
+    <name>ПрочиеРасчетыСКонтрагентами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочие расчеты с контрагентами</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f8a79705-2e7e-4bcc-b13e-797156af68bc">
+    <name>ПрочийРасходДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочий расход денежных средств</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

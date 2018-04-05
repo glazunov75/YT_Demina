@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb607897-5a1a-4119-be0e-e0572526d75b">
+  <producedTypes>
+    <managerType typeId="32baa969-431c-4f95-ba7c-5a22275dadd2" valueTypeId="96c92174-82bf-4299-8e46-e49ec8901815"/>
+    <valueManagerType typeId="b38bf08f-0a34-4ba8-a4cc-3ae8b00d1d25" valueTypeId="e3cb91f6-f319-4f1f-b292-04fbaaf936b4"/>
+  </producedTypes>
+  <name>СписыватьПартииРасходнымОрдером</name>
+  <synonym>
+    <key>ru</key>
+    <value>Списывать партии расходным ордером</value>
+  </synonym>
+  <comment>Списывать партии расходным ордером</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

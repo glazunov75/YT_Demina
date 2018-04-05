@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22f7c272-fe7e-4904-9c29-bd647c69e362">
+  <producedTypes>
+    <refType typeId="65475843-dfa8-49b0-a2a5-37af6fdd7372" valueTypeId="9252a9a5-d221-490d-b498-dea8481576e8"/>
+    <listType typeId="4053f8f4-6c52-4a90-a9c1-553ee3032714" valueTypeId="eab93200-342a-4172-8946-440451a036c6"/>
+    <managerType typeId="de694ae7-f081-4890-b275-ef14da75aef5" valueTypeId="c93a9b21-9eca-4d9c-9296-5a09a6be1a8b"/>
+  </producedTypes>
+  <name>РезультатРассмотренияКоллизии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результат рассмотрения коллизии</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b7469cb3-b014-4a9e-a43a-8d7f26d8f51c">
+    <name>ОбъектЗамененНаВерсиюПоступившуюПриОбмене</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект заменен на версию объекта обмена</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="1bba1b35-9d65-4ee5-98a4-f345c931578f">
+    <name>ОбъектНеБылИзменен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект не изменен</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

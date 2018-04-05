@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cee1cf9b-31ef-44a3-b8f7-271be5b16497">
+  <producedTypes>
+    <managerType typeId="247a9ca0-92df-4035-ba08-529170509a08" valueTypeId="de09634b-b5da-407e-a4aa-7b07f74b63ef"/>
+    <valueManagerType typeId="d0335902-8e4d-4c22-8b5b-c59c35238564" valueTypeId="22bae2d7-ea1c-41c4-9aa3-8fd3a8cecd1b"/>
+  </producedTypes>
+  <name>ИспользоватьВозвратнуюТару</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать возвратную тару</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

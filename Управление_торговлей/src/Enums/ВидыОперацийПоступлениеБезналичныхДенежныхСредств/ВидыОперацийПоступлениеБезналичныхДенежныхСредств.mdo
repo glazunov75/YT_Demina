@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bf9bac4-d02b-4337-a82f-1c2a1473dad6">
+  <producedTypes>
+    <refType typeId="87b92d0d-64be-49b0-b950-be3e1a7f0bfb" valueTypeId="74f93094-8faa-4e5d-adf2-4574afab4dbb"/>
+    <listType typeId="3bf9bac4-d02b-4337-a82f-1c2a1473dad6" valueTypeId="3bf9bac4-d02b-f337-a82f-1c2a1473dad6"/>
+    <managerType typeId="91cf300a-d54c-4227-9ed1-4849f4c2b11b" valueTypeId="fc8d757a-c39f-4737-9c30-2370d97d919d"/>
+  </producedTypes>
+  <name>ВидыОперацийПоступлениеБезналичныхДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций поступления безналичных денежных средств</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="89618a9a-2eb1-4b0a-8db5-cdcd052047ba">
+    <name>ОплатаПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата от покупателя</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="ee860ae4-899e-4547-b640-d4f9ebc6b044">
+    <name>ВозвратДенежныхСредствПоставщиком</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат денежных средств поставщиком</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="191b8f2f-9bb9-492e-aa05-40e9a6d0feae">
+    <name>РасчетыПоКредитамИЗаймам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты по кредитам и займам</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2f0e3e3f-6708-4ec9-83d8-1b89bef4a8cf">
+    <name>ПрочиеРасчетыСКонтрагентами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочие расчеты с контрагентами</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="874f7a68-bad3-4032-b113-e027c61476cc">
+    <name>ПрочееПоступлениеБезналичныхДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее поступление безналичных денежных средств</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2f27de4c-4fe7-4085-bac4-dbf99044c2bd">
+    <name>ПриобретениеИностраннойВалюты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приобретение иностранной валюты</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="63af9a15-3630-4005-ae14-1df82509fdf9">
+    <name>ПоступленияОтПродажиИностраннойВалюты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступления от продажи иностранной валюты</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="86a29209-b744-4fb3-af5b-317be1e43f0e">
+    <name>ПоступлениеОплатыПоПлатежнымКартам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление оплаты по платежным картам</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="dd14c074-11f4-4913-b2e9-df29bb0a49ab">
+    <name>ПоступлениеОплатыПоБанковскимКредитам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление оплаты по банковским кредитам</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc520887-44af-4754-8413-e20c98f8eed5">
+  <producedTypes>
+    <refType typeId="aa489bfd-bf2c-4fc4-bee5-c49774aa7bb3" valueTypeId="3b85a965-28c4-48ee-94bb-1e719b5a7848"/>
+    <listType typeId="5e7edc8a-1971-4889-a7f3-04643b82ec8e" valueTypeId="05707b0b-d594-4746-b57a-b3fb2bc304f5"/>
+    <managerType typeId="272e6fe7-3d44-487b-9124-0c67ebc99860" valueTypeId="ced928a4-1627-4632-9736-98abe7706b9a"/>
+  </producedTypes>
+  <name>ПорядокРегистрацииСчетовФактурНаАванс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порядок регистрации счетов-фактур на аванс</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="53c5a288-c08d-47a0-a4c8-68246a36115d">
+    <name>НаВсеАвансы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрировать счета-фактуры всегда при получении аванса</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9b469c97-0c43-407f-811f-85351078526d">
+    <name>КромеЗачтенныхВТечениеПятиДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не регистрировать счета-фактуры на авансы, зачтенные в течение 5-ти календарных дней</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7adbd2fc-3e72-4e13-88a8-41501634e971">
+    <name>КромеЗачтенныхВТечениеМесяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не регистрировать счета-фактуры на авансы, зачтенные до конца месяца</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c48ce33e-73b5-48a1-89f3-b1a30b03efe8">
+    <name>КромеЗачтенныхВТечениеНалоговогоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не регистрировать счета-фактуры на авансы, зачтенные до конца налогового периода</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="dba43798-7164-41b5-840b-e898f1d68ff9">
+    <name>НеРегистрироватьСчетаФактурыНаАвансы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не регистрировать счета-фактуры на авансы (п.13 ст.167 НК РФ)</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

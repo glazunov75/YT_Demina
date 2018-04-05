@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebb5aa45-5057-4c5a-87a6-d125a5ea826a">
+  <producedTypes>
+    <objectType typeId="704905c9-881c-4b28-9643-537926145cd6" valueTypeId="f07d9783-c1de-4956-9bc6-618955c6421a"/>
+    <refType typeId="c3ba6621-c5ba-4ed3-8c92-6b92db070d02" valueTypeId="e9a60604-db0f-423d-8467-5de5487f964b"/>
+    <selectionType typeId="3006c653-e646-4c44-ac06-92c6f57057a5" valueTypeId="701ac226-d03e-44f9-bef8-5b5a974223ed"/>
+    <listType typeId="eb62016e-c3f8-436e-9882-7907806749af" valueTypeId="f5e76f01-8bcf-4e70-b8f0-d5b6812a6c27"/>
+    <managerType typeId="00e6d09e-6437-4fc1-b6f7-8283be871656" valueTypeId="61b86409-6759-49e6-bcb1-bcf69a66434a"/>
+  </producedTypes>
+  <name>ОтменаСкидокНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отмена скидок номенклатуры</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <inputByString>Document.ОтменаСкидокНоменклатуры.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.УстановкаСкидокНоменклатуры</basedOn>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ОтменаСкидокНоменклатуры.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ОтменаСкидокНоменклатуры.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.ОтменаСкидокНоменклатуры.Form.ФормаВыбора</defaultChoiceForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <registerRecords>InformationRegister.СкидкиНоменклатурыНатуральные</registerRecords>
+  <registerRecords>InformationRegister.СкидкиНаценкиНоменклатуры</registerRecords>
+  <registerRecords>InformationRegister.СкидкиНаценкиПоЦеновымГруппам</registerRecords>
+  <attributes uuid="3e76dad6-940a-4c6b-8f27-cff3c82d76f2">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment>(Общ) Любая дополнительная информация</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="f20ce19f-3d17-4860-b1dc-01f248961066">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="4a169b81-6ec4-4fd7-a4e6-a2c5cafb9f1d">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6ba3e31d-54c8-49a5-9080-2ef8eb418ef0">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a1757ba3-39d5-4f25-97a7-cf9b203cecd4">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="4176795b-b87c-4178-8cf7-c14feb839ad6">
+    <producedTypes>
+      <objectType typeId="ba35b859-e0bc-46f1-bb37-30ffc2ee1400" valueTypeId="572c3eee-fbb4-4ab5-a8ba-c94dfb0542ba"/>
+      <rowType typeId="20468444-b757-45f2-8d38-086983378da5" valueTypeId="da6bd443-b0e5-494f-8350-1a564ac0fe84"/>
+    </producedTypes>
+    <name>Документы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документы</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="7731713b-60a1-4e75-aa4b-855b82945713">
+      <name>УстановкаСкидокНоменклатуры</name>
+      <synonym>
+        <key>ru</key>
+        <value>Установка скидок номенклатуры</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>DocumentRef.УстановкаСкидокНоменклатуры</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

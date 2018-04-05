@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa0ec96c-9345-4faf-8e35-747fc5f8e679">
+  <producedTypes>
+    <objectType typeId="0e75fac1-a90f-4a87-b1b1-bda23eb7a0c1" valueTypeId="600eafdf-04eb-4e89-bc49-9bcfd9df915e"/>
+    <managerType typeId="45816462-98c8-412b-9b03-691c723fdc16" valueTypeId="4714bfe3-8e88-4c0d-89d2-c7836820e745"/>
+  </producedTypes>
+  <name>ПредоставленныеСкидки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предоставленные скидки</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>Report.ПредоставленныеСкидки.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="c4759825-ec5b-47de-84d1-a8124b00736b">
+    <name>УниверсальныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный отчет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ReportObject.УниверсальныйОтчет</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="b340c357-476d-47ee-af21-eea4043574ea">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

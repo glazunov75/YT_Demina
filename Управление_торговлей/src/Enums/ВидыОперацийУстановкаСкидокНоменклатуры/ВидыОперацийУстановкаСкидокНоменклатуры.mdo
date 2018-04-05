@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5186ae1-9709-4288-961d-7c80494361b6">
+  <producedTypes>
+    <refType typeId="ccdbe155-ca91-4e06-9eb7-ab25a2b84e0a" valueTypeId="d5e4d9dc-0adc-4ca3-aa5e-42195d26166e"/>
+    <listType typeId="8720b55e-070b-427e-b7ee-f0d1440c52a6" valueTypeId="c4b2cef3-11cb-427b-85b7-71945b05617d"/>
+    <managerType typeId="d32bdb6e-380a-41d6-a65d-c729d0d69c80" valueTypeId="a5b8a3c3-6d9e-496d-95ee-2acb96712634"/>
+  </producedTypes>
+  <name>ВидыОперацийУстановкаСкидокНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций установка скидок номенклатуры</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="958432fd-45b7-4955-83ed-9e6d74232073">
+    <name>ПоНоменклатуре</name>
+    <synonym>
+      <key>ru</key>
+      <value>по номенклатуре</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d8470b92-9a95-4b3a-b37a-abfb4ad9ffe7">
+    <name>ПоЦеновымГруппам</name>
+    <synonym>
+      <key>ru</key>
+      <value>по ценовым группам</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="37738fed-f217-484a-a925-39ab4ccbeb10">
+    <name>НатуральныеСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>натуральные скидки</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

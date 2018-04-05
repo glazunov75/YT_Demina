@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="913fdd5b-a137-4278-9031-88f9b53f8773">
+  <producedTypes>
+    <refType typeId="cfbf6881-15ca-4eb1-b588-0826c2ada9ce" valueTypeId="b2d53769-d172-4fdd-a5d8-8bce9d108390"/>
+    <listType typeId="a7ee39ef-320b-451c-b8d6-facf3384667b" valueTypeId="d038c2f8-dc0c-438a-8997-42c21b36c305"/>
+    <managerType typeId="fb0eb565-602a-49ce-987d-d74dfb0ddae7" valueTypeId="ee9f553f-5ae2-49fa-a869-b2986ccc8098"/>
+  </producedTypes>
+  <name>СтатусыПолученияПередачиТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы получения/передачи товаров</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1a9e66f8-b9a3-4c36-9ef6-28283f6e7bb0">
+    <name>НаКомиссию</name>
+    <synonym>
+      <key>ru</key>
+      <value>На комиссию</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="6b3a7bc9-e8cc-4152-afe2-3c069c5bf9fb">
+    <name>ВозвратнаяТара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возвратная тара</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

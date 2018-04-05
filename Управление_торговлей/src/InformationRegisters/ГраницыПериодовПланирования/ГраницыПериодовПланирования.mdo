@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d637b00-2c8c-4062-a51f-8a442f499c61">
+  <producedTypes>
+    <selectionType typeId="337cd7dd-7b34-424b-8d47-6a8c3f3446ac" valueTypeId="0676a6e4-1b5d-46db-9dc5-49bb2db6b7b0"/>
+    <listType typeId="a6f617e8-affd-4ebd-a17d-2f00f08c46e7" valueTypeId="c775bde4-25c1-46f3-9b34-f8c7d65721de"/>
+    <managerType typeId="2b4f07d3-61da-4450-83b5-c78198d69c58" valueTypeId="82ef5655-47b6-4fdf-ada1-f8d4f826c5ab"/>
+    <recordSetType typeId="7fc1e188-5ae3-4ff5-831a-dabc8c400062" valueTypeId="97742041-c114-4ec5-8b36-e9286c51c115"/>
+    <recordKeyType typeId="b5819166-ea00-4e04-8c69-87c10caee06e" valueTypeId="e760a72b-2284-420e-94ce-024dde5086e6"/>
+    <recordType typeId="96654abd-ca51-4ed0-a80b-baa57446f1f6" valueTypeId="995c0ff8-6e39-48d2-9537-c255b560f47a"/>
+    <recordManagerType typeId="f32d85a6-7001-4fbe-8aa9-c96e8b44f06e" valueTypeId="67b3d429-6912-48e4-8591-6b72b32da28b"/>
+  </producedTypes>
+  <name>ГраницыПериодовПланирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Границы периодов планирования</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <defaultListForm>InformationRegister.ГраницыПериодовПланирования.Form.ФормаСписка</defaultListForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="4640dc60-bcb8-4cb7-a84e-b8332f9df58e">
+    <name>ГраницаФиксации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Граница фиксации</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c2bcfc3a-61d3-4f78-8daa-8483b390c6f5">
+    <name>ВидПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид планирования</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ВидыПланирования</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="25fea1ba-be4d-4ed6-9336-e6032a3cca5a">
+    <name>Сценарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СценарииПланирования</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ec9adeb4-89f3-43b3-9085-03595cdbcb13">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c0b43651-e245-4258-a1ef-9040a6ead25e">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="505d8840-70c5-436b-8dff-12233a97976b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bae3ca1c-060e-4f70-ae90-3d33468d9703">
+  <producedTypes>
+    <objectType typeId="2a31756f-69cd-4a02-b49f-5a90720a241a" valueTypeId="a56250f9-f8ae-480f-8d2e-61afe6fe50dd"/>
+    <refType typeId="7a333f41-af57-4279-a7e9-a1fdb1dc861f" valueTypeId="c691fc85-d2a9-49dd-948a-e90a4f4bcf5d"/>
+    <selectionType typeId="7e0aac3b-cc04-46f8-a90d-779db0819b2d" valueTypeId="f1e772b0-478a-4b2b-b883-8985e729452d"/>
+    <listType typeId="ab70bc38-f83e-4e4f-ab8b-dd8590044cf2" valueTypeId="f1503f39-a634-4db3-84f3-fd63049863f5"/>
+    <managerType typeId="df58907c-66a9-4b8f-98df-809cdfe0db5b" valueTypeId="521c0ec5-521d-42c6-b5ab-8d24d574172a"/>
+  </producedTypes>
+  <name>ГруппыДоступаККонтрагентам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы доступа к контрагентам</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>Catalog.ГруппыДоступаККонтрагентам.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ГруппыДоступаККонтрагентам.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ГруппыДоступаККонтрагентам.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ГруппыДоступаККонтрагентам.Form.ФормаВыбора</defaultChoiceForm>
+  <defaultFolderChoiceForm>Catalog.ГруппыДоступаККонтрагентам.Form.ФормаВыбораГруппы</defaultFolderChoiceForm>
+  <forms uuid="55e3e50e-487e-4510-acbf-b70ba4a29e9a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1833298e-6cf1-4cec-b981-549086847754">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="38a67f89-896d-4cba-b954-4c2952ca21bb">
+    <name>ФормаВыбораГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

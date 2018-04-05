@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5fa347c-18db-46a1-ab53-e71fdacfec98">
+  <producedTypes>
+    <refType typeId="aa4c9a72-3c4e-490f-afd2-e24ab1cbf2cd" valueTypeId="9b44ebe8-49af-4453-a34b-a4dfbee1c592"/>
+    <listType typeId="10044902-ff02-402c-b704-91845af2c5f0" valueTypeId="db754bb9-f995-4bbf-a263-147da5d11f94"/>
+    <managerType typeId="9e5413b1-e863-4cee-bb04-13e22b75ec42" valueTypeId="b074db06-4fee-4f01-ae33-02cfa9c36688"/>
+  </producedTypes>
+  <name>ТипыИнформационныхКарт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы информационных карт</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="72506334-3b64-4f6b-bee1-0322bea354f9">
+    <name>Дисконтная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дисконтная</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="be1a9314-10f3-4d0d-8106-d998f045ae99">
+    <name>Регистрационная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрационная</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

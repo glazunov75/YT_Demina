@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7861b11-b6c9-490d-aab9-34673066d461">
+  <producedTypes>
+    <refType typeId="e130721d-18b2-434e-a996-4696c8f7ec81" valueTypeId="9a7769e4-1f76-4bf2-881f-781c829fc7a5"/>
+    <listType typeId="b7861b11-b6c9-490d-aab9-34673066d461" valueTypeId="b7861b11-b6c9-f90d-aab9-34673066d461"/>
+    <managerType typeId="7d636aca-f3aa-49ae-a66c-b241921d8184" valueTypeId="00d952a5-db00-4558-af37-b6bf90f36866"/>
+  </producedTypes>
+  <name>ВидыОперацийРеализацияТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций документа &quot;Реализация товаров и услуг&quot;</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9fc4d374-2d72-4288-9ae4-279c9f27b5bc">
+    <name>ПродажаКомиссия</name>
+    <synonym>
+      <key>ru</key>
+      <value>продажа, комиссия</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3d1f4361-b168-4e75-9bfe-2107b0bd995d">
+    <name>Брак</name>
+    <synonym>
+      <key>ru</key>
+      <value>брак</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b94602b9-6eb2-495b-a80f-d9c3c792803d">
+    <name>АктВыполненныхРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>акт выполненных работ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

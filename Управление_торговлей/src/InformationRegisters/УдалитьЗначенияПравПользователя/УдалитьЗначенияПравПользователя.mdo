@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ceab6970-3968-4a8e-a309-67cfb18bad85">
+  <producedTypes>
+    <selectionType typeId="f4450a66-0ed6-4aad-befa-b7c3eeec680c" valueTypeId="d9576316-8442-431b-aded-a030479b82c3"/>
+    <listType typeId="3227f558-ac0f-4eb2-963f-35bafb99255c" valueTypeId="e3743221-4b0b-4e9e-b521-86a680ed79bb"/>
+    <managerType typeId="e3e0714f-8f9e-4999-b4e1-dafc8d4dc932" valueTypeId="d66dfb1d-c6d8-47d8-80b0-1aab0d05e065"/>
+    <recordSetType typeId="c23b0e95-af6b-4014-b3d7-f0cdd126f79a" valueTypeId="ec69137f-ffe3-4720-b82f-77e1afb3418f"/>
+    <recordKeyType typeId="1af5ffbd-4584-49f5-b830-5350ef952cad" valueTypeId="c4dfdfb8-feda-46ae-81c8-5705c75c1b67"/>
+    <recordType typeId="33aef0cb-7d74-43af-a084-27988088905f" valueTypeId="fccd8808-e0a7-4d5e-810c-fcde8db63bae"/>
+    <recordManagerType typeId="44d51bb3-eeae-47c7-b4fb-103a444accca" valueTypeId="dcfc3dda-7ab7-4c0b-b206-41ee62d7d037"/>
+  </producedTypes>
+  <name>УдалитьЗначенияПравПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить значения прав пользователя</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="bce16a47-784c-486a-b9b4-935f79780e6a">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>Characteristic.ПраваПользователей</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ac58e36d-b858-400b-aded-b5f8f5ea62c2">
+    <name>НаборПрав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор прав</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>EnumRef.УдалитьНаборПравПользователей</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f6ee7151-9122-461a-b2b4-0ad6aa70eaf3">
+    <name>Право</name>
+    <synonym>
+      <key>ru</key>
+      <value>Право</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ПраваПользователей</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2a878b6-3793-4233-b082-d3317482b871">
+  <producedTypes>
+    <refType typeId="23e6889c-9db7-4016-be61-801f524b4f05" valueTypeId="735db439-c9ed-4387-83c2-9857d86e35c7"/>
+    <listType typeId="7bf80c56-9e28-4e84-b0e1-eaa689ef98c0" valueTypeId="4af69a12-8942-4947-86c4-47cc33aaec29"/>
+    <managerType typeId="74efef63-68fa-4839-8076-1866fcceea4c" valueTypeId="01a59f77-fe3f-4c66-a4fb-82f260b8a27d"/>
+  </producedTypes>
+  <name>НДССпособОтраженияВБухгалтерскомУчетеПриВключенииВСтоимость</name>
+  <synonym>
+    <key>ru</key>
+    <value>НДС Способ отражения в бухгалтерском учете при включении в стоимость</value>
+  </synonym>
+  <comment>(регл)</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2ec66108-6d36-4a62-a5af-0349685773b8">
+    <name>ВСоответствииСоСт170НКРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включать в стоимость или списывать на расходы в соответствии со ст.170 НК РФ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e9e65e3b-ec0c-45d4-b260-ceec63ae86d2">
+    <name>ВключатьВСтоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Всегда включать в стоимость</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ff218dfb-4e7f-4254-9934-10367cd50d75">
+    <name>СписыватьНаРасходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Всегда списывать на расходы</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

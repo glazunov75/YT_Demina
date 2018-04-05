@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fa1ebb1-0a8d-4fdb-b8e0-3c10c1fdd562">
+  <name>НовоеЭлектронноеПисьмоВТекущейПапке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Новое электронное письмо в текущей папке</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>11</x>
+    <y>2</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

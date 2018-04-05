@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0a274f9-e41b-488c-af7a-75605dc59a46">
+  <name>ПередЗаписьюДокументаПроверкаНаличияВОтложенныхДвижениях</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перед записью документа проверка наличия в отложенных движениях</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>DocumentObject.ПеремещениеТоваров</types>
+    <types>DocumentObject.РеализацияТоваровУслуг</types>
+    <types>DocumentObject.ОплатаОтПокупателяПлатежнойКартой</types>
+    <types>DocumentObject.ВозвратТоваровОтПокупателя</types>
+    <types>DocumentObject.ВозвратТоваровПоставщику</types>
+    <types>DocumentObject.ПриходныйКассовыйОрдер</types>
+    <types>DocumentObject.ПоступлениеТоваровУслуг</types>
+    <types>DocumentObject.КомплектацияНоменклатуры</types>
+    <types>DocumentObject.ОприходованиеТоваров</types>
+    <types>DocumentObject.ИнвентаризацияТоваровНаСкладе</types>
+    <types>DocumentObject.ОтменаСкидокНоменклатуры</types>
+    <types>DocumentObject.УстановкаПороговНакопительныхСкидок</types>
+    <types>DocumentObject.УстановкаСкидокНоменклатуры</types>
+    <types>DocumentObject.ВнутреннийЗаказ</types>
+    <types>DocumentObject.ОтчетОРозничныхПродажах</types>
+    <types>DocumentObject.ПереоценкаТоваровВРознице</types>
+    <types>DocumentObject.ВнутреннееПеремещениеНаличныхДенежныхСредств</types>
+    <types>DocumentObject.СписаниеТоваров</types>
+    <types>DocumentObject.РасходныйКассовыйОрдер</types>
+    <types>DocumentObject.РасходныйОрдерНаТовары</types>
+    <types>DocumentObject.ПриходныйОрдерНаТовары</types>
+    <types>DocumentObject.УстановкаЦенНоменклатуры</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ПроцедурыОбменаДанными.ПередЗаписьюДокументаПроверкаНаличияВОтложенныхДвиженияхПередЗаписью</handler>
+</mdclass:EventSubscription>

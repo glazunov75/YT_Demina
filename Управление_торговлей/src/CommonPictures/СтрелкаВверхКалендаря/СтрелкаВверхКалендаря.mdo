@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9683f8a9-a6a7-4ef3-a744-cd30ab3ea361">
+  <name>СтрелкаВверхКалендаря</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стрелка вверх календаря</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>5</x>
+    <y>6</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

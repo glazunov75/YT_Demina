@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e222f6ef-193d-47ea-bb62-df3f2538c776">
+  <producedTypes>
+    <managerType typeId="7f4383fc-7022-474a-b044-6f77a580912a" valueTypeId="5c952fb9-0807-4c4c-89b6-9ffe62585c9a"/>
+    <valueManagerType typeId="e222f6ef-193d-47ea-bb62-df3f2538c776" valueTypeId="e222f6ef-193d-f7ea-bb62-df3f2538c776"/>
+  </producedTypes>
+  <name>ВалютаУправленческогоУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюта управленческого учета</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <type>
+    <types>CatalogRef.Валюты</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

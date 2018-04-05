@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ae014f5-0df1-413b-99a1-61a9815dfaf5">
+  <producedTypes>
+    <selectionType typeId="653a5bbb-755f-4b1a-a534-ebd3e46cd5f7" valueTypeId="7e4de6cb-2fdf-419d-8a9b-0ea47df376ea"/>
+    <listType typeId="853079bb-38d3-4de4-8824-9e1eeed0b34b" valueTypeId="2d34b55f-fa16-49d4-b8c5-e370851268e5"/>
+    <managerType typeId="d8aa6a38-b3e6-4822-abf7-8a381b4ed3dd" valueTypeId="73d6210f-25dd-478d-9f9b-6a981d1c640b"/>
+    <recordSetType typeId="6ed61108-39e2-43ce-95fe-cfb7eb400e4a" valueTypeId="c3c5dc69-0b97-4a64-9bd0-57bce85d130b"/>
+    <recordKeyType typeId="2551dac7-9668-420a-b1fa-cb09498f724d" valueTypeId="07281705-a4c3-418b-9d65-259022fc5831"/>
+    <recordType typeId="37f1c047-1666-4a57-8e87-0b65b9c50914" valueTypeId="6d047215-7222-481a-8006-e80534c18db7"/>
+    <recordManagerType typeId="3ec3fd12-6fc2-42cc-acaf-6ce3edd5a4c9" valueTypeId="6a26d517-6cb6-4ddb-b0ef-ebcc826b5fcb"/>
+  </producedTypes>
+  <name>СобытияКалендаряПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>События календаря пользователя</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <defaultListForm>InformationRegister.СобытияКалендаряПользователя.Form.ФормаСписка</defaultListForm>
+  <dimensions uuid="22c47196-fca5-472e-842a-755fed981083">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4e1e045c-2400-4980-93ca-d59e603b68e9">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6a697de7-e462-48cc-941d-3e98a8dae85b">
+    <name>Событие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.Событие</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3c0864a2-3def-4300-a907-dc04bfb19376">
+    <name>НомерСтрокиТаблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер строки таблицы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4404b8ab-5298-4b6e-9e83-8757093c4274">
+    <name>ПорядковыйНомерВДне</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядковый номер в дне</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="4690d7df-28a4-4c65-8f10-7b5957b04205">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

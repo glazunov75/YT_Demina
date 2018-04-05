@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c886271-dc95-4863-9969-64a6bebf79b8">
+  <producedTypes>
+    <objectType typeId="22d422fb-4ee1-4d10-b977-f9015170148f" valueTypeId="875c3e2e-c5fd-43f0-b932-c8acd09e4176"/>
+    <managerType typeId="e70d9a54-ef61-4394-aa86-2714e93f7ff9" valueTypeId="a79e7e5b-b4be-4641-9449-cc4532cbda01"/>
+  </producedTypes>
+  <name>ВыпискаБанка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выписка банка</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ВыпискаБанка.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="fca28faf-2680-4c35-99c2-a5e23f9f61a6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

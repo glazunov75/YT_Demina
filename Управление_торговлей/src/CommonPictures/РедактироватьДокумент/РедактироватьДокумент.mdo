@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3851b244-6412-4071-a179-9f05cc2bfe34">
+  <name>РедактироватьДокумент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактировать документ</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db418c52-35ca-4d54-9d8e-ad725e421544">
+  <producedTypes>
+    <objectType typeId="6bed7f4a-c955-41ff-aafe-74adf09c8f5d" valueTypeId="54452f86-6623-45c0-9d51-a556cf70c94b"/>
+    <managerType typeId="f71da923-feb9-4d72-ae74-52964a4e6b32" valueTypeId="94ba90b5-4d63-4983-9196-b19ed26e2d00"/>
+  </producedTypes>
+  <name>РабочееМестоМенеджераПоПродажам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочее место менеджера по продажам</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.РабочееМестоМенеджераПоПродажам.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="82f939a7-4160-479a-ae65-96abd65f24b1">
+    <name>СохраняемыеЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохраняемые значения</value>
+    </synonym>
+    <comment></comment>
+    <type/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="3d7e6b28-1790-45ee-b2c7-942013c0b9b1">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f83e1d6-7575-479f-8705-7ba2f833560b">
+  <producedTypes>
+    <refType typeId="f68a5455-8201-4631-9127-d9b6da375afc" valueTypeId="84afdb81-fd7e-4bb6-97fc-05ff260a4cde"/>
+    <listType typeId="1f83e1d6-7575-479f-8705-7ba2f833560b" valueTypeId="1f83e1d6-7575-f79f-8705-7ba2f833560b"/>
+    <managerType typeId="dd124103-0dcc-4e7a-8509-9815eb54a28e" valueTypeId="a02c2dc5-1a00-4c37-bcfe-6ea57e92b672"/>
+  </producedTypes>
+  <name>ВидыОбъектовКонтактнойИнформации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды объектов контактной информации</value>
+  </synonym>
+  <comment>(Упр) Виды объектов контактной информации</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f60794b8-80f1-415f-b1b4-47921ab03df7">
+    <name>КонтактныеЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник &quot;Контактные лица&quot;</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2cdd96d5-ea6f-4ba3-892f-862553a94f06">
+    <name>Контрагенты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник &quot;Контрагенты&quot;</value>
+    </synonym>
+    <comment>Справочник контрагентов</comment>
+  </enumValues>
+  <enumValues uuid="d486f6c1-062b-4d8b-82ed-7d8d4589ae88">
+    <name>Организации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник &quot;Организации&quot;</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="dd700ef7-fbca-4b71-91b5-9b571a87613f">
+    <name>Пользователи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник &quot;Пользователи&quot;</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="459894e3-2126-43f7-8b52-81845bdd97a2">
+    <name>ФизическиеЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник &quot;Физические лица&quot;</value>
+    </synonym>
+    <comment>Справочник &quot;Физические лица&quot;, контактные лица контрагентов, менеджеры</comment>
+  </enumValues>
+  <enumValues uuid="77d2147b-628c-4332-b09b-fd1a7b0d154f">
+    <name>КонтактныеЛицаКонтрагентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник &quot;Контактные лица контрагентов&quot;</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="43845a8d-10a1-4382-86bb-bdf9c73c1c67">
+    <name>ЛичныеКонтакты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник &quot;Личные контакты&quot;</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

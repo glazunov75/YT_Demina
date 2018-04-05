@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54e99517-f899-4018-b628-a7c0b118f399">
+  <name>ЖурналКассовыеОрдера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал кассовые ордера</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>3</x>
+    <y>1</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

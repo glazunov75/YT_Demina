@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6cdd6c70-54c4-416b-916b-788171bd6454">
+  <producedTypes>
+    <selectionType typeId="cf393071-3697-4743-b2bd-261e9e9a408f" valueTypeId="fedb7139-ee6c-4a5d-9cc7-aa68742a6600"/>
+    <listType typeId="c81c1c7e-224b-47c0-9793-6dc80ea43683" valueTypeId="54179575-52bc-442e-a3b0-0e2160466ed0"/>
+    <managerType typeId="6107b4f4-a7eb-423e-91d3-efd78f668e4e" valueTypeId="4955c705-0e0a-49eb-b773-4c8de6f79cf2"/>
+    <recordSetType typeId="bf2b0907-2641-430d-9d2f-998a9b3273c6" valueTypeId="24fed02f-39a1-4bdd-babf-8ac6ee58af75"/>
+    <recordKeyType typeId="f90cae4e-f50c-4528-add1-7f84b8403417" valueTypeId="10b9eae1-9a87-4793-9d05-9a6d5b9694ca"/>
+    <recordType typeId="3096cb92-49c8-49bc-9a77-185706f92e14" valueTypeId="25a3e07e-36b4-45b8-92a1-d7c5a39c25ab"/>
+    <recordManagerType typeId="cffe3a88-256a-4358-95fc-a026a4615211" valueTypeId="891b9e14-ae09-4ccc-8dec-fb87aed3a466"/>
+  </producedTypes>
+  <name>ПричиныЗакрытияЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины закрытия заказов</value>
+  </synonym>
+  <comment></comment>
+  <writeMode>RecorderSubordinate</writeMode>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="b1fc93e9-b173-48e5-88d6-bb73aa997812">
+    <name>ПричинаЗакрытияЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина закрытия заказа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ПричиныЗакрытияЗаказов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0038c014-ebf5-44d6-91eb-4064cacfffb5">
+    <name>СуммаВзаиморасчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма взаиморасчетов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="09b41f40-87d5-4a20-bf55-13b014ab6902">
+    <name>СуммаУпрУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма в валюте упр.учета</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5fb008aa-68e2-4121-af29-793610ba2531">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.ЗаказПокупателя</types>
+      <types>DocumentRef.ЗаказПоставщику</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

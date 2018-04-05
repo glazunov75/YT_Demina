@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="522a36dd-8117-444e-b884-c012818cea87">
+  <producedTypes>
+    <objectType typeId="268a518f-b172-40c9-bc32-36f6bf0c268f" valueTypeId="ffde9dfc-dbd9-49c1-ae85-d4ab0ea82b43"/>
+    <refType typeId="17109bd5-185a-4c0d-882b-5caa61400c01" valueTypeId="bdb29d7e-2aff-4ef7-bc8d-f34aa621ff81"/>
+    <selectionType typeId="a3cf9468-fba9-4ad5-b019-b0338c258b32" valueTypeId="3d9dc69f-f194-45db-b59e-170bcb2b00d8"/>
+    <listType typeId="8309a6a4-8e86-4b7a-a3e8-bc99ccd488ba" valueTypeId="39bffde8-c639-499e-9445-3483dae3f116"/>
+    <managerType typeId="e44eceb4-6371-42ca-ac4b-ab69ffb0d89b" valueTypeId="b36ac56f-a6be-4870-ba10-dac2e0171ef7"/>
+  </producedTypes>
+  <name>ЦеновыеГруппы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ценовые группы</value>
+  </synonym>
+  <comment>(Упр)</comment>
+  <inputByString>Catalog.ЦеновыеГруппы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЦеновыеГруппы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ЦеновыеГруппы.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ЦеновыеГруппы.Form.ФормаВыбора</defaultChoiceForm>
+  <defaultFolderChoiceForm>Catalog.ЦеновыеГруппы.Form.ФормаВыбораГруппы</defaultFolderChoiceForm>
+  <attributes uuid="06aeff89-ccc2-4949-9453-715eec32d376">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+  </attributes>
+  <forms uuid="410018f5-bc0b-4001-819d-ce7f88d0d68f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="84e138e0-df25-4b37-9448-3976ee09d34b">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="14a84a60-c260-42c9-964e-dbdfc81aa22a">
+    <name>ФормаВыбораГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <comment></comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
